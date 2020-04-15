@@ -1,0 +1,10 @@
+Package: SummaryStatistics
+Type: Package
+Title: Summary Statistics Module for JASP
+Version: 0.0.0
+Date: 2020-04-08
+Author: JASP Team
+Website: jasp-stats.org
+Maintainer: JASP Team <info@jasp-stats.org>
+Description: Summary Statistics module
+License: GPL (>= 2)
