@@ -3,7 +3,7 @@ import JASP.Module 	1.0
 
 Description
 {
-	name			: "Summary Statistics"
+	name			: "jaspSummaryStatistics"
 	title			: qsTr("Summary Statistics")
 	description		: qsTr("Summary Statistics module")
 	icon			: "analysis-bayesian-ttest.svg"

@@ -1,4 +1,4 @@
-Package: SummaryStatistics
+Package: jaspSummaryStatistics
 Type: Package
 Title: Summary Statistics Module for JASP
 Version: 0.0.0
