@@ -229,12 +229,12 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
       return()
     }
     
-    p <- try(JASPgraphs::PlotPriorAndPosterior(dfLines = dfLinesPP, dfPoints = dfPointsPP, xName = xName, BF = BF10,
+    p <- try(jaspGraphs::PlotPriorAndPosterior(dfLines = dfLinesPP, dfPoints = dfPointsPP, xName = xName, BF = BF10,
                                                bfType = "BF10", hypothesis = hypForPlots,
                                                CRI = ppCri, median = medianPosterior, drawCRItxt = TRUE))
   } 
   else {
-    p <- try(JASPgraphs::PlotPriorAndPosterior(dfLines = dfLinesPP, dfPoints = dfPointsPP, xName = xName))
+    p <- try(jaspGraphs::PlotPriorAndPosterior(dfLines = dfLinesPP, dfPoints = dfPointsPP, xName = xName))
   }
   
   # create JASP object

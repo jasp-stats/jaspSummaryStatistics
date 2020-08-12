@@ -293,15 +293,15 @@ SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, op
     x = c(maxBFrVal, rscale, 1, sqrt(2)),
     y = log(c(maxBF10, BF10user, BF10w, BF10ultra)),
     g = label1,
-    label1 = JASPgraphs::parseThis(label1),
-    label2 = JASPgraphs::parseThis(label2),
+    label1 = jaspGraphs::parseThis(label1),
+    label2 = jaspGraphs::parseThis(label2),
     stringsAsFactors = FALSE
   )
   } else {
     dfPoints <- NULL
   }
   
-  plot <- JASPgraphs::PlotRobustnessSequential(
+  plot <- jaspGraphs::PlotRobustnessSequential(
     dfLines      = dfLines,
     dfPoints     = dfPoints,
     pointLegend  = additionalInfo,
