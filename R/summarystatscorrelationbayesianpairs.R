@@ -114,22 +114,22 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
 .createTableMarkupCorSumStats <- function(options){
   # create table and state dependencies
   
-  corBayesTable <- createJaspTable(title=.getCorTableTitle(options[["test"]], bayes=TRUE))
+  corBayesTable <- createJaspTable(title=jaspRegression::.getCorTableTitle(options[["test"]], bayes=TRUE))
   corBayesTable$showSpecifiedColumnsOnly <- TRUE
   corBayesTable$position <- 1
   corBayesTable$dependOn(c("bayesFactorType", "ci", "ciValue", "alternative"))
   
-  corBayesTable$addCitation(.getCorCitations(options[["method"]], bayes=TRUE))
+  corBayesTable$addCitation(jaspRegression::.getCorCitations(options[["method"]], bayes=TRUE))
   
   # Add sided footnote
   #
   if (options[["alternative"]]=="greater")
-    corBayesTable$addFootnote(.getBfTableSidedFootnote(alternative="greater", analysis="correlation"))
+    corBayesTable$addFootnote(jaspRegression::.getBfTableSidedFootnote(alternative="greater", analysis="correlation"))
   
   if (options[["alternative"]]=="less")
-    corBayesTable$addFootnote(.getBfTableSidedFootnote(alternative="less", analysis="correlation"))
+    corBayesTable$addFootnote(jaspRegression::.getBfTableSidedFootnote(alternative="less", analysis="correlation"))
   
-  bfTitle <- .getBfTitle(options[["bayesFactorType"]], options[["alternative"]])
+  bfTitle <- jaspRegression::.getBfTitle(options[["bayesFactorType"]], options[["alternative"]])
   statName <- switch(options[["method"]],
                      pearson  = gettext("r"),
                      kendall  = gettext("tau"),
@@ -183,7 +183,7 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
     "plotBfRobustness" = bfPlotRobustnessDependencies
   )
   
-  plotItems <- .getCorPlotItems(options, sumStat=TRUE)
+  plotItems <- jaspRegression::.getCorPlotItems(options, sumStat=TRUE)
   alternative <- options[["alternative"]]
   
   # c. Per plotItem add plot ------
@@ -196,7 +196,7 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
     # d. Check if plot is in there ------ 
     # 
     if (is.null(plotResult)) {
-      itemTitle <- .bfPlotTitles[[item]]
+      itemTitle <- jaspRegression::.bfPlotTitles[[item]]
       
       jaspPlotResult <- createJaspPlot(title=itemTitle, width=530, height=400)
       jaspPlotResult$dependOn(options = plotItemDependencies[[item]])
@@ -207,11 +207,21 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
         next
       
       if (item == "plotPriorPosterior")
-        plot <- .drawPosteriorPlotCorBayes(correlationContainer, corModel, options, methodItems=options[["method"]], purpose="sumStat")
+        plot <- jaspRegression::.drawPosteriorPlotCorBayes(correlationContainer, corModel, options, methodItems=options[["method"]], purpose="sumStat")
       else if (item == "plotBfRobustness")
-        plot <- .drawBfRobustnessPlotCorBayes(corModel, options, options[["method"]])
+        plot <- jaspRegression::.drawBfRobustnessPlotCorBayes(corModel, options, options[["method"]])
       
       .checkAndSetPlotCorBayes(plot, jaspPlotResult)
     } 
+  }
+}
+
+.checkAndSetPlotCorBayes <- function(triedPlot, jaspPlotResult) {
+  if (isTryError(triedPlot)) {
+    jaspPlotResult$setError(.extractErrorMessage(triedPlot))
+  } else if (is.character(triedPlot)) {
+    jaspPlotResult$setError(triedPlot)
+  } else {
+    jaspPlotResult$plotObject <- triedPlot
   }
 }

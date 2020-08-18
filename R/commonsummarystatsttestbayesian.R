@@ -134,7 +134,7 @@
 
     # Note: .bf10_ functions gives weired value if paired = FALSE in single sample case
     if (options[["informativeStandardizedEffectSize"]] == "cauchy") {
-      bfObject <- .bf10_t(t = tValue, n1 = n1, n2 = n2, oneSided = side,
+      bfObject <- jaspTTests::.bf10_t(t = tValue, n1 = n1, n2 = n2, oneSided = side,
                           independentSamples = !paired,
                           prior.location = options[["informativeCauchyLocation"]],
                           prior.scale = options[["informativeCauchyScale"]],
@@ -142,7 +142,7 @@
       bf <- bfObject$bf
       error <- 100*bfObject$error
     } else if (options[["informativeStandardizedEffectSize"]] == "t") {
-      bfObject <- .bf10_t(t = tValue, n1 = n1, n2 = n2, oneSided = side,
+      bfObject <- jaspTTests::.bf10_t(t = tValue, n1 = n1, n2 = n2, oneSided = side,
                           independentSamples = !paired,
                           prior.location = options[["informativeTLocation"]],
                           prior.scale = options[["informativeTScale"]],
@@ -411,7 +411,7 @@
 
   # Prior and posterior plot
   priorPosteriorInfo <- summaryStatsTTestResults[["ttestPriorPosteriorPlot"]]
-  p <- try(.plotPriorPosterior(
+  p <- try(jaspTTests::.plotPriorPosterior(
     t                      = priorPosteriorInfo$t,
     n1                     = priorPosteriorInfo$n1,
     n2                     = priorPosteriorInfo$n2,
@@ -535,7 +535,7 @@
     BF10ultra <- 1 / BF10ultra
   }
 
-  BFsubscript <- .ttestBayesianGetBFnamePlots(BFH1H0, nullInterval, subscriptsOnly = TRUE)
+  BFsubscript <- jaspTTests::.ttestBayesianGetBFnamePlots(BFH1H0, nullInterval, subscriptsOnly = TRUE)
 
   if(additionalInformation){
 
