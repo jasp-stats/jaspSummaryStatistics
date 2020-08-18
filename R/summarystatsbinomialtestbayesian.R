@@ -93,7 +93,7 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   pValue <- stats::binom.test(x = successes, n = n, p = theta0, alternative = hypothesis)$p.value
   # if p-value cannot be computed, return NA
   if(!is.numeric(pValue)) pValue <- NaN
-  BF10   <- .bayesBinomialTest(counts = successes, n = n, theta0 = theta0, hypothesis = hypothesis, a = a, b = b)
+  BF10   <- jaspFrequencies::.bayesBinomialTest(counts = successes, n = n, theta0 = theta0, hypothesis = hypothesis, a = a, b = b)
   
   BFlist <- list(BF10    = BF10,
                  BF01    = 1/BF10,
@@ -197,7 +197,7 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   BF10      <- plotResults$BF[["BF10"]]
   
   # Prior and posterior plot
-  quantiles       <- .credibleIntervalPlusMedian(credibleIntervalInterval = .95, a, b, successes, n, hyp = hypothesis, theta0 = theta0)
+  quantiles       <- jaspFrequencies::.credibleIntervalPlusMedian(credibleIntervalInterval = .95, a, b, successes, n, hyp = hypothesis, theta0 = theta0)
   medianPosterior <- quantiles$ci.median
   CIlower         <- quantiles$ci.lower
   CIupper         <- quantiles$ci.upper
@@ -209,8 +209,8 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   }
   
   ppCri           <- c(CIlower, CIupper)
-  dfLinesPP       <- .dfLinesPP(dataset = NULL, a = a, b = b, hyp = hypothesis, theta0 = theta0, counts = successes, n = n)
-  dfPointsPP      <- .dfPointsPP(dataset = NULL, a = a, b = b, hyp = hypothesis, theta0 = theta0, counts = successes, n = n)
+  dfLinesPP       <- jaspFrequencies::.dfLinesPP(dataset = NULL, a = a, b = b, hyp = hypothesis, theta0 = theta0, counts = successes, n = n)
+  dfPointsPP      <- jaspFrequencies::.dfPointsPP(dataset = NULL, a = a, b = b, hyp = hypothesis, theta0 = theta0, counts = successes, n = n)
   xName <- bquote(paste(.(gettext("Population proportion")), ~theta))
   
   # error check: Cannot evaluate prior or posterior density?
@@ -291,4 +291,15 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
     exitAnalysisIfErrors = TRUE
   )
 
+}
+
+.binomHypothesisForPlots <- function(hyp){
+  if(hyp == "greater")
+    return("greater")
+  else if(hyp == "less")
+    return("smaller")
+  else if(hyp == "two.sided")
+    return("equal")
+  else
+    stop(gettext("Undefined hypothesis"))
 }

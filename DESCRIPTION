@@ -8,3 +8,20 @@ Website: jasp-stats.org
 Maintainer: JASP Team <info@jasp-stats.org>
 Description: Summary Statistics module
 License: GPL (>= 2)
+Encoding: UTF-8
+Imports:
+  BayesFactor,
+  bstats,
+  jaspBase,
+  jaspFrequencies,
+  jaspGraphs,
+  jaspRegression,
+  jaspTTests,
+  SuppDists
+Remotes:
+  AlexanderLyNL/bstats,
+  jasp-stats/jaspBase,
+  jasp-stats/jaspFrequencies,
+  jasp-stats/jaspGraphs,
+  jasp-stats/jaspRegression,
+  jasp-stats/jaspTTests

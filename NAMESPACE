@@ -1,6 +1,8 @@
+import(jaspBase)
 export(SummaryStatsTTestBayesianIndependentSamples)
 export(SummaryStatsTTestBayesianPairedSamples)
 export(SummaryStatsTTestBayesianOneSample)
 export(SummaryStatsCorrelationBayesianPairs)
 export(SummaryStatsRegressionLinearBayesian)
 export(SummaryStatsBinomialTestBayesian)
+export(SummaryStatsABTestBayesian)

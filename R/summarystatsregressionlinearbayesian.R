@@ -265,7 +265,7 @@ SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, op
     BF10ultra <- 1 / BF10ultra
   }
   
-  BFsubscript <- .ttestBayesianGetBFnamePlots(BFH1H0, c(-Inf, Inf), subscriptsOnly = TRUE)
+  BFsubscript <-  jaspTTests::.ttestBayesianGetBFnamePlots(BFH1H0, c(-Inf, Inf), subscriptsOnly = TRUE)
 
   label1 <- c(
     gettextf("max BF%s", BFsubscript),
