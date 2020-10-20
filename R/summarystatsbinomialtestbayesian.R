@@ -140,10 +140,8 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   bayesianBinomialTable$info <- gettext("- *Bayes factor*: If one-sided test is requested:
   - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value
   - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value
-  - BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger
-   than the test value
-  - BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is
-  smaller than the test value
+- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value
+- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value
   - **p**: p-value corresponding to t-statistic.")
 
   
