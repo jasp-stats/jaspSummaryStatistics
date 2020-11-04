@@ -25,7 +25,7 @@ import JASP 1.0
 
 Form
 {
-	usesJaspResults: true
+	
 
 	Group
 	{
