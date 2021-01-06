@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: R 3.6.1\n"
+"Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
+"POT-Creation-Date: 2021-01-05 09:38\n"
+"PO-Revision-Date: 2020-12-02 21:29+0000\n"
+"Last-Translator: JASP Stats <F.A.M.Meerhoff@uva.nl>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/jasp-engine/"
+"nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==0 ? 0 : n==1 ? 0 : 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
+
+msgid "BF%s"
+msgstr "BF%s"
+
+msgid "Log(BF%s)"
+msgstr "Log(BF%s)"
+
+msgid "t"
+msgstr "t"
+
+msgid "Bayesian Independent Samples T-Test"
+msgstr "Bayesiaanse T-Toets Onafhankelijke Steekproeven"
+
+msgid "n%s"
+msgstr "n%s"
+
+msgid "n"
+msgstr "n"
+
+msgid "error %"
+msgstr "fout %"
+
+msgid "p"
+msgstr "p"
+
+msgid "Proportional error estimate could not be computed."
+msgstr "Proportionele foutschatting kon niet worden berekend."
+
+msgid "Prior and Posterior"
+msgstr "Prior en Posterior"
+
+msgid "Plotting not possible: %s"
+msgstr "Grafiek maken niet mogelijk: %s"
+
+msgid "Bayes Factor Robustness Check"
+msgstr "Bayes Factor Robuustheidsevaluatie"
+
+msgid ""
+"Plotting not possible: Bayes factor robustness check plot currently not "
+"supported for informed prior."
+msgstr ""
+"Grafiek maken niet mogelijk: Bayes factor robuustheidsevaluatiegrafiek wordt "
+"momenteel niet ondersteund voor de geïnformeerde prior."
+
+msgid "Bayes factors could not be computed for 100 values of the prior."
+msgstr ""
+"Bayes factoren konden niet worden berekend voor 100 waarden van de prior."
+
+msgid "max BF%s"
+msgstr "max BF%s"
+
+msgid "user prior"
+msgstr "gebruikersprior"
+
+msgid "wide prior"
+msgstr "brede prior"
+
+msgid "ultrawide prior"
+msgstr "zeer brede prior"
+
+msgid "%s at r==%s"
+msgstr "%s bij r==%s"
+
+msgid "Cauchy prior width"
+msgstr "Cauchy prior breedte"
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that group 1 is greater "
+"than group 2."
+msgstr ""
+"Voor alle toetsen specificeert de alternatieve hypothese dat groep 1 "
+"groteris dan groep 2."
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that the mean is greater "
+"than 0."
+msgstr ""
+"Voor alle toetsen specificeert de alternatieve hypothese dat het gemiddelde "
+"groter is dan 0."
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that measure 1 is "
+"greater than measure 2."
+msgstr ""
+"Voor alle toetsen specificeert de alternatieve hypothese dat meting 1 groter "
+"is dan meting 2."
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that group 1 is less "
+"than group 2."
+msgstr ""
+"Voor alle toetsen specificeert de alternatieve hypothese dat groep 1 kleiner "
+"is dan groep 2."
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that the mean is less "
+"than 0."
+msgstr ""
+"Voor alle toetsen specificeert de alternatieve hypothese dat het gemiddelde "
+"kleiner is dan 0."
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that measure 1 is less "
+"than measure 2."
+msgstr ""
+"Voor alle toetsen specificeert de alternatieve hypothese dat meting 1 "
+"kleiner is dan meting 2."
+
+msgid "Bayesian One Sample T-Test"
+msgstr "Bayesiaanse T-Toets voor Eén Gemiddelde"
+
+msgid "Bayesian Paired Samples T-Test"
+msgstr "Bayesiaanse Gepaarde T-Toets"
+
+msgid "Not enough observations."
+msgstr "Niet genoeg observaties."
+
+msgid "Bayesian Binomial Test"
+msgstr "Bayesiaanse Binomiaal Toets"
+
+#, fuzzy
+msgid ""
+"- *Bayes factor*: If one-sided test is requested:\n"
+"  - BF+0: Bayes factor that quantifies evidence for the one-sided "
+"alternative hypothesis that the population mean is larger than the test "
+"value\n"
+"  - BF-0: Bayes factor that quantifies evidence for the one-sided "
+"alternative hypothesis that the population mean is smaller than the test "
+"value\n"
+"- BF0+: Bayes factor that quantifies evidence for the null hypothesis "
+"relative to the one-sided alternative hypothesis that the population mean is "
+"larger than the test value\n"
+"- BF0-: Bayes factor that quantifies evidence for the null hypothesis "
+"relative to the one-sided alternative hypothesis that that the population "
+"mean is smaller than the test value\n"
+"  - **p**: p-value corresponding to t-statistic."
+msgstr ""
+"- *Bayes factor*: Als een eenzijdig toets wordt gevraagd:\n"
+"- BF+0: Bayes factor dat bewijs quantificeert voor de éénzijdige "
+"alternatieve hypothese dat het populatiegemiddelde groter is dan de "
+"toetswaarde\n"
+"- BF-0: Bayes factor dat bewijs quantificeert voor de éénzijdige "
+"alternatieve hypothese dat het populatiegemiddelde kleiner is dan de "
+"toetswaarde\n"
+"- BF0+: Bayes factor dat bewijs quantificeert voor de nulhypothese tegen de "
+"éénzijdige alternatieve hypothese dat het populatiegemiddelde groter is dan "
+"de toetswaarde\n"
+"- BF0-: Bayes factor dat bewijs quantificeert voor de nulhypothese tegen de "
+"éénzijdige alternatieve hypothese dat het populatiegemiddelde kleiner is dan "
+"de toetswaarde\n"
+"- **p**: p-waarde overeenkomstig met t-statistiek."
+
+msgid "Successes"
+msgstr "Successen"
+
+msgid "Failures"
+msgstr "Mislukkingen"
+
+msgid "Test value"
+msgstr "Toetswaarde"
+
+msgid "Plotting not possible: Posterior too peaked!"
+msgstr "Grafiek maken niet mogelijk: posterior te gepiekt!"
+
+msgid "Population proportion"
+msgstr "Populatieproportie"
+
+msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
+msgstr ""
+"Grafiek maken niet mogelijk: kan prior of posterior dichtheid niet evalueren!"
+
+msgid "Plotting not possible: Bayes factor should be numeric!"
+msgstr "Grafiek maken niet mogelijk: Bayes factor moet numeriek zijn!"
+
+msgid "Proportions tested against value: %s."
+msgstr "Proporties getest tegen waarde: %s."
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that the proportion is "
+"greater than %s."
+msgstr ""
+"Voor alle toetsen specificeert de alternatieve hypothese dat de proportie "
+"groter is dan %s."
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that the proportion is "
+"less than %s."
+msgstr ""
+"Voor alle toetsen specificeert de alternatieve hypothese dat de proportie "
+"minder is dan %s."
+
+msgid "Cannot test the hypothesis that the test value is greater than 1."
+msgstr "Kan niet de hypothese testen dat de toetswaarde groter is dan 1."
+
+msgid "Cannot test the hypothesis that the test value is less than 0."
+msgstr "Kan de hypothese dat de toetswaarde kleiner is dan 1 niet testen."
+
+msgid "Undefined hypothesis"
+msgstr "Ongedefinieerde hypothese"
+
+msgid "r"
+msgstr "r"
+
+msgid "tau"
+msgstr "tau"
+
+msgid "rho"
+msgstr "rho"
+
+msgid "%s%% Credible interval"
+msgstr "%s%% Geloofwaardigheidsinterval"
+
+msgid "Inferential Plots"
+msgstr "Inferentiële Grafieken"
+
+msgid "Model Comparison"
+msgstr "Model Vergelijking"
+
+msgid "Number of covariates"
+msgstr "Aantal covariaten"
+
+msgid "R%s"
+msgstr "R%s"
+
+msgid "Robustness Plot"
+msgstr "Robuustheidsgrafiek"
+
+msgid "r scale"
+msgstr "r schaal"
+
+msgid "r scale used is: %s."
+msgstr "gebruikte r schaal is: %s."
+
+msgid "n = %i"
+msgstr "n = %i"
+
+msgid "Bayesian Linear Regression"
+msgstr "Bayesiaanse lineaire regressie"
+
+msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
+msgstr "Aantal covariaten moet kleiner dan N-1 zijn (N = steekproefgrootte)"
+
+msgid ""
+"Input: When number of covariates for Alternative hypothesis is greater than "
+"that of Null hypothesis, the R%s has to be higher under Alternative than "
+"under Null hypothesis"
+msgstr ""
+"Invoer: Wanneer het aantal covariaten voor de alternatieve hypothese groter "
+"is dan die van de nulhypothese moet de R%s hoger zijn onder de alternatieve "
+"dan onder de nulhypothese"
