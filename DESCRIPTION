@@ -17,6 +17,7 @@ Imports:
   jaspGraphs,
   jaspRegression,
   jaspTTests,
+  jaspAnova,
   SuppDists
 Remotes:
   AlexanderLyNL/bstats,
@@ -24,4 +25,5 @@ Remotes:
   jasp-stats/jaspFrequencies,
   jasp-stats/jaspGraphs,
   jasp-stats/jaspRegression,
-  jasp-stats/jaspTTests
+  jasp-stats/jaspTTests,
+  jasp-stats/jaspAnova
