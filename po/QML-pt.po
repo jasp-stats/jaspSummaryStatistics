@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-03-23 15:29+0000\n"
+"Last-Translator: Laura Durans <lauraadurans@gmail.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -62,13 +68,15 @@ msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
 msgstr ""
 
+#, fuzzy
 msgctxt "Description|"
 msgid "Frequencies"
-msgstr ""
+msgstr "Frequências"
 
+#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "Teste binomial bayesiano"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
