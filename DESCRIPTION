@@ -6,7 +6,7 @@ Date: 2020-04-08
 Author: JASP Team
 Website: jasp-stats.org
 Maintainer: JASP Team <info@jasp-stats.org>
-Description: Summary Statistics module
+Description: Apply common Bayesian tests from sufficient statistics
 License: GPL (>= 2)
 Encoding: UTF-8
 Imports:
