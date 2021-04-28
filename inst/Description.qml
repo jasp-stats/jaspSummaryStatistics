@@ -5,7 +5,7 @@ Description
 {
 	name			: "jaspSummaryStatistics"
 	title			: qsTr("Summary Statistics")
-	description		: qsTr("Summary Statistics module")
+	description		: qsTr("Apply common Bayesian tests from sufficient statistics")
 	icon			: "analysis-bayesian-ttest.svg"
 	requiresData	: false
 	version			: "0.13"
