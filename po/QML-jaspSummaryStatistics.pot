@@ -10,10 +10,6 @@ msgid "Summary Statistics"
 msgstr ""
 
 msgctxt "Description|"
-msgid "Summary Statistics module"
-msgstr ""
-
-msgctxt "Description|"
 msgid "T-Tests"
 msgstr ""
 
@@ -491,4 +487,8 @@ msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Apply common Bayesian tests from sufficient statistics"
 msgstr ""

@@ -13,10 +13,6 @@ msgid "Summary Statistics"
 msgstr "Zusammenfassende Statistiken"
 
 msgctxt "Description|"
-msgid "Summary Statistics module"
-msgstr "Zusammenfassende-Statistiken-Modul"
-
-msgctxt "Description|"
 msgid "T-Tests"
 msgstr "T-Tests"
 
@@ -495,3 +491,7 @@ msgstr "Weitere Infos"
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
 msgstr "Bayesfaktor Robustheitsprüfung"
+
+msgctxt "Description|"
+msgid "Apply common Bayesian tests from sufficient statistics"
+msgstr ""
