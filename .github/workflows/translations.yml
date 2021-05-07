@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron:  '10 2 * * 6'
+    - cron:  '25 2 * * 6'
     
   workflow_dispatch:
 
@@ -12,6 +12,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_KEY }}
 
       - uses: r-lib/actions/setup-r@master
         with:
@@ -19,4 +21,4 @@ jobs:
 
       - uses: jasp-stats/jasp-actions/translations@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_KEY }}
