@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-10 18:32+0000\n"
-"Last-Translator: Johannes Keyser <johanneskeyser@posteo.de>\n"
+"PO-Revision-Date: 2021-05-13 17:32+0000\n"
+"Last-Translator: Thomas Langkamp <thomas.lassdiesonnerein@gmx.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/de/>\n"
 "Language: de\n"
@@ -216,7 +216,7 @@ msgstr "Testwert"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Alt. Hypothesis"
-msgstr "Alt.-Hypothese"
+msgstr "Alternativhypothese (H1)"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "≠ Test value"
@@ -276,7 +276,7 @@ msgstr "Spearmans Rho"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Alt. Hypothesis"
-msgstr "Alt.-Hypothese"
+msgstr "Alternativhypothese (H1)"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Correlated"
@@ -388,19 +388,19 @@ msgstr "Größe Gruppe 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
-msgstr "Alt.-Hypothese"
+msgstr "Alternativhypothese (H1)"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 ≠ Group 2"
-msgstr "Gruppe 1 ≠ Gruppe 2"
+msgstr "Gruppe 1 ≠ Gruppe 2 (2seitig)"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 > Group 2"
-msgstr "Gruppe 1 > Gruppe 2"
+msgstr "Gruppe 1 > Gruppe 2 (1seitig)"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 < Group 2"
-msgstr "Gruppe 1 < Gruppe 2"
+msgstr "Gruppe 1 < Gruppe 2 (1seitig)"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
@@ -428,7 +428,7 @@ msgstr "Gruppengröße"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
-msgstr "Alt.-Hypothese"
+msgstr "Alternativhypothese (H1)"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "≠ Test value"
@@ -468,7 +468,7 @@ msgstr "Gruppengröße"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
-msgstr "Alt.-Hypothese"
+msgstr "Alternativhypothese (H1)"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 ≠ Measure 2"
