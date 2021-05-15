@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-13 17:32+0000\n"
-"Last-Translator: Thomas Langkamp <thomas.lassdiesonnerein@gmx.de>\n"
+"PO-Revision-Date: 2021-05-15 20:50+0000\n"
+"Last-Translator: Johannes Keyser <johanneskeyser@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/de/>\n"
 "Language: de\n"
@@ -276,7 +276,7 @@ msgstr "Spearmans Rho"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Alt. Hypothesis"
-msgstr "Alternativhypothese (H1)"
+msgstr "Alt.-Hypothese"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Correlated"
@@ -388,19 +388,19 @@ msgstr "Größe Gruppe 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
-msgstr "Alternativhypothese (H1)"
+msgstr "Alt.-Hypothese"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 ≠ Group 2"
-msgstr "Gruppe 1 ≠ Gruppe 2 (2seitig)"
+msgstr "Gruppe 1 ≠ Gruppe 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 > Group 2"
-msgstr "Gruppe 1 > Gruppe 2 (1seitig)"
+msgstr "Gruppe 1 > Gruppe 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 < Group 2"
-msgstr "Gruppe 1 < Gruppe 2 (1seitig)"
+msgstr "Gruppe 1 < Gruppe 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
@@ -428,7 +428,7 @@ msgstr "Gruppengröße"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
-msgstr "Alternativhypothese (H1)"
+msgstr "Alt.-Hypothese"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "≠ Test value"
@@ -468,7 +468,7 @@ msgstr "Gruppengröße"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
-msgstr "Alternativhypothese (H1)"
+msgstr "Alt.-Hypothese"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 ≠ Measure 2"
