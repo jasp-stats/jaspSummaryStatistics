@@ -150,7 +150,7 @@
       bf <- bfObject$bf
       error <- 100*bfObject$error
     } else if (options[["informativeStandardizedEffectSize"]] == "normal") {
-      bf <- .bf10_normal(t = tValue, n1 = n1, n2 = n2, oneSided = side,
+      bf <- jaspTTests::.bf10_normal(t = tValue, n1 = n1, n2 = n2, oneSided = side,
                          independentSamples = !paired,
                          prior.mean = options[["informativeNormalMean"]],
                          prior.variance = options[["informativeNormalStd"]]^2)
