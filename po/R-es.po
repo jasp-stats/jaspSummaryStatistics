@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
 "POT-Creation-Date: 2021-01-05 09:38\n"
-"PO-Revision-Date: 2021-05-28 04:33+0000\n"
+"PO-Revision-Date: 2021-05-29 12:32+0000\n"
 "Last-Translator: Paulina Elizabeth Robalino <paulina.e.robalino@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/es/>\n"
@@ -41,13 +41,13 @@ msgid "Proportional error estimate could not be computed."
 msgstr ""
 
 msgid "Prior and Posterior"
-msgstr ""
+msgstr "Anterior y Posterior"
 
 msgid "Plotting not possible: %s"
 msgstr "Graficar no es posible: %s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr ""
+msgstr "Comprobación de robustez del factor de Bayes"
 
 msgid ""
 "Plotting not possible: Bayes factor robustness check plot currently not "
@@ -115,7 +115,7 @@ msgid "Not enough observations."
 msgstr ""
 
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "Prueba Binomial Bayesiana"
 
 msgid ""
 "- *Bayes factor*: If one-sided test is requested:\n"
@@ -147,7 +147,7 @@ msgid "Plotting not possible: Posterior too peaked!"
 msgstr ""
 
 msgid "Population proportion"
-msgstr ""
+msgstr "Proporción de población"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
@@ -156,26 +156,32 @@ msgid "Plotting not possible: Bayes factor should be numeric!"
 msgstr ""
 
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "Proporciones contrastadas con el valor: %s."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "greater than %s."
 msgstr ""
+"Para todas las pruebas, la hipótesis alternativa especifica que la "
+"proporción es mayor que %s."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "less than %s."
 msgstr ""
+"Para todas las pruebas, la hipótesis alternativa especifica que la "
+"proporción es menor que %s."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
 msgstr ""
+"No se puede probar la hipótesis de que el valor de la prueba es mayor que 1."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
 msgstr ""
+"No se puede probar la hipótesis de que el valor de la prueba es menor que 0."
 
 msgid "Undefined hypothesis"
-msgstr ""
+msgstr "Hipótesis no definida"
 
 msgid "r"
 msgstr ""
@@ -190,7 +196,7 @@ msgid "%s%% Credible interval"
 msgstr ""
 
 msgid "Inferential Plots"
-msgstr ""
+msgstr "Gráficos de Inferencia"
 
 msgid "Model Comparison"
 msgstr "Comparación de modelos"
