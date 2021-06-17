@@ -29,26 +29,26 @@ test_that("Prior posterior plots match", {
   options$plotPriorAndPosteriorAdditionalInfo <- FALSE
   results  <- jaspTools::runAnalysis("SummaryStatsBinomialTestBayesian", "debug.csv", options)
   testPlot <- results[["state"]][["figures"]][[1]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "prior-posterior-1", dir="SummaryStatsBinomialTestBayesian")
+  jaspTools::expect_equal_plots(testPlot, "prior-posterior-1")
   
   options$successes                           <- 42
   options$failures                            <- 58
   results  <- jaspTools::runAnalysis("SummaryStatsBinomialTestBayesian", "debug.csv", options)
   testPlot <- results[["state"]][["figures"]][[1]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "prior-posterior-2", dir="SummaryStatsBinomialTestBayesian")
+  jaspTools::expect_equal_plots(testPlot, "prior-posterior-2")
   
   # with additional information
   options$plotPriorAndPosterior               <- TRUE
   options$plotPriorAndPosteriorAdditionalInfo <- TRUE
   results  <- jaspTools::runAnalysis("SummaryStatsBinomialTestBayesian", "debug.csv", options)
   testPlot <- results[["state"]][["figures"]][[1]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "prior-posterior-3", dir="SummaryStatsBinomialTestBayesian")
+  jaspTools::expect_equal_plots(testPlot, "prior-posterior-3")
   
   options$successes                           <- 58
   options$failures                            <- 42
   results  <- jaspTools::runAnalysis("SummaryStatsBinomialTestBayesian", "debug.csv", options)
   testPlot <- results[["state"]][["figures"]][[1]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "prior-posterior-4", dir="SummaryStatsBinomialTestBayesian")
+  jaspTools::expect_equal_plots(testPlot, "prior-posterior-4")
 })
 
 test_that("Error message is validation", {

@@ -66,7 +66,7 @@ test_that("Main table and plots match without additional info", {
                            71.56048, 0.55, 9.79848723927088e-06, 5, "Alternative model"))
 
   testPlot <- getRobustnessPlot(results)
-  jaspTools::expect_equal_plots(testPlot, "robustness-plot", dir="SummaryStatsRegressionLinearBayesian")
+  jaspTools::expect_equal_plots(testPlot, "robustness-plot")
 
 })
 
@@ -81,7 +81,7 @@ test_that("Main table and plots match with additional info", {
                       list(0.651407436025229, 0, 2.50272800102564e-05, 1, 3))
   
   testPlot <- getRobustnessPlot(results)
-  jaspTools::expect_equal_plots(testPlot, "robustness-additional-info-plot", dir="SummaryStatsRegressionLinearBayesian")
+  jaspTools::expect_equal_plots(testPlot, "robustness-additional-info-plot")
   
 })
 
