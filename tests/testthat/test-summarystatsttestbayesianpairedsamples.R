@@ -13,7 +13,7 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestBayesianPairedSamples", "deb
 test_that("Bayes Factor Robustness Check plot matches", {
   plotName <- results[["results"]][["ttestContainer"]][["collection"]][["ttestContainer_BayesFactorRobustnessPlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "bayes-factor-robustness-check", dir="SummaryStatsTTestBayesianPairedSamples")
+  jaspTools::expect_equal_plots(testPlot, "bayes-factor-robustness-check")
 })
 
 test_that("Bayesian Paired Samples T-Test table results match", {
@@ -26,7 +26,7 @@ test_that("Bayesian Paired Samples T-Test table results match", {
 test_that("Default Prior and Posterior plot matches", {
   plotName <- results[["results"]][["ttestContainer"]][["collection"]][["ttestContainer_priorPosteriorPlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "prior-and-posterior", dir="SummaryStatsTTestBayesianPairedSamples")
+  jaspTools::expect_equal_plots(testPlot, "prior-and-posterior")
 })
 
 options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianPairedSamples")
@@ -51,5 +51,5 @@ test_that("Bayesian Paired Samples T-Test table results match", {
 test_that("Informative Cauchy Prior and Posterior plot matches", {
   plotName <- results[["results"]][["ttestContainer"]][["collection"]][["ttestContainer_priorPosteriorPlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "prior-and-posterior-2", dir="SummaryStatsTTestBayesianPairedSamples")
+  jaspTools::expect_equal_plots(testPlot, "prior-and-posterior-2")
 })

@@ -38,7 +38,7 @@ test_that("Kendall Bayes Factor Robustness Check plot matches", {
   
   plotName <- results[["results"]][["correlationContainer"]][["collection"]][["correlationContainer_plotContainer"]][["collection"]][["correlationContainer_plotContainer_plotBfRobustness"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "bayes-factor-robustness-check", dir="SummaryStatsCorrelationBayesianPairs")
+  jaspTools::expect_equal_plots(testPlot, "bayes-factor-robustness-check")
 })
 
 test_that("Kendall Prior and Posterior plot matches", {
@@ -58,7 +58,7 @@ test_that("Kendall Prior and Posterior plot matches", {
   
   plotName <- results[["results"]][["correlationContainer"]][["collection"]][["correlationContainer_plotContainer"]][["collection"]][["correlationContainer_plotContainer_plotPriorPosterior"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-  jaspTools::expect_equal_plots(testPlot, "prior-and-posterior", dir="SummaryStatsCorrelationBayesianPairs")
+  jaspTools::expect_equal_plots(testPlot, "prior-and-posterior")
 })
 
 
@@ -102,7 +102,7 @@ test_that("Kendall Prior and Posterior plot matches", {
 #   
 #   plotName <- results[["results"]][["correlationContainer"]][["collection"]][["correlationContainer_plotContainer"]][["collection"]][["correlationContainer_plotContainer_plotBfRobustness"]][["data"]]
 #   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-#   jaspTools::expect_equal_plots(testPlot, "bayes-factor-robustness-check", dir="SummaryStatsCorrelationBayesianPairs")
+#   jaspTools::expect_equal_plots(testPlot, "bayes-factor-robustness-check")
 # })
 # 
 # test_that("Pearson Prior and Posterior plot matches", {
@@ -121,5 +121,5 @@ test_that("Kendall Prior and Posterior plot matches", {
 #   
 #   plotName <- results[["results"]][["correlationContainer"]][["collection"]][["correlationContainer_plotContainer"]][["collection"]][["correlationContainer_plotContainer_plotPriorPosterior"]][["data"]]
 #   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-#   jaspTools::expect_equal_plots(testPlot, "prior-and-posterior", dir="SummaryStatsCorrelationBayesianPairs")
+#   jaspTools::expect_equal_plots(testPlot, "prior-and-posterior")
 # })
