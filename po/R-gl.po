@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-05-06 14:55\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: gl_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Virgin-Header: remove this line if you change anything in the header.\n"
+"X-Language: gl_ES\n"
+"X-Source-Language: C\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "BF%s"
+msgstr ""
+
+#, fuzzy
+msgid "Log(BF%s)"
+msgstr "Log(FB₁₀)"
+
+msgid "t"
+msgstr "t"
+
+msgid "Bayesian Independent Samples T-Test"
+msgstr "Proba T baiesiana para mostras independentes"
+
+msgid "n%s"
+msgstr ""
+
+msgid "n"
+msgstr "n"
+
+#, fuzzy
+msgid "error %"
+msgstr "fallo % >"
+
+msgid "p"
+msgstr "p"
+
+#, fuzzy
+msgid "Proportional error estimate could not be computed."
+msgstr "Ocorreu un fallo e non se puido crear o cartafol."
+
+#, fuzzy
+msgid "Prior and Posterior"
+msgstr "Previo e posterior"
+
+msgid "Plotting not possible: %s"
+msgstr ""
+
+#, fuzzy
+msgid "Bayes Factor Robustness Check"
+msgstr "Comprobación da robustez do factor de Bayes"
+
+msgid ""
+"Plotting not possible: Bayes factor robustness check plot currently not "
+"supported for informed prior."
+msgstr ""
+
+msgid "Bayes factors could not be computed for 100 values of the prior."
+msgstr ""
+
+msgid "max BF%s"
+msgstr ""
+
+msgid "user prior"
+msgstr ""
+
+#, fuzzy
+msgid "wide prior"
+msgstr "Amosar os previos"
+
+#, fuzzy
+msgid "ultrawide prior"
+msgstr "Representar os previos"
+
+msgid "%s at r==%s"
+msgstr ""
+
+#, fuzzy
+msgid "Cauchy prior width"
+msgstr "Largura previa de beta estendida"
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that group 1 is greater "
+"than group 2."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"For all tests, the alternative hypothesis specifies that the mean is greater "
+"than 0."
+msgstr ""
+"Hipótese alternativa dunha cola, de que a media da poboación é maior que o "
+"valor a probar."
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that measure 1 is "
+"greater than measure 2."
+msgstr ""
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that group 1 is less "
+"than group 2."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"For all tests, the alternative hypothesis specifies that the mean is less "
+"than 0."
+msgstr ""
+"Hipótese alternativa dunha cola, de que a media da poboación é maior que o "
+"valor a probar."
+
+msgid ""
+"For all tests, the alternative hypothesis specifies that measure 1 is less "
+"than measure 2."
+msgstr ""
+
+msgid "Bayesian One Sample T-Test"
+msgstr "Proba T baiesiana dunha mostra"
+
+msgid "Bayesian Paired Samples T-Test"
+msgstr "Proba T baiesiana para mostras emparelladas"
+
+msgid "Not enough observations."
+msgstr ""
+
+msgid "Bayesian Binomial Test"
+msgstr "Proba baiesiana Binomial"
+
+msgid ""
+"- *Bayes factor*: If one-sided test is requested:\n"
+"  - BF+0: Bayes factor that quantifies evidence for the one-sided "
+"alternative hypothesis that the population mean is larger than the test "
+"value\n"
+"  - BF-0: Bayes factor that quantifies evidence for the one-sided "
+"alternative hypothesis that the population mean is smaller than the test "
+"value\n"
+"- BF0+: Bayes factor that quantifies evidence for the null hypothesis "
+"relative to the one-sided alternative hypothesis that the population mean is "
+"larger than the test value\n"
+"- BF0-: Bayes factor that quantifies evidence for the null hypothesis "
+"relative to the one-sided alternative hypothesis that that the population "
+"mean is smaller than the test value\n"
+"  - **p**: p-value corresponding to t-statistic."
+msgstr ""
+
+msgid "Successes"
+msgstr "Acertos"
+
+msgid "Failures"
+msgstr "Fracasos"
+
+msgid "Test value"
+msgstr "Probar valor"
+
+msgid "Plotting not possible: Posterior too peaked!"
+msgstr ""
+
+#, fuzzy
+msgid "Population proportion"
+msgstr "Presentar as proporcións"
+
+msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
+msgstr ""
+
+msgid "Plotting not possible: Bayes factor should be numeric!"
+msgstr ""
+
+msgid "Proportions tested against value: %s."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"For all tests, the alternative hypothesis specifies that the proportion is "
+"greater than %s."
+msgstr ""
+"Hipótese alternativa dunha cola, de que a media da poboación é maior que o "
+"valor a probar."
+
+#, fuzzy
+msgid ""
+"For all tests, the alternative hypothesis specifies that the proportion is "
+"less than %s."
+msgstr ""
+"Hipótese alternativa dunha cola, de que a media da poboación é maior que o "
+"valor a probar."
+
+msgid "Cannot test the hypothesis that the test value is greater than 1."
+msgstr ""
+
+msgid "Cannot test the hypothesis that the test value is less than 0."
+msgstr ""
+
+#, fuzzy
+msgid "Undefined hypothesis"
+msgstr "Hipótese"
+
+msgid "r"
+msgstr ""
+
+#, fuzzy
+msgid "tau"
+msgstr "Eta"
+
+msgid "rho"
+msgstr ""
+
+#, fuzzy
+msgid "%s%% Credible interval"
+msgstr "Intervalo de credibilidade"
+
+msgid "Inferential Plots"
+msgstr "Gráficas inferenciais"
+
+#, fuzzy
+msgid "Model Comparison"
+msgstr "Opcións do modelo"
+
+msgid "Number of covariates"
+msgstr "Número de covariantes"
+
+msgid "R%s"
+msgstr ""
+
+msgid "Robustness Plot"
+msgstr "Gráfica de robustez"
+
+msgid "r scale"
+msgstr "escala r"
+
+msgid "r scale used is: %s."
+msgstr ""
+
+msgid "n = %i"
+msgstr ""
+
+msgid "Bayesian Linear Regression"
+msgstr "Regresión Baiesiana Linear"
+
+msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
+msgstr ""
+
+msgid ""
+"Input: When number of covariates for Alternative hypothesis is greater than "
+"that of Null hypothesis, the R%s has to be higher under Alternative than "
+"under Null hypothesis"
+msgstr ""
+
