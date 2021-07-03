@@ -3,495 +3,492 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Language: de\n"
-"X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Summary Statistics"
-msgstr "Zusammenfassende Statistiken"
-
-msgctxt "Description|"
-msgid "T-Tests"
-msgstr "T-Tests"
-
-msgctxt "Description|"
-msgid "Bayesian Independent Samples T-Test"
-msgstr "Bayesscher T-Test für unabhängige Stichproben"
-
-msgctxt "Description|"
-msgid "S.S. Bayesian Independent Samples T-Test"
-msgstr "Z.S. Bayesscher T-Test für unabhängige Stichproben"
-
-msgctxt "Description|"
-msgid "Bayesian Paired Samples T-Test"
-msgstr "Bayesscher T-Test für abhängige Stichproben"
-
-msgctxt "Description|"
-msgid "S.S. Bayesian Paired Samples T-Test"
-msgstr "Z.S. Bayesscher T-Test für abhängige Stichproben"
-
-msgctxt "Description|"
-msgid "Bayesian One Sample T-Test"
-msgstr "Bayesscher T-Test für eine Stichprobe"
-
-msgctxt "Description|"
-msgid "S.S. Bayesian One Sample T-Test"
-msgstr "Z.S. Bayesscher T-Test für eine Stichprobe"
-
-msgctxt "Description|"
-msgid "Regression"
-msgstr "Regression"
-
-msgctxt "Description|"
-msgid "Bayesian Correlation"
-msgstr "Bayessche Korrelation"
-
-msgctxt "Description|"
-msgid "S.S. Bayesian Correlation"
-msgstr "Z.S. Bayessche Korrelation"
-
-msgctxt "Description|"
-msgid "Bayesian Linear Regression"
-msgstr "Bayessche Lineare Regression"
-
-msgctxt "Description|"
-msgid "S.S. Bayesian Linear Regression"
-msgstr "Z.S. Bayessche Lineare Regression"
-
-msgctxt "Description|"
-msgid "Frequencies"
-msgstr "Häufigkeiten"
-
-msgctxt "Description|"
-msgid "Bayesian Binomial Test"
-msgstr "Bayesscher Binomialtest"
-
-msgctxt "Description|"
-msgid "S.S. Bayesian Binomial Test"
-msgstr "Z.S. Bayesscher Binomialtest"
-
-msgctxt "Description|"
-msgid "Bayesian A/B Test"
-msgstr "Bayesscher A/B-Test"
-
-msgctxt "Description|"
-msgid "S.S. Bayesian A/B Test"
-msgstr "Z.S. Bayesscher A/B Test"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Group 1"
-msgstr "Gruppe 1"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Successes"
-msgstr "Erfolge"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Sample Size"
-msgstr "Stichprobenumfang"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Group 2"
-msgstr "Gruppe 2"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Normal Prior on Log Odds Ratio"
-msgstr "Normal-Prior für Log-Chancenverhältnis"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "μ:"
-msgstr "μ:"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "σ:"
-msgstr "σ:"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Descriptives"
-msgstr "Deskriptive Statistiken"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Plots"
-msgstr "Abbildungen"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Prior and posterior"
-msgstr "Prior und Posterior"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Sequential analysis"
-msgstr "Sequentielle Analyse"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Prior"
-msgstr "Prior"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Bayes factor robustness check"
-msgstr "Bayesfaktor Robustheitsprüfung"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Order"
-msgstr "Reihenfolge"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Compare to best model"
-msgstr "Mit bestem Modell vergleichen"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Compare to null model"
-msgstr "Mit Nullmodell vergleichen"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Advanced Options"
-msgstr "Weitere Optionen"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Prior Model Probability"
-msgstr "A-priori Modellwahrscheinlichkeit"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Log odds ratio = 0"
-msgstr "Log-Chancenverhältnis = 0"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Log odds ratio > 0"
-msgstr "Log-Chancenverhältnis > 0"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Log odds ratio < 0"
-msgstr "Log-Chancenverhältnis < 0"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Log odds ratio ≠ 0"
-msgstr "Log-Chancenverhältnis ≠ 0"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Sampling"
-msgstr "Stichprobenziehung"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "No. samples"
-msgstr "Stichprobenumfang"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Robustness Plot"
-msgstr "Robustheitsdiagramm"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "No. Steps"
-msgstr "Anzahl Schritte"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "Step Range"
-msgstr "Schrittweite"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "lower:"
-msgstr "untere:"
-
-msgctxt "SummaryStatsABTestBayesian|"
-msgid "upper:"
-msgstr "obere:"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "Successes"
-msgstr "Erfolge"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "Failures"
-msgstr "Misserfolge"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "Test value"
-msgstr "Testwert"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "Alt. Hypothesis"
-msgstr "Alternativhypothese (H1)"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "≠ Test value"
-msgstr "≠ Testwert"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "> Test value"
-msgstr "> Testwert"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "< Test value"
-msgstr "< Testwert"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "Plots"
-msgstr "Abbildungen"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "Prior and posterior"
-msgstr "Prior und Posterior"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "Additional info"
-msgstr "Weitere Infos"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "Prior"
-msgstr "Prior"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "Beta prior: parameter a"
-msgstr "Beta-Prior: Parameter a"
-
-msgctxt "SummaryStatsBinomialTestBayesian|"
-msgid "Beta prior: parameter b"
-msgstr "Beta-Prior: Parameter b"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Sample size"
-msgstr "Stichprobenumfang"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Sample Correlation Coefficient"
-msgstr "Stichproben-Korrelationskoeffizient"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Pearson's r"
-msgstr "Pearsons r"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Kendall's tau-b"
-msgstr "Kendalls Tau-b"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Spearman's rho"
-msgstr "Spearmans Rho"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Alt. Hypothesis"
-msgstr "Alt.-Hypothese"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Correlated"
-msgstr "Korrelation"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Correlated positively"
-msgstr "Positiv korreliert"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Correlated negatively"
-msgstr "Negativ korreliert"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Credible intervals"
-msgstr "Glaubwürdigkeitsintervalle"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Interval"
-msgstr "Intervall"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Plots"
-msgstr "Abbildungen"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Prior and posterior"
-msgstr "Prior und Posterior"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Estimation info"
-msgstr "Schätzinformationen"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Testing info"
-msgstr "Testinformationen"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Bayes factor robustness check"
-msgstr "Bayesfaktor Robustheitsprüfung"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Additional info"
-msgstr "Weitere Infos"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Prior"
-msgstr "Prior"
-
-msgctxt "SummaryStatsCorrelationBayesianPairs|"
-msgid "Stretched beta prior width"
-msgstr "Breite des gestreckten Beta-Priors"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "Sample size"
-msgstr "Stichprobenumfang"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "Null Model"
-msgstr "Nullmodell"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "Number of covariates"
-msgstr "Anzahl Kovariate"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "R-squared"
-msgstr "R-Quadrat"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "Alternative Model"
-msgstr "Alternatives Modell"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "Plots"
-msgstr "Abbildungen"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "Bayes factor robustness check"
-msgstr "Bayesfaktor Robustheitsprüfung"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "Additional info"
-msgstr "Weitere Infos"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "Advanced Options"
-msgstr "Weitere Optionen"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "Prior"
-msgstr "Prior"
-
-msgctxt "SummaryStatsRegressionLinearBayesian|"
-msgid "r scale covariates"
-msgstr "r Skalenparameter Kovariaten"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "t"
-msgstr "t"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 size"
-msgstr "Größe Gruppe 1"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 2 size"
-msgstr "Größe Gruppe 2"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Alt. Hypothesis"
-msgstr "Alt.-Hypothese"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 ≠ Group 2"
-msgstr "Gruppe 1 ≠ Gruppe 2"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 > Group 2"
-msgstr "Gruppe 1 > Gruppe 2"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 < Group 2"
-msgstr "Gruppe 1 < Gruppe 2"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Plots"
-msgstr "Abbildungen"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Prior and posterior"
-msgstr "Prior und Posterior"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Additional info"
-msgstr "Weitere Infos"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Bayes factor robustness check"
-msgstr "Bayesfaktor Robustheitsprüfung"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "t"
-msgstr "t"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Group size"
-msgstr "Gruppengröße"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Alt. Hypothesis"
-msgstr "Alt.-Hypothese"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "≠ Test value"
-msgstr "≠ Testwert"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "> Test value"
-msgstr "> Testwert"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "< Test value"
-msgstr "< Testwert"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Plots"
-msgstr "Abbildungen"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Prior and posterior"
-msgstr "Prior und Posterior"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Additional info"
-msgstr "Weitere Infos"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Bayes factor robustness check"
-msgstr "Bayesfaktor Robustheitsprüfung"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "t"
-msgstr "t"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Group size"
-msgstr "Gruppengröße"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Alt. Hypothesis"
-msgstr "Alt.-Hypothese"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Measure 1 ≠ Measure 2"
-msgstr "Messung 1 ≠ Messung 2"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Measure 1 > Measure 2"
-msgstr "Messung 1 > Messung 2"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Measure 1 < Measure 2"
-msgstr "Messung 1 < Messung 2"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Plots"
-msgstr "Abbildungen"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Prior and posterior"
-msgstr "Prior und Posterior"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Additional info"
-msgstr "Weitere Infos"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Bayes factor robustness check"
-msgstr "Bayesfaktor Robustheitsprüfung"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Apply common Bayesian tests from sufficient statistics"
-msgstr "Anwendung gängiger Bayessche Tests anhand suffizienter Statistiken"
+msgstr ""
+
+msgctxt "Description|"
+msgid "T-Tests"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian Independent Samples T-Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. Bayesian Independent Samples T-Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian Paired Samples T-Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. Bayesian Paired Samples T-Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian One Sample T-Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. Bayesian One Sample T-Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Regression"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian Correlation"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. Bayesian Correlation"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian Linear Regression"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. Bayesian Linear Regression"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Frequencies"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian Binomial Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. Bayesian Binomial Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian A/B Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. Bayesian A/B Test"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Group 1"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Successes"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Sample Size"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Group 2"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Normal Prior on Log Odds Ratio"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "μ:"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "σ:"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Descriptives"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Prior and posterior"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Sequential analysis"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Prior"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Bayes factor robustness check"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Order"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Compare to best model"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Compare to null model"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Advanced Options"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Prior Model Probability"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Log odds ratio = 0"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Log odds ratio > 0"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Log odds ratio < 0"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Log odds ratio ≠ 0"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Sampling"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "No. samples"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Robustness Plot"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "No. Steps"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Step Range"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "lower:"
+msgstr ""
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "upper:"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Successes"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Failures"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Test value"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Alt. Hypothesis"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "≠ Test value"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "> Test value"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "< Test value"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Prior and posterior"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Additional info"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Prior"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Beta prior: parameter a"
+msgstr ""
+
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Beta prior: parameter b"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Sample size"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Sample Correlation Coefficient"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Pearson's r"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Kendall's tau-b"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Spearman's rho"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Alt. Hypothesis"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Correlated"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Correlated positively"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Correlated negatively"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Credible intervals"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Interval"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Prior and posterior"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Estimation info"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Testing info"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Bayes factor robustness check"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Additional info"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Prior"
+msgstr ""
+
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Stretched beta prior width"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Sample size"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Null Model"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Number of covariates"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "R-squared"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Alternative Model"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Bayes factor robustness check"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Additional info"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Advanced Options"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Prior"
+msgstr ""
+
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "r scale covariates"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "t"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Group 1 size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Group 2 size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Alt. Hypothesis"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Group 1 ≠ Group 2"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Group 1 > Group 2"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Group 1 < Group 2"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Prior and posterior"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Additional info"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Bayes factor robustness check"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "t"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Group size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Alt. Hypothesis"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "≠ Test value"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "> Test value"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "< Test value"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Prior and posterior"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Additional info"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Bayes factor robustness check"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "t"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Group size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Alt. Hypothesis"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Measure 1 ≠ Measure 2"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Measure 1 > Measure 2"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Measure 1 < Measure 2"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Prior and posterior"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Additional info"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Bayes factor robustness check"
+msgstr ""
