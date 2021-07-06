@@ -80,21 +80,25 @@ test_that("BF Type Label Switches Correctly Prior Posterior", {
 
 test_that("Informed priors work", {
   options <- analysisOptions("SummaryStatsTTestBayesianIndependentSamples")
-  options$n1Size <- 20
-  options$n2Size <- 20
+
+  options$n1Size     <- 20
+  options$n2Size     <- 20
   options$tStatistic <- 2
+  options$effectSizeStandardized <- "informative"
 
   reference <- list(
     t      = list(1.45400012678284, 0.000123486895286172, 20, 20, 0.0526850709676671, 2),
     normal = list(2.04756225232945, "NaN", 20, 20, 0.0526850709676671, 2)
   )
 
-  for (informativeStandardizedEffectSize in c("normal", "t"))
+  for (informativeStandardizedEffectSize in c("normal", "t")) {
 
-  options$informativeStandardizedEffectSize <- informativeStandardizedEffectSize
-  set.seed(1)
-  results <- runAnalysis("SummaryStatsTTestBayesianIndependentSamples", NULL, options)
-  table <- results[["results"]][["ttestContainer"]][["collection"]][["ttestContainer_ttestTable"]][["data"]]
-  jaspTools::expect_equal_tables(table, reference[[informativeStandardizedEffectSize]])
+    options$informativeStandardizedEffectSize <- informativeStandardizedEffectSize
+    set.seed(1)
+    results <- runAnalysis("SummaryStatsTTestBayesianIndependentSamples", NULL, options)
+    table <- results[["results"]][["ttestContainer"]][["collection"]][["ttestContainer_ttestTable"]][["data"]]
+    jaspTools::expect_equal_tables(table, reference[[informativeStandardizedEffectSize]])
+
+  }
 
 })
