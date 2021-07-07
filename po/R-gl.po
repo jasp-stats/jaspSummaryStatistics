@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-05-06 14:55\n"
-"PO-Revision-Date: 2021-07-01 19:32+0000\n"
+"PO-Revision-Date: 2021-07-08 17:33+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/gl/>\n"
@@ -22,11 +22,10 @@ msgstr ""
 "X-Source-Language: C\n"
 
 msgid "BF%s"
-msgstr ""
+msgstr "FB%s"
 
-#, fuzzy
 msgid "Log(BF%s)"
-msgstr "Log(FB₁₀)"
+msgstr "Log(FB%s)"
 
 msgid "t"
 msgstr "t"
@@ -35,7 +34,7 @@ msgid "Bayesian Independent Samples T-Test"
 msgstr "Proba T baiesiana para mostras independentes"
 
 msgid "n%s"
-msgstr ""
+msgstr "n%s"
 
 msgid "n"
 msgstr "n"
@@ -46,18 +45,15 @@ msgstr "fallo %"
 msgid "p"
 msgstr "p"
 
-#, fuzzy
 msgid "Proportional error estimate could not be computed."
-msgstr "Ocorreu un fallo e non se puido crear o cartafol."
+msgstr "Non se puido calcular a estimación do erro proporcional."
 
-#, fuzzy
 msgid "Prior and Posterior"
-msgstr "Previo e posterior"
+msgstr "Previo e Posterior"
 
 msgid "Plotting not possible: %s"
-msgstr ""
+msgstr "Non é posible facer a gráfica: %s"
 
-#, fuzzy
 msgid "Bayes Factor Robustness Check"
 msgstr "Comprobación da robustez do factor de Bayes"
 
@@ -65,66 +61,71 @@ msgid ""
 "Plotting not possible: Bayes factor robustness check plot currently not "
 "supported for informed prior."
 msgstr ""
+"Non é posible facer a gráfica: neste momento non se admite a gráfica de "
+"comprobación da robustez do factor de Bayes para un previo informado."
 
 msgid "Bayes factors could not be computed for 100 values of the prior."
-msgstr ""
+msgstr "Os factores de Bayes non poden calcularse para 100 valores do previo."
 
 msgid "max BF%s"
-msgstr ""
+msgstr "max FB%s"
 
 msgid "user prior"
-msgstr ""
+msgstr "previo do usuario"
 
-#, fuzzy
 msgid "wide prior"
-msgstr "Amosar os previos"
+msgstr "previo do ancho"
 
-#, fuzzy
 msgid "ultrawide prior"
-msgstr "Representar os previos"
+msgstr "previo do ultraancho"
 
 msgid "%s at r==%s"
-msgstr ""
+msgstr "%s en r==%s"
 
-#, fuzzy
 msgid "Cauchy prior width"
-msgstr "Largura previa de beta estendida"
+msgstr "Anchura previa de Cauchy"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is greater "
 "than group 2."
 msgstr ""
+"Para todas as probas, a hipótese alternativa indica que o grupo 1 é maior "
+"que o grupo 2."
 
-#, fuzzy
 msgid ""
 "For all tests, the alternative hypothesis specifies that the mean is greater "
 "than 0."
 msgstr ""
-"Hipótese alternativa dunha cola, de que a media da poboación é maior que o "
-"valor a probar."
+"Para todas as probas, a hipótese alternativa indica que a media é maior que "
+"0."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that measure 1 is "
 "greater than measure 2."
 msgstr ""
+"Para todas as probas, a hipótese alternativa indica que a medida 1 é maior "
+"que a medida 2."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is less "
 "than group 2."
 msgstr ""
+"Para todas as probas, a hipótese alternativa indica que o grupo 1 é menor "
+"que o grupo 2."
 
-#, fuzzy
 msgid ""
 "For all tests, the alternative hypothesis specifies that the mean is less "
 "than 0."
 msgstr ""
-"Hipótese alternativa dunha cola, de que a media da poboación é maior que o "
-"valor a probar."
+"Para todas as probas, a hipótese alternativa indica que a media é menor que "
+"0."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that measure 1 is less "
 "than measure 2."
 msgstr ""
+"Para todas as probas, a hipótese alternativa indica que a medida 1 é menor "
+"que a medida 2."
 
 msgid "Bayesian One Sample T-Test"
 msgstr "Proba T baiesiana dunha mostra"
@@ -133,7 +134,7 @@ msgid "Bayesian Paired Samples T-Test"
 msgstr "Proba T baiesiana para mostras emparelladas"
 
 msgid "Not enough observations."
-msgstr ""
+msgstr "Observacións insuficientes."
 
 msgid "Bayesian Binomial Test"
 msgstr "Proba baiesiana Binomial"
@@ -154,6 +155,20 @@ msgid ""
 "mean is smaller than the test value\n"
 "  - **p**: p-value corresponding to t-statistic."
 msgstr ""
+"- *Factor de Bayes*: cando se solicita unha proba de unha cola:\n"
+"  - FB+0: Factor de Bayes que cuantifica a evidencia a favor da hipótese "
+"alternativa de unha cola, de que a media poboacional é maior que o valor a "
+"probar\n"
+"  - FB-0: Factor de Bayes que cuantifica a evidencia a favor da hipótese "
+"alternativa de unha cola, de que a media poboacional é menor que o valor a "
+"probar\n"
+"- FB0+: Factor de Bayes que cuantifica a evidencia a favor da hipótese nula, "
+"en relación coa hipótese alternativa de unha cola de que a media poboacional "
+"é maior que o valor a probar\n"
+"- FB0-: Factor de Bayes que cuantifica a evidencia a favor da hipótese nula, "
+"en relación coa hipótese alternativa de unha cola de que a media poboacional "
+"é menor que o valor a probar\n"
+"  - **p**: Valor p correspondente ao estatístico t."
 
 msgid "Successes"
 msgstr "Acertos"
@@ -165,60 +180,56 @@ msgid "Test value"
 msgstr "Probar valor"
 
 msgid "Plotting not possible: Posterior too peaked!"
-msgstr ""
+msgstr "Non é posible facer a gráfica: Posterior con demasiado pico!"
 
-#, fuzzy
 msgid "Population proportion"
-msgstr "Presentar as proporcións"
+msgstr "Proporción de poboación"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
+"Non é posible facer a gráfica: Non pode avaliarse a densidade previa ou "
+"posterior!"
 
 msgid "Plotting not possible: Bayes factor should be numeric!"
-msgstr ""
+msgstr "Non é posible facer a gráfica: O factor de Bayes debe ser numérico!"
 
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "Proporcións probadas fronte ao valor: %s."
 
-#, fuzzy
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "greater than %s."
 msgstr ""
-"Hipótese alternativa dunha cola, de que a media da poboación é maior que o "
-"valor a probar."
+"Para todas as probas, a hipótese alternativa indica que a proporción é maior "
+"que %s."
 
-#, fuzzy
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "less than %s."
 msgstr ""
-"Hipótese alternativa dunha cola, de que a media da poboación é maior que o "
-"valor a probar."
+"Para todas as probas, a hipótese alternativa indica que a proporción é menor "
+"que %s."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
-msgstr ""
+msgstr "Non se pode comprobar a hipótese de que o valor a probar é maior que 1."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
-msgstr ""
+msgstr "Non se pode comprobar a hipótese de que o valor a probar é menor que 1."
 
-#, fuzzy
 msgid "Undefined hypothesis"
-msgstr "Hipótese"
+msgstr "Hipótese indefinida"
 
 msgid "r"
-msgstr ""
+msgstr "r"
 
-#, fuzzy
 msgid "tau"
-msgstr "Eta"
+msgstr "tau"
 
 msgid "rho"
-msgstr ""
+msgstr "rho"
 
-#, fuzzy
 msgid "%s%% Credible interval"
-msgstr "Intervalo de credibilidade"
+msgstr "Intervalo de credibilidade do %s%%"
 
 msgid "Inferential Plots"
 msgstr "Gráficas inferenciais"
@@ -230,7 +241,7 @@ msgid "Number of covariates"
 msgstr "Número de covariantes"
 
 msgid "R%s"
-msgstr ""
+msgstr "R%s"
 
 msgid "Robustness Plot"
 msgstr "Gráfica de robustez"
@@ -239,19 +250,23 @@ msgid "r scale"
 msgstr "escala r"
 
 msgid "r scale used is: %s."
-msgstr ""
+msgstr "a escala r utilizada é: %s."
 
 msgid "n = %i"
-msgstr ""
+msgstr "n = %i"
 
 msgid "Bayesian Linear Regression"
 msgstr "Regresión Baiesiana Linear"
 
 msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
 msgstr ""
+"O número de Covariantes debe ser menor que N-1 (o tamaño mostral menos 1)"
 
 msgid ""
 "Input: When number of covariates for Alternative hypothesis is greater than "
 "that of Null hypothesis, the R%s has to be higher under Alternative than "
 "under Null hypothesis"
 msgstr ""
+"Entrada: Cando o número de covariantes para a hipótese Alternativa é maior "
+"que os da hipótese Nula, o R%s ten que ser maior baixo a hipótese "
+"Alternativa que baixo a Nula"
