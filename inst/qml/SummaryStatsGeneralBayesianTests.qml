@@ -187,6 +187,7 @@ Form
 				{
 					label:				"x₀"
 					name:				"nullParLocation"
+					id:					nullParLocation
 					visible:			nullItem.currentValue === "cauchy"	||
 										nullItem.currentValue === "spike"
 					value:				likelihood.currentValue == "binomial" ?  "0.5" : "0"
@@ -194,6 +195,15 @@ Form
 					fieldWidth: 		40 * preferencesModel.uiScale
 					useExternalBorder:	false
 					showBorder: 		true
+
+					Connections
+					{
+						target: likelihood
+						function onCurrentValueChanged() {
+							nullParLocation.value =	likelihood.currentValue == "binomial" ?  0.5 : 0
+							nullParLocation.editingFinished()
+						}
+					}
 				}
 				FormulaField
 				{
@@ -301,6 +311,15 @@ Form
 					fieldWidth:			40 * preferencesModel.uiScale
 					useExternalBorder:	false
 					showBorder:			true
+
+					Connections
+					{
+						target: likelihood
+						function onCurrentValueChanged() {
+							truncationNullLower.value =	likelihood.currentValue == "binomial" ?  0 : "-Inf"
+							truncationNullLower.editingFinished()
+						}
+					}
 				}
 				FormulaField
 				{
@@ -315,6 +334,15 @@ Form
 					fieldWidth:			40 * preferencesModel.uiScale
 					useExternalBorder:	false
 					showBorder:			true
+
+					Connections
+					{
+						target: likelihood
+						function onCurrentValueChanged() {
+							truncationNullUpper.value =	likelihood.currentValue == "binomial" ?  1 : "Inf"
+							truncationNullUpper.editingFinished()
+						}
+					}
 				}
 			}
 		}
@@ -384,6 +412,7 @@ Form
 					{
 						label:				"x₀"
 						name:				"parLocation"
+						id:					altParLocation
 						visible:			alternativeItem.currentValue === "cauchy"	||
 											alternativeItem.currentValue === "spike"
 						value:				"0"
@@ -391,6 +420,15 @@ Form
 						fieldWidth: 		40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
+
+						Connections
+						{
+							target: likelihood
+							function onCurrentValueChanged() {
+								altParLocation.value =	likelihood.currentValue == "binomial" ?  0.5 : 0
+								altParLocation.editingFinished()
+							}
+						}
 					}
 					FormulaField
 					{
@@ -498,6 +536,15 @@ Form
 						fieldWidth:			40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder:			true
+
+						Connections
+						{
+							target: likelihood
+							function onCurrentValueChanged() {
+								truncationAltLower.value =	likelihood.currentValue == "binomial" ?  0 : "-Inf"
+								truncationAltLower.editingFinished()
+							}
+						}
 					}
 					FormulaField
 					{
@@ -512,6 +559,15 @@ Form
 						fieldWidth:			40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder:			true
+
+						Connections
+						{
+							target: likelihood
+							function onCurrentValueChanged() {
+								truncationAltUpper.value =	likelihood.currentValue == "binomial" ?  1 : "Inf"
+								truncationAltUpper.editingFinished()
+							}
+						}
 					}
 				}
 			}
