@@ -73,4 +73,16 @@ Description
         title:	qsTr("S.S. Bayesian A/B Test")
         func:	"SummaryStatsABTestBayesian"
     }
+
+	GroupTitle
+	{
+		title: qsTr("Miscellaneous")
+		icon: "analysis-bayesian-crosstabs.svg"
+	}
+	Analysis
+    {
+        menu:	qsTr("General Bayesian Tests")
+        title:	qsTr("S.S. General Bayesian Tests")
+        func:	"SummaryStatsGeneralBayesianTests"
+    }
 }

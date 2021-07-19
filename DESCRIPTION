@@ -19,7 +19,8 @@ Imports:
   jaspTTests,
   jaspAnova,
   jaspDescriptives,
-  SuppDists
+  SuppDists,
+  bayesplay
 Remotes:
   AlexanderLyNL/bstats,
   jasp-stats/jaspBase,
