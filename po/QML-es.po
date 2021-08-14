@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-08-08 23:32+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 "X-Language: es\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -127,22 +133,18 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "σ:"
 msgstr "σ:"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Descriptives"
 msgstr "Descriptivos"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Plots"
-msgstr "Parcelas"
+msgstr "Gráficos"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior and posterior"
 msgstr "Previo y posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sequential analysis"
 msgstr "Análisis secuencial"
@@ -152,57 +154,46 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior"
 msgstr "Anterior"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Bayes factor robustness check"
 msgstr "Comprobación de la robustez del factor de Bayes"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Order"
 msgstr "Orden"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Compare to best model"
 msgstr "Comparar con el mejor modelo"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Compare to null model"
 msgstr "Comparar con el modelo nulo"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Advanced Options"
-msgstr "Opciones avanzadas"
+msgstr "Opciones Avanzadas"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior Model Probability"
-msgstr "Probabilidad del modelo anterior"
+msgstr "Probabilidad del Modelo Previo"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio = 0"
-msgstr "Logaritmo de razón de posibilidades = 0"
+msgstr "Logaritmo de razón de probabilidades = 0"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio > 0"
-msgstr "Log odds ratio> 0"
+msgstr "Logaritmo de razón de probabilidades > 0"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio < 0"
-msgstr "Log odds ratio <0"
+msgstr "Logaritmo de razón de probabilidades < 0"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio ≠ 0"
-msgstr "Log odds ratio ≠ 0"
+msgstr "Logaritmo de razón de probabilidades ≠ 0"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sampling"
 msgstr "Muestreo"
@@ -252,40 +243,33 @@ msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Test value"
 msgstr "Valor de prueba"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Alt. Hypothesis"
-msgstr "Alt. Hipótesis"
+msgstr "Hipótesis Alternativa"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "≠ Test value"
 msgstr "≠ Valor de prueba"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "> Test value"
 msgstr "> Valor de prueba"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "< Test value"
-msgstr "<Valor de prueba"
+msgstr "< Valor de prueba"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Plots"
-msgstr "Parcelas"
+msgstr "Gráficos"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior and posterior"
 msgstr "Previo y posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Additional info"
-msgstr "información adicional"
+msgstr "Información adicional"
 
 #, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
@@ -327,47 +311,38 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Spearman's rho"
 msgstr "Rho de Spearman"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Alt. Hypothesis"
-msgstr "Alt. Hipótesis"
+msgstr "Hipótesis Alternativa"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Correlated"
 msgstr "Correlacionado"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Correlated positively"
 msgstr "Correlacionado positivamente"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Correlated negatively"
 msgstr "Correlacionado negativamente"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Credible intervals"
-msgstr "Intervalos creíbles"
+msgstr "Intervalos de credibilidad"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Interval"
 msgstr "Intervalo"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Plots"
-msgstr "Parcelas"
+msgstr "Gráficos"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior and posterior"
 msgstr "Previo y posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Estimation info"
 msgstr "Información de estimación"
@@ -377,15 +352,13 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Testing info"
 msgstr "Información de prueba"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Bayes factor robustness check"
 msgstr "Comprobación de la robustez del factor de Bayes"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Additional info"
-msgstr "información adicional"
+msgstr "Información adicional"
 
 #, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
@@ -422,25 +395,21 @@ msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Alternative Model"
 msgstr "Modelo alternativo"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Plots"
-msgstr "Parcelas"
+msgstr "Gráficos"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Bayes factor robustness check"
 msgstr "Comprobación de la robustez del factor de Bayes"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Additional info"
-msgstr "información adicional"
+msgstr "Información adicional"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Advanced Options"
-msgstr "Opciones avanzadas"
+msgstr "Opciones Avanzadas"
 
 #, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
@@ -467,146 +436,118 @@ msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 2 size"
 msgstr "Tamaño del grupo 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
-msgstr "Alt. Hipótesis"
+msgstr "Hipótesis Alternativa"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 ≠ Group 2"
 msgstr "Grupo 1 ≠ Grupo 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 > Group 2"
-msgstr "Grupo 1> Grupo 2"
+msgstr "Grupo 1 > Grupo 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 < Group 2"
-msgstr "Grupo 1 <Grupo 2"
+msgstr "Grupo 1 < Grupo 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
-msgstr "Parcelas"
+msgstr "Gráficos"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
 msgstr "Previo y posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Additional info"
-msgstr "información adicional"
+msgstr "Información adicional"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Bayes factor robustness check"
 msgstr "Comprobación de la robustez del factor de Bayes"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t"
 msgstr "t"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Group size"
 msgstr "Tamaño del grupo"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
-msgstr "Alt. Hipótesis"
+msgstr "Hipótesis Alternativa"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "≠ Test value"
 msgstr "≠ Valor de prueba"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "> Test value"
 msgstr "> Valor de prueba"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "< Test value"
-msgstr "<Valor de prueba"
+msgstr "< Valor de prueba"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Plots"
-msgstr "Parcelas"
+msgstr "Gráficos"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
 msgstr "Previo y posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Additional info"
-msgstr "información adicional"
+msgstr "Información adicional"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Bayes factor robustness check"
 msgstr "Comprobación de la robustez del factor de Bayes"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
 msgstr "t"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Group size"
 msgstr "Tamaño del grupo"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
-msgstr "Alt. Hipótesis"
+msgstr "Hipótesis Alternativa"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 ≠ Measure 2"
 msgstr "Medida 1 ≠ Medida 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 > Measure 2"
-msgstr "Medida 1> Medida 2"
+msgstr "Medida 1 > Medida 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 < Measure 2"
-msgstr "Medida 1 <Medida 2"
+msgstr "Medida 1 < Medida 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Plots"
-msgstr "Parcelas"
+msgstr "Gráficos"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
 msgstr "Previo y posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Additional info"
-msgstr "información adicional"
+msgstr "Información adicional"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
 msgstr "Comprobación de la robustez del factor de Bayes"
 
 msgctxt "Description|"
 msgid "Apply common Bayesian tests from sufficient statistics"
-msgstr ""
+msgstr "Aplicar el test habitual de Bayes desde estadísticos suficientes"
