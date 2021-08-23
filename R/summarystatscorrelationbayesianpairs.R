@@ -196,7 +196,7 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
     # d. Check if plot is in there ------ 
     # 
     if (is.null(plotResult)) {
-      itemTitle <- jaspRegression::.bfPlotTitles[[item]]
+      itemTitle <- jaspRegression::.bfPlotTitles(item)
       
       jaspPlotResult <- createJaspPlot(title=itemTitle, width=530, height=400)
       jaspPlotResult$dependOn(options = plotItemDependencies[[item]])
