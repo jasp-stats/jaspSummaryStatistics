@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-08-27 11:34+0000\n"
-"Last-Translator: Alex França <alex.tonante@gmail.com>\n"
+"Last-Translator: Laura Durans <lauraadurans@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/pt/>\n"
 "Language: pt\n"
@@ -51,7 +51,7 @@ msgstr "Regressão"
 
 msgctxt "Description|"
 msgid "Bayesian Correlation"
-msgstr ""
+msgstr "Correlação bayesiana"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
@@ -59,7 +59,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
-msgstr ""
+msgstr "Regressão linear bayesiana"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
