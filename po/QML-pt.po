@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-08-27 11:34+0000\n"
+"Last-Translator: Laura Durans <lauraadurans@gmail.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/pt/>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 "X-Language: pt\n"
 "X-Qt-Contexts: true\n"
 
@@ -25,7 +31,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Teste-t de amostras pareadas bayesianas"
+msgstr "Teste-t de amostras pareadas Bayesianas"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
@@ -41,11 +47,11 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Regression"
-msgstr ""
+msgstr "Regressão"
 
 msgctxt "Description|"
 msgid "Bayesian Correlation"
-msgstr ""
+msgstr "Correlação bayesiana"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
@@ -53,18 +59,16 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
-msgstr ""
+msgstr "Regressão linear bayesiana"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
 msgstr ""
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Frequencies"
 msgstr "Frequências"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian Binomial Test"
 msgstr "Teste binomial bayesiano"
@@ -75,7 +79,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
-msgstr ""
+msgstr "Teste Bayesian A/B"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian A/B Test"
