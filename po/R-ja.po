@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.0.0\n"
 "POT-Creation-Date: 2021-01-05 09:38\n"
-"PO-Revision-Date: 2021-08-25 17:35+0000\n"
+"PO-Revision-Date: 2021-09-03 04:34+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/ja/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Weblate 4.8.1-dev\n"
 
 msgid "BF%s"
-msgstr ""
+msgstr "BF%s"
 
 msgid "Log(BF%s)"
 msgstr ""
@@ -23,7 +23,7 @@ msgid "t"
 msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "ベイジアン独立サンプルのt検定"
 
 msgid "n%s"
 msgstr ""
@@ -47,7 +47,7 @@ msgid "Plotting not possible: %s"
 msgstr "プロットできません：％s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr ""
+msgstr "ベイズファクターの頑健性チェック"
 
 msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
 msgstr ""
@@ -56,22 +56,22 @@ msgid "Bayes factors could not be computed for 100 values of the prior."
 msgstr ""
 
 msgid "max BF%s"
-msgstr ""
+msgstr "最大 BF%s"
 
 msgid "user prior"
-msgstr ""
+msgstr "ユーザー事前分布"
 
 msgid "wide prior"
-msgstr ""
+msgstr "広い事前分布"
 
 msgid "ultrawide prior"
-msgstr ""
+msgstr "とても広い事前分布"
 
 msgid "%s at r==%s"
-msgstr ""
+msgstr "%s at r==%s"
 
 msgid "Cauchy prior width"
-msgstr ""
+msgstr "コーシー事前分布の幅"
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
 msgstr ""
@@ -146,19 +146,19 @@ msgid "Undefined hypothesis"
 msgstr ""
 
 msgid "r"
-msgstr ""
+msgstr "r"
 
 msgid "tau"
-msgstr ""
+msgstr "タウ"
 
 msgid "rho"
-msgstr ""
+msgstr "ロー"
 
 msgid "%s%% Credible interval"
 msgstr ""
 
 msgid "Inferential Plots"
-msgstr ""
+msgstr "推論プロット"
 
 msgid "Model Comparison"
 msgstr "モデル比較"
@@ -167,7 +167,7 @@ msgid "Number of covariates"
 msgstr ""
 
 msgid "R%s"
-msgstr ""
+msgstr "R%s"
 
 msgid "Robustness Plot"
 msgstr ""
