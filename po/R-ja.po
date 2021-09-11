@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.0.0\n"
 "POT-Creation-Date: 2021-01-05 09:38\n"
 "PO-Revision-Date: 2021-09-11 22:43+0000\n"
-"Last-Translator: Yoshihiko Kunisato <ykunisato@psy.senshu-u.ac.jp>\n"
+"Last-Translator: Koji Kosugi <kosugitti@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/ja/>\n"
 "Language: ja\n"
@@ -101,7 +101,7 @@ msgid "Not enough observations."
 msgstr ""
 
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "ベイジアンニ項検定"
 
 msgid "- *Bayes factor*: If one-sided test is requested:\n  - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value\n  - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value\n- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value\n- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value\n  - **p**: p-value corresponding to t-statistic."
 msgstr ""
@@ -119,7 +119,7 @@ msgid "Plotting not possible: Posterior too peaked!"
 msgstr ""
 
 msgid "Population proportion"
-msgstr ""
+msgstr "母比率"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
@@ -128,22 +128,22 @@ msgid "Plotting not possible: Bayes factor should be numeric!"
 msgstr ""
 
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "値 %sに対する比率検定"
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
-msgstr ""
+msgstr "すべての検定において、対立仮説は比率が %s より大きいとしています。"
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is less than %s."
-msgstr ""
+msgstr "すべての検定において、対立仮説は比率が %s 未満であるとしています。"
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
-msgstr ""
+msgstr "検定値が1より大きいという仮説を検定することはできません。"
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
-msgstr ""
+msgstr "検定値が 0 未満であるという仮説を検定することはできません。"
 
 msgid "Undefined hypothesis"
-msgstr ""
+msgstr "未定義の仮説"
 
 msgid "r"
 msgstr "r"
