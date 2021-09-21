@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.0.0\n"
 "POT-Creation-Date: 2021-01-05 09:38\n"
-"PO-Revision-Date: 2021-09-13 08:26+0000\n"
+"PO-Revision-Date: 2021-09-22 00:40+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/ja/>\n"
@@ -50,10 +50,10 @@ msgid "Bayes Factor Robustness Check"
 msgstr "ベイズファクターの頑健性チェック"
 
 msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
-msgstr ""
+msgstr "プロットができません: ベイズファクター頑健性チェックのプロットは、現在、情報のある事前分布ではサポートされていません."
 
 msgid "Bayes factors could not be computed for 100 values of the prior."
-msgstr ""
+msgstr "ベイズファクターは、事前分布の100の値に対して計算することができませんでした."
 
 msgid "max BF%s"
 msgstr "最大 BF%s"
@@ -74,61 +74,67 @@ msgid "Cauchy prior width"
 msgstr "コーシー事前分布の幅"
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
-msgstr ""
+msgstr "すべての検定において、対立仮説は「グループ 1 がグループ 2 よりも大きい」としています."
 
 msgid "For all tests, the alternative hypothesis specifies that the mean is greater than 0."
-msgstr ""
+msgstr "すべての検定において、対立仮説は「平均値が0より大きい」としています."
 
 msgid "For all tests, the alternative hypothesis specifies that measure 1 is greater than measure 2."
-msgstr ""
+msgstr "すべての検定において、対立仮説は「測定値 1 が測定値 2 よりも大きい」としています."
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is less than group 2."
-msgstr ""
+msgstr "すべての検定において、対立仮説は「グループ1がグループ2よりも小さい」としています."
 
 msgid "For all tests, the alternative hypothesis specifies that the mean is less than 0."
-msgstr ""
+msgstr "すべての検定において、対立仮説は「平均値が0より小さい」としています."
 
 msgid "For all tests, the alternative hypothesis specifies that measure 1 is less than measure 2."
-msgstr ""
+msgstr "すべての検定において、対立仮説は、測定値 1 が測定値 2 よりも小さいとしています."
 
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "ベイジアン1標本t検定"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "ベイジアン対応のあるサンプルのt検定"
 
 msgid "Not enough observations."
-msgstr ""
+msgstr "十分な観測値がありません."
 
 msgid "Bayesian Binomial Test"
 msgstr "ベイジアンニ項検定"
 
 msgid "- *Bayes factor*: If one-sided test is requested:\n  - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value\n  - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value\n- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value\n- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value\n  - **p**: p-value corresponding to t-statistic."
 msgstr ""
+"- *ベイズファクター*。片側検定を希望する場合\n"
+"  - BF+0：母平均が検定統計量よりも大きいという一方的な対立仮説の証拠を定量化するベイズファクター\n"
+"  - BF-0：母平均が検定統計量よりも小さいという一方的な対立仮説の証拠を定量化するベイズファクター\n"
+"- BF0+：母平均が検定統計量よりも大きいという一方的な対立仮説に対する帰無仮説の証拠を定量化するベイズファクター\n"
+"- BF0-：母平均が検検定統計量よりも小さいという一方的な対立仮説に対する帰無仮説の証拠を定量化するベイズファクター\n"
+"  - **p**：t-統計量に対応するp-値."
 
 msgid "Successes"
-msgstr ""
+msgstr "成功数"
 
 msgid "Failures"
-msgstr ""
+msgstr "失敗数"
 
 msgid "Test value"
-msgstr ""
+msgstr "検定統計量"
 
 msgid "Plotting not possible: Posterior too peaked!"
-msgstr ""
+msgstr "プロットできません: 事後分布がピークに達しすぎています!"
 
 msgid "Population proportion"
 msgstr "母比率"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
-msgstr ""
+msgstr "プロットができません: 事前または事後確率密度を評価することができません!"
 
 msgid "Plotting not possible: Bayes factor should be numeric!"
-msgstr ""
+msgstr "プロットができません: ベイズファクターは数値である必要があります!"
 
 msgid "Proportions tested against value: %s."
-msgstr "値 %sに対する比率検定"
+msgstr "次の値に対する比率検定: %s."
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
 msgstr "すべての検定において、対立仮説は比率が %s より大きいとしています。"
@@ -137,10 +143,10 @@ msgid "For all tests, the alternative hypothesis specifies that the proportion i
 msgstr "すべての検定において、対立仮説は比率が %s 未満であるとしています。"
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
-msgstr "検定値が1より大きいという仮説を検定することはできません。"
+msgstr "検定統計量が1より大きいという仮説を検定することはできません。"
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
-msgstr "検定値が 0 未満であるという仮説を検定することはできません。"
+msgstr "検定統計量が 0 未満であるという仮説を検定することはできません。"
 
 msgid "Undefined hypothesis"
 msgstr "未定義の仮説"
@@ -155,7 +161,7 @@ msgid "rho"
 msgstr "ロー"
 
 msgid "%s%% Credible interval"
-msgstr ""
+msgstr "%s%% 信用区間"
 
 msgid "Inferential Plots"
 msgstr "推論プロット"
@@ -164,28 +170,28 @@ msgid "Model Comparison"
 msgstr "モデル比較"
 
 msgid "Number of covariates"
-msgstr ""
+msgstr "共変量の数"
 
 msgid "R%s"
 msgstr "R%s"
 
 msgid "Robustness Plot"
-msgstr ""
+msgstr "頑健性プロット"
 
 msgid "r scale"
-msgstr ""
+msgstr "rスケール"
 
 msgid "r scale used is: %s."
-msgstr ""
+msgstr "使用されているr scale: %s."
 
 msgid "n = %i"
-msgstr ""
+msgstr "n = %i"
 
 msgid "Bayesian Linear Regression"
-msgstr ""
+msgstr "ベイジアン線形回帰"
 
 msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
-msgstr ""
+msgstr "共変量の数がN-1（サンプルサイズから1を引いた値）以下である必要があります"
 
 msgid "Input: When number of covariates for Alternative hypothesis is greater than that of Null hypothesis, the R%s has to be higher under Alternative than under Null hypothesis"
-msgstr ""
+msgstr "入力: 対立仮説の共変量の数が帰無仮説の数より大きい場合、R%sは帰無仮説下よりも、対立仮説下で高くする必要があります"
