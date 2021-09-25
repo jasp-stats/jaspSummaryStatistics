@@ -12,7 +12,7 @@ The input data needs to contain the following elements:
 
 - Likelihood specifying the distribution of the data
   - Normal with mean and standard deviation
-  - Student-t with mean, standard deviation, and degrees of freedom
+  - Student-t with location, scale, and degrees of freedom
   - Binomial with number of successes and total number of observations
   - Non-central d with effect size and sample size
   - Non-central t with t-statistics and degrees of freedom
@@ -31,7 +31,7 @@ The specification of posibly multiple alternative hypotheses for the parameter.
   - Prior predictions: Plot prior predictive distributions.
   - Likelihood: Plot data likelihood.
   - Posteriors: Plot parameter posterior distributions.
-    - Priors: Add prior distribution to the posterior distribution plots. 
+  - Priors: Add prior distribution to the posterior distribution plots. 
 
 
 #### Bayes Factor
