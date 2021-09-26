@@ -273,7 +273,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
     return()
 
   likelihoodPlotObject <- plot(likelihood)
-  likelihoodPlotObject <- jaspGraphs::themeJasp(likelihoodPlotObject)
+  likelihoodPlotObject <- likelihoodPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
   likelihoodPlotObject <- .bayesianTestsFixPlotAxis(likelihoodPlotObject, options[["likelihood"]])
   likelihoodPlotObject <- .bayesianTestsFixPlotLabels(likelihoodPlotObject, "likelihood")
 
@@ -304,7 +304,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
     return()
 
   priorNullPlotObject <- plot(priors[["null"]])
-  priorNullPlotObject <- jaspGraphs::themeJasp(priorNullPlotObject)
+  priorNullPlotObject <- priorNullPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
   priorNullPlotObject <- .bayesianTestsFixPlotAxis(priorNullPlotObject, options[["likelihood"]])
   priorNullPlotObject <- .bayesianTestsFixPlotLabels(priorNullPlotObject, "priors")
 
@@ -320,7 +320,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
     priorsAltPlots[[paste0("priorAltPlot", i)]] <- tempPriorAltPlot
 
     tempPriorAltPlotObject <- plot(priors[["alt"]][[i]])
-    tempPriorAltPlotObject <- jaspGraphs::themeJasp(tempPriorAltPlotObject)
+    tempPriorAltPlotObject <- tempPriorAltPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
     tempPriorAltPlotObject <- .bayesianTestsFixPlotAxis(tempPriorAltPlotObject, options[["likelihood"]])
     tempPriorAltPlotObject <- .bayesianTestsFixPlotLabels(tempPriorAltPlotObject, "priors")
 
@@ -354,7 +354,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
   # deal with wrong plots for point hypothesis
   priorNullPlotObject <- .bayesianTestsMakePosteriorsPlot(likelihood, priors[["null"]], options)
-  priorNullPlotObject <- jaspGraphs::themeJasp(priorNullPlotObject, legend.position = if (options[["plotPosteriorsPriors"]]) "right")
+  priorNullPlotObject <- priorNullPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw(legend.position = if (options[["plotPosteriorsPriors"]]) "right")
   priorNullPlotObject <- .bayesianTestsFixPlotAxis(priorNullPlotObject, options[["likelihood"]])
   priorNullPlotObject <- .bayesianTestsFixPlotLabels(priorNullPlotObject, "posteriors")
 
@@ -371,7 +371,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
     posteriorsAltPlots[[paste0("priorAltPlot", i)]] <- tempPosteriorAltPlot
 
     tempPosteriorAltPlotObject <- .bayesianTestsMakePosteriorsPlot(likelihood, priors[["alt"]][[i]], options)
-    tempPosteriorAltPlotObject <- jaspGraphs::themeJasp(tempPosteriorAltPlotObject, legend.position = if (options[["plotPosteriorsPriors"]]) "right")
+    tempPosteriorAltPlotObject <- tempPosteriorAltPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw(legend.position = if (options[["plotPosteriorsPriors"]]) "right")
     tempPosteriorAltPlotObject <- .bayesianTestsFixPlotAxis(tempPosteriorAltPlotObject, options[["likelihood"]])
     tempPosteriorAltPlotObject <- .bayesianTestsFixPlotLabels(tempPosteriorAltPlotObject, "posteriors")
 
@@ -403,7 +403,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
     return()
 
   predictionsNullPlotObject <- plot(bayesplay::extract_predictions(priors[["null"]] * likelihood))
-  predictionsNullPlotObject <- jaspGraphs::themeJasp(predictionsNullPlotObject)
+  predictionsNullPlotObject <- predictionsNullPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
   predictionsNullPlotObject <- .bayesianTestsFixPlotAxis(predictionsNullPlotObject, options[["likelihood"]])
 
   predictionsNullPlot[["plotObject"]] <- predictionsNullPlotObject
@@ -418,7 +418,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
     predictionsAltPlots[[paste0("predictionsAltPlot", i)]] <- tempPredictionsAltPlot
 
     tempPredictionsAltPlotObject <- plot(bayesplay::extract_predictions(priors[["alt"]][[i]] * likelihood))
-    tempPredictionsAltPlotObject <- jaspGraphs::themeJasp(tempPredictionsAltPlotObject)
+    tempPredictionsAltPlotObject <- tempPredictionsAltPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
     tempPredictionsAltPlotObject <- .bayesianTestsFixPlotAxis(tempPredictionsAltPlotObject, options[["likelihood"]])
 
     tempPredictionsAltPlot[["plotObject"]] <- tempPredictionsAltPlotObject
