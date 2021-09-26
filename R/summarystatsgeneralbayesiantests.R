@@ -181,20 +181,20 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
   priorText <- switch(
     attr(prior, "priorType"),
-    "normal"  = paste0("Normal(", prior@data$parameters[1, "mean"], ", ", prior@data$parameters[1, "sd"], ")"),
-    "t"       = paste0("Student-t(", prior@data$parameters[1, "mean"], ", ", prior@data$parameters[1, "sd"], ", ", prior@data$parameters[1, "df"], ")"),
-    "cauchy"  = paste0("Cauchy(", prior@data$parameters[1, "location"], ", ", prior@data$parameters[1, "scale"], ")"),
-    "beta"    = paste0("Beta(", prior@data$parameters[1, "alpha"], ", ", prior@data$parameters[1, "beta"], ")"),
-    "uniform" = paste0("Uniform(", prior@data$parameters[1, "min"], ", ", prior@data$parameters[1, "max"], ")"),
-    "spike"   = paste0("Spike(", prior@data$parameters[1, "point"], ")")
+    "normal"  = gettextf("Normal(%1$s, %2$s)", prior$parameters[["mean"]], prior$parameters[["sd"]]),
+    "t"       = gettextf("Student-t(%1$s, %2$s, %3$s)", prior$parameters[["mean"]], prior$parameters[["sd"]], prior$parameters[["df"]]),
+    "cauchy"  = gettextf("Cauchy(%1$s, %2$s)", prior$parameters[["location"]], prior$parameters[["scale"]]),
+    "beta"    = gettextf("Beta(%1$s, %2$s)", prior$parameters[["alpha"]], prior$parameters[["beta"]]),
+    "uniform" = gettextf("Uniform(%1$s, %2$s)", prior$parameters[["min"]], prior$parameters[["max"]]),
+    "spike"   = gettextf("Spike(%1$s)", prior$parameters[["point"]])
   )
 
   # add truncation if not default
-  if (attr(prior, "priorType") == "beta" && (prior@data$parameters[1, "range"] != 0 || prior@data$parameters[2, "range"] != 1))
-    priorText <- paste0(priorText, "[", prior@data$parameters[1, "range"], ",", prior@data$parameters[2, "range"] ,"]")
+  if (attr(prior, "priorType") == "beta" && (prior$parameters[["range"]][1] != 0 || prior$parameters[["range"]][2] != 1))
+    priorText <- paste0(priorText, "[", prior$parameters[["range"]][1], ",", prior$parameters[["range"]][2] ,"]")
 
-  if (attr(prior, "priorType") %in% c("normal", "t", "cauchy") && (!is.infinite(prior@data$parameters[1, "range"]) || !is.infinite(prior@data$parameters[2, "range"])))
-    priorText <- paste0(priorText, "[", prior@data$parameters[1, "range"], ",", prior@data$parameters[2, "range"] ,"]")
+  if (attr(prior, "priorType") %in% c("normal", "t", "cauchy") && (!is.infinite(prior$parameters[["range"]][1]) || !is.infinite(prior$parameters[["range"]][2])))
+    priorText <- paste0(priorText, "[", prior$parameters[["range"]][1], ",", prior$parameters[["range"]][2] ,"]")
 
 
   return(priorText)
