@@ -272,7 +272,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
   if (is.null(likelihood))
     return()
 
-  likelihoodPlotObject <- plot(likelihood)
+  likelihoodPlotObject <- .bayesianTestsMakeLikelihoodPlot(likelihood)
   likelihoodPlotObject <- likelihoodPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
   likelihoodPlotObject <- .bayesianTestsFixPlotAxis(likelihoodPlotObject, options[["likelihood"]])
   likelihoodPlotObject <- .bayesianTestsFixPlotLabels(likelihoodPlotObject, "likelihood")
@@ -303,7 +303,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
   if (is.null(priors[["null"]]))
     return()
 
-  priorNullPlotObject <- plot(priors[["null"]])
+  priorNullPlotObject <- .bayesianTestsMakePriorPlot(priors[["null"]])
   priorNullPlotObject <- priorNullPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
   priorNullPlotObject <- .bayesianTestsFixPlotAxis(priorNullPlotObject, options[["likelihood"]])
   priorNullPlotObject <- .bayesianTestsFixPlotLabels(priorNullPlotObject, "priors")
@@ -319,7 +319,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
     tempPriorAltPlot <- createJaspPlot(title = .bayesianTestsPriorName(priors[["alt"]][[i]]), width = 450, height = 300)
     priorsAltPlots[[paste0("priorAltPlot", i)]] <- tempPriorAltPlot
 
-    tempPriorAltPlotObject <- plot(priors[["alt"]][[i]])
+    tempPriorAltPlotObject <- .bayesianTestsMakePriorPlot(priors[["alt"]][[i]])
     tempPriorAltPlotObject <- tempPriorAltPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
     tempPriorAltPlotObject <- .bayesianTestsFixPlotAxis(tempPriorAltPlotObject, options[["likelihood"]])
     tempPriorAltPlotObject <- .bayesianTestsFixPlotLabels(tempPriorAltPlotObject, "priors")
@@ -402,7 +402,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
   if (is.null(priors[["null"]]) || is.null(likelihood))
     return()
 
-  predictionsNullPlotObject <- plot(bayesplay::extract_predictions(priors[["null"]] * likelihood))
+  predictionsNullPlotObject <- .bayesianTestsMakePredictionPlot(likelihood, priors[["null"]])
   predictionsNullPlotObject <- predictionsNullPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
   predictionsNullPlotObject <- .bayesianTestsFixPlotAxis(predictionsNullPlotObject, options[["likelihood"]])
 
@@ -417,7 +417,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
     tempPredictionsAltPlot <- createJaspPlot(title = .bayesianTestsPriorName(priors[["alt"]][[i]]), width = 450, height = 300)
     predictionsAltPlots[[paste0("predictionsAltPlot", i)]] <- tempPredictionsAltPlot
 
-    tempPredictionsAltPlotObject <- plot(bayesplay::extract_predictions(priors[["alt"]][[i]] * likelihood))
+    tempPredictionsAltPlotObject <- .bayesianTestsMakePredictionPlot(likelihood, priors[["alt"]][[i]])
     tempPredictionsAltPlotObject <- tempPredictionsAltPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
     tempPredictionsAltPlotObject <- .bayesianTestsFixPlotAxis(tempPredictionsAltPlotObject, options[["likelihood"]])
 
@@ -454,33 +454,197 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
   return(p)
 }
+.bayesianTestsMakePriorPlot      <- function(prior) {
+
+  # adapted from bayesplay:::plot.prior
+  if (prior$family == "point")
+    tempPlot <- ggplot2::ggplot() +
+      ggplot2::geom_point(
+        mapping = ggplot2::aes(
+          x    = prior$parameters[["point"]],
+          y    = 1
+        ),
+        size  = 4,
+        shape = 16) +
+      ggplot2::geom_linerange(
+        mapping = ggplot2::aes(
+          x    = prior$parameters[["point"]],
+          y    = NULL,
+          ymin = 0,
+          ymax = 1),
+        size = 1.5) +
+      ggplot2::xlim(prior@plot$range) +
+      ggplot2::expand_limits(y = 0) +
+      ggplot2::ylab(gettext(gettext("Probability")))
+  else
+    tempPlot <- ggplot2::ggplot() +
+      ggplot2::geom_function(
+        fun       = Vectorize(prior@func),
+        color     = "black",
+        size      = 1.5,
+        linetype  = 1) +
+      ggplot2::xlim(prior@plot$range) +
+      ggplot2::expand_limits(y = 0) +
+      ggplot2::ylab(gettext(gettext("Density")))
+
+  return(tempPlot)
+}
+.bayesianTestsMakeLikelihoodPlot <- function(likelihood) {
+
+  tempPlot <- .bayesianTestsMakePriorPlot(likelihood) +
+    ggplot2::ylab("P(Outcome)")
+
+  return(tempPlot)
+}
+.bayesianTestsMakePredictionPlot <- function(likelihood, prior) {
+
+  x <- bayesplay::extract_predictions(prior * likelihood)
+
+  # based on: bayesplay:::handle_binomial_marginal and bayesplay:::handle_other_marginal
+  n          <- 101
+  model_name <- "model"
+
+  likelihood_obj    <- x@likelihood_obj
+  likelihood_family <- likelihood_obj$family
+
+  if (likelihood_family == "binomial") {
+
+    model_func     <- x$prediction_function
+    plot_range     <- c(0, bayesplay:::get_binomial_trials(x))
+    observation    <- x@likelihood_obj@observation
+    observation_df <- data.frame(
+      observation = observation,
+      auc         = model_func(observation),
+      color       = model_name,
+      linetype    = model_name
+    )
+    observation_range <- seq(plot_range[1], plot_range[2], 1)
+    counterfactual    <- data.frame(
+      observation = observation_range,
+      auc = unlist(lapply(observation_range, FUN = model_func))
+    )
+
+    tempPlot <- ggplot2::ggplot() +
+      ggplot2::geom_line(
+        data    = counterfactual,
+        mapping = ggplot2::aes(
+          x      = observation,
+          y      = auc,
+          colour = model_name),
+        size    = 1.5) +
+      ggplot2::geom_point(
+        data    = counterfactual,
+        mapping = ggplot2::aes(
+          x      = observation,
+          y      = auc,
+          colour = model_name),
+        size    = 4,
+        shape   = 21,
+        fill    = "white") +
+      ggplot2::geom_point(
+        data    = observation_df,
+        mapping = ggplot2::aes(
+          x      = observation,
+          y      = auc,
+          colour = model_name),
+        size    = 4,
+        shape   = 16) +
+      ggplot2::labs(x = "Outcome", y = "Marginal probability") +
+      ggplot2::scale_color_manual(values = "black",name = NULL, labels = NULL, guide = "none") +
+      ggplot2::scale_linetype_manual(values = 1, name = NULL, labels = NULL, guide = "none") +
+      ggplot2::scale_x_continuous(limits = plot_range, breaks = integer_breaks())
+
+  }else{
+
+    model_func     <- x$prediction_function
+    plot_range     <- bayesplay:::get_max_range(x)
+    observation    <- x@likelihood_obj@observation
+    x              <- observation
+    y              <- model_func(observation)
+    color          <- model_name
+    linetype       <- model_name
+    observation_df <- data.frame(
+      x        = x,
+      y        = y,
+      color    = color,
+      linetype = linetype)
+
+    tempPlot <- ggplot2::ggplot() +
+      ggplot2::geom_function(
+        fun = model_func,
+        mapping    = ggplot2::aes(
+          colour   = model_name,
+          linetype = model_name),
+        size = 1.5) +
+      ggplot2::geom_point(
+        data    = observation_df,
+        mapping = ggplot2::aes(
+          x      = x,
+          y      = y,
+          colour = model_name),
+        size    = 4,
+        shape   = 16) +
+      ggplot2::labs(x = "Outcome", y = "Marginal probability") +
+      ggplot2::scale_color_manual(values = "black", name = NULL, labels = NULL, guide = "none") +
+      ggplot2::scale_linetype_manual(values = 1,name = NULL, labels = NULL, guide = "none") +
+      ggplot2::scale_x_continuous(limits = plot_range)
+  }
+
+  return(tempPlot)
+}
 .bayesianTestsMakePosteriorsPlot <- function(likelihood, prior, options) {
 
-  # deal with incorrect posterior plot for point prior distributions
-  if (attr(prior, "priorType") == "spike") {
-    tempPlot <- plot(prior) + ggplot2::ylab("Density")
-  } else if (!options[["plotPosteriorsPriors"]]) {
-    tempPlot <- plot(bayesplay::extract_posterior(likelihood * prior))
-  } else {
-    tempPosterior <- bayesplay::extract_posterior(likelihood * prior)
-    # adapted from bayesplay:::plot_pp
+  tempPosterior <- bayesplay::extract_posterior(likelihood * prior)
+
+  # adapted from bayesplay:::plot_pp
+  if (prior$family == "point")
+
+    tempPlot <- ggplot2::ggplot() +
+      ggplot2::geom_point(
+        mapping = ggplot2::aes(
+          x    = prior$parameters[["point"]],
+          y    = 1),
+        size  = 4,
+        shape = 16) +
+      ggplot2::geom_linerange(
+        mapping = ggplot2::aes(
+          x    = prior$parameters[["point"]],
+          y    = NULL,
+          ymin = 0,
+          ymax = 1),
+        size = 1.5) +
+      ggplot2::xlim(tempPosterior@prior_obj@plot$range) +
+      ggplot2::expand_limits(y = 0) +
+      ggplot2::ylab(gettext(gettext("Probability")))
+  else if (!(options[["plotPosteriorsPriors"]]))
+    tempPlot <- ggplot2::ggplot() +
+      ggplot2::geom_function(
+        fun       = Vectorize(tempPosterior$posterior_function),
+        color     = "black",
+        size      = 1.5,
+        linetype  = 1) +
+      ggplot2::xlim(tempPosterior@prior_obj@plot$range) +
+      ggplot2::expand_limits(y = 0) +
+      ggplot2::ylab(gettext(gettext("Density")))
+  else
     tempPlot <- ggplot2::ggplot() +
       ggplot2::geom_function(
         fun       = Vectorize(tempPosterior$posterior_function),
         mapping   = ggplot2::aes(color = "black"),
+        size      = 1.5,
         linetype  = 1) +
       ggplot2::geom_function(
         fun       = Vectorize(tempPosterior@prior_obj@func),
         mapping   = ggplot2::aes(color = "grey"),
+        size      = 1.5,
         linetype  = 2) +
-      ggplot2::xlim(tempPosterior@prior_obj@plot$range) +
       ggplot2::scale_colour_manual(
         values = c("black", "grey"),
-        labels = c("posterior", "prior"),
+        labels = c("Posterior", "Prior"),
         name   = NULL) +
-      ggplot2::expand_limits(y = 0)
-  }
-
+      ggplot2::xlim(tempPosterior@prior_obj@plot$range) +
+      ggplot2::expand_limits(y = 0) +
+      ggplot2::ylab(gettext(gettext("Density")))
 
   return(tempPlot)
 }
