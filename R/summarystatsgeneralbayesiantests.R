@@ -235,6 +235,9 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
     .bayesianTestsPriorName(priors[["null"]])
   ))
 
+  if (options[["likelihood"]] == "normal")
+    summaryTable$addFootnote(gettext("The variance parameter of the normal distribution is assumed to be known."))
+
   if (is.null(priors[["alt"]]))
     return()
 
