@@ -83,7 +83,7 @@ Form
 			FormulaField
 			{
 				name:			"dataSd"
-				label:			qsTr("SD")
+				label:			qsTr("SE")
 				visible:		likelihood.value == "normal" || likelihood.value == "t"
 				value:			"1"
 				min:			0
