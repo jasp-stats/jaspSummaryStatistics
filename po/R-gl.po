@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-05-06 14:55\n"
+"POT-Creation-Date: 2021-10-02 02:35\n"
 "PO-Revision-Date: 2021-08-25 17:35+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
@@ -209,10 +209,12 @@ msgstr ""
 "que %s."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
-msgstr "Non se pode comprobar a hipótese de que o valor a probar é maior que 1."
+msgstr ""
+"Non se pode comprobar a hipótese de que o valor a probar é maior que 1."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
-msgstr "Non se pode comprobar a hipótese de que o valor a probar é menor que 1."
+msgstr ""
+"Non se pode comprobar a hipótese de que o valor a probar é menor que 1."
 
 msgid "Undefined hypothesis"
 msgstr "Hipótese indefinida"
@@ -231,6 +233,44 @@ msgstr "Intervalo de credibilidade do %s%%"
 
 msgid "Inferential Plots"
 msgstr "Gráficas inferenciais"
+
+msgid "Normal(%1$s, %2$s)"
+msgstr ""
+
+msgid "Student-t(%1$s, %2$s, %3$s)"
+msgstr ""
+
+msgid "Cauchy(%1$s, %2$s)"
+msgstr ""
+
+msgid "Beta(%1$s, %2$s)"
+msgstr ""
+
+msgid "Uniform(%1$s, %2$s)"
+msgstr ""
+
+msgid "Spike(%1$s)"
+msgstr ""
+
+#, fuzzy
+msgid "Model Summary"
+msgstr "Cotexo de modelos"
+
+msgid "Prior"
+msgstr ""
+
+msgid "Compared to %1$s."
+msgstr ""
+
+msgid ""
+"The variance parameter of the normal distribution is assumed to be known."
+msgstr ""
+
+msgid "Probability"
+msgstr ""
+
+msgid "Density"
+msgstr ""
 
 msgid "Model Comparison"
 msgstr "Cotexo de modelos"

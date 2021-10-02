@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2021-01-05 09:38\n"
+"POT-Creation-Date: 2021-10-02 02:35\n"
 "PO-Revision-Date: 2021-01-17 19:32+0000\n"
 "Last-Translator: Thomas Langkamp <thomas.lassdiesonnerein@gmx.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
@@ -224,6 +224,44 @@ msgstr "%s%% Glaubwürdigkeitsintervall"
 
 msgid "Inferential Plots"
 msgstr "Inferenz-Abbildungen"
+
+msgid "Normal(%1$s, %2$s)"
+msgstr ""
+
+msgid "Student-t(%1$s, %2$s, %3$s)"
+msgstr ""
+
+msgid "Cauchy(%1$s, %2$s)"
+msgstr ""
+
+msgid "Beta(%1$s, %2$s)"
+msgstr ""
+
+msgid "Uniform(%1$s, %2$s)"
+msgstr ""
+
+msgid "Spike(%1$s)"
+msgstr ""
+
+#, fuzzy
+msgid "Model Summary"
+msgstr "Modellvergleich"
+
+msgid "Prior"
+msgstr ""
+
+msgid "Compared to %1$s."
+msgstr ""
+
+msgid ""
+"The variance parameter of the normal distribution is assumed to be known."
+msgstr ""
+
+msgid "Probability"
+msgstr ""
+
+msgid "Density"
+msgstr ""
 
 msgid "Model Comparison"
 msgstr "Modellvergleich"

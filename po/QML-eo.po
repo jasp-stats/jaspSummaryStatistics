@@ -492,3 +492,139 @@ msgstr ""
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
 msgstr ""
+
+msgctxt "Description|"
+msgid "Miscellaneous"
+msgstr ""
+
+msgctxt "Description|"
+msgid "General Bayesian Tests"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. General Bayesian Tests"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Likelihood"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Normal"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Student-t"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Binomial"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Non-central d"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Non-central t"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Data:"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Mean"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "t-statistic"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "d"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "SE"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Df"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Successes"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Observations"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Null Hypothesis"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Distribution"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Parameters"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Truncation"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Spike(x₀)"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Normal(μ,σ)"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Student-t(μ,σ,v)"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Cauchy(x₀,θ)"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Beta(α,β)"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Uniform(a,b)"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "lower"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "upper"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Alternative Hypothesis"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Priors"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Prior predictions"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Posteriors"
+msgstr ""

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
-"POT-Creation-Date: 2021-05-06 14:55\n"
+"POT-Creation-Date: 2021-10-02 02:35\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,6 +155,42 @@ msgid "%s%% Credible interval"
 msgstr ""
 
 msgid "Inferential Plots"
+msgstr ""
+
+msgid "Normal(%1$s, %2$s)"
+msgstr ""
+
+msgid "Student-t(%1$s, %2$s, %3$s)"
+msgstr ""
+
+msgid "Cauchy(%1$s, %2$s)"
+msgstr ""
+
+msgid "Beta(%1$s, %2$s)"
+msgstr ""
+
+msgid "Uniform(%1$s, %2$s)"
+msgstr ""
+
+msgid "Spike(%1$s)"
+msgstr ""
+
+msgid "Model Summary"
+msgstr ""
+
+msgid "Prior"
+msgstr ""
+
+msgid "Compared to %1$s."
+msgstr ""
+
+msgid "The variance parameter of the normal distribution is assumed to be known."
+msgstr ""
+
+msgid "Probability"
+msgstr ""
+
+msgid "Density"
 msgstr ""
 
 msgid "Model Comparison"
