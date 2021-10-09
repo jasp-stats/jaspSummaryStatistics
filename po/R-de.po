@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2021-10-02 02:35\n"
-"PO-Revision-Date: 2021-01-17 19:32+0000\n"
-"Last-Translator: Thomas Langkamp <thomas.lassdiesonnerein@gmx.de>\n"
+"PO-Revision-Date: 2021-10-03 14:07+0000\n"
+"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/de/>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==0 ? 0 : n==1 ? 0 : 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -226,42 +226,41 @@ msgid "Inferential Plots"
 msgstr "Inferenz-Abbildungen"
 
 msgid "Normal(%1$s, %2$s)"
-msgstr ""
+msgstr "Normal(%1$s, %2$s)"
 
 msgid "Student-t(%1$s, %2$s, %3$s)"
-msgstr ""
+msgstr "Student-t(%1$s, %2$s, %3$s)"
 
 msgid "Cauchy(%1$s, %2$s)"
-msgstr ""
+msgstr "Cauchy(%1$s, %2$s)"
 
 msgid "Beta(%1$s, %2$s)"
-msgstr ""
+msgstr "Beta(%1$s, %2$s)"
 
 msgid "Uniform(%1$s, %2$s)"
-msgstr ""
+msgstr "Uniform(%1$s, %2$s)"
 
 msgid "Spike(%1$s)"
-msgstr ""
+msgstr "Punktmasse(%1$s)"
 
-#, fuzzy
 msgid "Model Summary"
-msgstr "Modellvergleich"
+msgstr "Modellzusammenfassung"
 
 msgid "Prior"
-msgstr ""
+msgstr "Prior"
 
 msgid "Compared to %1$s."
-msgstr ""
+msgstr "Verglichen mit %1$s."
 
 msgid ""
 "The variance parameter of the normal distribution is assumed to be known."
-msgstr ""
+msgstr "Der Varianzparameter der Normalverteilung wird als bekannt angenommen."
 
 msgid "Probability"
-msgstr ""
+msgstr "Wahrscheinlichkeit"
 
 msgid "Density"
-msgstr ""
+msgstr "Dichte"
 
 msgid "Model Comparison"
 msgstr "Modellvergleich"
