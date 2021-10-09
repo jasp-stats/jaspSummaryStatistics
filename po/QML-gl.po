@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-10-02 22:44+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/gl/>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "X-Language: gl_ES\n"
 "X-Source-Language: C\n"
 "X-Qt-Contexts: true\n"
@@ -500,138 +506,136 @@ msgstr "Comprobación da robustez do factor de Bayes"
 
 msgctxt "Description|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Miscelánea"
 
 msgctxt "Description|"
 msgid "General Bayesian Tests"
-msgstr ""
+msgstr "Probas Xerais Baiesianas"
 
 msgctxt "Description|"
 msgid "S.S. General Bayesian Tests"
-msgstr ""
+msgstr "Probas S.S. Xerais Baiesianas"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Likelihood"
-msgstr ""
+msgstr "Verosimilitude"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Student-t"
-msgstr ""
+msgstr "T de Student"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Binomial"
-msgstr ""
+msgstr "Binomial"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central d"
-msgstr ""
+msgstr "D non-central"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central t"
-msgstr ""
+msgstr "T non-central"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Data:"
-msgstr ""
+msgstr "Datos:"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Mean"
-msgstr ""
+msgstr "Media"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "t-statistic"
-msgstr ""
+msgstr "estatístico t"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "d"
-msgstr ""
+msgstr "d"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
-msgstr ""
+msgstr "ET"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Df"
-msgstr ""
+msgstr "GL"
 
-#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
 msgstr "Acertos"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations"
-msgstr ""
+msgstr "Observacións"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Null Hypothesis"
-msgstr ""
+msgstr "Hipótese Nula"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Distribution"
-msgstr ""
+msgstr "Distribución"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parámetros"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Truncation"
-msgstr ""
+msgstr "Tronzado"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Spike(x₀)"
-msgstr ""
+msgstr "Pico(x₀)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal(μ,σ)"
-msgstr ""
+msgstr "Normal(μ,σ)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Student-t(μ,σ,v)"
-msgstr ""
+msgstr "T de Student(μ,σ,v)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Cauchy(x₀,θ)"
-msgstr ""
+msgstr "Cauchy(x₀,θ)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Beta(α,β)"
-msgstr ""
+msgstr "Beta(α,β)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Uniform(a,b)"
-msgstr ""
+msgstr "Uniforme(a,b)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "lower"
-msgstr ""
+msgstr "inferior"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "upper"
-msgstr ""
+msgstr "superior"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Alternative Hypothesis"
-msgstr ""
+msgstr "Hipótese Alternativa"
 
-#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Plots"
 msgstr "Gráficas"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Priors"
-msgstr ""
+msgstr "Previos"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Prior predictions"
-msgstr ""
+msgstr "Predicións previas"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Posteriors"
-msgstr ""
+msgstr "Posteriores"
