@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-11 20:05+0000\n"
+"PO-Revision-Date: 2021-10-14 01:51+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/es/>\n"
@@ -103,32 +103,27 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 1"
 msgstr "Grupo 1"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Successes"
-msgstr "Éxitos"
+msgstr "Aciertos"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sample Size"
-msgstr "Tamaño de la muestra"
+msgstr "Tamaño de la Muestra"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 2"
 msgstr "Grupo 2"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Normal Prior on Log Odds Ratio"
-msgstr "Previo normal en relación de probabilidades logarítmicas"
+msgstr ""
+"Distribución a priori Normal para el logaritmo de la razón de probabilidades"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "μ:"
 msgstr "μ:"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "σ:"
 msgstr "σ:"
@@ -197,42 +192,34 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sampling"
 msgstr "Muestreo"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "No. samples"
-msgstr "No muestras"
+msgstr "Número de muestras"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Robustness Plot"
-msgstr "Gráfico de robustez"
+msgstr "Gráfico de Robustez"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "No. Steps"
-msgstr "No. Pasos"
+msgstr "Número de Pasos"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Step Range"
-msgstr "Rango de pasos"
+msgstr "Rango de Paso"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "lower:"
 msgstr "inferior:"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "upper:"
-msgstr "Superior:"
+msgstr "superior:"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Successes"
-msgstr "Éxitos"
+msgstr "Aciertos"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Failures"
 msgstr "Fracasos"
@@ -553,11 +540,11 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Student-t"
-msgstr ""
+msgstr "T de Student"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Binomial"
@@ -595,30 +582,29 @@ msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Df"
 msgstr ""
 
-#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
-msgstr "Éxitos"
+msgstr "Aciertos"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations"
-msgstr ""
+msgstr "Observaciones"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Null Hypothesis"
-msgstr ""
+msgstr "Hipótesis Nula"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Distribution"
-msgstr ""
+msgstr "Distribución"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parámetros"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Truncation"
-msgstr ""
+msgstr "Truncamiento"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Spike(x₀)"
@@ -646,15 +632,15 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "lower"
-msgstr ""
+msgstr "inferior"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "upper"
-msgstr ""
+msgstr "superior"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Alternative Hypothesis"
-msgstr ""
+msgstr "Hipótesis Alternativa"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Plots"
