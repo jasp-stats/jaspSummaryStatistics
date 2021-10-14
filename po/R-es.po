@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
 "POT-Creation-Date: 2021-10-02 02:35\n"
-"PO-Revision-Date: 2021-10-11 20:05+0000\n"
+"PO-Revision-Date: 2021-10-14 01:51+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/es/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Weblate 4.9-dev\n"
 
 msgid "BF%s"
-msgstr "BF%s"
+msgstr "FB%s"
 
 msgid "Log(BF%s)"
 msgstr "Log(BF%s)"
@@ -165,7 +165,7 @@ msgstr ""
 "  - p**: valor p correspondiente al estadístico t."
 
 msgid "Successes"
-msgstr "Éxitos"
+msgstr "Aciertos"
 
 msgid "Failures"
 msgstr "Fracasos"
@@ -278,13 +278,13 @@ msgid "R%s"
 msgstr "R%s"
 
 msgid "Robustness Plot"
-msgstr "Gráfico de robustez"
+msgstr "Gráfico de Robustez"
 
 msgid "r scale"
 msgstr "escala r"
 
 msgid "r scale used is: %s."
-msgstr "r escala utilizada es: %s."
+msgstr "la escala r utilizada es: %s."
 
 msgid "n = %i"
 msgstr "n = %i"
