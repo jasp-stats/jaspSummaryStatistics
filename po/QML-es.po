@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-14 01:51+0000\n"
+"PO-Revision-Date: 2021-10-15 11:32+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/es/>\n"
@@ -386,25 +386,21 @@ msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Prior"
 msgstr "Previo"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "r scale covariates"
-msgstr "covariables de escala r"
+msgstr "Covariables de escala r"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t"
 msgstr "t"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 size"
-msgstr "Tamaño del grupo 1"
+msgstr "Tamaño del Grupo 1"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 2 size"
-msgstr "Tamaño del grupo 2"
+msgstr "Tamaño del Grupo 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
