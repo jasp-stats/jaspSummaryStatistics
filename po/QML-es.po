@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-10-15 19:45+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "X-Language: es\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -97,32 +103,27 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 1"
 msgstr "Grupo 1"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Successes"
-msgstr "Éxitos"
+msgstr "Aciertos"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sample Size"
-msgstr "Tamaño de la muestra"
+msgstr "Tamaño de la Muestra"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 2"
 msgstr "Grupo 2"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Normal Prior on Log Odds Ratio"
-msgstr "Previo normal en relación de probabilidades logarítmicas"
+msgstr ""
+"Distribución a priori Normal para el logaritmo de la razón de probabilidades"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "μ:"
 msgstr "μ:"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "σ:"
 msgstr "σ:"
@@ -143,10 +144,9 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sequential analysis"
 msgstr "Análisis secuencial"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior"
-msgstr "Anterior"
+msgstr "Previo"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Bayes factor robustness check"
@@ -192,42 +192,34 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sampling"
 msgstr "Muestreo"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "No. samples"
-msgstr "No muestras"
+msgstr "Número de muestras"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Robustness Plot"
-msgstr "Gráfico de robustez"
+msgstr "Gráfico de Robustez"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "No. Steps"
-msgstr "No. Pasos"
+msgstr "Número de Pasos"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Step Range"
-msgstr "Rango de pasos"
+msgstr "Rango de Paso"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "lower:"
 msgstr "inferior:"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "upper:"
-msgstr "Superior:"
+msgstr "superior:"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Successes"
-msgstr "Éxitos"
+msgstr "Aciertos"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Failures"
 msgstr "Fracasos"
@@ -265,42 +257,34 @@ msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Additional info"
 msgstr "Información adicional"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior"
-msgstr "Anterior"
+msgstr "Previo"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Beta prior: parameter a"
-msgstr "Beta anterior: parámetro a"
+msgstr "Beta previa: parámetro a"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Beta prior: parameter b"
-msgstr "Beta anterior: parámetro b"
+msgstr "Beta previa: parámetro b"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Sample size"
 msgstr "Tamaño de la muestra"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Sample Correlation Coefficient"
-msgstr "Coeficiente de correlación muestral"
+msgstr "Coeficiente de Correlación Muestral"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Pearson's r"
 msgstr "R de Pearson"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Kendall's tau-b"
 msgstr "Tau-b de Kendall"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Spearman's rho"
 msgstr "Rho de Spearman"
@@ -354,40 +338,33 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Additional info"
 msgstr "Información adicional"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior"
-msgstr "Anterior"
+msgstr "Previo"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Stretched beta prior width"
-msgstr "Ancho previo beta estirado"
+msgstr "Ancho previo beta extendida"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Sample size"
 msgstr "Tamaño de la muestra"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Null Model"
-msgstr "Modelo nulo"
+msgstr "Modelo Nulo"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Number of covariates"
 msgstr "Número de covariables"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "R-squared"
 msgstr "R-cuadrado"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Alternative Model"
-msgstr "Modelo alternativo"
+msgstr "Modelo Alternativo"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Plots"
@@ -405,30 +382,25 @@ msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Advanced Options"
 msgstr "Opciones Avanzadas"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Prior"
-msgstr "Anterior"
+msgstr "Previo"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "r scale covariates"
-msgstr "covariables de escala r"
+msgstr "Covariables de escala r"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t"
 msgstr "t"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 size"
-msgstr "Tamaño del grupo 1"
+msgstr "Tamaño del Grupo 1"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 2 size"
-msgstr "Tamaño del grupo 2"
+msgstr "Tamaño del Grupo 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
@@ -564,31 +536,31 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Student-t"
-msgstr ""
+msgstr "T de Student"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Binomial"
-msgstr ""
+msgstr "Binomial"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central d"
-msgstr ""
+msgstr "D no central"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central t"
-msgstr ""
+msgstr "T no central"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Data:"
-msgstr ""
+msgstr "Datos:"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Mean"
-msgstr ""
+msgstr "Media"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "t-statistic"
@@ -600,36 +572,35 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
-msgstr ""
+msgstr "ET"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Df"
-msgstr ""
+msgstr "GL"
 
-#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
-msgstr "Éxitos"
+msgstr "Aciertos"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations"
-msgstr ""
+msgstr "Observaciones"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Null Hypothesis"
-msgstr ""
+msgstr "Hipótesis Nula"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Distribution"
-msgstr ""
+msgstr "Distribución"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parámetros"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Truncation"
-msgstr ""
+msgstr "Truncamiento"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Spike(x₀)"
@@ -657,29 +628,28 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "lower"
-msgstr ""
+msgstr "inferior"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "upper"
-msgstr ""
+msgstr "superior"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Alternative Hypothesis"
-msgstr ""
+msgstr "Hipótesis Alternativa"
 
-#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Plots"
 msgstr "Gráficos"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Priors"
-msgstr ""
+msgstr "Previos"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Prior predictions"
-msgstr ""
+msgstr "Predicciones previas"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Posteriors"
-msgstr ""
+msgstr "Posteriores"
