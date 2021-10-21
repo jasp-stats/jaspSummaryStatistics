@@ -475,7 +475,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
           y    = NULL,
           ymin = 0,
           ymax = 1),
-        size = 1.5) +
+        size = 1) +
       ggplot2::xlim(prior@plot$range) +
       ggplot2::expand_limits(y = 0) +
       ggplot2::ylab(gettext(gettext("Probability")))
@@ -484,7 +484,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
       ggplot2::geom_function(
         fun       = Vectorize(prior@func),
         color     = "black",
-        size      = 1.5,
+        size      = 1,
         linetype  = 1) +
       ggplot2::xlim(prior@plot$range) +
       ggplot2::expand_limits(y = 0) +
@@ -534,24 +534,27 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
           x      = observation,
           y      = auc,
           colour = model_name),
-        size    = 1.5) +
+        size    = 1) +
       ggplot2::geom_point(
         data    = counterfactual,
         mapping = ggplot2::aes(
           x      = observation,
           y      = auc,
           colour = model_name),
-        size    = 4,
-        shape   = 21,
-        fill    = "white") +
+        size   = 4,
+        shape  = 21,
+        stroke = 1.25,
+        fill   = "grey") +
       ggplot2::geom_point(
         data    = observation_df,
         mapping = ggplot2::aes(
           x      = observation,
           y      = auc,
           colour = model_name),
-        size    = 4,
-        shape   = 16) +
+        size   = 4,
+        shape  = 21,
+        stroke = 1.25,
+        fill   = "grey") +
       ggplot2::labs(x = "Outcome", y = "Marginal probability") +
       ggplot2::scale_color_manual(values = "black",name = NULL, labels = NULL, guide = "none") +
       ggplot2::scale_linetype_manual(values = 1, name = NULL, labels = NULL, guide = "none") +
@@ -578,15 +581,17 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
         mapping    = ggplot2::aes(
           colour   = model_name,
           linetype = model_name),
-        size = 1.5) +
+        size = 1) +
       ggplot2::geom_point(
         data    = observation_df,
         mapping = ggplot2::aes(
           x      = x,
           y      = y,
           colour = model_name),
-        size    = 4,
-        shape   = 16) +
+        size   = 4,
+        shape  = 21,
+        stroke = 1.25,
+        fill   = "grey") +
       ggplot2::labs(x = "Outcome", y = "Marginal probability") +
       ggplot2::scale_color_manual(values = "black", name = NULL, labels = NULL, guide = "none") +
       ggplot2::scale_linetype_manual(values = 1,name = NULL, labels = NULL, guide = "none") +
@@ -615,7 +620,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
           y    = NULL,
           ymin = 0,
           ymax = 1),
-        size = 1.5) +
+        size = 1) +
       ggplot2::xlim(tempPosterior@prior_obj@plot$range) +
       ggplot2::expand_limits(y = 0) +
       ggplot2::ylab(gettext(gettext("Probability")))
@@ -624,7 +629,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
       ggplot2::geom_function(
         fun       = Vectorize(tempPosterior$posterior_function),
         color     = "black",
-        size      = 1.5,
+        size      = 1,
         linetype  = 1) +
       ggplot2::xlim(tempPosterior@prior_obj@plot$range) +
       ggplot2::expand_limits(y = 0) +
@@ -634,12 +639,12 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
       ggplot2::geom_function(
         fun       = Vectorize(tempPosterior$posterior_function),
         mapping   = ggplot2::aes(color = "black"),
-        size      = 1.5,
+        size      = 1,
         linetype  = 1) +
       ggplot2::geom_function(
         fun       = Vectorize(tempPosterior@prior_obj@func),
         mapping   = ggplot2::aes(color = "grey"),
-        size      = 1.5,
+        size      = 1,
         linetype  = 2) +
       ggplot2::scale_colour_manual(
         values = c("black", "grey"),
