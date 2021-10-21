@@ -51,8 +51,6 @@ Form
 
 		Group
 		{
-			title:			qsTr("Data:")
-
 			FormulaField
 			{
 				name:			"dataMean"
@@ -93,7 +91,7 @@ Form
 			IntegerField
 			{
 				name:			"dataDf"
-				label:			qsTr("Df")
+				label:			qsTr("df")
 				visible:		likelihood.value == "t" || likelihood.value == "nonCentralT"
 				defaultValue:	25
 				min:			1
