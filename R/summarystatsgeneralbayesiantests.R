@@ -407,7 +407,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
   predictionsNullPlotObject <- .bayesianTestsMakePredictionPlot(likelihood, priors[["null"]])
   predictionsNullPlotObject <- predictionsNullPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
-  predictionsNullPlotObject <- .bayesianTestsFixPlotAxis(predictionsNullPlotObject, options[["likelihood"]])
+  predictionsNullPlotObject <- .bayesianTestsFixPlotAxis(predictionsNullPlotObject, options[["likelihood"]], predictions = TRUE)
 
   predictionsNullPlot[["plotObject"]] <- predictionsNullPlotObject
 
@@ -422,16 +422,16 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
     tempPredictionsAltPlotObject <- .bayesianTestsMakePredictionPlot(likelihood, priors[["alt"]][[i]])
     tempPredictionsAltPlotObject <- tempPredictionsAltPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw()
-    tempPredictionsAltPlotObject <- .bayesianTestsFixPlotAxis(tempPredictionsAltPlotObject, options[["likelihood"]])
+    tempPredictionsAltPlotObject <- .bayesianTestsFixPlotAxis(tempPredictionsAltPlotObject, options[["likelihood"]], predictions = TRUE)
 
     tempPredictionsAltPlot[["plotObject"]] <- tempPredictionsAltPlotObject
   }
 
   return()
 }
-.bayesianTestsFixPlotAxis     <- function(p, likelihood) {
+.bayesianTestsFixPlotAxis     <- function(p, likelihood, predictions = FALSE) {
 
-  if (likelihood == "binomial")
+  if (likelihood == "binomial" && !predictions)
     xTicks <- jaspGraphs::getPrettyAxisBreaks(c(0,1))
   else if (ggplot2::layer_scales(p)$x$range$range[1] == ggplot2::layer_scales(p)$x$range$range[2])
     xTicks <- jaspGraphs::getPrettyAxisBreaks(ggplot2::layer_scales(p)$x$range$range[1] + c(-0.5, 0.5))
@@ -555,7 +555,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
       ggplot2::labs(x = "Outcome", y = "Marginal probability") +
       ggplot2::scale_color_manual(values = "black",name = NULL, labels = NULL, guide = "none") +
       ggplot2::scale_linetype_manual(values = 1, name = NULL, labels = NULL, guide = "none") +
-      ggplot2::scale_x_continuous(limits = plot_range, breaks = integer_breaks())
+      ggplot2::scale_x_continuous(limits = plot_range, breaks = bayesplay:::integer_breaks())
 
   }else{
 
