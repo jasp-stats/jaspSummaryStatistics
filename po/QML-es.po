@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-24 10:56+0000\n"
+"PO-Revision-Date: 2021-10-24 13:08+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/es/>\n"
@@ -22,35 +22,29 @@ msgctxt "Description|"
 msgid "T-Tests"
 msgstr "Contrastes T"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Prueba T de muestras independientes bayesianas"
+msgstr "Contraste T bayesiano para Muestras Independientes"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
-msgstr "Prueba T de muestras independientes bayesianas SS"
+msgstr "Contraste T bayesiano S.S. para Muestras Independientes"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Prueba T de muestras pareadas bayesianas"
+msgstr "Contraste T bayesiano para Muestras Emparejadas"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
-msgstr "Prueba T de muestras pareadas bayesianas de S.S."
+msgstr "Contraste T bayesiano S.S. para Muestras Emparejadas"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr "Prueba T bayesiana de una muestra"
+msgstr "Contraste T bayesiano para Una Muestra"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
-msgstr "S.S. Prueba T bayesiana de una muestra"
+msgstr "Contraste T bayesiano S.S. para Una Muestra"
 
 msgctxt "Description|"
 msgid "Regression"
@@ -60,44 +54,38 @@ msgctxt "Description|"
 msgid "Bayesian Correlation"
 msgstr "Correlación Bayesiana"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
-msgstr "Correlación bayesiana SS"
+msgstr "Correlación S.S. bayesiana"
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
-msgstr "Regresión Lineal Bayesiana"
+msgstr "Regresión bayesiana Lineal"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
-msgstr "Regresión lineal bayesiana SS"
+msgstr "Regresión bayesiana S.S. Lineal"
 
 msgctxt "Description|"
 msgid "Frequencies"
 msgstr "Frecuencias"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian Binomial Test"
-msgstr "Prueba binomial bayesiana"
+msgstr "Contraste bayesiano Binomial"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
-msgstr "Prueba binomial bayesiana de S.S."
+msgstr "Contraste bayesiano S.S. Binomial"
 
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
-msgstr "Contraste A/B Bayesiano"
+msgstr "Contraste bayesiano A/B"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian A/B Test"
-msgstr "Prueba S.S. Bayesiano A / B"
+msgstr "Contraste bayesiano S.S. A/B"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 1"
 msgstr "Grupo 1"
@@ -223,10 +211,9 @@ msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Failures"
 msgstr "Fracasos"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Test value"
-msgstr "Valor de prueba"
+msgstr "Contrastar valor"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Alt. Hypothesis"
@@ -324,10 +311,9 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Estimation info"
 msgstr "Información de estimación"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Testing info"
-msgstr "Información de prueba"
+msgstr "Información de contraste"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Bayes factor robustness check"
@@ -519,19 +505,19 @@ msgstr "Aplicar el test habitual de Bayes desde estadísticos suficientes"
 
 msgctxt "Description|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Miscelánea"
 
 msgctxt "Description|"
 msgid "General Bayesian Tests"
-msgstr ""
+msgstr "Contrastes bayesianos Generales"
 
 msgctxt "Description|"
 msgid "S.S. General Bayesian Tests"
-msgstr ""
+msgstr "Contrastes bayesianos S.S. Generales"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Likelihood"
-msgstr ""
+msgstr "Verosimilitud"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal"
@@ -563,11 +549,11 @@ msgstr "Media"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "t-statistic"
-msgstr ""
+msgstr "estadístico t"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "d"
-msgstr ""
+msgstr "d"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
@@ -603,27 +589,27 @@ msgstr "Truncamiento"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Spike(x₀)"
-msgstr ""
+msgstr "Pico(x₀)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal(μ,σ)"
-msgstr ""
+msgstr "Normal(μ,σ)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Student-t(μ,σ,v)"
-msgstr ""
+msgstr "T de Student(μ,σ,v)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Cauchy(x₀,θ)"
-msgstr ""
+msgstr "Cauchy(x₀,θ)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Beta(α,β)"
-msgstr ""
+msgstr "Beta(α,β)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Uniform(a,b)"
-msgstr ""
+msgstr "Uniforme(a,b)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "lower"
