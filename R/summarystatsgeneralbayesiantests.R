@@ -606,7 +606,6 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
   # adapted from bayesplay:::plot_pp
   if (prior$family == "point")
-
     tempPlot <- ggplot2::ggplot() +
       ggplot2::geom_point(
         mapping = ggplot2::aes(
@@ -624,7 +623,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
       ggplot2::xlim(tempPosterior@prior_obj@plot$range) +
       ggplot2::expand_limits(y = 0) +
       ggplot2::ylab(gettext(gettext("Probability")))
-  else if (!(options[["plotPosteriorsPriors"]]))
+  else if (!options[["plotPosteriorsPriors"]])
     tempPlot <- ggplot2::ggplot() +
       ggplot2::geom_function(
         fun       = Vectorize(tempPosterior$posterior_function),
@@ -649,6 +648,9 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
       ggplot2::scale_colour_manual(
         values = c("black", "grey"),
         labels = c("Posterior", "Prior"),
+        guide  = ggplot2::guide_legend(override.aes = list(
+          linetype = c(1,  2)
+        )),
         name   = NULL) +
       ggplot2::xlim(tempPosterior@prior_obj@plot$range) +
       ggplot2::expand_limits(y = 0) +
