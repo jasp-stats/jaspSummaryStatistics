@@ -77,9 +77,9 @@
 <rect x='604.19' y='20.71' width='115.81' height='76.12' style='stroke-width: 10.67; stroke: none;' />
 <rect x='609.67' y='34.66' width='28.35' height='28.35' style='stroke-width: 10.67; stroke: none;' />
 <line x1='612.51' y1='48.83' x2='635.18' y2='48.83' style='stroke-width: 2.13; stroke-linecap: butt;' />
-<line x1='612.51' y1='48.83' x2='635.18' y2='48.83' style='stroke-width: 2.13; stroke-dasharray: 11.38,11.38; stroke-linecap: butt;' />
+<line x1='612.51' y1='48.83' x2='635.18' y2='48.83' style='stroke-width: 2.13; stroke-linecap: butt;' />
 <rect x='609.67' y='63.00' width='28.35' height='28.35' style='stroke-width: 10.67; stroke: none;' />
-<line x1='612.51' y1='77.18' x2='635.18' y2='77.18' style='stroke-width: 2.13; stroke: #BEBEBE; stroke-linecap: butt;' />
+<line x1='612.51' y1='77.18' x2='635.18' y2='77.18' style='stroke-width: 2.13; stroke: #BEBEBE; stroke-dasharray: 11.38,11.38; stroke-linecap: butt;' />
 <line x1='612.51' y1='77.18' x2='635.18' y2='77.18' style='stroke-width: 2.13; stroke: #BEBEBE; stroke-dasharray: 11.38,11.38; stroke-linecap: butt;' />
 <text x='646.49' y='54.68' style='font-size: 17.00px; font-family: sans;' textLength='68.03px' lengthAdjust='spacingAndGlyphs'>Posterior</text>
 <text x='646.49' y='83.03' style='font-size: 17.00px; font-family: sans;' textLength='35.89px' lengthAdjust='spacingAndGlyphs'>Prior</text>
