@@ -138,7 +138,7 @@ Form
 		{
 			Label { text: qsTr("Distribution");	Layout.preferredWidth: 140 * preferencesModel.uiScale; Layout.leftMargin: 5 * preferencesModel.uiScale}
 			Label { text: qsTr("Parameters");	Layout.preferredWidth: 155 * preferencesModel.uiScale }
-			Label { text: qsTr("Truncation");	Layout.preferredWidth: 150 * preferencesModel.uiScale }
+			Label { text: qsTr("Truncation");	Layout.preferredWidth: 150 * preferencesModel.uiScale;	visible: truncationNullLower.visible}
 		}
 
 		RowLayout
@@ -360,7 +360,7 @@ Form
 		{
 			Label { text: qsTr("Distribution");	Layout.preferredWidth: 140 * preferencesModel.uiScale; Layout.leftMargin: 5 * preferencesModel.uiScale}
 			Label { text: qsTr("Parameters");	Layout.preferredWidth: 155 * preferencesModel.uiScale }
-			Label { text: qsTr("Truncation");	Layout.preferredWidth: 150 * preferencesModel.uiScale }
+			Label { text: qsTr("Truncation");	Layout.preferredWidth: 150 * preferencesModel.uiScale;	visible: truncationAltLower.visible}
 		}
 		ComponentsList
 		{
