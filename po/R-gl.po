@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-10-02 02:35\n"
-"PO-Revision-Date: 2021-10-20 15:41+0000\n"
+"PO-Revision-Date: 2021-10-24 13:07+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/gl/>\n"
@@ -31,7 +31,7 @@ msgid "t"
 msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Proba T baiesiana para mostras independentes"
+msgstr "Proba T baiesiana para Mostras Independentes"
 
 msgid "n%s"
 msgstr "n%s"
@@ -55,29 +55,29 @@ msgid "Plotting not possible: %s"
 msgstr "Non é posible facer a gráfica: %s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr "Comprobación da robustez do factor de Bayes"
+msgstr "Comprobación da Robustez do Factor de Bayes"
 
 msgid ""
 "Plotting not possible: Bayes factor robustness check plot currently not "
 "supported for informed prior."
 msgstr ""
-"Non é posible facer a gráfica: neste momento non se admite a gráfica de "
-"comprobación da robustez do factor de Bayes para un previo informado."
+"Non é posible facer a gráfica: neste momento a gráfica de comprobación da "
+"robustez do factor de Bayes non é compatible coa previa informada."
 
 msgid "Bayes factors could not be computed for 100 values of the prior."
-msgstr "Os factores de Bayes non poden calcularse para 100 valores do previo."
+msgstr "Os factores de Bayes non poden calcularse con 100 valores do previo."
 
 msgid "max BF%s"
-msgstr "max FB%s"
+msgstr "máx FB%s"
 
 msgid "user prior"
-msgstr "previo do usuario"
+msgstr "usuario previo"
 
 msgid "wide prior"
-msgstr "previo do ancho"
+msgstr "anchura previa"
 
 msgid "ultrawide prior"
-msgstr "previo do ultra ancho"
+msgstr "ultra anchura previa"
 
 msgid "%s at r==%s"
 msgstr "%s en r==%s"
@@ -126,10 +126,10 @@ msgstr ""
 "que a medida 2."
 
 msgid "Bayesian One Sample T-Test"
-msgstr "Proba T baiesiana dunha mostra"
+msgstr "Proba T baiesiana para Unha Mostra"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Proba T baiesiana para mostras emparelladas"
+msgstr "Proba T baiesiana para Mostras Emparelladas"
 
 msgid "Not enough observations."
 msgstr "Observacións insuficientes."
@@ -185,7 +185,7 @@ msgstr "Proporción de poboación"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
-"Non é posible facer a gráfica: Non pode avaliarse a densidade previa ou "
+"Non é posible facer a gráfica: Non pode avaliarse a densidade previa ou a "
 "posterior!"
 
 msgid "Plotting not possible: Bayes factor should be numeric!"
@@ -232,7 +232,7 @@ msgid "%s%% Credible interval"
 msgstr "Intervalo de credibilidade do %s%%"
 
 msgid "Inferential Plots"
-msgstr "Gráficas inferenciais"
+msgstr "Gráficas de Inferencia"
 
 msgid "Normal(%1$s, %2$s)"
 msgstr "Normal(%1$s, %2$s)"
@@ -293,7 +293,7 @@ msgid "n = %i"
 msgstr "n = %i"
 
 msgid "Bayesian Linear Regression"
-msgstr "Regresión Baiesiana Linear"
+msgstr "Regresión baiesiana Linear"
 
 msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
 msgstr ""

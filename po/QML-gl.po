@@ -74,7 +74,7 @@ msgstr "Frecuencias"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
-msgstr "Proba T dunha mostra S.S. baiesiana"
+msgstr "Proba T baiesiana S.S. para Unha Mostra"
 
 msgctxt "Description|"
 msgid "Bayesian Binomial Test"
@@ -90,15 +90,15 @@ msgstr "Proba T para mostras independentes S.S. baiesiana"
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr "Proba T baiesiana dunha mostra"
+msgstr "Proba T baiesiana para Unha Mostra"
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Proba T baiesiana para mostras independentes"
+msgstr "Proba T baiesiana para Mostras Independentes"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
-msgstr "Proba Binomial S.S. baiesiana"
+msgstr "Proba baiesiana S.S. Binomial"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
@@ -114,15 +114,15 @@ msgstr "Probas T"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
-msgstr "Proba T para mostras emparelladas S.S. baiesiana"
+msgstr "Proba T baiesiana S.S. para Mostras Emparelladas"
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
-msgstr "Regresión Baiesiana Linear"
+msgstr "Regresión baiesiana Linear"
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Proba T baiesiana para mostras emparelladas"
+msgstr "Proba T baiesiana para Mostras Emparelladas"
 
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
@@ -130,11 +130,11 @@ msgstr "Proba baiesiana A/B"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian A/B Test"
-msgstr "Proba A/B S.S. baiesiana"
+msgstr "Proba baiesiana S.S. A/B"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
-msgstr "Regresión linear S.S. baiesiana"
+msgstr "Regresión baiesiana S.S. Linear"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "r scale covariates"
@@ -503,11 +503,11 @@ msgstr "Miscelánea"
 
 msgctxt "Description|"
 msgid "General Bayesian Tests"
-msgstr "Probas Xerais Baiesianas"
+msgstr "Probas baiesianas Xerais"
 
 msgctxt "Description|"
 msgid "S.S. General Bayesian Tests"
-msgstr "Probas S.S. Xerais Baiesianas"
+msgstr "Probas baiesianas S.S. Xerais"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Likelihood"
