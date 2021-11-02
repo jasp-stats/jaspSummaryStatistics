@@ -1,7 +1,7 @@
 Summary Statistics General Bayesian Tests
 ====================================
 
-The general Bayesian tests allows one to test a hypothesis about a parameter under different data likelihoods.
+The general Bayesian tests allows one to test a hypothesis about a parameter under different data likelihoods and is based on the methodology developed and promoted by Zoltan Dienes (e.g., Dienes 2014; Dienes & Mclatchie, 2018)
 
 
 ### Input
@@ -52,7 +52,9 @@ The specification of posibly multiple alternative hypotheses for the parameter.
 
 ### References
 --------------
+- Dienes, Z. (2014). Using Bayes to get the most out of non-significant results. Frontiers in Psychology, 5. https://doi.org/10.3389/fpsyg.2014.00781
 
+- Dienes, Z., & Mclatchie, N. (2018). Four reasons to prefer Bayesian analyses over significance testing. Psychonomic Bulletin & Review, 25, 207–218. https://doi.org/10.3758/s13423-017-1266-z
 
 
 ### R packages
