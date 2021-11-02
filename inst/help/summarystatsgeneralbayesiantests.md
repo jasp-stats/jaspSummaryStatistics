@@ -1,7 +1,7 @@
 Summary Statistics General Bayesian Tests
 ====================================
 
-The general Bayesian tests allow one to test a hypothesis about a parameter under different data likelihoods.
+The general Bayesian tests allows one to test a hypothesis about a parameter under different data likelihoods and is based on the methodology developed and promoted by Zoltan Dienes (e.g., Dienes 2014; Dienes & Mclatchie, 2018).
 
 
 ### Input
