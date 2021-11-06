@@ -534,10 +534,6 @@ msgid "Non-central t"
 msgstr "T no central"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
-msgid "Data:"
-msgstr "Datos:"
-
-msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Mean"
 msgstr "Media"
 
@@ -552,10 +548,6 @@ msgstr "d"
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
 msgstr "ET"
-
-msgctxt "SummaryStatsGeneralBayesianTests|"
-msgid "Df"
-msgstr "GL"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
@@ -632,3 +624,7 @@ msgstr "Predicciones previas"
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Posteriors"
 msgstr "Posteriores"
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "df"
+msgstr ""

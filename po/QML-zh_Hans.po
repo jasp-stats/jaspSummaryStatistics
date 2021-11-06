@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-05 13:02+0000\n"
-"Last-Translator: shun wang <shuonwang@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
-"jasp/jaspsummarystatistics-qml/zh_Hans/>\n"
-"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
 "X-Language: zh_Hans\n"
 "X-Qt-Contexts: true\n"
 
@@ -101,9 +95,10 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sample Size"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 2"
-msgstr ""
+msgstr "组 2"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Normal Prior on Log Odds Ratio"
@@ -205,9 +200,10 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "upper:"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Successes"
-msgstr ""
+msgstr "成功"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Failures"
@@ -538,10 +534,6 @@ msgid "Non-central t"
 msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
-msgid "Data:"
-msgstr ""
-
-msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Mean"
 msgstr ""
 
@@ -557,13 +549,10 @@ msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
 msgstr ""
 
-msgctxt "SummaryStatsGeneralBayesianTests|"
-msgid "Df"
-msgstr ""
-
+#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
-msgstr ""
+msgstr "成功"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations"
@@ -635,4 +624,8 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Posteriors"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "df"
 msgstr ""
