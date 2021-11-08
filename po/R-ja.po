@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.0.0\n"
 "POT-Creation-Date: 2021-10-02 02:35\n"
-"PO-Revision-Date: 2021-09-22 00:40+0000\n"
+"PO-Revision-Date: 2021-11-08 13:05+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/ja/>\n"
@@ -215,42 +215,41 @@ msgid "Inferential Plots"
 msgstr "推論プロット"
 
 msgid "Normal(%1$s, %2$s)"
-msgstr ""
+msgstr "Normal(%1$s, %2$s)"
 
 msgid "Student-t(%1$s, %2$s, %3$s)"
-msgstr ""
+msgstr "Student-t(%1$s, %2$s, %3$s)"
 
 msgid "Cauchy(%1$s, %2$s)"
-msgstr ""
+msgstr "Cauchy(%1$s, %2$s)"
 
 msgid "Beta(%1$s, %2$s)"
-msgstr ""
+msgstr "Beta(%1$s, %2$s)"
 
 msgid "Uniform(%1$s, %2$s)"
-msgstr ""
+msgstr "Uniform(%1$s, %2$s)"
 
 msgid "Spike(%1$s)"
-msgstr ""
+msgstr "Spike(%1$s)"
 
-#, fuzzy
 msgid "Model Summary"
-msgstr "モデル比較"
+msgstr "モデルの概要"
 
 msgid "Prior"
-msgstr ""
+msgstr "事前分布"
 
 msgid "Compared to %1$s."
-msgstr ""
+msgstr "%1$sと比較."
 
 msgid ""
 "The variance parameter of the normal distribution is assumed to be known."
-msgstr ""
+msgstr "正規分布の分散パラメータは既知であると仮定する."
 
 msgid "Probability"
-msgstr ""
+msgstr "確率"
 
 msgid "Density"
-msgstr ""
+msgstr "密度"
 
 msgid "Model Comparison"
 msgstr "モデル比較"
