@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-07 16:52+0000\n"
+"PO-Revision-Date: 2021-11-10 04:46+0000\n"
 "Last-Translator: shun wang <yootell@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jasp/jaspsummarystatistics-qml/zh_Hans/>\n"
@@ -107,43 +107,43 @@ msgstr "组 2"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Normal Prior on Log Odds Ratio"
-msgstr ""
+msgstr "对数优势比的正态先验"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "μ:"
-msgstr ""
+msgstr "μ:"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "σ:"
-msgstr ""
+msgstr "σ:"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Descriptives"
-msgstr ""
+msgstr "描述统计"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Plots"
-msgstr ""
+msgstr "绘图"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "先验和后验"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sequential analysis"
-msgstr ""
+msgstr "序贯分析"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "先验"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "贝叶斯因子稳健性检验"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Order"
-msgstr ""
+msgstr "秩次(order)"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Compare to best model"
