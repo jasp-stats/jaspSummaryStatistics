@@ -166,7 +166,8 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
   # b. Define dependencies for the plots ----- 
   # For plotPriorPosterior
   # 
-  bfPlotPriorPosteriorDependencies <- c("plotPriorPosteriorAddTestingInfo", "plotPriorPosteriorAddEstimationInfo", "plotPriorPosterior")
+  bfPlotPriorPosteriorDependencies <- c("plotPriorPosteriorAddTestingInfo", "plotPriorPosteriorAddEstimationInfo", 
+                                        "plotPriorPosterior", "alternative")
   
   if (options[["plotPriorPosteriorAddEstimationInfo"]]) 
     bfPlotPriorPosteriorDependencies <- c(bfPlotPriorPosteriorDependencies, "ciValue")
