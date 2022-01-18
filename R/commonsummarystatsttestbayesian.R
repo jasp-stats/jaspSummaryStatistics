@@ -300,6 +300,7 @@
   # 1. check user input
   if(analysis == "oneSample" || analysis == "pairedSamples"){
 
+    n2                  <- NULL
     ready               <- !(n1 == 0)
     isPairedOrOneSample <- TRUE
 
@@ -348,7 +349,7 @@
   ttestPriorPosteriorPlot <- list(
     t        = t,
     n1       = n1,
-    n2       = NULL,
+    n2       = n2,
     paired   = isPairedOrOneSample,
     oneSided = hypothesisList$oneSided,
     BF       = BFlist[["BF10"]],
@@ -358,7 +359,7 @@
   ttestRobustnessPlot <- list(
     t                         = t,
     n1                        = n1,
-    n2                        = 0 ,
+    n2                        = n2,
     paired                    = isPairedOrOneSample,
     BF10user                  = BFlist[["BF10"]],
     yAxisLegendRobustnessPlot = BFPlots,
