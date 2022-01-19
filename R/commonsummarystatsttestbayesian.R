@@ -300,7 +300,7 @@
   # 1. check user input
   if(analysis == "oneSample" || analysis == "pairedSamples"){
 
-    n2                  <- NULL
+    n2                  <- 0
     ready               <- !(n1 == 0)
     isPairedOrOneSample <- TRUE
 
