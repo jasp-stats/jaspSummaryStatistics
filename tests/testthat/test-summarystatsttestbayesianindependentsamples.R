@@ -102,3 +102,22 @@ test_that("Informed priors work", {
   }
 
 })
+
+
+test_that("Prior posterior plot agrees with full data analysis", {
+  # verified on version https://github.com/jasp-stats/jasp-desktop/commit/c9b1c6a4b540d3c142354fdbf911b2556454dc3d
+  # data from Data Library/T-tests/Directed Reading Activities
+  # based on https://github.com/jasp-stats/INTERNAL-jasp/issues/1668
+  options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianIndependentSamples")
+  options$tStatistic <- -2.267
+  options$n1Size <- 23
+  options$n2Size <- 21
+  options$plotPriorAndPosterior <- TRUE
+
+  set.seed(1)
+  results <- jaspTools::runAnalysis("SummaryStatsTTestBayesianIndependentSamples", "debug.csv", options)
+
+  plotName <- results[["results"]][["ttestContainer"]][["collection"]][["ttestContainer_priorPosteriorPlot"]][["data"]]
+  testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
+  jaspTools::expect_equal_plots(testPlot, "prior-and-posterior-verified-on-data")
+})

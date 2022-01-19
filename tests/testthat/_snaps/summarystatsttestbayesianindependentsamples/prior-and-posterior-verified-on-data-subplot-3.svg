@@ -27,10 +27,10 @@
 </defs>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MTcuMzB8NTc2LjAw)'>
 <rect x='0.00' y='17.30' width='720.00' height='558.70' style='stroke-width: 10.67; stroke: none;' />
-<text x='687.27' y='378.66' text-anchor='end' style='font-size: 16.93px; font-family: sans;' textLength='179.75px' lengthAdjust='spacingAndGlyphs'>95% CI: [-0.359, -0.003]</text>
-<text x='687.27' y='226.29' text-anchor='end' style='font-size: 16.93px; font-family: sans;' textLength='112.94px' lengthAdjust='spacingAndGlyphs'>Median: -0.080</text>
+<text x='687.27' y='378.66' text-anchor='end' style='font-size: 16.93px; font-family: sans;' textLength='179.75px' lengthAdjust='spacingAndGlyphs'>95% CI: [-1.173, -0.006]</text>
+<text x='687.27' y='226.29' text-anchor='end' style='font-size: 16.93px; font-family: sans;' textLength='112.94px' lengthAdjust='spacingAndGlyphs'>Median: -0.568</text>
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw1NzYuMDA=)'>
-<text x='0.00' y='9.08' style='font-size: 13.20px; font-family: sans;' textLength='179.02px' lengthAdjust='spacingAndGlyphs'>prior-and-posterior-2-subplot-3</text>
+<text x='0.00' y='9.08' style='font-size: 13.20px; font-family: sans;' textLength='263.40px' lengthAdjust='spacingAndGlyphs'>prior-and-posterior-verified-on-data-subplot-3</text>
 </g>
 </svg>

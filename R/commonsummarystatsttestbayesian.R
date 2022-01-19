@@ -266,24 +266,24 @@
 
   message <- hypothesisList$message
   if (!is.null(message)) ttestTable$addFootnote(message)
-  
+
   ttestTable$addColumnInfo(name = "t"      , title = gettext("t")       , type = "number")
-  
+
   if(title == gettext("Bayesian Independent Samples T-Test")) { #This check might mess up with translations, but what to do about it?
-    
+
     ttestTable$addColumnInfo(name = "n1"   , title = gettextf("n%s", "\u2081") , type = "integer")
     ttestTable$addColumnInfo(name = "n2"   , title = gettextf("n%s", "\u2082") , type = "integer")
-    
+
   } else {
-    
+
     ttestTable$addColumnInfo(name = "n1"   , title = gettext("n")       , type = "integer")
-    
+
   }
-  
+
   ttestTable$addColumnInfo(name = "BF"     , title = bfTitle            , type = "number")
   ttestTable$addColumnInfo(name = "error"  , title = gettext("error %") , type = "number")
   ttestTable$addColumnInfo(name = "pValue" , title = gettext("p")       , type = "pvalue")
-  
+
   return(ttestTable)
 
 }
@@ -300,6 +300,7 @@
   # 1. check user input
   if(analysis == "oneSample" || analysis == "pairedSamples"){
 
+    n2                  <- 0
     ready               <- !(n1 == 0)
     isPairedOrOneSample <- TRUE
 
@@ -341,15 +342,15 @@
   # Add BF10 or BF01 label for plots; never show the log Bayes factor in the plots (it interferes with the pie charts)
   if (options$bayesFactorType == "BF01")
     BFPlots <- "BF01"
-  else 
+  else
     BFPlots <- "BF10"
-  
+
 
   ttestPriorPosteriorPlot <- list(
     t        = t,
     n1       = n1,
-    n2       = NULL,
-    paired   = TRUE,
+    n2       = n2,
+    paired   = isPairedOrOneSample,
     oneSided = hypothesisList$oneSided,
     BF       = BFlist[["BF10"]],
     BFH1H0   = (BFPlots == "BF10")
@@ -358,8 +359,8 @@
   ttestRobustnessPlot <- list(
     t                         = t,
     n1                        = n1,
-    n2                        = 0 ,
-    paired                    = FALSE,
+    n2                        = n2,
+    paired                    = isPairedOrOneSample,
     BF10user                  = BFlist[["BF10"]],
     yAxisLegendRobustnessPlot = BFPlots,
     nullInterval              = hypothesisList$nullInterval,
