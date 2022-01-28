@@ -30,6 +30,7 @@ Met Bayesiaanse correlatie analyse kan men de nulhypothese testen dat de populat
   - *Schattingsinformatie*: Geeft de mediaan en het 95% geloofwaardigheidsinterval van de posterior weer.
   - *Toetsingsinformatie*: Voegt de Bayes factor berekend met de door de gebruiker gedefinieerde prior toe; voegt een kanswiel toe die de kans van de data onder de nulhypothese vs. de alternatieve hypothese laat zien; voegt twee cirkels toe voor de prior en posterior op het toetsingspunt (rho=0), de ratio van de twee punten is gelijk aan de Bayes factor.
 - *Bayes factor robuustheidsgrafiek*: Geeft de Bayes factor weer als een functie van de breedte van de Cauchy prior voor effectgrootte. De schaal van de Cauchy prior varieert tussen 0 en 1.5 (tussen 0 en 2 als de prior van de gebruiker hoger is dan 1.5), op zo'n manier dat de priors steeds minder informatief worden.
+  - *Extra info*: Toont de maximale Bayes factor in het voordeel van de alternatieve hypothese en de Bayes factor van de gebruiker.
 
 #### Prior
 

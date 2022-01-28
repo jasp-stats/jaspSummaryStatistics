@@ -24,9 +24,11 @@ The Bayesian Correlation analysis allows you to test the null hypothesis that th
 - *Log(BF10)*: Natural logarithm of BF10.
 
 #### Plots
-- *Prior and posterior*: Displays the prior (dashed line) and posterior (solid line) density of the correlation under the alternative hypothesis; the gray circles represent the height of the prior and the posterior density at 0. The horizontal solid line represents the width of the 95% credible interval of the posterior
-  - Additional info: Displays the Bayes factor; displays a probability wheel depicting the odds of the data under the null vs. alternative hypothesis; displays the median and 95% credible interval of the posterior density
+- *Prior and posterior*: Displays the prior (dashed line) and posterior (solid line) density of the correlation under the alternative hypothesis
+  - *Estimation info*: Displays the median and 95% credible interval of the posterior density
+  - *Testing info*: Displays the Bayes factor; displays a probability wheel depicting the odds of the data under the null vs. alternative hypothesis; displays gray circles that represent the height of the prior and the posterior density at the testing point (rho=0). The ratio of the two densities at that point is equal to the Bayes factor.
 - *Bayes factor robustness plot*: Displays the Bayes factor as a function of the width of the Cauchy prior on effect size. The scale of the Cauchy prior is varied between 0 and 1.5 (between 0 and 2 if user prior width is greater than 1.5), creating progressively more uninformative priors.
+  - *Additional info*: Displays the maximum Bayes factor in favor of the alternative hypothesis and the user Bayes factor.
 
 #### Prior
 *Stretched Beta prior width*: Default is 1
