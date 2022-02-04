@@ -94,7 +94,9 @@ Bepaalt het aantal "importance samples" om de log marginale likelihood voor (H+)
 ### Referenties
 --------------
   - Kass R. E. and Vaidyanathan S. K. (1992). *Approximate Bayes Factors and Orthogonal Parameters, with Application to Testing Equality of Two Binomial Proportions*. Journal of the Royal Statistical Society, Series B, 54, 129-144.
-  - Gronau Q.F., Raj K.N. A., Wagenmakers E. J. (2019). *Informed Bayesian Inference for the A/B Test*. arXiv preprint arXiv:1905.02068.
+  - Gronau Q.F., Raj K.N. A., Wagenmakers E. J. (2021). *Informed Bayesian Inference for the A/B Test*. Journal of Statistical Software, Volume 100, 1-39
+  - Hoffmann, T. and Hofman, A. and Wagenmakers, E. J. (2021). *A Tutorial on Bayesian Inference for the A/B Test with R and JASP*. Manuscript submitted for publication, https://psyarxiv.com/z64th.
+  - Dablander, F. and Huth, K. and Gronau, Q. F. and Etz, A. and Wagenmakers, E. J. (in press). *A Puzzle of Proportions: Two Popular Bayesian Tests Can Yield Dramatically Different Conclusions*. Statistics in Medicine
 
 
 ### R packages
