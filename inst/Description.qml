@@ -81,6 +81,12 @@ Description
 	}
 	Analysis
     {
+        menu:	qsTr("Bayesian Z-Test")
+        title:	qsTr("S.S. Bayesian Z-Test")
+        func:	"SummaryStatsBayesianZTest"
+    }
+	Analysis
+    {
         menu:	qsTr("General Bayesian Tests")
         title:	qsTr("S.S. General Bayesian Tests")
         func:	"SummaryStatsGeneralBayesianTests"
