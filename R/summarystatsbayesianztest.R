@@ -158,21 +158,22 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   plotData <- .bayesianZTestsComputePlot(
     x  = data[["es"]], se = data[["se"]],
     mu = options[["priorMean"]], tau = options[["priorSd"]],
-    alternative = alt
+    alternative = alt,
+    isLog = options[["dataType"]] == "esAndCiLog"
   )
 
   plot <- jaspGraphs::PlotPriorAndPosterior(
     dfLines    = plotData[["dfLines"]],
     dfPoints   = plotData[["dfPoints"]],
-    BF         = if (options[["bayesFactorType"]] == "BF01") 1/BF10 else BF10,
-    bfType     = if (options[["bayesFactorType"]] == "BF01") "BF01" else "BF10",
+    BF         = if(options[["plotPriorAndPosteriorAdditionalInfo"]]) {if (options[["bayesFactorType"]] == "BF01") 1/BF10 else BF10},
+    bfType     = if(options[["plotPriorAndPosteriorAdditionalInfo"]]) {if (options[["bayesFactorType"]] == "BF01") "BF01" else "BF10"},
     hypothesis = switch(
       options[["hypothesis"]],
       "notEqualToTestValue"  = "equal",
       "greaterThanTestValue" = "greater",
       "lessThanTestValue"    = "smaller"
     ),
-    xName      = if (options[["dataType"]] == "esAndCiLog") gettext("log(Effect size)") else gettext("Effect size")
+    xName      = if (options[["dataType"]] == "esAndCiLog") gettext("exp(Effect size)") else gettext("Effect size")
   )
 
   priorPosteriorPlot[["plotObject"]] <- plot
@@ -184,9 +185,9 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   if (!is.null(jaspResults[["robustnessPlot"]]))
     return()
 
-  robustnessPlot <- createJaspPlot(title = gettext("Prior Robustness Plot"), width = 550, height = 350)
+  robustnessPlot <- createJaspPlot(title = gettext("Bayes Factor Robustness Plot"), width = 550, height = 350)
   robustnessPlot$position <- 3
-  robustnessPlot$dependOn(c(.bayesianZTestsDependencies, c("robustnessPriorMeanMin", "robustnessPriorMeanMax", "robustnessPriorSdMin", "robustnessPriorSdMax", "plotBayesFactorRobustnessContours", "plotBayesFactorRobustnessContoursValues")))
+  robustnessPlot$dependOn(c(.bayesianZTestsDependencies, c("plotBayesFactorRobustness" ,"robustnessPriorMeanMin", "robustnessPriorMeanMax", "robustnessPriorSdMin", "robustnessPriorSdMax", "plotBayesFactorRobustnessContours", "plotBayesFactorRobustnessContoursValues")))
   jaspResults[["robustnessPlot"]] <- robustnessPlot
 
   # specify contour breaks
@@ -195,7 +196,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     bfBreaks <- strsplit(options[["plotBayesFactorRobustnessContoursValues"]], ",")[[1]]
     bfBreaks <- sapply(bfBreaks, function(bfBreak) eval(parse(text = bfBreak)))
     if (anyNA(bfBreaks)) {
-      robustnessPlot$setError(gettext("Bayes factor countours breaks could not be parsed into numbers."))
+      robustnessPlot$setError(gettext("Bayes factor contours breaks could not be parsed into numbers."))
       return()
     }
   } else {
@@ -208,6 +209,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   data      <- jaspResults[["data"]][["object"]]
   priorM    <- seq(options[["robustnessPriorMeanMin"]], options[["robustnessPriorMeanMax"]], length.out = 100)
   priorSD   <- seq(options[["robustnessPriorSdMin"]],   options[["robustnessPriorSdMax"]],   length.out = 100)
+  priorSD   <- priorSD[priorSD > 0.001] # in order to keep contours from sliding into the edges
   priorGrid <- expand.grid(mean = priorM, sd = priorSD)
   alt       <- switch(
     options[["hypothesis"]],
@@ -241,7 +243,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
       data    = priorGrid,
       mapping = ggplot2::aes(x = sd, y = mean, z = bf),
       breaks  = round(contours, 2), size = 3,
-      skip = 0, parse = FALSE, label.placer = metR::label_placer_random(seed = 42)
+      skip = 0, parse = FALSE, label.placer = metR::label_placer_fraction(frac = 0.5)
     ) +
     colorspace::scale_fill_continuous_diverging(
       palette = "Blue-Red", trans = "log",
@@ -249,9 +251,13 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
       breaks = bfBreaks, limits = bfLims,
       labels = bfLabs, name = bquote(BF[10])
     ) +
-    ggplot2::guides(fill = ggplot2::guide_colorbar(barheight = 0.4, barwidth = 28)) +
+    ggplot2::guides(fill = ggplot2::guide_colorbar(
+      barheight = 0.4,
+      barwidth  = 28,
+      label.vjust = 0.5,
+      label.hjust = 0.5)) +
     ggplot2::scale_y_continuous(
-      name   = if (options[["dataType"]] == "esAndCiLog") gettext("log(Prior mean)") else gettext("Prior mean"),
+      name   = if (options[["dataType"]] == "esAndCiLog") gettext("exp(Prior mean)") else gettext("Prior mean"),
       limits = range(priorM),
       breaks = meanBreaks,
       labels = if (options[["dataType"]] == "esAndCiLog") round(exp(meanBreaks), 2) else meanBreaks,
@@ -259,14 +265,16 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     ) +
     ggplot2::scale_x_continuous(
       name   = gettext("Prior standard deviation"),
-      limits = range(priorSD),
+      limits = if(options[["robustnessPriorSdMin"]] == 0) c(0, max(sdBreaks)) else range(sdBreaks),
       breaks = sdBreaks,
       expand = c(0, 0)
     )
 
   plot <- plot + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw(legend.position = "top") +
     ggplot2::theme(
-      legend.text.align = 0,
+      legend.text.align = 0.5,
+      legend.title      = ggplot2::element_text(margin = ggplot2::margin(0, 10, 0, 0)),
+      legend.text       = ggplot2::element_text(size = 11),
       plot.margin       = ggplot2::margin(t = 0, r = 50, b = 0, l = 0)
     )
 
@@ -304,28 +312,36 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
 
   return(bf)
 }
-.bayesianZTestsComputePlot  <- function(x, se, mu, tau, alternative = "two.sided", nPoints = 201) {
+.bayesianZTestsComputePlot  <- function(x, se, mu, tau, alternative = "two.sided", nPoints = 201, isLog = FALSE) {
 
   if (alternative == "greater")
-    xRange <- range(jaspGraphs::getPrettyAxisBreaks(c(0, mu + 2.5 * tau)))
+    xRange <- c(0, mu + 2.5 * tau)
   else if (alternative == "less")
-    xRange <- range(jaspGraphs::getPrettyAxisBreaks(c(mu - 2.5 * tau, 0)))
+    xRange <- c(mu - 2.5 * tau, 0)
   else if (alternative == "two.sided")
-    xRange <- range(jaspGraphs::getPrettyAxisBreaks(c(mu - 2.5 * tau, mu + 2.5 * tau)))
+    xRange <- c(mu - 2.5 * tau, mu + 2.5 * tau)
 
+  xRange     <- range(jaspGraphs::getPrettyAxisBreaks(xRange))
   xRange     <- seq(xRange[1], xRange[2], length.out = nPoints)
   yPrior     <- stats::dnorm(xRange, mean = mu, sd = tau)
-  yPosterior <- stats::dnorm(xRange, mean = (mu * se^2 * x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ))
+  yPosterior <- stats::dnorm(xRange, mean = (mu * se^2 + x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ))
 
   yPrior0     <- stats::dnorm(0, mean = mu, sd = tau)
-  yPosterior0 <- stats::dnorm(0, mean = (mu * se^2 * x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ))
+  yPosterior0 <- stats::dnorm(0, mean = (mu * se^2 + x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ))
 
   if (alternative != "two.sided") {
     yPrior     <- yPrior     / stats::pnorm(0, mean = mu, sd = tau, lower.tail = alternative == "less")
-    yPosterior <- yPosterior / stats::pnorm(0, mean = (mu * se^2 * x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ), lower.tail = alternative == "less")
+    yPosterior <- yPosterior / stats::pnorm(0, mean = (mu * se^2 + x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ), lower.tail = alternative == "less")
 
     yPrior0     <- yPrior0     / stats::pnorm(0, mean = mu, sd = tau, lower.tail = alternative == "less")
-    yPosterior0 <- yPosterior0 / stats::pnorm(0, mean = (mu * se^2 * x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ), lower.tail = alternative == "less")
+    yPosterior0 <- yPosterior0 / stats::pnorm(0, mean = (mu * se^2 + x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ), lower.tail = alternative == "less")
+  }
+
+  if (isLog) {
+    # Jacobian adjustment for log scale
+    xRange      <- exp(xRange)
+    yPrior      <- yPrior      * 1/xRange
+    yPosterior  <- yPosterior  * 1/xRange
   }
 
   dfLines <- data.frame(
@@ -335,7 +351,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   )
 
   dfPoints <- data.frame(
-    x = c(0, 0),
+    x = if (isLog) c(1, 1) else c(0, 0),
     y = c(yPrior0, yPosterior0),
     g = rep(c("Prior", "Posterior"))
   )

@@ -37,11 +37,16 @@ Form
 			name:				"dataType"
 			values:
 			[
-				{ label: qsTr("Effect size & SE"),		value: "esAndSe"},
-				{ label: qsTr("Effect size & CI"),		value: "esAndCi"},
-				{ label: qsTr("log(Effect size) & CI"), value: "esAndCiLog"}
-				// TODO: on click, refresh input!
+				{ label: qsTr("Effect size & SE"),			value: "esAndSe"},
+				{ label: qsTr("Effect size & CI"),			value: "esAndCi"},
+				{ label: qsTr("Effect size & CI (log)"),	value: "esAndCiLog"}
 			]
+			onValueChanged:
+			{
+				dataEs.editingFinished();
+				dataLCi.editingFinished();
+				dataUCi.editingFinished();
+			}
 		}
 
 		FormulaField
@@ -49,7 +54,7 @@ Form
 			
 			name:			"dataEs"
 			id:				dataEs
-			label:			data.value == "esAndCiLog"	? qsTr("log(Effect size)")	: qsTr("Effect size")
+			label:			data.value == "esAndCiLog"	? qsTr("Effect size log") : qsTr("Effect size")
 			value:			data.value == "esAndCiLog"	? "1"				: "0"
 			min:			data.value == "esAndSe"		? -Infinity			: dataLCi.value
 			max:			data.value == "esAndSe"		?  Infinity			: dataUCi.value
@@ -68,13 +73,15 @@ Form
 
 		Group
 		{
+			columns:	2
+			title:		data.value == "esAndCiLog"	? qsTr("Confidence interval log") : qsTr("Confidence interval")
+			visible:	data.value == "esAndCi" || data.value == "esAndCiLog"
 
 			FormulaField
 			{
 				name:			"dataLCi"
 				id:				dataLCi
-				label:			qsTr("lCI")
-				visible:		data.value == "esAndCi" || data.value == "esAndCiLog"
+				label:			qsTr("lower")
 				value:			data.value == "esAndCiLog" ? "0.5"	: "-1"
 				min:			data.value == "esAndCiLog" ? 0		: -Infinity
 				max:			dataUCi.value
@@ -85,8 +92,7 @@ Form
 			{
 				name:			"dataUCi"
 				id:				dataUCi
-				label:			qsTr("uCI")
-				visible:		data.value == "esAndCi" || data.value == "esAndCiLog"
+				label:			qsTr("upper")
 				value:			data.value == "esAndCiLog" ? "2"	: "1"
 				min:			dataLCi.value
 				fieldWidth:     60
@@ -215,7 +221,7 @@ Form
 					name:			"plotBayesFactorRobustnessContoursValues"
 					label:			qsTr("Specify Bayes factor countours")
 					value:			"1/100, 1/30, 1/10, 1/3, 1, 3, 10, 30, 100"
-					fieldWidth:     150
+					fieldWidth:     125
 				}
 			}
 		}
