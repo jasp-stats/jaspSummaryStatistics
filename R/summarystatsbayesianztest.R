@@ -88,12 +88,13 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   bfTitle <- .getBayesfactorTitleSummaryStats(options[["bayesFactorType"]], "twoSided")
 
   summaryTable <- createJaspTable(title = gettext("Model Summary"))
-  summaryTable$dependOn(c(.bayesianZTestsDependencies, "bayesFactorType"))
+  summaryTable$dependOn(c(.bayesianZTestsDependencies, "bayesFactorType", "defaultBf", "defaultBfType", "defaultBfSd"))
   summaryTable$position <- 1
-  summaryTable$addColumnInfo(name = "es",    title = gettext("Effect size"),      type = "number")
-  summaryTable$addColumnInfo(name = "se",    title = gettext("Standard error"),   type = "number")
-  summaryTable$addColumnInfo(name = "bf",    title = bfTitle,                     type = "number")
-  summaryTable$addColumnInfo(name = "maxbf", title = paste0("max(", bfTitle,")"), type = "number")
+  summaryTable$addColumnInfo(name = "es",    title = gettext("Effect size"),        type = "number")
+  summaryTable$addColumnInfo(name = "se",    title = gettext("Standard error"),     type = "number")
+  summaryTable$addColumnInfo(name = "bf",    title = bfTitle,                       type = "number")
+  summaryTable$addColumnInfo(name = "maxBf", title = gettextf("Max %1$s", bfTitle), type = "number")
+
   jaspResults[["summaryTable"]] <- summaryTable
 
   data <- jaspResults[["data"]][["object"]]
@@ -108,7 +109,8 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
       "greaterThanTestValue" = "greater",
       "lessThanTestValue"    = "less"
     ))
-  maxbf <- 1/exp(-(data[["es"]]/data[["se"]])^2/2)
+  maxBf <- 1/exp(-(data[["es"]]/data[["se"]])^2/2)
+
 
   bf10 <- switch(
     options[["bayesFactorType"]],
@@ -116,19 +118,38 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     "BF01"    = 1/bf10,
     "LogBF10" = log(bf10)
   )
-  maxbf <- switch(
+  maxBf <- switch(
     options[["bayesFactorType"]],
-    "BF10"    = maxbf,
-    "BF01"    = 1/maxbf,
-    "LogBF10" = log(maxbf)
+    "BF10"    = maxBf,
+    "BF01"    = 1/maxBf,
+    "LogBF10" = log(maxBf)
   )
 
-  summaryTable$addRows(list(
+  newRow <- list(
     es    = data[["es"]],
     se    = data[["se"]],
     bf    = bf10,
-    maxbf = maxbf
-  ))
+    maxBf = maxBf
+  )
+
+  if (options[["defaultBf"]] && options[["defaultBfType"]] != "select") {
+
+    summaryTable$addColumnInfo(name = "defBf", title = gettextf("Default %1$s", bfTitle), type = "number")
+
+    defBf <- .bayesianZTestsGetDefaultBf(data[["es"]], data[["se"]], options)
+    defBf <- switch(
+      options[["bayesFactorType"]],
+      "BF10"    = defBf,
+      "BF01"    = 1/defBf,
+      "LogBF10" = log(defBf)
+    )
+
+    newRow$defBf <- defBf
+    summaryTable$addFootnote(.bayesianZTestsGetDefaultBfNote(options))
+  }
+
+
+  summaryTable$addRows(newRow)
 
   return()
 }
@@ -185,7 +206,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   if (!is.null(jaspResults[["robustnessPlot"]]))
     return()
 
-  robustnessPlot <- createJaspPlot(title = gettext("Bayes Factor Robustness Plot"), width = 550, height = 350)
+  robustnessPlot <- createJaspPlot(title = gettext("Bayes Factor Robustness Plot"), width = 550, height = 450)
   robustnessPlot$position <- 3
   robustnessPlot$dependOn(c(.bayesianZTestsDependencies, c("plotBayesFactorRobustness" ,"robustnessPriorMeanMin", "robustnessPriorMeanMax", "robustnessPriorSdMin", "robustnessPriorSdMax", "plotBayesFactorRobustnessContours", "plotBayesFactorRobustnessContoursValues")))
   jaspResults[["robustnessPlot"]] <- robustnessPlot
@@ -362,3 +383,28 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   ))
 }
 .bayesianZTestsComputeBf10  <- Vectorize(FUN = .bayesianZTestsComputeBf10_)
+.bayesianZTestsGetDefaultBf     <- function(x, se, options) {
+  return(.bayesianZTestsComputeBf10_(x = x, se = se, mu = 0, tau = .bayesianZTestsGetDefaultBfSd(options), alternative = "two.sided"))
+}
+.bayesianZTestsGetDefaultBfSd   <- function(options) {
+  return(switch(
+    options[["defaultBfType"]],
+    "cohensD" = 2,
+    "logOr"   = 2,
+    "logHr"   = 2,
+    "custom"  = options[["defaultBfSd"]]
+  ))
+}
+.bayesianZTestsGetDefaultBfNote <- function(options) {
+  gettextf(
+    "The default Bayes factor is based on unit information prior corresponding to a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s.",
+    switch(
+      options[["defaultBfType"]],
+      "cohensD" = gettext("Cohens' d"),
+      "logOr"   = gettext("log(OR)"),
+      "logHr"   = gettext("log(HR)"),
+      "custom"  = gettext("custom")
+    ),
+    .bayesianZTestsGetDefaultBfSd(options)
+  )
+}

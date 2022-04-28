@@ -139,6 +139,39 @@ Form
 
 		BayesFactorType { }
 
+		CheckBox
+		{
+			name:	"defaultBf"
+			label:	qsTr("Default Bayes factor")
+			
+			DropDown
+			{
+				name:	"defaultBfType"
+				label:	qsTr("")
+				id:		defaultBfType
+
+				values:
+				[
+					{ label: qsTr("Select effect size"),	value: "select"},				
+					{ label: qsTr("Cohen's d"),				value: "cohensD"},
+					{ label: qsTr("log(OR)"),				value: "logOr"},
+					{ label: qsTr("log(HR)"),				value: "logHr"},
+					{ label: qsTr("Custom"),				value: "custom"}
+				]
+			}
+
+			DoubleField
+			{
+				label: 			qsTr("Unit information SD")
+				name: 			"defaultBfSd"
+				defaultValue: 	1
+				min:			0
+				fieldWidth: 	50
+				visible:		defaultBfType.value == "custom"
+			}
+
+		}
+
 	}
 
 
