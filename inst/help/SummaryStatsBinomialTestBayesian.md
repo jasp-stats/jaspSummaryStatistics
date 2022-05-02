@@ -14,7 +14,7 @@ This function computes the Bayes factor for a binomially distributed observation
 #### Alt. Hypothesis
 - *&ne; Test value*: Two-sided alternative hypothesis that the population mean is not equal to the test value.
 - *&gt; Test value*: One-sided alternative hypothesis that the population mean is larger than the test value.
-- *&lt; Test value*: One sided alternative hypothesis that the population mean is smaller than the test value.
+- *&lt; Test value*: One-sided alternative hypothesis that the population mean is smaller than the test value.
 
 #### Bayes Factor
 - *BF10*: Bayes factor to quantify evidence for the alternative hypothesis relative to the null hypothesis.
