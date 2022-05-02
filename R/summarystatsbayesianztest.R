@@ -102,7 +102,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     x   = data[["es"]],
     se  = data[["se"]],
     mu  = options[["priorMean"]],
-    tau = options[["priorSd"]],
+    sigma = options[["priorSd"]],
     alternative = switch(
       options[["hypothesis"]],
       "notEqualToTestValue"  = "two.sided",
@@ -173,12 +173,12 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
 
   BF10 <- .bayesianZTestsComputeBf10(
     x  = data[["es"]], se = data[["se"]],
-    mu = options[["priorMean"]], tau = options[["priorSd"]],
+    mu = options[["priorMean"]], sigma = options[["priorSd"]],
     alternative = alt
   )
   plotData <- .bayesianZTestsComputePlot(
     x  = data[["es"]], se = data[["se"]],
-    mu = options[["priorMean"]], tau = options[["priorSd"]],
+    mu = options[["priorMean"]], sigma = options[["priorSd"]],
     alternative = alt,
     isLog = options[["dataType"]] == "esAndCiLog"
   )
@@ -238,7 +238,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     "greaterThanTestValue" = "greater",
     "lessThanTestValue"    = "less"
   )
-  priorGrid$bf <- .bayesianZTestsComputeBf10(x = data[["es"]], se = data[["se"]], mu = priorGrid$mean, tau = priorGrid$sd, alternative = alt)
+  priorGrid$bf <- .bayesianZTestsComputeBf10(x = data[["es"]], se = data[["se"]], mu = priorGrid$mean, sigma = priorGrid$sd, alternative = alt)
   priorGrid$bf[priorGrid$bf < bfLims[1]] <- bfLims[1]
   priorGrid$bf[priorGrid$bf > bfLims[2]] <- bfLims[2]
 
@@ -304,14 +304,14 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   return()
 }
 
-.bayesianZTestsComputeBf10_ <- function(x, se, mu, tau, alternative = "two.sided") {
+.bayesianZTestsComputeBf10Simple <- function(x, se, mu, sigma, alternative = "two.sided") {
 
-  # deal with potential zero tau issues
-  if (tau == 0) {
+  # deal with potential zero sigma issues
+  if (sigma == 0) {
     return(1/exp(-((x-mu)/se)^2/2))
   }
 
-  bfUncorrect <- stats::dnorm(x = x, mean = mu, sd = sqrt(se^2 + tau^2)) /  stats::dnorm(x = x, mean = 0, sd = se)
+  bfUncorrect <- stats::dnorm(x = x, mean = mu, sd = sqrt(se^2 + sigma^2)) /  stats::dnorm(x = x, mean = 0, sd = se)
 
   if (alternative == "two.sided") {
 
@@ -319,13 +319,13 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
 
   } else {
 
-    postVar  <- 1/(1/se^2 + 1/tau^2)
-    postMean <- (x/se^2 + mu/tau^2)*postVar
+    postVar  <- .bayesianZTestsPosteriorSd(se, sigma)
+    postMean <- .bayesianZTestsPosteriorMean(x, se, mu, sigma)
 
     if (alternative == "greater")
-      bf <- bfUncorrect*pnorm(q = postMean/sqrt(postVar))/stats::pnorm(q = mu/tau)
+      bf <- bfUncorrect*pnorm(q = postMean/sqrt(postVar))/stats::pnorm(q = mu/sigma)
     else if (alternative == "less")
-      bf <- bfUncorrect*pnorm(q = -postMean/sqrt(postVar))/stats::pnorm(q = -mu/tau)
+      bf <- bfUncorrect*pnorm(q = -postMean/sqrt(postVar))/stats::pnorm(q = -mu/sigma)
     else
       bf <- NaN
 
@@ -333,29 +333,32 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
 
   return(bf)
 }
-.bayesianZTestsComputePlot  <- function(x, se, mu, tau, alternative = "two.sided", nPoints = 201, isLog = FALSE) {
+.bayesianZTestsComputePlot       <- function(x, se, mu, sigma, alternative = "two.sided", nPoints = 201, isLog = FALSE) {
 
   if (alternative == "greater")
-    xRange <- c(0, mu + 2.5 * tau)
+    xRange <- c(0, mu + 2.5 * sigma)
   else if (alternative == "less")
-    xRange <- c(mu - 2.5 * tau, 0)
+    xRange <- c(mu - 2.5 * sigma, 0)
   else if (alternative == "two.sided")
-    xRange <- c(mu - 2.5 * tau, mu + 2.5 * tau)
+    xRange <- c(mu - 2.5 * sigma, mu + 2.5 * sigma)
+
+  postMean <- .bayesianZTestsPosteriorMean(x, se, mu, sigma)
+  postSd   <- .bayesianZTestsPosteriorSd(se, sigma)
 
   xRange     <- range(jaspGraphs::getPrettyAxisBreaks(xRange))
   xRange     <- seq(xRange[1], xRange[2], length.out = nPoints)
-  yPrior     <- stats::dnorm(xRange, mean = mu, sd = tau)
-  yPosterior <- stats::dnorm(xRange, mean = (mu * se^2 + x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ))
+  yPrior     <- stats::dnorm(xRange, mean = mu, sd = sigma)
+  yPosterior <- stats::dnorm(xRange, mean = postMean, sd = .bayesianZTestsPosteriorSd(se, sigma))
 
-  yPrior0     <- stats::dnorm(0, mean = mu, sd = tau)
-  yPosterior0 <- stats::dnorm(0, mean = (mu * se^2 + x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ))
+  yPrior0     <- stats::dnorm(0, mean = mu, sd = sigma)
+  yPosterior0 <- stats::dnorm(0, mean = postMean, sd = postSd)
 
   if (alternative != "two.sided") {
-    yPrior     <- yPrior     / stats::pnorm(0, mean = mu, sd = tau, lower.tail = alternative == "less")
-    yPosterior <- yPosterior / stats::pnorm(0, mean = (mu * se^2 + x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ), lower.tail = alternative == "less")
+    yPrior     <- yPrior     / stats::pnorm(0, mean = mu, sd = sigma, lower.tail = alternative == "less")
+    yPosterior <- yPosterior / stats::pnorm(0, mean = postMean, sd = postSd, lower.tail = alternative == "less")
 
-    yPrior0     <- yPrior0     / stats::pnorm(0, mean = mu, sd = tau, lower.tail = alternative == "less")
-    yPosterior0 <- yPosterior0 / stats::pnorm(0, mean = (mu * se^2 + x * tau^2) / (se^2 + tau^2), sd = sqrt( (se^2 * tau^2) / (se^2 + tau^2) ), lower.tail = alternative == "less")
+    yPrior0     <- yPrior0     / stats::pnorm(0, mean = mu, sd = sigma, lower.tail = alternative == "less")
+    yPosterior0 <- yPosterior0 / stats::pnorm(0, mean = postMean, sd = postSd, lower.tail = alternative == "less")
   }
 
   if (isLog) {
@@ -382,11 +385,11 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     dfPoints = dfPoints
   ))
 }
-.bayesianZTestsComputeBf10  <- Vectorize(FUN = .bayesianZTestsComputeBf10_)
-.bayesianZTestsGetDefaultBf     <- function(x, se, options) {
-  return(.bayesianZTestsComputeBf10_(x = x, se = se, mu = 0, tau = .bayesianZTestsGetDefaultBfSd(options), alternative = "two.sided"))
+.bayesianZTestsComputeBf10       <- Vectorize(FUN = .bayesianZTestsComputeBf10Simple)
+.bayesianZTestsGetDefaultBf      <- function(x, se, options) {
+  return(.bayesianZTestsComputeBf10Simple(x = x, se = se, mu = 0, sigma = .bayesianZTestsGetDefaultBfSd(options), alternative = "two.sided"))
 }
-.bayesianZTestsGetDefaultBfSd   <- function(options) {
+.bayesianZTestsGetDefaultBfSd    <- function(options) {
   return(switch(
     options[["defaultBfType"]],
     "cohensD" = 2,
@@ -395,7 +398,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     "custom"  = options[["defaultBfSd"]]
   ))
 }
-.bayesianZTestsGetDefaultBfNote <- function(options) {
+.bayesianZTestsGetDefaultBfNote  <- function(options) {
   gettextf(
     "The default Bayes factor is based on unit information prior corresponding to a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s.",
     switch(
@@ -407,4 +410,10 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     ),
     .bayesianZTestsGetDefaultBfSd(options)
   )
+}
+.bayesianZTestsPosteriorMean     <- function(mu1, sd1, mu2, sd2) {
+  (mu2 * sd1^2 + mu1 * sd2^2) / (sd1^2 + sd2^2)
+}
+.bayesianZTestsPosteriorSd       <- function(sd1, sd2) {
+  sqrt( (sd1^2 * sd2^2) / (sd1^2 + sd2^2) )
 }

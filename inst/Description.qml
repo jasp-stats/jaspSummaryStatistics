@@ -67,12 +67,12 @@ Description
 		title:	qsTr("S.S. Bayesian Binomial Test")
 		func:	"SummaryStatsBinomialTestBayesian"
 	}
-    Analysis
-    {
-        menu:	qsTr("Bayesian A/B Test")
-        title:	qsTr("S.S. Bayesian A/B Test")
-        func:	"SummaryStatsABTestBayesian"
-    }
+	Analysis
+	{
+		menu:	qsTr("Bayesian A/B Test")
+		title:	qsTr("S.S. Bayesian A/B Test")
+		func:	"SummaryStatsABTestBayesian"
+	}
 
 	GroupTitle
 	{
@@ -80,15 +80,15 @@ Description
 		icon: "analysis-bayesian-crosstabs.svg"
 	}
 	Analysis
-    {
-        menu:	qsTr("Bayesian Z-Test")
-        title:	qsTr("S.S. Bayesian Z-Test")
-        func:	"SummaryStatsBayesianZTest"
-    }
+	{
+		menu:	qsTr("Bayesian Z-Test")
+		title:	qsTr("S.S. Bayesian Z-Test")
+		func:	"SummaryStatsBayesianZTest"
+	}
 	Analysis
-    {
-        menu:	qsTr("General Bayesian Tests")
-        title:	qsTr("S.S. General Bayesian Tests")
-        func:	"SummaryStatsGeneralBayesianTests"
-    }
+	{
+		menu:	qsTr("General Bayesian Tests")
+		title:	qsTr("S.S. General Bayesian Tests")
+		func:	"SummaryStatsGeneralBayesianTests"
+	}
 }
