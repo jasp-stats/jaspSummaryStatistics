@@ -112,18 +112,8 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   maxBf <- 1/exp(-(data[["es"]]/data[["se"]])^2/2)
 
 
-  bf10 <- switch(
-    options[["bayesFactorType"]],
-    "BF10"    = bf10,
-    "BF01"    = 1/bf10,
-    "LogBF10" = log(bf10)
-  )
-  maxBf <- switch(
-    options[["bayesFactorType"]],
-    "BF10"    = maxBf,
-    "BF01"    = 1/maxBf,
-    "LogBF10" = log(maxBf)
-  )
+  bf10  <- .recodeBFtype(bf10, options[["bayesFactorType"]])
+  maxBf <- .recodeBFtype(maxBf, options[["bayesFactorType"]])
 
   newRow <- list(
     es    = data[["es"]],
@@ -137,12 +127,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     summaryTable$addColumnInfo(name = "defBf", title = gettextf("Default %1$s", bfTitle), type = "number")
 
     defBf <- .bayesianZTestsGetDefaultBf(data[["es"]], data[["se"]], options)
-    defBf <- switch(
-      options[["bayesFactorType"]],
-      "BF10"    = defBf,
-      "BF01"    = 1/defBf,
-      "LogBF10" = log(defBf)
-    )
+    defBf <- .recodeBFtype(defBf, options[["bayesFactorType"]])
 
     newRow$defBf <- defBf
     summaryTable$addFootnote(.bayesianZTestsGetDefaultBfNote(options))
