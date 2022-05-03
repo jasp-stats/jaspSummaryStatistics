@@ -260,12 +260,12 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
       breaks  = contours,
       color   = "black", lty = 2, alpha = 0.3
     ) +
-    metR::geom_text_contour(
-      data    = priorGrid,
-      mapping = ggplot2::aes(x = sd, y = mean, z = bf),
-      breaks  = round(contours, 2), size = 3,
-      skip = 0, parse = FALSE, label.placer = metR::label_placer_fraction(frac = 0.5)
-    ) +
+    # metR::geom_text_contour(
+    #   data    = priorGrid,
+    #   mapping = ggplot2::aes(x = sd, y = mean, z = bf),
+    #   breaks  = round(contours, 2), size = 3,
+    #   skip = 0, parse = FALSE, label.placer = metR::label_placer_fraction(frac = 0.5)
+    # ) +
     colorspace::scale_fill_continuous_diverging(
       palette = "Blue-Red", trans = "log",
       mid = 0, rev = FALSE, p1 = 0.5, p2 = 1.2, ## <- tweak these values
