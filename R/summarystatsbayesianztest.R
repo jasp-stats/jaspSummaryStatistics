@@ -37,18 +37,18 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
 
 
 .bayesianZTestsDependencies   <- c(
-  "dataType", "dataEs", "dataSe", "dataLCi", "dataUCi",
+  "dataType", "dataEs", "dataSe", "dataLCi", "dataUCi", "dataSd", "dataN",
   "hypothesis", "priorMean", "priorSd"
   )
 .bayesianZTestParseOptions       <- function(options) {
 
-  options[["dataEs"]]  <- jaspBase:::.parseRCodeInOptions(options[["dataEs"]])
-  options[["dataSe"]]  <- jaspBase:::.parseRCodeInOptions(options[["dataSe"]])
-  options[["dataLCi"]] <- jaspBase:::.parseRCodeInOptions(options[["dataLCi"]])
-  options[["dataUCi"]] <- jaspBase:::.parseRCodeInOptions(options[["dataUCi"]])
+  options[["dataEs"]]  <- jaspBase::.parseRCodeInOptions(options[["dataEs"]])
+  options[["dataSe"]]  <- jaspBase::.parseRCodeInOptions(options[["dataSe"]])
+  options[["dataLCi"]] <- jaspBase::.parseRCodeInOptions(options[["dataLCi"]])
+  options[["dataUCi"]] <- jaspBase::.parseRCodeInOptions(options[["dataUCi"]])
 
-  options[["priorMean"]] <- jaspBase:::.parseRCodeInOptions(options[["priorMean"]])
-  options[["priorSd"]]   <- jaspBase:::.parseRCodeInOptions(options[["priorSd"]])
+  options[["priorMean"]] <- jaspBase::.parseRCodeInOptions(options[["priorMean"]])
+  options[["priorSd"]]   <- jaspBase::.parseRCodeInOptions(options[["priorSd"]])
 
   return(options)
 }
@@ -75,6 +75,11 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     data[["object"]] <- list(
       "es" = log(options[["dataEs"]]),
       "se" = (log(options[["dataUCi"]]) - log(options[["dataLCi"]])) / (2 * stats::qnorm(p = 0.975))
+    )
+  }else if(options[["dataType"]] == "esAndN"){
+    data[["object"]] <- list(
+      "es" = options[["dataEs"]],
+      "se" = options[["dataSd"]] / sqrt(options[["dataN"]])
     )
   }
 
@@ -143,7 +148,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   if (!is.null(jaspResults[["priorPosteriorPlot"]]))
     return()
 
-  priorPosteriorPlot <- createJaspPlot(title = gettext("Prior Robustness Plot"), width = 450, height = 300)
+  priorPosteriorPlot <- createJaspPlot(title = gettext("Prior and Posterior"), width = 530, height = 400, aspectRatio = 0.7)
   priorPosteriorPlot$position <- 2
   priorPosteriorPlot$dependOn(c(.bayesianZTestsDependencies, c("plotPriorAndPosterior", "plotPriorAndPosteriorAdditionalInfo")))
   jaspResults[["priorPosteriorPlot"]] <- priorPosteriorPlot
@@ -200,8 +205,8 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   formatBF <- function(BF) ifelse(BF < 1, paste0("1/", round(1/BF, 2)), as.character(round(BF, 2)))
   if (options[["plotBayesFactorRobustnessContours"]]) {
     bfBreaks <- strsplit(options[["plotBayesFactorRobustnessContoursValues"]], ",")[[1]]
-    bfBreaks <- sapply(bfBreaks, function(bfBreak) eval(parse(text = bfBreak)))
-    if (anyNA(bfBreaks)) {
+    bfBreaks <- try(vapply(bfBreaks, FUN = function(bfBreak) eval(parse(text = bfBreak)), FUN.VALUE = numeric(1)))
+    if (anyNA(bfBreaks) || inherits(bfBreaks, "try-error")) {
       robustnessPlot$setError(gettext("Bayes factor contours breaks could not be parsed into numbers."))
       return()
     }

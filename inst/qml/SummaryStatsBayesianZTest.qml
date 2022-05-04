@@ -23,13 +23,13 @@ import JASP.Controls 1.0
 import JASP.Widgets 1.0
 
 
-Form 
+Form
 {
 
 	Group
 	{
 
-		Layout.columnSpan: 2
+		Layout.columnSpan:	2
 		DropDown
 		{
 			label:				qsTr("Data")
@@ -39,7 +39,8 @@ Form
 			[
 				{ label: qsTr("Effect size & SE"),			value: "esAndSe"},
 				{ label: qsTr("Effect size & CI"),			value: "esAndCi"},
-				{ label: qsTr("Effect size & CI (log)"),	value: "esAndCiLog"}
+				{ label: qsTr("Effect size & CI (log)"),	value: "esAndCiLog"},
+				{ label: qsTr("Effect size, SD & N"),		value: "esAndN"}
 			]
 			onValueChanged:
 			{
@@ -58,7 +59,7 @@ Form
 			value:			data.value == "esAndCiLog"	? "1"				: "0"
 			min:			data.value == "esAndSe"		? -Infinity			: dataLCi.value
 			max:			data.value == "esAndSe"		?  Infinity			: dataUCi.value
-			fieldWidth:     60
+			fieldWidth:		60
 		}
 
 		FormulaField
@@ -68,7 +69,27 @@ Form
 			visible:		data.value == "esAndSe"
 			value:			"1"
 			min:			0
-			fieldWidth:     60
+			fieldWidth:		60
+		}
+
+		FormulaField
+		{
+			name:			"dataSd"
+			label:			qsTr("Sd")
+			visible:		data.value == "esAndN"
+			value:			"1"
+			min:			0
+			fieldWidth:		60
+		}
+
+		FormulaField
+		{
+			name:			"dataN"
+			label:			qsTr("N")
+			visible:		data.value == "esAndN"
+			value:			"1"
+			min:			0
+			fieldWidth:		60
 		}
 
 		Group
@@ -85,7 +106,7 @@ Form
 				value:			data.value == "esAndCiLog" ? "0.5"	: "-1"
 				min:			data.value == "esAndCiLog" ? 0		: -Infinity
 				max:			dataUCi.value
-				fieldWidth:     60
+				fieldWidth:		60
 			}
 
 			FormulaField
@@ -95,13 +116,13 @@ Form
 				label:			qsTr("upper")
 				value:			data.value == "esAndCiLog" ? "2"	: "1"
 				min:			dataLCi.value
-				fieldWidth:     60
+				fieldWidth:		60
 			}
 		}
 	}
 
 
-    Divider { }
+	Divider	{}
 
 	Group
 	{
@@ -117,14 +138,14 @@ Form
 
 		Group
 		{
-			title:	qsTr("Prior Distribution")
-			columns: 2 
+			title:		qsTr("Prior Distribution")
+			columns:	2
 			FormulaField
 			{
 				name:			"priorMean"
 				label:			qsTr("Normal   mean:")
 				value:			"0"
-				fieldWidth:     60
+				fieldWidth:		60
 			}
 
 			FormulaField
@@ -133,11 +154,11 @@ Form
 				label:			qsTr("std")
 				value:			"1"
 				min:			0
-				fieldWidth:     60
+				fieldWidth:		60
 			}
 		}
 
-		BayesFactorType { }
+		BayesFactorType	{}
 
 		CheckBox
 		{
@@ -162,11 +183,11 @@ Form
 
 			DoubleField
 			{
-				label: 			qsTr("Unit information SD")
-				name: 			"defaultBfSd"
-				defaultValue: 	1
+				label:			qsTr("Unit information SD")
+				name:			"defaultBfSd"
+				defaultValue:	1
 				min:			0
-				fieldWidth: 	50
+				fieldWidth:		50
 				visible:		defaultBfType.value == "custom"
 			}
 
@@ -177,7 +198,7 @@ Form
 
 	Group
 	{
-		title: qsTr("Plots")
+		title:	qsTr("Plots")
 
 		CheckBox
 		{
@@ -203,43 +224,43 @@ Form
 				columns:	2
 				DoubleField
 				{
-					label: 			qsTr("Prior mean   min:")
-					name: 			"robustnessPriorMeanMin"
+					label:			qsTr("Prior mean   min:")
+					name:			"robustnessPriorMeanMin"
 					id:				robustnessPriorMeanMin
-					defaultValue: 	hypothesis.value == "greaterThanTestValue" ? 0 : -1
-					fieldWidth: 	50
+					defaultValue:	hypothesis.value == "greaterThanTestValue" ? 0 : -1
+					fieldWidth:		50
 					negativeValues:	true
 					max:			robustnessPriorMeanMax.value
 				}
 
 				DoubleField
 				{
-					label: 			qsTr("max:")
-					name: 			"robustnessPriorMeanMax"
+					label:			qsTr("max:")
+					name:			"robustnessPriorMeanMax"
 					id:				robustnessPriorMeanMax
-					defaultValue: 	hypothesis.value == "lessThanTestValue" ? 0 : 1
-					fieldWidth: 	50
+					defaultValue:	hypothesis.value == "lessThanTestValue" ? 0 : 1
+					fieldWidth:		50
 					negativeValues:	true
 					min:			robustnessPriorMeanMin.value
 				}
 
 				DoubleField
 				{
-					label: 			qsTr("Prior std    min:")
-					name: 			"robustnessPriorSdMin"
+					label:			qsTr("Prior std	min:")
+					name:			"robustnessPriorSdMin"
 					id:				robustnessPriorSdMin
 					defaultValue:	0
-					fieldWidth: 	50
+					fieldWidth:		50
 					max:			robustnessPriorSdMax.value
 				}
 
 				DoubleField
 				{
-					label: 			qsTr("max")
-					name: 			"robustnessPriorSdMax"
+					label:			qsTr("max")
+					name:			"robustnessPriorSdMax"
 					id:				robustnessPriorSdMax
 					defaultValue:	1
-					fieldWidth: 	50
+					fieldWidth:		50
 					min:			robustnessPriorSdMin.value
 				}
 			}
@@ -252,9 +273,9 @@ Form
 				FormulaField
 				{
 					name:			"plotBayesFactorRobustnessContoursValues"
-					label:			qsTr("Specify Bayes factor countours")
+					label:			qsTr("Specify Bayes factor contours")
 					value:			"1/100, 1/30, 1/10, 1/3, 1, 3, 10, 30, 100"
-					fieldWidth:     125
+					fieldWidth:		125
 				}
 			}
 		}
