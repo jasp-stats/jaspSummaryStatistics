@@ -55,10 +55,10 @@ Form
 			
 			name:			"dataEs"
 			id:				dataEs
-			label:			data.value == "esAndCiLog"	? qsTr("Effect size log") : qsTr("Effect size")
-			value:			data.value == "esAndCiLog"	? "1"				: "0"
-			min:			data.value == "esAndSe"		? -Infinity			: dataLCi.value
-			max:			data.value == "esAndSe"		?  Infinity			: dataUCi.value
+			label:			data.value === "esAndCiLog"	? qsTr("Effect size log") : qsTr("Effect size")
+			value:			data.value === "esAndCiLog"	? "1"				: "0"
+			min:			data.value === "esAndSe"	? -Infinity			: dataLCi.value
+			max:			data.value === "esAndSe"	?  Infinity			: dataUCi.value
 			fieldWidth:		60
 		}
 
@@ -66,7 +66,7 @@ Form
 		{
 			name:			"dataSe"
 			label:			qsTr("SE")
-			visible:		data.value == "esAndSe"
+			visible:		data.value === "esAndSe"
 			value:			"1"
 			min:			0
 			fieldWidth:		60
@@ -76,7 +76,7 @@ Form
 		{
 			name:			"dataSd"
 			label:			qsTr("Sd")
-			visible:		data.value == "esAndN"
+			visible:		data.value === "esAndN"
 			value:			"1"
 			min:			0
 			fieldWidth:		60
@@ -86,7 +86,7 @@ Form
 		{
 			name:			"dataN"
 			label:			qsTr("N")
-			visible:		data.value == "esAndN"
+			visible:		data.value === "esAndN"
 			value:			"1"
 			min:			0
 			fieldWidth:		60
@@ -95,16 +95,16 @@ Form
 		Group
 		{
 			columns:	2
-			title:		data.value == "esAndCiLog"	? qsTr("Confidence interval log") : qsTr("Confidence interval")
-			visible:	data.value == "esAndCi" || data.value == "esAndCiLog"
+			title:		data.value === "esAndCiLog"	? qsTr("Confidence interval log") : qsTr("Confidence interval")
+			visible:	data.value === "esAndCi" || data.value === "esAndCiLog"
 
 			FormulaField
 			{
 				name:			"dataLCi"
 				id:				dataLCi
 				label:			qsTr("lower")
-				value:			data.value == "esAndCiLog" ? "0.5"	: "-1"
-				min:			data.value == "esAndCiLog" ? 0		: -Infinity
+				value:			data.value === "esAndCiLog" ? "0.5"	: "-1"
+				min:			data.value === "esAndCiLog" ? 0		: -Infinity
 				max:			dataUCi.value
 				fieldWidth:		60
 			}
@@ -114,7 +114,7 @@ Form
 				name:			"dataUCi"
 				id:				dataUCi
 				label:			qsTr("upper")
-				value:			data.value == "esAndCiLog" ? "2"	: "1"
+				value:			data.value === "esAndCiLog" ? "2"	: "1"
 				min:			dataLCi.value
 				fieldWidth:		60
 			}
@@ -188,7 +188,7 @@ Form
 				defaultValue:	1
 				min:			0
 				fieldWidth:		50
-				visible:		defaultBfType.value == "custom"
+				visible:		defaultBfType.value === "custom"
 			}
 
 		}
@@ -227,7 +227,7 @@ Form
 					label:			qsTr("Prior mean   min:")
 					name:			"robustnessPriorMeanMin"
 					id:				robustnessPriorMeanMin
-					defaultValue:	hypothesis.value == "greaterThanTestValue" ? 0 : -1
+					defaultValue:	hypothesis.value === "greaterThanTestValue" ? 0 : -1
 					fieldWidth:		50
 					negativeValues:	true
 					max:			robustnessPriorMeanMax.value
@@ -238,7 +238,7 @@ Form
 					label:			qsTr("max:")
 					name:			"robustnessPriorMeanMax"
 					id:				robustnessPriorMeanMax
-					defaultValue:	hypothesis.value == "lessThanTestValue" ? 0 : 1
+					defaultValue:	hypothesis.value === "lessThanTestValue" ? 0 : 1
 					fieldWidth:		50
 					negativeValues:	true
 					min:			robustnessPriorMeanMin.value

@@ -46,6 +46,8 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   options[["dataSe"]]  <- jaspBase::.parseRCodeInOptions(options[["dataSe"]])
   options[["dataLCi"]] <- jaspBase::.parseRCodeInOptions(options[["dataLCi"]])
   options[["dataUCi"]] <- jaspBase::.parseRCodeInOptions(options[["dataUCi"]])
+  options[["dataSd"]]  <- jaspBase::.parseRCodeInOptions(options[["dataSd"]])
+  options[["dataN"]]   <- jaspBase::.parseRCodeInOptions(options[["dataN"]])
 
   options[["priorMean"]] <- jaspBase::.parseRCodeInOptions(options[["priorMean"]])
   options[["priorSd"]]   <- jaspBase::.parseRCodeInOptions(options[["priorSd"]])
