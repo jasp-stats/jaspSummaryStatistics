@@ -268,14 +268,14 @@ Form
 			CheckBox
 			{
 				name:				"plotBayesFactorRobustnessContours"
-				childrenOnSameRow:	true
+				label:				qsTr("Specify Bayes factor contours")
 
 				FormulaField
 				{
 					name:			"plotBayesFactorRobustnessContoursValues"
-					label:			qsTr("Specify Bayes factor contours")
+					label:			""
 					value:			"1/100, 1/30, 1/10, 1/3, 1, 3, 10, 30, 100"
-					fieldWidth:		125
+					fieldWidth:		250
 				}
 			}
 		}
