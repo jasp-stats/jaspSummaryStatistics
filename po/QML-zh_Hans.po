@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-23 07:20+0000\n"
+"PO-Revision-Date: 2022-05-29 15:19+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jasp/jaspsummarystatistics-qml/zh_Hans/>\n"
@@ -243,7 +243,7 @@ msgstr "先验和后验"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Additional info"
-msgstr ""
+msgstr "附加信息"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior"
@@ -323,7 +323,7 @@ msgstr "贝叶斯因子稳健性检验"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Additional info"
-msgstr ""
+msgstr "附加信息"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior"
@@ -343,163 +343,152 @@ msgstr "零模型"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Number of covariates"
-msgstr ""
+msgstr "协变量的数量"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "R-squared"
-msgstr ""
+msgstr "R 平方"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Alternative Model"
-msgstr ""
+msgstr "备择模型"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Plots"
 msgstr "绘图"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Bayes factor robustness check"
 msgstr "贝叶斯因子稳健性检验"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Additional info"
-msgstr ""
+msgstr "附加信息"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Advanced Options"
-msgstr ""
+msgstr "高级选项"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Prior"
 msgstr "先验"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "r scale covariates"
-msgstr ""
+msgstr "r 尺度协变量"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 size"
-msgstr ""
+msgstr "组 1 大小"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 2 size"
-msgstr ""
+msgstr "组 2 大小"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "备择假设"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 ≠ Group 2"
-msgstr ""
+msgstr "组1 ≠ 组2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 > Group 2"
-msgstr ""
+msgstr "组1 ＞ 组2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 < Group 2"
-msgstr ""
+msgstr "组1 < 组2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
 msgstr "绘图"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
 msgstr "先验和后验"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Additional info"
-msgstr ""
+msgstr "附加信息"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Bayes factor robustness check"
 msgstr "贝叶斯因子稳健性检验"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Group size"
-msgstr ""
+msgstr "组大小"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "备择假设"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ 检验值"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "> Test value"
-msgstr ""
+msgstr "> 检验值"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "< Test value"
-msgstr ""
+msgstr "＜检验值"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Plots"
 msgstr "绘图"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
 msgstr "先验和后验"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Additional info"
-msgstr ""
+msgstr "附加信息"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Bayes factor robustness check"
 msgstr "贝叶斯因子稳健性检验"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Group size"
-msgstr ""
+msgstr "组大小"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "备择假设"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 ≠ Measure 2"
-msgstr ""
+msgstr "测量值 1 ≠ 测量值 2"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 > Measure 2"
-msgstr ""
+msgstr "测量值 1 ＞ 测量值 2"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 < Measure 2"
-msgstr ""
+msgstr "测量值 1 ＜ 测量值 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Plots"
 msgstr "绘图"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
 msgstr "先验和后验"
