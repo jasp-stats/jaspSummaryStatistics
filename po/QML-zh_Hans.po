@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-05 07:20+0000\n"
+"PO-Revision-Date: 2022-06-10 13:05+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jasp/jaspsummarystatistics-qml/zh_Hans/>\n"
@@ -575,7 +575,7 @@ msgstr "参数"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Truncation"
-msgstr ""
+msgstr "截断"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Spike(x₀)"
@@ -583,53 +583,52 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal(μ,σ)"
-msgstr ""
+msgstr "正态分布(μ,σ)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Student-t(μ,σ,v)"
-msgstr ""
+msgstr "学生-t(μ,σ,v)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Cauchy(x₀,θ)"
-msgstr ""
+msgstr "柯西分布(x₀,θ)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Beta(α,β)"
-msgstr ""
+msgstr "Beta分布(α,β)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Uniform(a,b)"
-msgstr ""
+msgstr "均匀分布(a,b)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "lower"
-msgstr ""
+msgstr "下界"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "upper"
-msgstr ""
+msgstr "上界"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Alternative Hypothesis"
-msgstr ""
+msgstr "备择假设"
 
-#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Plots"
 msgstr "绘图"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Priors"
-msgstr ""
+msgstr "先验"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Prior predictions"
-msgstr ""
+msgstr "先验预测"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Posteriors"
-msgstr ""
+msgstr "后验"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "df"
-msgstr ""
+msgstr "df"
