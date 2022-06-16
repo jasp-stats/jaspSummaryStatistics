@@ -1,17 +1,11 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-26 07:50+0000\n"
-"Last-Translator: Sunu Bagaskara <sunu.bagaskara@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
-"jaspsummarystatistics-qml/id/>\n"
-"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10.1\n"
-"X-Qt-Contexts: true\n"
 "X-Language: id\n"
+"X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Summary Statistics"
@@ -371,10 +365,6 @@ msgid "Non-central t"
 msgstr "t non-sentral"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
-msgid "Data:"
-msgstr "Data:"
-
-msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Mean"
 msgstr "Rerata"
 
@@ -389,10 +379,6 @@ msgstr "d"
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
 msgstr "SE"
-
-msgctxt "SummaryStatsGeneralBayesianTests|"
-msgid "Df"
-msgstr "Df"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
@@ -471,9 +457,10 @@ msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Posteriors"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Sample size"
-msgstr ""
+msgstr "Ukuran sampel"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Null Model"
@@ -491,25 +478,29 @@ msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Alternative Model"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Plots"
-msgstr ""
+msgstr "Plot"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Bayes factor robustness check"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Additional info"
-msgstr ""
+msgstr "Info tambahan"
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Advanced Options"
-msgstr ""
+msgstr "Opsi Lanjutan"
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "Prior"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "r scale covariates"
@@ -527,9 +518,10 @@ msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 2 size"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Hipotesis Alt."
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 ≠ Group 2"
@@ -543,17 +535,20 @@ msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 < Group 2"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
-msgstr ""
+msgstr "Plot"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Prior dan posterior"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Additional info"
-msgstr ""
+msgstr "Info tambahan"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Bayes factor robustness check"
@@ -567,33 +562,40 @@ msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Group size"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Hipotesis Alt."
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ Nilai uji"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "> Test value"
-msgstr ""
+msgstr "> Nilai uji"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "< Test value"
-msgstr ""
+msgstr "< Nilai uji"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Plots"
-msgstr ""
+msgstr "Plot"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Prior dan posterior"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Additional info"
-msgstr ""
+msgstr "Info tambahan"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Bayes factor robustness check"
@@ -607,9 +609,10 @@ msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Group size"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Hipotesis Alt."
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 ≠ Measure 2"
@@ -623,18 +626,25 @@ msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 < Measure 2"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Plots"
-msgstr ""
+msgstr "Plot"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Prior dan posterior"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Additional info"
-msgstr ""
+msgstr "Info tambahan"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "df"
 msgstr ""
