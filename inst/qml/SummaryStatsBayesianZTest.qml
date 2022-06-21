@@ -32,6 +32,8 @@ Form
 		Layout.columnSpan:	2
 		DropDown
 		{
+			property string lastValue: "esAndSe"
+
 			label:				qsTr("Data")
 			id:					data
 			name:				"dataType"
@@ -44,21 +46,36 @@ Form
 			]
 			onValueChanged:
 			{
-				dataEs.editingFinished();
-				dataLCi.editingFinished();
-				dataUCi.editingFinished();
+				if(!initialized)
+					return
+
+				if(value === "esAndCiLog"){
+					dataEs.value	= "1";
+					dataLCi.value	= "exp(-1.96)";
+					dataUCi.value	= "exp(1.96)";
+					dataEs.editingFinished();
+					dataLCi.editingFinished();
+					dataUCi.editingFinished()
+				}else if(lastValue === "esAndCiLog"){
+					dataEs.value	= "0";
+					dataLCi.value	= "-1.96";
+					dataUCi.value	= "1.96";
+					dataEs.editingFinished();
+					dataLCi.editingFinished();
+					dataUCi.editingFinished()
+				}
+				lastValue = value
 			}
 		}
 
 		FormulaField
 		{
-			
 			name:			"dataEs"
 			id:				dataEs
 			label:			data.value === "esAndCiLog"	? qsTr("Effect size log") : qsTr("Effect size")
-			value:			data.value === "esAndCiLog"	? "1"				: "0"
-			min:			data.value === "esAndSe"	? -Infinity			: dataLCi.value
-			max:			data.value === "esAndSe"	?  Infinity			: dataUCi.value
+			value:			"0"
+			min:			data.value === "esAndSe"		? -Infinity			: dataLCi.value
+			max:			data.value === "esAndSe"		?  Infinity			: dataUCi.value
 			fieldWidth:		60
 		}
 
@@ -103,10 +120,10 @@ Form
 				name:			"dataLCi"
 				id:				dataLCi
 				label:			qsTr("lower")
-				value:			data.value === "esAndCiLog" ? "0.5"	: "-1"
+				value:			"-1.96"
 				min:			data.value === "esAndCiLog" ? 0		: -Infinity
 				max:			dataUCi.value
-				fieldWidth:		60
+				fieldWidth:		80
 			}
 
 			FormulaField
@@ -114,9 +131,9 @@ Form
 				name:			"dataUCi"
 				id:				dataUCi
 				label:			qsTr("upper")
-				value:			data.value === "esAndCiLog" ? "2"	: "1"
+				value:			"1.96"
 				min:			dataLCi.value
-				fieldWidth:		60
+				fieldWidth:		80
 			}
 		}
 	}
