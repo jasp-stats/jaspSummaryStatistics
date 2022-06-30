@@ -13,7 +13,7 @@ This function allows you to compute Bayes factor corresponding to paired groups 
 #### Alt. Hypothesis
 - *Measure 1 &ne; Measure 2*: Two-sided alternative hypothesis that the population mean of the difference is not equal to 0
 - *Measure 1 &gt; Measure 2*: One-sided alternative hypothesis that the population mean of the difference is larger than 0
-- *Measure 1 &lt; Measure 2*: One sided alternative hypothesis that the population mean of the difference is smaller than 0
+- *Measure 1 &lt; Measure 2*: One-sided alternative hypothesis that the population mean of the difference is smaller than 0
 
 #### Bayes Factor
 - *BF10*: Bayes factor to quantify evidence for the alternative hypothesis relative to the null hypothesis

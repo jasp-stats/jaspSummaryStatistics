@@ -13,7 +13,7 @@ This function allows you to compute Bayes factor corresponding to a one sample t
 #### Alt. Hypothesis
 - *&ne; Test value*: Two-sided alternative hypothesis that the population mean is not equal to the test value
 - *&gt; Test value*: One-sided alternative hypothesis that the population mean is larger than the test value
-- *&lt; Test value*: One sided alternative hypothesis that the population mean is smaller than the test value
+- *&lt; Test value*: One-sided alternative hypothesis that the population mean is smaller than the test value
 
 #### Bayes Factor
 - *BF10*: Bayes factor to quantify evidence for the alternative hypothesis relative to the null hypothesis
