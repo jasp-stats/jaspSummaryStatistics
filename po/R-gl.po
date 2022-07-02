@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-10-02 02:35\n"
+"POT-Creation-Date: 2022-07-02 03:11\n"
 "PO-Revision-Date: 2021-10-24 13:07+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
@@ -134,6 +134,47 @@ msgstr "Proba T baiesiana para Mostras Emparelladas"
 msgid "Not enough observations."
 msgstr "Observacións insuficientes."
 
+msgid "Model Summary"
+msgstr "Resumo do Modelo"
+
+msgid "Effect size"
+msgstr ""
+
+msgid "Standard error"
+msgstr ""
+
+msgid "Max %1$s"
+msgstr ""
+
+msgid "Default %1$s"
+msgstr ""
+
+msgid "exp(Effect size)"
+msgstr ""
+
+#, fuzzy
+msgid "Bayes Factor Robustness Plot"
+msgstr "Comprobación da Robustez do Factor de Bayes"
+
+msgid "Bayes factor contours breaks could not be parsed into numbers."
+msgstr ""
+
+msgid "exp(Prior mean)"
+msgstr ""
+
+#, fuzzy
+msgid "Prior mean"
+msgstr "Previo"
+
+#, fuzzy
+msgid "Prior standard deviation"
+msgstr "Previa e Posterior"
+
+msgid ""
+"The default Bayes factor is based on unit information prior corresponding to "
+"a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
+msgstr ""
+
 msgid "Bayesian Binomial Test"
 msgstr "Proba baiesiana Binomial"
 
@@ -251,9 +292,6 @@ msgstr "Uniforme(%1$s, %2$s)"
 
 msgid "Spike(%1$s)"
 msgstr "Pico(%1$s)"
-
-msgid "Model Summary"
-msgstr "Resumo do Modelo"
 
 msgid "Prior"
 msgstr "Previo"

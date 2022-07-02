@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
-"POT-Creation-Date: 2021-10-02 02:35\n"
+"POT-Creation-Date: 2022-07-02 03:11\n"
 "PO-Revision-Date: 2022-02-26 02:35+0000\n"
 "Last-Translator: Jordy STEFAN <jordy.stefan@askoria.eu>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
@@ -49,7 +49,9 @@ msgstr "Traçage impossible : %s"
 msgid "Bayes Factor Robustness Check"
 msgstr ""
 
-msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
+msgid ""
+"Plotting not possible: Bayes factor robustness check plot currently not "
+"supported for informed prior."
 msgstr ""
 
 msgid "Bayes factors could not be computed for 100 values of the prior."
@@ -73,22 +75,34 @@ msgstr ""
 msgid "Cauchy prior width"
 msgstr ""
 
-msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
+msgid ""
+"For all tests, the alternative hypothesis specifies that group 1 is greater "
+"than group 2."
 msgstr ""
 
-msgid "For all tests, the alternative hypothesis specifies that the mean is greater than 0."
+msgid ""
+"For all tests, the alternative hypothesis specifies that the mean is greater "
+"than 0."
 msgstr ""
 
-msgid "For all tests, the alternative hypothesis specifies that measure 1 is greater than measure 2."
+msgid ""
+"For all tests, the alternative hypothesis specifies that measure 1 is "
+"greater than measure 2."
 msgstr ""
 
-msgid "For all tests, the alternative hypothesis specifies that group 1 is less than group 2."
+msgid ""
+"For all tests, the alternative hypothesis specifies that group 1 is less "
+"than group 2."
 msgstr ""
 
-msgid "For all tests, the alternative hypothesis specifies that the mean is less than 0."
+msgid ""
+"For all tests, the alternative hypothesis specifies that the mean is less "
+"than 0."
 msgstr ""
 
-msgid "For all tests, the alternative hypothesis specifies that measure 1 is less than measure 2."
+msgid ""
+"For all tests, the alternative hypothesis specifies that measure 1 is less "
+"than measure 2."
 msgstr ""
 
 msgid "Bayesian One Sample T-Test"
@@ -100,10 +114,62 @@ msgstr ""
 msgid "Not enough observations."
 msgstr ""
 
+msgid "Model Summary"
+msgstr ""
+
+msgid "Effect size"
+msgstr ""
+
+msgid "Standard error"
+msgstr ""
+
+msgid "Max %1$s"
+msgstr ""
+
+msgid "Default %1$s"
+msgstr ""
+
+msgid "exp(Effect size)"
+msgstr ""
+
+msgid "Bayes Factor Robustness Plot"
+msgstr ""
+
+msgid "Bayes factor contours breaks could not be parsed into numbers."
+msgstr ""
+
+msgid "exp(Prior mean)"
+msgstr ""
+
+msgid "Prior mean"
+msgstr ""
+
+msgid "Prior standard deviation"
+msgstr ""
+
+msgid ""
+"The default Bayes factor is based on unit information prior corresponding to "
+"a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
+msgstr ""
+
 msgid "Bayesian Binomial Test"
 msgstr ""
 
-msgid "- *Bayes factor*: If one-sided test is requested:\n  - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value\n  - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value\n- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value\n- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value\n  - **p**: p-value corresponding to t-statistic."
+msgid ""
+"- *Bayes factor*: If one-sided test is requested:\n"
+"  - BF+0: Bayes factor that quantifies evidence for the one-sided "
+"alternative hypothesis that the population mean is larger than the test "
+"value\n"
+"  - BF-0: Bayes factor that quantifies evidence for the one-sided "
+"alternative hypothesis that the population mean is smaller than the test "
+"value\n"
+"- BF0+: Bayes factor that quantifies evidence for the null hypothesis "
+"relative to the one-sided alternative hypothesis that the population mean is "
+"larger than the test value\n"
+"- BF0-: Bayes factor that quantifies evidence for the null hypothesis "
+"relative to the one-sided alternative hypothesis that that the population "
+"mean is smaller than the test value\n"
+"  - **p**: p-value corresponding to t-statistic."
 msgstr ""
 
 msgid "Successes"
@@ -130,10 +196,14 @@ msgstr ""
 msgid "Proportions tested against value: %s."
 msgstr ""
 
-msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
+msgid ""
+"For all tests, the alternative hypothesis specifies that the proportion is "
+"greater than %s."
 msgstr ""
 
-msgid "For all tests, the alternative hypothesis specifies that the proportion is less than %s."
+msgid ""
+"For all tests, the alternative hypothesis specifies that the proportion is "
+"less than %s."
 msgstr ""
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
@@ -178,16 +248,14 @@ msgstr ""
 msgid "Spike(%1$s)"
 msgstr ""
 
-msgid "Model Summary"
-msgstr ""
-
 msgid "Prior"
 msgstr ""
 
 msgid "Compared to %1$s."
 msgstr ""
 
-msgid "The variance parameter of the normal distribution is assumed to be known."
+msgid ""
+"The variance parameter of the normal distribution is assumed to be known."
 msgstr ""
 
 msgid "Probability"
@@ -223,5 +291,8 @@ msgstr ""
 msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
 msgstr ""
 
-msgid "Input: When number of covariates for Alternative hypothesis is greater than that of Null hypothesis, the R%s has to be higher under Alternative than under Null hypothesis"
+msgid ""
+"Input: When number of covariates for Alternative hypothesis is greater than "
+"that of Null hypothesis, the R%s has to be higher under Alternative than "
+"under Null hypothesis"
 msgstr ""

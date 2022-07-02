@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.0.0\n"
-"POT-Creation-Date: 2021-10-02 02:35\n"
+"POT-Creation-Date: 2022-07-02 03:11\n"
 "PO-Revision-Date: 2021-11-08 13:05+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
@@ -125,6 +125,47 @@ msgstr "ベイジアン対応のあるサンプルのt検定"
 msgid "Not enough observations."
 msgstr "十分な観測値がありません."
 
+msgid "Model Summary"
+msgstr "モデルの概要"
+
+msgid "Effect size"
+msgstr ""
+
+msgid "Standard error"
+msgstr ""
+
+msgid "Max %1$s"
+msgstr ""
+
+msgid "Default %1$s"
+msgstr ""
+
+msgid "exp(Effect size)"
+msgstr ""
+
+#, fuzzy
+msgid "Bayes Factor Robustness Plot"
+msgstr "ベイズファクターの頑健性チェック"
+
+msgid "Bayes factor contours breaks could not be parsed into numbers."
+msgstr ""
+
+msgid "exp(Prior mean)"
+msgstr ""
+
+#, fuzzy
+msgid "Prior mean"
+msgstr "事前分布"
+
+#, fuzzy
+msgid "Prior standard deviation"
+msgstr "事前分布と事後分布"
+
+msgid ""
+"The default Bayes factor is based on unit information prior corresponding to "
+"a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
+msgstr ""
+
 msgid "Bayesian Binomial Test"
 msgstr "ベイジアンニ項検定"
 
@@ -231,9 +272,6 @@ msgstr "Uniform(%1$s, %2$s)"
 
 msgid "Spike(%1$s)"
 msgstr "Spike(%1$s)"
-
-msgid "Model Summary"
-msgstr "モデルの概要"
 
 msgid "Prior"
 msgstr "事前分布"

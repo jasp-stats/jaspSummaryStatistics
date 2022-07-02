@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2021-10-02 02:35\n"
+"POT-Creation-Date: 2022-07-02 03:11\n"
 "PO-Revision-Date: 2021-10-03 14:07+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
@@ -129,6 +129,47 @@ msgstr "Bayesscher T-Test für abhängige Stichproben"
 msgid "Not enough observations."
 msgstr "Nicht genug Beobachtungen."
 
+msgid "Model Summary"
+msgstr "Modellzusammenfassung"
+
+msgid "Effect size"
+msgstr ""
+
+msgid "Standard error"
+msgstr ""
+
+msgid "Max %1$s"
+msgstr ""
+
+msgid "Default %1$s"
+msgstr ""
+
+msgid "exp(Effect size)"
+msgstr ""
+
+#, fuzzy
+msgid "Bayes Factor Robustness Plot"
+msgstr "Bayesfaktor-Robustheitsprüfung"
+
+msgid "Bayes factor contours breaks could not be parsed into numbers."
+msgstr ""
+
+msgid "exp(Prior mean)"
+msgstr ""
+
+#, fuzzy
+msgid "Prior mean"
+msgstr "Prior"
+
+#, fuzzy
+msgid "Prior standard deviation"
+msgstr "Prior und Posterior"
+
+msgid ""
+"The default Bayes factor is based on unit information prior corresponding to "
+"a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
+msgstr ""
+
 msgid "Bayesian Binomial Test"
 msgstr "Bayesscher Binomialtest"
 
@@ -242,9 +283,6 @@ msgstr "Uniform(%1$s, %2$s)"
 
 msgid "Spike(%1$s)"
 msgstr "Punktmasse(%1$s)"
-
-msgid "Model Summary"
-msgstr "Modellzusammenfassung"
 
 msgid "Prior"
 msgstr "Prior"

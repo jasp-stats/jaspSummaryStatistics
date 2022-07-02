@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
-"POT-Creation-Date: 2021-10-02 02:35\n"
+"POT-Creation-Date: 2022-07-02 03:11\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,6 +97,42 @@ msgstr ""
 msgid "Not enough observations."
 msgstr ""
 
+msgid "Model Summary"
+msgstr ""
+
+msgid "Effect size"
+msgstr ""
+
+msgid "Standard error"
+msgstr ""
+
+msgid "Max %1$s"
+msgstr ""
+
+msgid "Default %1$s"
+msgstr ""
+
+msgid "exp(Effect size)"
+msgstr ""
+
+msgid "Bayes Factor Robustness Plot"
+msgstr ""
+
+msgid "Bayes factor contours breaks could not be parsed into numbers."
+msgstr ""
+
+msgid "exp(Prior mean)"
+msgstr ""
+
+msgid "Prior mean"
+msgstr ""
+
+msgid "Prior standard deviation"
+msgstr ""
+
+msgid "The default Bayes factor is based on unit information prior corresponding to a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
+msgstr ""
+
 msgid "Bayesian Binomial Test"
 msgstr ""
 
@@ -173,9 +209,6 @@ msgid "Uniform(%1$s, %2$s)"
 msgstr ""
 
 msgid "Spike(%1$s)"
-msgstr ""
-
-msgid "Model Summary"
 msgstr ""
 
 msgid "Prior"

@@ -626,3 +626,174 @@ msgstr "事後分布"
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "df"
 msgstr "df"
+
+msgctxt "Description|"
+msgid "Bayesian Z-Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. Bayesian Z-Test"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Data"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size & SE"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size & CI"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size & CI (log)"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size, SD & N"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size log"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "SE"
+msgstr "SE"
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Sd"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "N"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Confidence interval log"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Confidence interval"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "lower"
+msgstr "下"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "upper"
+msgstr "上"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Alt. Hypothesis"
+msgstr "対立仮説"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "≠ Test value"
+msgstr "≠ 検定統計量"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "> Test value"
+msgstr "> 検定統計量"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "< Test value"
+msgstr "< 検定統計量"
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior Distribution"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Normal   mean:"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "std"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Default Bayes factor"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid ""
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Select effect size"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Cohen's d"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "log(OR)"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "log(HR)"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Custom"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Unit information SD"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Plots"
+msgstr "プロット"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior and posterior"
+msgstr "事前分布と事後分布"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Additional info"
+msgstr "追加情報"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Bayes factor robustness check"
+msgstr "ベイズファクターの頑健性チェック"
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior mean   min:"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "max:"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior std\tmin:"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "max"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Specify Bayes factor contours"
+msgstr ""
