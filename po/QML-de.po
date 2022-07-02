@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-02 07:18+0000\n"
+"PO-Revision-Date: 2022-07-03 08:17+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/de/>\n"
@@ -648,15 +648,15 @@ msgstr "Daten"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & SE"
-msgstr "Effektstärke & SE"
+msgstr "Effektstärke & SF"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & CI"
-msgstr "Effektstärke & GI"
+msgstr "Effektstärke & KI"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & CI (log)"
-msgstr "Effektstärke & GI (log)"
+msgstr "Effektstärke & KI (log)"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size, SD & N"
@@ -677,64 +677,59 @@ msgstr "SF"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Sd"
-msgstr ""
+msgstr "SD"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Confidence interval log"
-msgstr ""
+msgstr "Log Konfidenzintervall"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Confidence interval"
-msgstr ""
+msgstr "Konfidenzintervall"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "lower"
 msgstr "untere"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "upper"
 msgstr "obere"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Alt.-Hypothese"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "≠ Test value"
 msgstr "≠ Testwert"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "> Test value"
 msgstr "> Testwert"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "< Test value"
 msgstr "< Testwert"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior Distribution"
-msgstr ""
+msgstr "Prior-Verteilung"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Normal   mean:"
-msgstr ""
+msgstr "Normal   Mittelwert:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "std"
-msgstr ""
+msgstr "Std"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Default Bayes factor"
-msgstr ""
+msgstr "Standard Bayesfaktor"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid ""
@@ -742,55 +737,51 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Select effect size"
-msgstr ""
+msgstr "Effektstärke wählen"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Cohen's d"
-msgstr ""
+msgstr "Cohens d"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "log(OR)"
-msgstr ""
+msgstr "log(OR)"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "log(HR)"
-msgstr ""
+msgstr "log(HR)"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Custom"
-msgstr ""
+msgstr "Benutzerdefiniert"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Unit information SD"
-msgstr ""
+msgstr "Einheitsinformation SD"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Plots"
 msgstr "Abbildungen"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior and posterior"
 msgstr "Prior und Posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Additional info"
 msgstr "Weitere Infos"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Bayes factor robustness check"
 msgstr "Bayesfaktor Robustheitsprüfung"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior mean   min:"
-msgstr ""
+msgstr "Prior Mittelwert   Min:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "max:"
-msgstr ""
+msgstr "Max:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior std\tmin:"
