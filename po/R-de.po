@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2022-07-02 03:11\n"
-"PO-Revision-Date: 2021-10-03 14:07+0000\n"
+"PO-Revision-Date: 2022-07-04 10:19+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/de/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==0 ? 0 : n==1 ? 0 : 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -133,42 +133,42 @@ msgid "Model Summary"
 msgstr "Modellzusammenfassung"
 
 msgid "Effect size"
-msgstr ""
+msgstr "Effektstärke"
 
 msgid "Standard error"
-msgstr ""
+msgstr "Standardfehler"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "Max %1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "Standard %1$s"
 
 msgid "exp(Effect size)"
-msgstr ""
+msgstr "exp(Effektstärke)"
 
-#, fuzzy
 msgid "Bayes Factor Robustness Plot"
-msgstr "Bayesfaktor-Robustheitsprüfung"
+msgstr "Bayesfaktor-Robustheitsdiagramm"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
-msgstr ""
+msgstr "Bayesfaktor-Konturbrüche konnten nicht in Zahlen umgewandelt werden."
 
 msgid "exp(Prior mean)"
-msgstr ""
+msgstr "exp(Prior-Mittelwert)"
 
-#, fuzzy
 msgid "Prior mean"
-msgstr "Prior"
+msgstr "Prior-Mittelwert"
 
-#, fuzzy
 msgid "Prior standard deviation"
-msgstr "Prior und Posterior"
+msgstr "Prior-Standardabweichung"
 
 msgid ""
 "The default Bayes factor is based on unit information prior corresponding to "
 "a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
 msgstr ""
+"Der Standard-Bayesfaktor basiert auf einem Einheitsinformationsprior, der "
+"einer Effektstärke von %1$s, einer Normalverteilung mit Mittelwert = 0 und "
+"SD = %2$s entspricht."
 
 msgid "Bayesian Binomial Test"
 msgstr "Bayesscher Binomialtest"
