@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-03 08:17+0000\n"
+"PO-Revision-Date: 2022-07-04 10:53+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/de/>\n"
@@ -789,8 +789,8 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "max"
-msgstr ""
+msgstr "Max"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
-msgstr ""
+msgstr "Bayesfaktor-Konturen angeben"
