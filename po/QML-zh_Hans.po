@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-07-06 18:26+0000\n"
+"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"jasp/jaspsummarystatistics-qml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "X-Language: zh_Hans\n"
 "X-Qt-Contexts: true\n"
 
@@ -629,96 +635,91 @@ msgstr "df"
 
 msgctxt "Description|"
 msgid "Bayesian Z-Test"
-msgstr ""
+msgstr "贝叶斯 Z 检验"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Z-Test"
-msgstr ""
+msgstr "S.S. 贝叶斯 Z 检验"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Data"
-msgstr ""
+msgstr "数据"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & SE"
-msgstr ""
+msgstr "效应量和 SE"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & CI"
-msgstr ""
+msgstr "效应量和 CI"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & CI (log)"
-msgstr ""
+msgstr "效应量和 CI (log)"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size, SD & N"
-msgstr ""
+msgstr "效应量，标准差和个案数"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size log"
-msgstr ""
+msgstr "效应量 log"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size"
-msgstr ""
+msgstr "效应量"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "SE"
 msgstr "标准误"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Sd"
-msgstr ""
+msgstr "标准差"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "N"
-msgstr ""
+msgstr "个案数"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Confidence interval log"
-msgstr ""
+msgstr "置信区间 log"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Confidence interval"
-msgstr ""
+msgstr "置信区间"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "lower"
 msgstr "下界"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "upper"
 msgstr "上界"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Alt. Hypothesis"
 msgstr "备择假设"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "≠ Test value"
 msgstr "≠ 检验值"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "> Test value"
-msgstr ""
+msgstr "> 检验值"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "< Test value"
-msgstr ""
+msgstr "< 检验值"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior Distribution"
-msgstr ""
+msgstr "先验分布"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Normal   mean:"
-msgstr ""
+msgstr "正态   均值:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "std"
@@ -726,7 +727,7 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Default Bayes factor"
-msgstr ""
+msgstr "默认贝叶斯因子"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid ""
@@ -734,11 +735,11 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Select effect size"
-msgstr ""
+msgstr "选择效应量"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Cohen's d"
-msgstr ""
+msgstr "Cohen's d"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "log(OR)"
@@ -750,39 +751,35 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Custom"
-msgstr ""
+msgstr "自定义"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Unit information SD"
-msgstr ""
+msgstr "单位信息 SD"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Plots"
 msgstr "绘图"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior and posterior"
 msgstr "先验和后验"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Additional info"
 msgstr "附加信息"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Bayes factor robustness check"
 msgstr "贝叶斯因子稳健性检验"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior mean   min:"
-msgstr ""
+msgstr "先验均值   最小值："
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "max:"
-msgstr ""
+msgstr "最大值:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior std\tmin:"
@@ -790,8 +787,8 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "max"
-msgstr ""
+msgstr "最大值"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
-msgstr ""
+msgstr "指定贝叶斯因子等值线"
