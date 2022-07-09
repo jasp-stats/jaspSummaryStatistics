@@ -731,10 +731,6 @@ msgid "Default Bayes factor"
 msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
-msgid ""
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
 msgid "Select effect size"
 msgstr ""
 
@@ -796,4 +792,8 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid ""
 msgstr ""
