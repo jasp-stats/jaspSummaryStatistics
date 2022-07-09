@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
 "POT-Creation-Date: 2022-07-02 03:11\n"
-"PO-Revision-Date: 2022-02-23 19:15+0000\n"
+"PO-Revision-Date: 2022-07-04 11:05+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/es/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 msgid "BF%s"
 msgstr "FB%s"
@@ -133,42 +133,44 @@ msgid "Model Summary"
 msgstr "Resumen del Modelo"
 
 msgid "Effect size"
-msgstr ""
+msgstr "Magnitud del efecto"
 
 msgid "Standard error"
-msgstr ""
+msgstr "Error típico"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "Máx %1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "Predeterminado %1$s"
 
 msgid "exp(Effect size)"
-msgstr ""
+msgstr "exp(Magnitud del efecto)"
 
-#, fuzzy
 msgid "Bayes Factor Robustness Plot"
-msgstr "Comprobación de Robustez del Factor de Bayes"
+msgstr "Gráfico de Robustez del Factor de Bayes"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
 msgstr ""
+"Las rupturas de los contornos del factor de Bayes no se pueden analizar como "
+"números."
 
 msgid "exp(Prior mean)"
-msgstr ""
+msgstr "exp(Media previa)"
 
-#, fuzzy
 msgid "Prior mean"
-msgstr "Previo"
+msgstr "Media previa"
 
-#, fuzzy
 msgid "Prior standard deviation"
-msgstr "Previo y Posterior"
+msgstr "Desviación típica previa"
 
 msgid ""
 "The default Bayes factor is based on unit information prior corresponding to "
 "a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
 msgstr ""
+"El factor de Bayes predeterminado se basa en información de unidad previa "
+"correspondiente a una magnitud del efecto %1$s, una distribución Normal con "
+"media = 0 y dt = %2$s."
 
 msgid "Bayesian Binomial Test"
 msgstr "Contraste bayesiano Binomial"
