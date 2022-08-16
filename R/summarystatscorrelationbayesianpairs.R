@@ -27,7 +27,7 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
   
   .createTableCorSumStats(correlationContainer, corModel, options)
   
-  if (options[["plotPriorPosterior"]] || options[["plotBfRobustness"]])
+  if (options[["priorPosteriorPlot"]] || options[["bfRobustnessPlot"]])
     .createPlotsCorSumStats(correlationContainer, corModel, options)
 }
 
@@ -44,9 +44,15 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
                     kendall  = options[["tauObs"]],
                     spearman = options[["rhoSObs"]])
   
-  corResults <- bstats::bcor.testSumStat(n=options[["n"]], stat=statObs, alternative=options[["alternative"]],
+  # TODO(Alexander): This can be removed once bstats is adapted
+  alternativeLocal <- switch(options[["alternative"]],
+                             twoSided  = "two.sided",
+                             greater  = "greater",
+                             less = "less")
+  
+  corResults <- bstats::bcor.testSumStat(n=options[["n"]], stat=statObs, alternative=alternativeLocal,
                                          method=options[["method"]], ciValue=options[["ciValue"]], 
-                                         kappa=options[["kappa"]])
+                                         kappa=options[["priorWidth"]])
   pValue <- bstats::pValueFromCor(n=options[["n"]], stat=statObs, method=options[["method"]])
   results <- modifyList(corResults, pValue)
   
@@ -65,7 +71,7 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
   if (is.null(correlationContainer)) {
     correlationContainer <- createJaspContainer()
     correlationContainer$dependOn(c("n", "method", "rObs", "tauObs", 
-                                    "rhoSObs", "kappa"))
+                                    "rhoSObs", "priorWidth"))
     jaspResults[["correlationContainer"]] <- correlationContainer
   }
   return(correlationContainer)
@@ -97,7 +103,13 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
     if (options[["ci"]])
       itemList <- c(itemList, "lowerCi", "upperCi")
     
-    sidedObject <- bstats::getSidedObject(corModel, alternative=options[["alternative"]])
+    # TODO(Alexander): This can be removed once bstats is adapted
+    alternativeLocal <- switch(options[["alternative"]],
+                               twoSided  = "two.sided",
+                               greater  = "greater",
+                               less = "less")
+    
+    sidedObject <- bstats::getSidedObject(corModel, alternative=alternativeLocal)
     rowResult <- sidedObject[itemList]
     
     if (options[["bayesFactorType"]] == "BF01")
@@ -164,28 +176,33 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
   }
   
   # b. Define dependencies for the plots ----- 
-  # For plotPriorPosterior
+  # For priorPosteriorPlot
   # 
-  bfPlotPriorPosteriorDependencies <- c("plotPriorPosteriorAddTestingInfo", "plotPriorPosteriorAddEstimationInfo", 
-                                        "plotPriorPosterior", "alternative")
+  bfPlotPriorPosteriorDependencies <- c("priorPosteriorPlotAddTestingInfo", "priorPosteriorPlotAddEstimationInfo", 
+                                        "priorPosteriorPlot", "alternative")
   
-  if (options[["plotPriorPosteriorAddEstimationInfo"]]) 
+  if (options[["priorPosteriorPlotAddEstimationInfo"]]) 
     bfPlotPriorPosteriorDependencies <- c(bfPlotPriorPosteriorDependencies, "ciValue")
   
-  # For plotBfRobustness
+  # For bfRobustnessPlot
   # 
-  bfPlotRobustnessDependencies <- c("plotBfRobustnessAddInfo", "plotBfRobustness")
+  bfPlotRobustnessDependencies <- c("bfRobustnessPlotAddInfo", "bfRobustnessPlot")
   
-  if (options[["plotBfRobustnessAddInfo"]]) 
+  if (options[["bfRobustnessPlotAddInfo"]]) 
     bfPlotRobustnessDependencies <- c(bfPlotRobustnessDependencies, "bayesFactorType")
   
   plotItemDependencies <- list(
-    "plotPriorPosterior" = bfPlotPriorPosteriorDependencies,
-    "plotBfRobustness" = bfPlotRobustnessDependencies
+    "priorPosteriorPlot" = bfPlotPriorPosteriorDependencies,
+    "bfRobustnessPlot" = bfPlotRobustnessDependencies
   )
   
   plotItems <- jaspRegression::.getCorPlotItems(options, sumStat=TRUE)
-  alternative <- options[["alternative"]]
+  
+  # TODO(Alexander): This can be removed once bstats is adapted
+  alternativeLocal <- switch(options[["alternative"]],
+                             twoSided  = "two.sided",
+                             greater  = "greater",
+                             less = "less")
   
   # c. Per plotItem add plot ------
   # 
@@ -207,9 +224,9 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
       if (correlationContainer$getError() || is.null(corModel))
         next
       
-      if (item == "plotPriorPosterior")
+      if (item == "priorPosteriorPlot")
         plot <- jaspRegression::.drawPosteriorPlotCorBayes(correlationContainer, corModel, options, methodItems=options[["method"]], purpose="sumStat")
-      else if (item == "plotBfRobustness")
+      else if (item == "bfRobustnessPlot")
         plot <- jaspRegression::.drawBfRobustnessPlotCorBayes(corModel, options, options[["method"]])
       
       .checkAndSetPlotCorBayes(plot, jaspPlotResult)

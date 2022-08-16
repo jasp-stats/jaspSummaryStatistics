@@ -57,7 +57,7 @@ Form
 	{
 		title: qsTr("Alt. Hypothesis")
         name: "alternative"
-        RadioButton { value: "two.sided";                           label: qsTr("Correlated"); checked: true	}
+        RadioButton { value: "twoSided";                           label: qsTr("Correlated"); checked: true	}
         RadioButton { value: "greater";                             label: qsTr("Correlated positively")		}
         RadioButton { value: "less";                                label: qsTr("Correlated negatively")		}
 	}
@@ -73,14 +73,14 @@ Form
 		title: qsTr("Plots")
 		CheckBox
 		{
-            name: "plotPriorPosterior";				label: qsTr("Prior and posterior")
-            CheckBox { name: "plotPriorPosteriorAddEstimationInfo";	label: qsTr("Estimation info"); checked: true }
-            CheckBox { name: "plotPriorPosteriorAddTestingInfo";	label: qsTr("Testing info"); checked: true }
+            name: "priorPosteriorPlot";				label: qsTr("Prior and posterior")
+            CheckBox { name: "priorPosteriorPlotAddEstimationInfo";	label: qsTr("Estimation info"); checked: true }
+            CheckBox { name: "priorPosteriorPlotAddTestingInfo";	label: qsTr("Testing info"); checked: true }
 		}
 		CheckBox
 		{
-            name: "plotBfRobustness";                          label: qsTr("Bayes factor robustness check")
-            CheckBox { name: "plotBfRobustnessAddInfo"; label: qsTr("Additional info"); checked: true }
+            name: "bfRobustnessPlot";                          label: qsTr("Bayes factor robustness check")
+            CheckBox { name: "bfRobustnessPlotAddInfo"; label: qsTr("Additional info"); checked: true }
 		}
 	}
 
@@ -89,6 +89,6 @@ Form
 	Group
 	{
         title: qsTr("Prior")
-        DoubleField { name: "kappa";       label: qsTr("Stretched beta prior width");      defaultValue: 1.0; min: 0.003; max: 2; decimals: 3 }
+        DoubleField { name: "priorWidth";       label: qsTr("Stretched beta prior width");      defaultValue: 1.0; min: 0.003; max: 2; decimals: 3 }
 	}
 }

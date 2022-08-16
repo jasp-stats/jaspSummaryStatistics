@@ -8,7 +8,7 @@ test_that("Kendall Bayesian Correlation Table results match", {
   options$tauObs <- -0.3
   options$ci <- TRUE
   options$ciValue <- 0.69
-  options$kappa <- 1.2
+  options$priorWidth <- 1.2
   options$alternative <- "greater"
   options$bayesFactorType <- "BF01"
   
@@ -28,10 +28,10 @@ test_that("Kendall Bayes Factor Robustness Check plot matches", {
   options$tauObs <- -0.3
   options$ci <- TRUE
   options$ciValue <- 0.69
-  options$kappa <- 1.2
+  options$priorWidth <- 1.2
   options$alternative <- "greater"
   options$bayesFactorType <- "BF01"
-  options$plotBfRobustness <- TRUE
+  options$bfRobustnessPlot <- TRUE
   
   set.seed(1)
   results <- jaspTools::runAnalysis("SummaryStatsCorrelationBayesianPairs", "debug.csv", options)
@@ -48,10 +48,10 @@ test_that("Kendall Prior and Posterior plot matches", {
   options$tauObs <- -0.3
   options$ci <- TRUE
   options$ciValue <- 0.69
-  options$kappa <- 1.2
+  options$priorWidth <- 1.2
   options$alternative <- "greater"
   options$bayesFactorType <- "BF01"
-  options$plotPriorPosterior <- TRUE
+  options$priorPosteriorPlot <- TRUE
   
   set.seed(1)
   results <- jaspTools::runAnalysis("SummaryStatsCorrelationBayesianPairs", "debug.csv", options)
@@ -71,7 +71,7 @@ test_that("Kendall Prior and Posterior plot matches", {
 #   options$rObs <- 0.7
 #   options$ci <- TRUE
 #   options$ciValue <- 0.42
-#   options$kappa <- 2
+#   options$priorWidth <- 2
 #   options$bayesFactorType <- "LogBF10"
 #   
 #   set.seed(1)
@@ -93,9 +93,9 @@ test_that("Kendall Prior and Posterior plot matches", {
 #   options$rObs <- 0.7
 #   options$ci <- TRUE
 #   options$ciValue <- 0.42
-#   options$kappa <- 2
+#   options$priorWidth <- 2
 #   options$bayesFactorType <- "LogBF10"
-#   options$plotBfRobustness <- TRUE
+#   options$bfRobustnessPlot <- TRUE
 #   
 #   set.seed(1)
 #   results <- jaspTools::runAnalysis("SummaryStatsCorrelationBayesianPairs", "debug.csv", options)
@@ -112,7 +112,7 @@ test_that("Kendall Prior and Posterior plot matches", {
 #   options$rObs <- 0.7
 #   options$ci <- TRUE
 #   options$ciValue <- 0.42
-#   options$kappa <- 2
+#   options$priorWidth <- 2
 #   options$bayesFactorType <- "LogBF10"
 #   options$plotPriorPosterior <- TRUE
 #   
