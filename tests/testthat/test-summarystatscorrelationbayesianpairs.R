@@ -36,7 +36,7 @@ test_that("Kendall Bayes Factor Robustness Check plot matches", {
   set.seed(1)
   results <- jaspTools::runAnalysis("SummaryStatsCorrelationBayesianPairs", "debug.csv", options)
   
-  plotName <- results[["results"]][["correlationContainer"]][["collection"]][["correlationContainer_plotContainer"]][["collection"]][["correlationContainer_plotContainer_plotBfRobustness"]][["data"]]
+  plotName <- results[["results"]][["correlationContainer"]][["collection"]][["correlationContainer_plotContainer"]][["collection"]][["correlationContainer_plotContainer_bfRobustnessPlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(testPlot, "bayes-factor-robustness-check")
 })
@@ -56,7 +56,7 @@ test_that("Kendall Prior and Posterior plot matches", {
   set.seed(1)
   results <- jaspTools::runAnalysis("SummaryStatsCorrelationBayesianPairs", "debug.csv", options)
   
-  plotName <- results[["results"]][["correlationContainer"]][["collection"]][["correlationContainer_plotContainer"]][["collection"]][["correlationContainer_plotContainer_plotPriorPosterior"]][["data"]]
+  plotName <- results[["results"]][["correlationContainer"]][["collection"]][["correlationContainer_plotContainer"]][["collection"]][["correlationContainer_plotContainer_priorPosteriorPlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(testPlot, "prior-and-posterior")
 })
