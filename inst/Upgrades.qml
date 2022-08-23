@@ -18,10 +18,12 @@ Upgrades
                 switch(options["alternative"])
                 {
                     case "two.sided":				return "twoSided"	;
+                    default:                        return options["alternative"];
                 }
             }
         }
 
+        ChangeRename { from: "ciValue";                                 to: "ciLevel"                               }
 
         // Prior posterior plots
         ChangeRename { from: "plotPriorPosterior";						to: "priorPosteriorPlot"					}

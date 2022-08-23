@@ -65,7 +65,7 @@ Form
     CheckBox
     {
         name: "ci"; label: qsTr("Credible intervals")
-        CIField { name: "ciValue";	label: qsTr("Interval") }
+        CIField { name: "ciLevel";	label: qsTr("Interval") }
     }
 
 	Group
