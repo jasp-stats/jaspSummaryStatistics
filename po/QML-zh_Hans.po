@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-19 13:16+0000\n"
+"PO-Revision-Date: 2022-09-20 15:22+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jasp/jaspsummarystatistics-qml/zh_Hans/>\n"
@@ -559,7 +559,7 @@ msgstr "成功数"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations"
-msgstr "观察值"
+msgstr "观测值"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Null Hypothesis"
