@@ -31,14 +31,14 @@ Form
 	{
 		title: qsTr("Group 1")
 		IntegerField { name: "y1";	label: qsTr("Successes"); max: n1.value}
-		IntegerField { name: "n1";	label: qsTr("Sample Size"); id = n1}
+		IntegerField { name: "n1";	label: qsTr("Sample Size"); id: n1}
 	}
 
 	Group
 	{
 		title: qsTr("Group 2")
-		IntegerField { name: "y2";	label: qsTr("Successes"); max = n2.value}
-		IntegerField { name: "n2";	label: qsTr("Sample Size"); id = n2}
+		IntegerField { name: "y2";	label: qsTr("Successes"); max: n2.value}
+		IntegerField { name: "n2";	label: qsTr("Sample Size"); id: n2}
 	}
 
 	Divider { }
