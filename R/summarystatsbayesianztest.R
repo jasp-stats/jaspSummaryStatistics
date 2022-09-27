@@ -212,6 +212,14 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
       robustnessPlot$setError(gettext("Bayes factor contours breaks could not be parsed into numbers."))
       return()
     }
+    if (any(bfBreaks <= 0)) {
+      robustnessPlot$setError(gettext("Bayes factor contours breaks must be positive."))
+      return()
+    }
+    if (is.unsorted(bfBreaks, strictly = TRUE)) {
+      robustnessPlot$setError(gettext("Bayes factor contours breaks must be increasing."))
+      return()
+    }
   } else {
     bfBreaks <- c(1/100, 1/30, 1/10, 1/3, 1, 3, 10, 30, 100)
   }

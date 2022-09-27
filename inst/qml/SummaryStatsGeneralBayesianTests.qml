@@ -271,8 +271,9 @@ Form
 					id:					nullParA
 					visible:			nullItem.currentValue === "uniform"
 					value:				"0"
+					min:				likelihood.currentValue == "binomial" ?  0 : "-Inf"
 					max:				nullParB.value
-					inclusive:			JASP.None
+					inclusive:			JASP.MinOnly
 					fieldWidth: 		40 * preferencesModel.uiScale
 					useExternalBorder:	false
 					showBorder: 		true
@@ -285,7 +286,8 @@ Form
 					visible:			nullItem.currentValue === "uniform"
 					value:				"1"
 					min:				nullParA.value
-					inclusive:			JASP.None
+					max:				likelihood.currentValue == "binomial" ?  1 : "Inf"
+					inclusive:			JASP.MaxOnly
 					fieldWidth: 		40 * preferencesModel.uiScale
 					useExternalBorder:	false
 					showBorder: 		true
@@ -496,8 +498,9 @@ Form
 						id:					parA
 						visible:			alternativeItem.currentValue === "uniform"
 						value:				"0"
+						min:				likelihood.currentValue == "binomial" ?  0 : "-Inf"
 						max:				parB.value
-						inclusive:			JASP.None
+						inclusive:			JASP.MinOnly
 						fieldWidth: 		40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
@@ -510,7 +513,8 @@ Form
 						visible:			alternativeItem.currentValue === "uniform"
 						value:				"1"
 						min:				parA.value
-						inclusive:			JASP.None
+						max:				likelihood.currentValue == "binomial" ?  1 : "Inf"
+						inclusive:			JASP.MaxOnly
 						fieldWidth: 		40 * preferencesModel.uiScale
 						useExternalBorder:	false
 						showBorder: 		true
