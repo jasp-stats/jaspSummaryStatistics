@@ -216,7 +216,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
       robustnessPlot$setError(gettext("Bayes factor contours breaks must be positive."))
       return()
     }
-    if (!all(order(bfBreaks) == seq_along(bfBreaks))) {
+    if (is.unsorted(bfBreaks, strictly = TRUE)) {
       robustnessPlot$setError(gettext("Bayes factor contours breaks must be increasing."))
       return()
     }
