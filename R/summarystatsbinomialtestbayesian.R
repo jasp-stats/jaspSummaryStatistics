@@ -220,13 +220,7 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   }
   
   if(options$plotPriorAndPosteriorAdditionalInfo){
-    
-    # error check: infinite Bayes factors?
-    if(!is.numeric(BF10) || is.infinite(BF10)){
-      plot$setError(gettext("Plotting not possible: Bayes factor should be numeric!"))
-      return()
-    }
-    
+
     p <- try(jaspGraphs::PlotPriorAndPosterior(dfLines = dfLinesPP, dfPoints = dfPointsPP, xName = xName, BF = BF10,
                                                bfType = "BF10", hypothesis = hypForPlots,
                                                CRI = ppCri, median = medianPosterior, drawCRItxt = TRUE))
