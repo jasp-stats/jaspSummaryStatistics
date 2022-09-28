@@ -1,23 +1,32 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-09-28 09:58+0000\n"
+"Last-Translator: Cécile Mazon <cecile.mazon@inria.fr>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 "X-Language: fr\n"
 "X-Qt-Contexts: true\n"
 
+#, fuzzy
 msgctxt "Description|"
 msgid "Summary Statistics"
-msgstr ""
+msgstr "Résumé des statistiques"
 
+#, fuzzy
 msgctxt "Description|"
 msgid "Apply common Bayesian tests from sufficient statistics"
 msgstr ""
+"Applique des tests bayésiens communs à partir de statistiques suffisantes"
 
 msgctxt "Description|"
 msgid "T-Tests"
-msgstr ""
+msgstr "T-Tests"
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
