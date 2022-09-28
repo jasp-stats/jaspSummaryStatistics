@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.0.0\n"
-"POT-Creation-Date: 2022-07-02 03:11\n"
+"POT-Creation-Date: 2022-09-28 10:01\n"
 "PO-Revision-Date: 2021-11-08 13:05+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
@@ -150,6 +150,12 @@ msgstr "ベイズファクターの頑健性チェック"
 msgid "Bayes factor contours breaks could not be parsed into numbers."
 msgstr ""
 
+msgid "Bayes factor contours breaks must be positive."
+msgstr ""
+
+msgid "Bayes factor contours breaks must be increasing."
+msgstr ""
+
 msgid "exp(Prior mean)"
 msgstr ""
 
@@ -214,9 +220,6 @@ msgstr "母比率"
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
 "プロットができません: 事前または事後確率密度を評価することができません!"
-
-msgid "Plotting not possible: Bayes factor should be numeric!"
-msgstr "プロットができません: ベイズファクターは数値である必要があります!"
 
 msgid "Proportions tested against value: %s."
 msgstr "次の値に対する比率検定: %s."
@@ -324,3 +327,6 @@ msgid ""
 msgstr ""
 "入力: 対立仮説の共変量の数が帰無仮説の数より大きい場合、R%sは帰無仮説下より"
 "も、対立仮説下で高くする必要があります"
+
+#~ msgid "Plotting not possible: Bayes factor should be numeric!"
+#~ msgstr "プロットができません: ベイズファクターは数値である必要があります!"

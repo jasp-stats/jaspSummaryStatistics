@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
-"POT-Creation-Date: 2022-07-02 03:11\n"
+"POT-Creation-Date: 2022-09-28 10:01\n"
 "PO-Revision-Date: 2022-07-04 11:05+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
@@ -155,6 +155,18 @@ msgstr ""
 "Las rupturas de los contornos del factor de Bayes no se pueden analizar como "
 "números."
 
+#, fuzzy
+msgid "Bayes factor contours breaks must be positive."
+msgstr ""
+"Las rupturas de los contornos del factor de Bayes no se pueden analizar como "
+"números."
+
+#, fuzzy
+msgid "Bayes factor contours breaks must be increasing."
+msgstr ""
+"Las rupturas de los contornos del factor de Bayes no se pueden analizar como "
+"números."
+
 msgid "exp(Prior mean)"
 msgstr "exp(Media previa)"
 
@@ -225,9 +237,6 @@ msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
 "No es posible hacer el gráfico: ¡No se puede evaluar la densidad previa o la "
 "posterior!"
-
-msgid "Plotting not possible: Bayes factor should be numeric!"
-msgstr "No es posible hacer el gráfico: ¡el factor de Bayes debe ser numérico!"
 
 msgid "Proportions tested against value: %s."
 msgstr "Proporciones contrastadas en relación al valor: %s."
@@ -347,3 +356,7 @@ msgstr ""
 "Entrada: Cuando el número de covariables para la hipótesis alternativa es "
 "mayor que el de la hipótesis nula, el R%s tiene que ser mayor en la "
 "hipótesis alternativa que en la nula"
+
+#~ msgid "Plotting not possible: Bayes factor should be numeric!"
+#~ msgstr ""
+#~ "No es posible hacer el gráfico: ¡el factor de Bayes debe ser numérico!"

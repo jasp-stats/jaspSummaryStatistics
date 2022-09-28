@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
-"POT-Creation-Date: 2022-07-02 03:11\n"
+"POT-Creation-Date: 2022-09-28 10:01\n"
 "PO-Revision-Date: 2022-09-28 09:58+0000\n"
 "Last-Translator: Cécile Mazon <cecile.mazon@inria.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
@@ -138,6 +138,12 @@ msgstr ""
 msgid "Bayes factor contours breaks could not be parsed into numbers."
 msgstr ""
 
+msgid "Bayes factor contours breaks must be positive."
+msgstr ""
+
+msgid "Bayes factor contours breaks must be increasing."
+msgstr ""
+
 msgid "exp(Prior mean)"
 msgstr ""
 
@@ -188,9 +194,6 @@ msgid "Population proportion"
 msgstr ""
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
-msgstr ""
-
-msgid "Plotting not possible: Bayes factor should be numeric!"
 msgstr ""
 
 msgid "Proportions tested against value: %s."
