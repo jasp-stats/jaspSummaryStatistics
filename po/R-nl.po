@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2022-09-28 10:01\n"
-"PO-Revision-Date: 2022-09-24 09:25+0000\n"
-"Last-Translator: Don van den Bergh <donvdbergh@hotmail.com>\n"
+"PO-Revision-Date: 2022-09-28 11:26+0000\n"
+"Last-Translator: Jill de Ron <jillderon93@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/nl/>\n"
 "Language: nl\n"
@@ -134,48 +134,48 @@ msgid "Model Summary"
 msgstr "Model Samenvatting"
 
 msgid "Effect size"
-msgstr ""
+msgstr "Effectgrootte"
 
 msgid "Standard error"
-msgstr ""
+msgstr "Standaard fout"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "Max %1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "Standaard %1$s"
 
 msgid "exp(Effect size)"
-msgstr ""
+msgstr "exp(Effectgrootte)"
 
-#, fuzzy
 msgid "Bayes Factor Robustness Plot"
-msgstr "Bayes Factor Robuustheidsevaluatie"
+msgstr "Bayes Factor Robuustheids Grafiek"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
-msgstr ""
+msgstr "Bayes factor contouren konden niet als getallen worden verwerkt."
 
 msgid "Bayes factor contours breaks must be positive."
-msgstr ""
+msgstr "Bayes factor contouren moeten positief zijn."
 
 msgid "Bayes factor contours breaks must be increasing."
-msgstr ""
+msgstr "Bayes factor contouren moeten toenemen."
 
 msgid "exp(Prior mean)"
-msgstr ""
+msgstr "exp(Prior gemiddelde)"
 
-#, fuzzy
 msgid "Prior mean"
-msgstr "Prior"
+msgstr "Prior gemiddelde"
 
-#, fuzzy
 msgid "Prior standard deviation"
-msgstr "Prior en Posterior"
+msgstr "Prior standaard deviatie"
 
 msgid ""
 "The default Bayes factor is based on unit information prior corresponding to "
 "a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
 msgstr ""
+"De standaard Bayes factor is gebaseerd op eenheidsinformatie die overeenkomt "
+"met een effectgrootte van %1$s, een normale verdeling met gemiddelde = 0 en "
+"sd = %2$s."
 
 msgid "Bayesian Binomial Test"
 msgstr "Bayesiaanse Binomiaal Toets"
