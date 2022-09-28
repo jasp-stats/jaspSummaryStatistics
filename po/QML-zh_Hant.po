@@ -306,10 +306,6 @@ msgid "Default Bayes factor"
 msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
-msgid ""
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
 msgid "Select effect size"
 msgstr ""
 
@@ -783,4 +779,8 @@ msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid ""
 msgstr ""
