@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
 "POT-Creation-Date: 2022-09-28 10:01\n"
-"PO-Revision-Date: 2022-10-12 15:29+0000\n"
+"PO-Revision-Date: 2022-10-12 19:54+0000\n"
 "Last-Translator: Josée Turcotte <jturcotte@laurentienne.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/fr/>\n"
@@ -23,16 +23,16 @@ msgid "t"
 msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "Test t d'échantillons indépendants Bayésien"
 
 msgid "n%s"
 msgstr ""
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "error %"
-msgstr ""
+msgstr "% d'erreur"
 
 msgid "p"
 msgstr "p"
@@ -46,8 +46,9 @@ msgstr "Antérieur et postérieur"
 msgid "Plotting not possible: %s"
 msgstr "Traçage impossible : %s"
 
+#, fuzzy
 msgid "Bayes Factor Robustness Check"
-msgstr ""
+msgstr "Vérification de robustesse du facteur Bayes"
 
 msgid ""
 "Plotting not possible: Bayes factor robustness check plot currently not "
@@ -106,10 +107,10 @@ msgid ""
 msgstr ""
 
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "Test t Bayésien à un échantillon"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "Test t Bayésien d'échantillons pairés"
 
 msgid "Not enough observations."
 msgstr ""
@@ -118,7 +119,7 @@ msgid "Model Summary"
 msgstr ""
 
 msgid "Effect size"
-msgstr "Taille d'effet"
+msgstr "Taille de l'effet"
 
 msgid "Standard error"
 msgstr ""
@@ -252,7 +253,7 @@ msgid "Spike(%1$s)"
 msgstr ""
 
 msgid "Prior"
-msgstr ""
+msgstr "Précédent"
 
 msgid "Compared to %1$s."
 msgstr ""
