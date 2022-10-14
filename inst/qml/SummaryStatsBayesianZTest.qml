@@ -185,7 +185,7 @@ Form
 			DropDown
 			{
 				name:	"defaultBfType"
-				label:	qsTr("")
+				label:	""
 				id:		defaultBfType
 
 				values:
