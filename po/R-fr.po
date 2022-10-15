@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
 "POT-Creation-Date: 2022-09-28 10:01\n"
-"PO-Revision-Date: 2022-10-01 03:28+0000\n"
-"Last-Translator: JASP Stats <b.boutin@uva.nl>\n"
+"PO-Revision-Date: 2022-10-12 19:54+0000\n"
+"Last-Translator: Josée Turcotte <jturcotte@laurentienne.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/fr/>\n"
 "Language: fr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -23,16 +23,16 @@ msgid "t"
 msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "Test t d'échantillons indépendants Bayésien"
 
 msgid "n%s"
 msgstr ""
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "error %"
-msgstr ""
+msgstr "% d'erreur"
 
 msgid "p"
 msgstr "p"
@@ -41,13 +41,14 @@ msgid "Proportional error estimate could not be computed."
 msgstr ""
 
 msgid "Prior and Posterior"
-msgstr ""
+msgstr "Antérieur et postérieur"
 
 msgid "Plotting not possible: %s"
 msgstr "Traçage impossible : %s"
 
+#, fuzzy
 msgid "Bayes Factor Robustness Check"
-msgstr ""
+msgstr "Vérification de robustesse du facteur Bayes"
 
 msgid ""
 "Plotting not possible: Bayes factor robustness check plot currently not "
@@ -106,10 +107,10 @@ msgid ""
 msgstr ""
 
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "Test t Bayésien à un échantillon"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "Test t Bayésien d'échantillons pairés"
 
 msgid "Not enough observations."
 msgstr ""
@@ -118,7 +119,7 @@ msgid "Model Summary"
 msgstr ""
 
 msgid "Effect size"
-msgstr "Taille d'effet"
+msgstr "Taille de l'effet"
 
 msgid "Standard error"
 msgstr ""
@@ -231,7 +232,7 @@ msgid "%s%% Credible interval"
 msgstr ""
 
 msgid "Inferential Plots"
-msgstr ""
+msgstr "Graphiques inférentiels"
 
 msgid "Normal(%1$s, %2$s)"
 msgstr ""
@@ -252,7 +253,7 @@ msgid "Spike(%1$s)"
 msgstr ""
 
 msgid "Prior"
-msgstr ""
+msgstr "Précédent"
 
 msgid "Compared to %1$s."
 msgstr ""
