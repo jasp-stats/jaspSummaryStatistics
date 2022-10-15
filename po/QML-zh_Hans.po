@@ -782,7 +782,3 @@ msgstr "最大值"
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
 msgstr "指定贝叶斯因子等值线"
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid ""
-msgstr ""

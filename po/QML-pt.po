@@ -782,7 +782,3 @@ msgstr ""
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
 msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid ""
-msgstr ""
