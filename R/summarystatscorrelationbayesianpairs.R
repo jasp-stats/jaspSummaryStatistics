@@ -178,17 +178,17 @@ SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, opti
   # b. Define dependencies for the plots -----
   # For priorPosteriorPlot
   #
-  bfPlotPriorPosteriorDependencies <- c("priorPosteriorPlotAddTestingInfo", "priorPosteriorPlotAddEstimationInfo",
+  bfPlotPriorPosteriorDependencies <- c("priorPosteriorPlotAdditionalTestingInfo", "priorPosteriorPlotAdditionalEstimationInfo",
                                         "priorPosteriorPlot", "alternative")
 
-  if (options[["priorPosteriorPlotAddEstimationInfo"]])
+  if (options[["priorPosteriorPlotAdditionalEstimationInfo"]])
     bfPlotPriorPosteriorDependencies <- c(bfPlotPriorPosteriorDependencies, "ciLevel")
 
   # For bfRobustnessPlot
   #
-  bfPlotRobustnessDependencies <- c("bfRobustnessPlotAddInfo", "bfRobustnessPlot")
+  bfPlotRobustnessDependencies <- c("bfRobustnessPlotAdditionalInfo", "bfRobustnessPlot")
 
-  if (options[["bfRobustnessPlotAddInfo"]])
+  if (options[["bfRobustnessPlotAdditionalInfo"]])
     bfPlotRobustnessDependencies <- c(bfPlotRobustnessDependencies, "bayesFactorType")
 
   plotItemDependencies <- list(
