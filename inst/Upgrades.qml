@@ -38,4 +38,18 @@ Upgrades
         // Prior
         ChangeRename { from: "kappa";									to: "priorWidth"							}
     }
+
+    Upgrade
+    {
+        functionName:		"SummaryStatsCorrelationBayesianPairs"
+        fromVersion:		"0.16.4"
+        toVersion:			"0.17.0"
+
+        // Prior posterior plots
+        ChangeRename { from: "priorPosteriorPlotAddEstimationInfo";		to: "priorPosteriorPlotAdditionalEstimationInfo"	}
+        ChangeRename { from: "priorPosteriorPlotAddTestingInfo";		to: "priorPosteriorPlotAdditionalTestingInfo"		}
+
+        // Bf Robustness plots
+        ChangeRename { from: "bfRobustnessPlotAddInfo";					to: "bfRobustnessPlotAdditionalInfo"				}
+    }
 }

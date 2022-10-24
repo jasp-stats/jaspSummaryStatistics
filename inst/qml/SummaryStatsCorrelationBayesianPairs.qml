@@ -74,13 +74,13 @@ Form
 		CheckBox
 		{
             name: "priorPosteriorPlot";				label: qsTr("Prior and posterior")
-            CheckBox { name: "priorPosteriorPlotAddEstimationInfo";	label: qsTr("Estimation info"); checked: true }
-            CheckBox { name: "priorPosteriorPlotAddTestingInfo";	label: qsTr("Testing info"); checked: true }
+            CheckBox { name: "priorPosteriorPlotAdditionalEstimationInfo";	label: qsTr("Estimation info"); checked: true }
+            CheckBox { name: "priorPosteriorPlotAdditionalTestingInfo";	label: qsTr("Testing info"); checked: true }
 		}
 		CheckBox
 		{
             name: "bfRobustnessPlot";                          label: qsTr("Bayes factor robustness check")
-            CheckBox { name: "bfRobustnessPlotAddInfo"; label: qsTr("Additional info"); checked: true }
+            CheckBox { name: "bfRobustnessPlotAdditionalInfo"; label: qsTr("Additional info"); checked: true }
 		}
 	}
 
