@@ -23,7 +23,7 @@ import JASP.Widgets		1.0
 import JASP				1.0
 
 
-Form 
+Form
 {
 
 	IntegerField { label: qsTr("Sample size"); name: "sampleSize" ; min: 3; Layout.columnSpan: 2; defaultValue: 3 }
@@ -39,7 +39,7 @@ Form
 	{
 		title: qsTr("Alternative Model")
 		IntegerField {	label: qsTr("Number of covariates"); name: "alternativeNumberOfCovariates" ; min: 1; defaultValue: 1 }
-		DoubleField {	label: qsTr("R-squared");			name: "alternativeNumberOfCovariates" ; max: 0.9999 }
+		DoubleField {	label: qsTr("R-squared");			name: "alternativeUnadjustedRSquared" ; max: 0.9999 }
 	}
 
 	Divider { }
@@ -56,7 +56,7 @@ Form
 		}
 	}
 
-    Section 
+    Section
 	{
         title: qsTr("Advanced Options")
 

@@ -9,7 +9,7 @@ getRobustnessPlot <- function(results) {
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   return(testPlot)
 }
-  
+
 
 test_that("Main table results match with one model", {
   set.seed(0)
@@ -18,11 +18,11 @@ test_that("Main table results match with one model", {
   options$nullNumberOfCovariates        <- 0
   options$nullUnadjustedRSquared        <- 0
   options$alternativeNumberOfCovariates <- 4
-  options$alternativeNumberOfCovariates <- 0.82
+  options$alternativeUnadjustedRSquared <- 0.82
   options$priorRScale                    <- 0.5
   options$bayesFactorType               <- "LogBF10"
   results <- jaspTools::runAnalysis("SummaryStatsRegressionLinearBayesian", "debug.csv", options)
-  
+
   table <- getMainTable(results)
   # fill in expected values
   jaspTools::expect_equal_tables(table, list(31.7268858756927, 0.82, 1.40664186301779e-06, 4, 51))
@@ -33,13 +33,13 @@ test_that("Main table results match with model comparison", {
   options <- jaspTools::analysisOptions("SummaryStatsRegressionLinearBayesian")
   options$sampleSize                    <- 51
   options$nullNumberOfCovariates        <- 2
-  options$unadjustedRSquaredNull        <- 0.62
+  options$nullUnadjustedRSquared        <- 0.62
   options$alternativeNumberOfCovariates <- 4
-  options$alternativeNumberOfCovariates <- 0.82
+  options$alternativeUnadjustedRSquared <- 0.82
   options$priorRScale                    <- 0.5
   options$bayesFactorType               <- "LogBF10"
   results <- jaspTools::runAnalysis("SummaryStatsRegressionLinearBayesian", "debug.csv", options)
-  
+
   table <- getMainTable(results)
   # fill in expected values
   jaspTools::expect_equal_tables(table, list(-12.9889, 0.62, 2.01408039564443e-06, 2, "Null model",
@@ -55,14 +55,14 @@ test_that("Main table and plots match without additional info", {
   options$bfRobustnessPlot <- TRUE
   options$bfRobustnessPlotAdditionalInfo <- FALSE
   options$sampleSize <- 750
-  options$alternativeNumberOfCovariates <- 0.55
-  options$unadjustedRSquaredNull <- 0.45
+  options$alternativeUnadjustedRSquared <- 0.55
+  options$nullUnadjustedRSquared <- 0.45
   set.seed(1)
   results <- jaspTools::runAnalysis("SummaryStatsRegressionLinearBayesian", "debug.csv", options)
 
   table <- getMainTable(results)
   jaspTools::expect_equal_tables(table,
-                      list(-71.56048, 0.45, 6.09707810829571e-07, 4, "Null model", 
+                      list(-71.56048, 0.45, 6.09707810829571e-07, 4, "Null model",
                            71.56048, 0.55, 9.79848723927088e-06, 5, "Alternative model"))
 
   testPlot <- getRobustnessPlot(results)
@@ -75,14 +75,14 @@ test_that("Main table and plots match with additional info", {
   options$bfRobustnessPlot <- TRUE
   set.seed(1)
   results <- jaspTools::runAnalysis("SummaryStatsRegressionLinearBayesian", "debug.csv", options)
-  
+
   table <- getMainTable(results)
   jaspTools::expect_equal_tables(table,
                       list(0.651407436025229, 0, 2.50272800102564e-05, 1, 3))
-  
+
   testPlot <- getRobustnessPlot(results)
   jaspTools::expect_equal_plots(testPlot, "robustness-additional-info-plot")
-  
+
 })
 
 
