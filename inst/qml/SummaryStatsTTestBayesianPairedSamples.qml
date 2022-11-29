@@ -23,7 +23,7 @@ import JASP.Controls 1.0
 import JASP.Widgets 1.0
 
 
-Form 
+Form
 {
 
 	Group
@@ -31,7 +31,7 @@ Form
 		DoubleField  { label: qsTr("t");			name: "tStatistic"; negativeValues: true	}
 		IntegerField { label: qsTr("Sample size");	name: "sampleSize"							}
 	}
-	
+
     Divider { }
 
 	RadioButtonGroup
@@ -54,7 +54,7 @@ Form
 		CheckBox
 		{
 			name: "bfRobustnessPlot";	label: qsTr("Bayes factor robustness check")
-			CheckBox { name: "bfRobustnessPlotAddInfo";	label: qsTr("Additional info"); checked: true }
+			CheckBox { name: "bfRobustnessPlotAdditionalInfo";	label: qsTr("Additional info"); checked: true }
 		}
 	}
 
