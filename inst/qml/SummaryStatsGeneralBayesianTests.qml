@@ -584,37 +584,37 @@ Form
 
 		CheckBox
 		{
-			name:		"plotPriors"
+			name:		"priorPlot"
 			label:		qsTr("Priors")
 		}
 
 		CheckBox
 		{
-			name:		"plotPredictions"
+			name:		"predictionPlot"
 			label:		qsTr("Prior predictions")
 			
 			// TODO: potencial update
 			//CheckBox
 			//{
-			//	name:		"plotPredictionsRatio"
+			//	name:		"predictionPlotRatio"
 			//	label:		qsTr("Show ratio")
 			//}
 		}
 
 		CheckBox
 		{
-			name:		"plotLikelihood"
+			name:		"likelihoodPlot"
 			label:		qsTr("Likelihood")
 		}
 		
 		CheckBox
 		{
-			name:		"plotPosteriors"
+			name:		"posteriorPlot"
 			label:		qsTr("Posteriors")
 
 			CheckBox
 			{
-				name:		"plotPosteriorsPriors"
+				name:		"posteriorPlotPrior"
 				label:		qsTr("Priors")
 			}
 		}

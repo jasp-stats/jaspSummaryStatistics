@@ -39,19 +39,7 @@ Upgrades
         ChangeRename { from: "kappa";									to: "priorWidth"							}
     }
 
-    Upgrade
-    {
-        functionName:		"SummaryStatsCorrelationBayesianPairs"
-        fromVersion:		"0.16.4"
-        toVersion:			"0.17.0"
-
-        // Prior posterior plots
-        ChangeRename { from: "priorPosteriorPlotAddEstimationInfo";		to: "priorPosteriorPlotAdditionalEstimationInfo"	}
-        ChangeRename { from: "priorPosteriorPlotAddTestingInfo";		to: "priorPosteriorPlotAdditionalTestingInfo"		}
-
-        // Bf Robustness plots
-        ChangeRename { from: "bfRobustnessPlotAddInfo";					to: "bfRobustnessPlotAdditionalInfo"				}
-    }
+    // Option renaming for syntax
 
     Upgrade
     {
@@ -169,5 +157,33 @@ Upgrades
 		ChangeRename{	from: "plotPriorAndPosteriorAdditionalInfo";	to: "priorPosteriorPlotAdditionalInfo"	}
         ChangeRename{	from: "betaPriorParamA";	to: "betaPriorA"	}
         ChangeRename{	from: "betaPriorParamB";	to: "betaPriorB"	}
+    }
+
+    Upgrade
+    {
+        functionName:		"SummaryStatsCorrelationBayesianPairs"
+        fromVersion:		"0.16.4"
+        toVersion:			"0.17.0"
+
+        // Prior posterior plots
+        ChangeRename { from: "priorPosteriorPlotAddEstimationInfo";		to: "priorPosteriorPlotAdditionalEstimationInfo"	}
+        ChangeRename { from: "priorPosteriorPlotAddTestingInfo";		to: "priorPosteriorPlotAdditionalTestingInfo"		}
+
+        // Bf Robustness plots
+        ChangeRename { from: "bfRobustnessPlotAddInfo";					to: "bfRobustnessPlotAdditionalInfo"				}
+    }
+
+    Upgrade
+    {
+        functionName:       "SummaryStatsGeneralBayesianTests"
+        fromVersion:		"0.16.4"
+        toVersion:			"0.17.0"
+
+        ChangeRename{ from: "plotPriors";           to: "priorPlot"         }
+        ChangeRename{ from: "plotPredictions";      to: "predictionPlot"    }
+        ChangeRename{ from: "plotLikelihood";       to: "likelihoodPlot"    }
+        ChangeRename{ from: "plotPosteriors";       to: "posteriorPlot"     }
+        ChangeRename{ from: "plotPosteriorsPriors"; to: "posteriorPlotPrior"}
+
     }
 }

@@ -27,16 +27,16 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
   .bayesianTestsSummaryTable(jaspResults, options)
 
   # figures
-  if (options[["plotPriors"]])
+  if (options[["priorPlot"]])
     .bayesianTestsPriorsPlot(jaspResults, options)
 
-  if (options[["plotPredictions"]])
+  if (options[["predictionPlot"]])
     .bayesianTestsPredictionsPlot(jaspResults, options)
 
-  if (options[["plotLikelihood"]])
+  if (options[["likelihoodPlot"]])
     .bayesianTestsLikelihoodPlot(jaspResults, options)
 
-  if (options[["plotPosteriors"]])
+  if (options[["posteriorPlot"]])
     .bayesianTestsPosteriorsPlot(jaspResults, options)
 
   return()
@@ -267,7 +267,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
   likelihoodPlot <- createJaspPlot(title = "Likelihood", width = 450, height = 300)
   likelihoodPlot$position <- 4
-  likelihoodPlot$dependOn(c(.bayesianTestsDependenciesData, "plotLikelihood"))
+  likelihoodPlot$dependOn(c(.bayesianTestsDependenciesData, "likelihoodPlot"))
   jaspResults[["likelihoodPlot"]] <- likelihoodPlot
 
   likelihood <- jaspResults[["likelihood"]][["object"]]
@@ -291,7 +291,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
   priorsPlot <- createJaspContainer(title = "Priors")
   priorsPlot$position <- 2
-  priorsPlot$dependOn(c(.bayesianTestsDependenciesData, .bayesianTestsDependenciesPriors, "plotPriors"))
+  priorsPlot$dependOn(c(.bayesianTestsDependenciesData, .bayesianTestsDependenciesPriors, "priorPlot"))
   jaspResults[["priorsPlot"]] <- priorsPlot
 
 
@@ -339,7 +339,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
   posteriorsPlot <- createJaspContainer(title = "Posteriors")
   posteriorsPlot$position <- 5
-  posteriorsPlot$dependOn(c(.bayesianTestsDependenciesData, .bayesianTestsDependenciesPriors, "plotPosteriors", "plotPosteriorsPriors"))
+  posteriorsPlot$dependOn(c(.bayesianTestsDependenciesData, .bayesianTestsDependenciesPriors, "posteriorPlot", "posteriorPlotPrior"))
   jaspResults[["posteriorsPlot"]] <- posteriorsPlot
 
 
@@ -348,7 +348,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
 
   ### plot null ---
-  plotWidth     <- if (options[["plotPosteriorsPriors"]] && attr(priors[["null"]], "priorType") != "spike") 570 else 450
+  plotWidth     <- if (options[["posteriorPlotPrior"]] && attr(priors[["null"]], "priorType") != "spike") 570 else 450
   priorNullPlot <- createJaspPlot(title = "Null hypothesis", width = plotWidth, height = 300)
   posteriorsPlot[["priorNullPlot"]] <- priorNullPlot
 
@@ -357,7 +357,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
   # deal with wrong plots for point hypothesis
   priorNullPlotObject <- .bayesianTestsMakePosteriorsPlot(likelihood, priors[["null"]], options)
-  priorNullPlotObject <- priorNullPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw(legend.position = if (options[["plotPosteriorsPriors"]]) "right")
+  priorNullPlotObject <- priorNullPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw(legend.position = if (options[["posteriorPlotPrior"]]) "right")
   priorNullPlotObject <- .bayesianTestsFixPlotAxis(priorNullPlotObject, options[["likelihood"]])
   priorNullPlotObject <- .bayesianTestsFixPlotLabels(priorNullPlotObject, "posteriors")
 
@@ -369,12 +369,12 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
   posteriorsPlot[["posteriorsAltPlots"]] <- posteriorsAltPlots
   for (i in seq_along(priors[["alt"]])) {
 
-    plotWidth     <- if (options[["plotPosteriorsPriors"]] && attr(priors[["alt"]][[i]], "priorType") != "spike") 570 else 450
+    plotWidth     <- if (options[["posteriorPlotPrior"]] && attr(priors[["alt"]][[i]], "priorType") != "spike") 570 else 450
     tempPosteriorAltPlot <- createJaspPlot(title = .bayesianTestsPriorName(priors[["alt"]][[i]]), width = plotWidth, height = 300)
     posteriorsAltPlots[[paste0("priorAltPlot", i)]] <- tempPosteriorAltPlot
 
     tempPosteriorAltPlotObject <- .bayesianTestsMakePosteriorsPlot(likelihood, priors[["alt"]][[i]], options)
-    tempPosteriorAltPlotObject <- tempPosteriorAltPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw(legend.position = if (options[["plotPosteriorsPriors"]]) "right")
+    tempPosteriorAltPlotObject <- tempPosteriorAltPlotObject + jaspGraphs::geom_rangeframe() + jaspGraphs::themeJaspRaw(legend.position = if (options[["posteriorPlotPrior"]]) "right")
     tempPosteriorAltPlotObject <- .bayesianTestsFixPlotAxis(tempPosteriorAltPlotObject, options[["likelihood"]])
     tempPosteriorAltPlotObject <- .bayesianTestsFixPlotLabels(tempPosteriorAltPlotObject, "posteriors")
 
@@ -390,7 +390,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 
   predictionsPlot <- createJaspContainer(title = "Prior predictions")
   predictionsPlot$position <- 3
-  predictionsPlot$dependOn(c(.bayesianTestsDependenciesData, .bayesianTestsDependenciesPriors, "plotPredictions", "plotPredictionsRatio"))
+  predictionsPlot$dependOn(c(.bayesianTestsDependenciesData, .bayesianTestsDependenciesPriors, "predictionPlot", "predictionPlotRatio"))
   jaspResults[["predictionsPlot"]] <- predictionsPlot
 
 
@@ -623,7 +623,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
       ggplot2::xlim(tempPosterior@prior_obj@plot$range) +
       ggplot2::expand_limits(y = 0) +
       ggplot2::ylab(gettext(gettext("Probability")))
-  else if (!options[["plotPosteriorsPriors"]])
+  else if (!options[["posteriorPlotPrior"]])
     tempPlot <- ggplot2::ggplot() +
       ggplot2::geom_function(
         fun       = Vectorize(tempPosterior$posterior_function),
