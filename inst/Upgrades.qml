@@ -186,4 +186,19 @@ Upgrades
         ChangeRename{ from: "plotPosteriorsPriors"; to: "posteriorPlotPrior"}
 
     }
+
+    Upgrade
+    {
+        functionName:       "SummaryStatsRegressionLinearBayesian"
+        fromVersion:		"0.16.4"
+        toVersion:			"0.17.0"
+
+        ChangeRename{ from: "numberOfCovariatesNull";                   to: "nullNumberOfCovariates"         }
+        ChangeRename{ from: "unadjustedRSquaredNull";                   to: "nullUnadjustedRSquared"         }
+        ChangeRename{ from: "numberOfCovariatesAlternative";            to: "alternativeNumberOfCovariates"         }
+        ChangeRename{ from: "unadjustedRSquaredAlternative";            to: "alternativeNumberOfCovariates"         }
+        ChangeRename{ from: "plotBayesFactorRobustness";                to: "bfRobustnessPlot"         }
+        ChangeRename{ from: "plotBayesFactorRobustnessAdditionalInfo";  to: "bfRobustnessPlotAdditionalInfo"         }
+        ChangeRename{ from: "priorWidth";                               to: "priorRScale"         }
+    }
 }

@@ -50,11 +50,11 @@ SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, op
   
   # Run linear regression
   N             <- options$sampleSize
-  rScale        <- options$priorWidth
-  nCovariatesH0 <- options$numberOfCovariatesNull
-  rSquaredH0    <- options$unadjustedRSquaredNull
-  nCovariatesH1 <- options$numberOfCovariatesAlternative
-  rSquaredH1    <- options$unadjustedRSquaredAlternative
+  rScale        <- options$priorRScale
+  nCovariatesH0 <- options$nullNumberOfCovariates
+  rSquaredH0    <- options$nullUnadjustedRSquared
+  nCovariatesH1 <- options$alternativeNumberOfCovariates
+  rSquaredH1    <- options$alternativeNumberOfCovariates
   
   # Extract relevant information
   tableInfo          <- .tableInfoSummaryStatsRegression(options)
@@ -122,9 +122,9 @@ SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, op
   mainContainer <- jaspResults[["mainContainer"]]
   if (is.null(mainContainer)) {
     mainContainer <- createJaspContainer(dependencies = c(
-      "priorWidth", "bayesFactorType", "sampleSize",
-      "unadjustedRSquaredNull"       , "numberOfCovariatesNull", 
-      "unadjustedRSquaredAlternative", "numberOfCovariatesAlternative"
+      "priorRScale", "bayesFactorType", "sampleSize",
+      "nullUnadjustedRSquared"       , "nullNumberOfCovariates", 
+      "alternativeNumberOfCovariates", "alternativeNumberOfCovariates"
     ))
     jaspResults[["mainContainer"]] <- mainContainer
   }
@@ -178,12 +178,12 @@ SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, op
 .summaryStatsRegressionRobustnessPlot <- function(mainContainer, options, summaryStatsRegressionResults) {
   
   # createJaspPlot...
-  if (!options[["plotBayesFactorRobustness"]] || !is.null(mainContainer[["plotBayesFactorRobustness"]]))
+  if (!options[["bfRobustnessPlot"]] || !is.null(mainContainer[["bfRobustnessPlot"]]))
     return()
 
   plot <- createJaspPlot(title = gettext("Robustness Plot"), width = 530, height = 400)
-  plot$dependOn(c("plotBayesFactorRobustness", "plotBayesFactorRobustnessAdditionalInfo"))
-  mainContainer[["plotBayesFactorRobustness"]] <- plot
+  plot$dependOn(c("bfRobustnessPlot", "bfRobustnessPlotAdditionalInfo"))
+  mainContainer[["bfRobustnessPlot"]] <- plot
   if (mainContainer$getError())
     return()
 
@@ -198,8 +198,8 @@ SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, op
 
 .summaryStatsRegressionCreateRobustnessPlot <- function(options, summaryStatsRegressionResults) {
 
-  rscale         <- options[["priorWidth"]]
-  additionalInfo <- options[["plotBayesFactorRobustnessAdditionalInfo"]]
+  rscale         <- options[["priorRScale"]]
+  additionalInfo <- options[["bfRobustnessPlotAdditionalInfo"]]
   BFH1H0         <- options[["bayesFactorType"]] != "BF01"
 
   tableInfo <- summaryStatsRegressionResults[["tableInfo"]]
@@ -215,22 +215,22 @@ SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, op
   if(nullModelSpecified) {
     computeBF <- function(options, rscale) {
       sampleSize                    <- options[["sampleSize"]]
-      numberOfCovariatesNull        <- options[["numberOfCovariatesNull"]]
-      numberOfCovariatesAlternative <- options[["numberOfCovariatesAlternative"]]
-      unadjustedRSquaredNull        <- options[["unadjustedRSquaredNull"]]
-      unadjustedRSquaredAlternative <- options[["unadjustedRSquaredAlternative"]]
-      BFNull <- BayesFactor::linearReg.R2stat(N = sampleSize, p = numberOfCovariatesNull, R2 = unadjustedRSquaredNull, rscale = rscale)
-      BFAlternative <- BayesFactor::linearReg.R2stat(N = sampleSize, p=numberOfCovariatesAlternative, R2=unadjustedRSquaredAlternative, rscale = rscale)
+      nullNumberOfCovariates        <- options[["nullNumberOfCovariates"]]
+      alternativeNumberOfCovariates <- options[["alternativeNumberOfCovariates"]]
+      nullUnadjustedRSquared        <- options[["nullUnadjustedRSquared"]]
+      alternativeNumberOfCovariates <- options[["alternativeNumberOfCovariates"]]
+      BFNull <- BayesFactor::linearReg.R2stat(N = sampleSize, p = nullNumberOfCovariates, R2 = nullUnadjustedRSquared, rscale = rscale)
+      BFAlternative <- BayesFactor::linearReg.R2stat(N = sampleSize, p=alternativeNumberOfCovariates, R2=alternativeNumberOfCovariates, rscale = rscale)
       
       return(.clean(exp(BFAlternative[["bf"]] - BFNull[["bf"]])))
     }
   } else {
     computeBF <- function(options, rscale) {
       sampleSize                    <- options[["sampleSize"]]
-      numberOfCovariatesAlternative <- options[["numberOfCovariatesAlternative"]]
-      unadjustedRSquaredAlternative <- options[["unadjustedRSquaredAlternative"]]
+      alternativeNumberOfCovariates <- options[["alternativeNumberOfCovariates"]]
+      alternativeNumberOfCovariates <- options[["alternativeNumberOfCovariates"]]
       
-      BF <- BayesFactor::linearReg.R2stat(N = sampleSize, p=numberOfCovariatesAlternative, R2=unadjustedRSquaredAlternative, rscale = rscale)
+      BF <- BayesFactor::linearReg.R2stat(N = sampleSize, p=alternativeNumberOfCovariates, R2=alternativeNumberOfCovariates, rscale = rscale)
       return(.clean(exp(BF[["bf"]])))
     }
   }
@@ -319,12 +319,12 @@ SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, op
 .tableInfoSummaryStatsRegression <- function(options) {
   
   # set footnote message and Bayes factor title
-  message      <- gettextf("r scale used is: %s.", options$priorWidth)
+  message      <- gettextf("r scale used is: %s.", options$priorRScale)
   bfTitle      <- .getBayesfactorTitleSummaryStats(options$bayesFactorType, hypothesis = 'twoSided')
   
   # determine title for main results table
   nullModelSpecified <- TRUE
-  if(options$numberOfCovariatesNull==0 && options$unadjustedRSquaredNull==0) nullModelSpecified <- FALSE 
+  if(options$nullNumberOfCovariates==0 && options$nullUnadjustedRSquared==0) nullModelSpecified <- FALSE 
   
   if(nullModelSpecified) {
     
@@ -352,21 +352,21 @@ SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, op
 .summarystatsRegressionCheckErrors <- function(options){
   
   # check if number of covariates is correct in H1
-  if(options$numberOfCovariatesAlternative!=0 && options$sampleSize!=0 && ((options$sampleSize - options$numberOfCovariatesAlternative) < 2)) {
+  if(options$alternativeNumberOfCovariates!=0 && options$sampleSize!=0 && ((options$sampleSize - options$alternativeNumberOfCovariates) < 2)) {
     
     .quitAnalysis(gettext("Number of Covariates must be less than N-1 (sample size minus 1)"))
     
   }
   
   # check if number of covariates is correct in H0
-  if(options$numberOfCovariatesNull!=0 && options$sampleSize!=0 && ((options$sampleSize - options$numberOfCovariatesNull) < 2)) {
+  if(options$nullNumberOfCovariates!=0 && options$sampleSize!=0 && ((options$sampleSize - options$nullNumberOfCovariates) < 2)) {
     
     .quitAnalysis(gettext("Number of Covariates must be less than N-1 (sample size minus 1)"))
     
   }
   
   # check if R squared input is correct
-  if((options$numberOfCovariatesAlternative > options$numberOfCovariatesNull) && (options$unadjustedRSquaredAlternative < options$unadjustedRSquaredNull)) {
+  if((options$alternativeNumberOfCovariates > options$nullNumberOfCovariates) && (options$alternativeNumberOfCovariates < options$nullUnadjustedRSquared)) {
     
     .quitAnalysis(gettextf("Input: When number of covariates for Alternative hypothesis is greater than that of Null hypothesis, the R%s has to be higher under Alternative than under Null hypothesis","\u00B2"))
   }

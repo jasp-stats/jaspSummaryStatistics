@@ -31,15 +31,15 @@ Form
 	Group
 	{
 		title: qsTr("Null Model")
-		IntegerField {	label: qsTr("Number of covariates"); name: "numberOfCovariatesNull" }
-		DoubleField {	label: qsTr("R-squared");			name: "unadjustedRSquaredNull" ; max: 0.9999 }
+		IntegerField {	label: qsTr("Number of covariates"); name: "nullNumberOfCovariates" }
+		DoubleField {	label: qsTr("R-squared");			name: "nullUnadjustedRSquared" ; max: 0.9999 }
 	}
 
 	Group
 	{
 		title: qsTr("Alternative Model")
-		IntegerField {	label: qsTr("Number of covariates"); name: "numberOfCovariatesAlternative" ; min: 1; defaultValue: 1 }
-		DoubleField {	label: qsTr("R-squared");			name: "unadjustedRSquaredAlternative" ; max: 0.9999 }
+		IntegerField {	label: qsTr("Number of covariates"); name: "alternativeNumberOfCovariates" ; min: 1; defaultValue: 1 }
+		DoubleField {	label: qsTr("R-squared");			name: "alternativeNumberOfCovariates" ; max: 0.9999 }
 	}
 
 	Divider { }
@@ -51,8 +51,8 @@ Form
 		title: qsTr("Plots")
 		CheckBox
 		{
-			name: "plotBayesFactorRobustness"; label: qsTr("Bayes factor robustness check")
-			CheckBox { name: "plotBayesFactorRobustnessAdditionalInfo"; label: qsTr("Additional info"); checked: true }
+			name: "bfRobustnessPlot"; label: qsTr("Bayes factor robustness check")
+			CheckBox { name: "bfRobustnessPlotAdditionalInfo"; label: qsTr("Additional info"); checked: true }
 		}
 	}
 
@@ -63,7 +63,7 @@ Form
         Group
 		{
             title: qsTr("Prior")
-			DoubleField { label: qsTr("r scale covariates"); defaultValue: 0.354 ; name: "priorWidth" ; fieldWidth: 80; max: 2; inclusive: JASP.MaxOnly; decimals: 3 }
+			DoubleField { label: qsTr("r scale covariates"); defaultValue: 0.354 ; name: "priorRScale" ; fieldWidth: 80; max: 2; inclusive: JASP.MaxOnly; decimals: 3 }
         }
     }
 }

@@ -5,7 +5,7 @@ getMainTable <- function(results)
   results[["results"]][["mainContainer"]][["collection"]][["mainContainer_regressionTable"]][["data"]]
 
 getRobustnessPlot <- function(results) {
-  plotName <- results[["results"]][["mainContainer"]][["collection"]][["mainContainer_plotBayesFactorRobustness"]][["data"]]
+  plotName <- results[["results"]][["mainContainer"]][["collection"]][["mainContainer_bfRobustnessPlot"]][["data"]]
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   return(testPlot)
 }
@@ -15,11 +15,11 @@ test_that("Main table results match with one model", {
   set.seed(0)
   options <- jaspTools::analysisOptions("SummaryStatsRegressionLinearBayesian")
   options$sampleSize                    <- 51
-  options$numberOfCovariatesNull        <- 0
-  options$unadjustedRSquaredNull        <- 0
-  options$numberOfCovariatesAlternative <- 4
-  options$unadjustedRSquaredAlternative <- 0.82
-  options$priorWidth                    <- 0.5
+  options$nullNumberOfCovariates        <- 0
+  options$nullUnadjustedRSquared        <- 0
+  options$alternativeNumberOfCovariates <- 4
+  options$alternativeNumberOfCovariates <- 0.82
+  options$priorRScale                    <- 0.5
   options$bayesFactorType               <- "LogBF10"
   results <- jaspTools::runAnalysis("SummaryStatsRegressionLinearBayesian", "debug.csv", options)
   
@@ -32,11 +32,11 @@ test_that("Main table results match with model comparison", {
   set.seed(0)
   options <- jaspTools::analysisOptions("SummaryStatsRegressionLinearBayesian")
   options$sampleSize                    <- 51
-  options$numberOfCovariatesNull        <- 2
+  options$nullNumberOfCovariates        <- 2
   options$unadjustedRSquaredNull        <- 0.62
-  options$numberOfCovariatesAlternative <- 4
-  options$unadjustedRSquaredAlternative <- 0.82
-  options$priorWidth                    <- 0.5
+  options$alternativeNumberOfCovariates <- 4
+  options$alternativeNumberOfCovariates <- 0.82
+  options$priorRScale                    <- 0.5
   options$bayesFactorType               <- "LogBF10"
   results <- jaspTools::runAnalysis("SummaryStatsRegressionLinearBayesian", "debug.csv", options)
   
@@ -50,12 +50,12 @@ test_that("Main table results match with model comparison", {
 test_that("Main table and plots match without additional info", {
   options <- jaspTools::analysisOptions("SummaryStatsRegressionLinearBayesian")
   options$bayesFactorType <- "LogBF10"
-  options$numberOfCovariatesAlternative <- 5
-  options$numberOfCovariatesNull <- 4
-  options$plotBayesFactorRobustness <- TRUE
-  options$plotBayesFactorRobustnessAdditionalInfo <- FALSE
+  options$alternativeNumberOfCovariates <- 5
+  options$nullNumberOfCovariates <- 4
+  options$bfRobustnessPlot <- TRUE
+  options$bfRobustnessPlotAdditionalInfo <- FALSE
   options$sampleSize <- 750
-  options$unadjustedRSquaredAlternative <- 0.55
+  options$alternativeNumberOfCovariates <- 0.55
   options$unadjustedRSquaredNull <- 0.45
   set.seed(1)
   results <- jaspTools::runAnalysis("SummaryStatsRegressionLinearBayesian", "debug.csv", options)
@@ -72,7 +72,7 @@ test_that("Main table and plots match without additional info", {
 
 test_that("Main table and plots match with additional info", {
   options <- jaspTools::analysisOptions("SummaryStatsRegressionLinearBayesian")
-  options$plotBayesFactorRobustness <- TRUE
+  options$bfRobustnessPlot <- TRUE
   set.seed(1)
   results <- jaspTools::runAnalysis("SummaryStatsRegressionLinearBayesian", "debug.csv", options)
   
