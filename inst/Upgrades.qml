@@ -194,7 +194,7 @@ Upgrades
         ChangeRename{ from: "numberOfCovariatesNull";                   to: "nullNumberOfCovariates"         }
         ChangeRename{ from: "unadjustedRSquaredNull";                   to: "nullUnadjustedRSquared"         }
         ChangeRename{ from: "numberOfCovariatesAlternative";            to: "alternativeNumberOfCovariates"         }
-        ChangeRename{ from: "unadjustedRSquaredAlternative";            to: "alternativeNumberOfCovariates"         }
+        ChangeRename{ from: "unadjustedRSquaredAlternative";            to: "alternativeUnadjustedRSquared"         }
         ChangeRename{ from: "plotBayesFactorRobustness";                to: "bfRobustnessPlot"         }
         ChangeRename{ from: "plotBayesFactorRobustnessAdditionalInfo";  to: "bfRobustnessPlotAdditionalInfo"         }
         ChangeRename{ from: "priorWidth";                               to: "priorRScale"         }
