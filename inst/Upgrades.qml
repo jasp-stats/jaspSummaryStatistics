@@ -39,7 +39,19 @@ Upgrades
         ChangeRename { from: "kappa";									to: "priorWidth"							}
     }
 
-    // Option renaming for syntax
+    Upgrade
+    {
+        functionName:		"SummaryStatsCorrelationBayesianPairs"
+        fromVersion:		"0.16.4"
+        toVersion:			"0.17.0"
+
+        // Prior posterior plots
+        ChangeRename { from: "priorPosteriorPlotAddEstimationInfo";		to: "priorPosteriorPlotAdditionalEstimationInfo"	}
+        ChangeRename { from: "priorPosteriorPlotAddTestingInfo";		to: "priorPosteriorPlotAdditionalTestingInfo"		}
+
+        // Bf Robustness plots
+        ChangeRename { from: "bfRobustnessPlotAddInfo";					to: "bfRobustnessPlotAdditionalInfo"				}
+    }
 
     Upgrade
     {
@@ -161,20 +173,6 @@ Upgrades
 
     Upgrade
     {
-        functionName:		"SummaryStatsCorrelationBayesianPairs"
-        fromVersion:		"0.16.4"
-        toVersion:			"0.17.0"
-
-        // Prior posterior plots
-        ChangeRename { from: "priorPosteriorPlotAddEstimationInfo";		to: "priorPosteriorPlotAdditionalEstimationInfo"	}
-        ChangeRename { from: "priorPosteriorPlotAddTestingInfo";		to: "priorPosteriorPlotAdditionalTestingInfo"		}
-
-        // Bf Robustness plots
-        ChangeRename { from: "bfRobustnessPlotAddInfo";					to: "bfRobustnessPlotAdditionalInfo"				}
-    }
-
-    Upgrade
-    {
         functionName:       "SummaryStatsGeneralBayesianTests"
         fromVersion:		"0.16.4"
         toVersion:			"0.17.0"
@@ -200,5 +198,87 @@ Upgrades
         ChangeRename{ from: "plotBayesFactorRobustness";                to: "bfRobustnessPlot"         }
         ChangeRename{ from: "plotBayesFactorRobustnessAdditionalInfo";  to: "bfRobustnessPlotAdditionalInfo"         }
         ChangeRename{ from: "priorWidth";                               to: "priorRScale"         }
+    }
+
+    Upgrade
+    {
+        functionName:       "SummaryStatsTTestBayesianOneSample"
+        fromVersion:		"0.16.4"
+        toVersion:			"0.17.0"
+
+        ChangeRename{ from: "n1Size"; to: "sampleSize"}
+        ChangeRename{   from: "hypothesis"; to: "alternative"   }
+        ChangeJS
+        {
+            name:       "alternative"
+            jsFunction: function(options)
+            {
+                switch(options["alternative"])
+                {
+                    case "notEqualToTestValue":     return "twoSided";
+                    case "greaterThanTestValue":    return "greater";
+                    case "lessThanTestValue":       return "less";
+                }
+            }
+        }
+        ChangeRename{	from: "plotPriorAndPosterior";					    to: "priorPosteriorPlot"			    }
+		ChangeRename{	from: "plotPriorAndPosteriorAdditionalInfo";	    to: "priorPosteriorPlotAdditionalInfo"	}
+        ChangeRename{	from: "plotBayesFactorRobustness";				    to: "bfRobustnessPlot"					}
+        ChangeRename{	from: "plotBayesFactorRobustnessAdditionalInfo";	to: "bfRobustnessPlotAdditionalInfo"	}
+    }
+
+    Upgrade
+    {
+        functionName:       "SummaryStatsTTestBayesianIndependentSamples"
+        fromVersion:		"0.16.4"
+        toVersion:			"0.17.0"
+
+        ChangeRename{ from: "n1Size"; to: "sampleSizeGroupOne"}
+        ChangeRename{ from: "n2Size"; to: "sampleSizeGroupTwo"}
+        ChangeRename{   from: "hypothesis"; to: "alternative"   }
+        ChangeJS
+        {
+            name:       "alternative"
+            jsFunction: function(options)
+            {
+                switch(options["alternative"])
+                {
+                    case "groupsNotEqual":     return "twoSided";
+                    case "groupOneGreater":    return "greater";
+                    case "groupTwoGreater":    return "less";
+                }
+            }
+        }
+        ChangeRename{	from: "plotPriorAndPosterior";					    to: "priorPosteriorPlot"			    }
+		ChangeRename{	from: "plotPriorAndPosteriorAdditionalInfo";	    to: "priorPosteriorPlotAdditionalInfo"	}
+        ChangeRename{	from: "plotBayesFactorRobustness";				    to: "bfRobustnessPlot"					}
+        ChangeRename{	from: "plotBayesFactorRobustnessAdditionalInfo";	to: "bfRobustnessPlotAdditionalInfo"	}
+    }
+
+    Upgrade
+    {
+        functionName:       "SummaryStatsTTestBayesianPairedSamples"
+        fromVersion:		"0.16.4"
+        toVersion:			"0.17.0"
+
+        ChangeRename{ from: "n1Size"; to: "sampleSize"}
+        ChangeRename{   from: "hypothesis"; to: "alternative"   }
+        ChangeJS
+        {
+            name:       "alternative"
+            jsFunction: function(options)
+            {
+                switch(options["alternative"])
+                {
+                    case "groupsNotEqual":     return "twoSided";
+                    case "groupOneGreater":    return "greater";
+                    case "groupTwoGreater":    return "less";
+                }
+            }
+        }
+        ChangeRename{	from: "plotPriorAndPosterior";					    to: "priorPosteriorPlot"			    }
+		ChangeRename{	from: "plotPriorAndPosteriorAdditionalInfo";	    to: "priorPosteriorPlotAdditionalInfo"	}
+        ChangeRename{	from: "plotBayesFactorRobustness";				    to: "bfRobustnessPlot"					}
+        ChangeRename{	from: "plotBayesFactorRobustnessAdditionalInfo";	to: "bfRobustnessPlotAdditionalInfo"	}
     }
 }

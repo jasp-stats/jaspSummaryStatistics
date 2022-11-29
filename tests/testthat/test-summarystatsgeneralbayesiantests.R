@@ -109,7 +109,7 @@ context("SummaryStatsGeneralBayesianTests")
   test_that("Null hypothesis plot matches", {
     plotName <- results[["results"]][["posteriorsPlot"]][["collection"]][["posteriorsPlot_priorNullPlot"]][["data"]]
     testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-    jaspTools::expect_equal_plots(testPlot, "null-hypothesis-posterior-test1")
+    jaspTools::expect_equal_plots(testPlot, "null-alternative-posterior-test1")
   })
 
   test_that("Normal(0, 1) plot matches", {
@@ -151,13 +151,13 @@ context("SummaryStatsGeneralBayesianTests")
   test_that("Null hypothesis plot matches", {
     plotName <- results[["results"]][["predictionsPlot"]][["collection"]][["predictionsPlot_predictionsNullPlot"]][["data"]]
     testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-    jaspTools::expect_equal_plots(testPlot, "null-hypothesis-predictive-test1")
+    jaspTools::expect_equal_plots(testPlot, "null-alternative-predictive-test1")
   })
 
   test_that("Null hypothesis plot matches", {
     plotName <- results[["results"]][["priorsPlot"]][["collection"]][["priorsPlot_priorNullPlot"]][["data"]]
     testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-    jaspTools::expect_equal_plots(testPlot, "null-hypothesis-prior-test1")
+    jaspTools::expect_equal_plots(testPlot, "null-alternative-prior-test1")
   })
 
   test_that("Normal(0, 1) plot matches", {
@@ -284,7 +284,7 @@ context("SummaryStatsGeneralBayesianTests")
   test_that("Null hypothesis plot matches", {
     plotName <- results[["results"]][["posteriorsPlot"]][["collection"]][["posteriorsPlot_priorNullPlot"]][["data"]]
     testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-    jaspTools::expect_equal_plots(testPlot, "null-hypothesis-posterior-test2")
+    jaspTools::expect_equal_plots(testPlot, "null-alternative-posterior-test2")
   })
 
   test_that("Model Summary table results match", {
@@ -366,7 +366,7 @@ context("SummaryStatsGeneralBayesianTests")
   test_that("Null hypothesis plot matches", {
     plotName <- results[["results"]][["posteriorsPlot"]][["collection"]][["posteriorsPlot_priorNullPlot"]][["data"]]
     testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
-    jaspTools::expect_equal_plots(testPlot, "null-hypothesis-posterior-test3")
+    jaspTools::expect_equal_plots(testPlot, "null-alternative-posterior-test3")
   })
 
   test_that("Model Summary table results match", {

@@ -29,7 +29,7 @@ Form
 	Group
 	{
 		DoubleField  { name: "tStatistic";	label: qsTr("t"); negativeValues: true	}
-		IntegerField { name: "n1Size";		label: qsTr("Group size")				}
+		IntegerField { name: "sampleSize";	label: qsTr("Sample size")				}
 	}
 
     Divider { }
@@ -37,10 +37,10 @@ Form
 	RadioButtonGroup
 	{
 		title: qsTr("Alt. Hypothesis")
-		name: "hypothesis"
-		RadioButton { value: "notEqualToTestValue";		label: qsTr("\u2260 Test value"); checked: true	}
-		RadioButton { value: "greaterThanTestValue";	label: qsTr("> Test value")						}
-		RadioButton { value: "lessThanTestValue";		label: qsTr("< Test value")						}
+		name: "alternative"
+		RadioButton { value: "twoSided";	label: qsTr("\u2260 Test value"); checked: true	}
+		RadioButton { value: "greater";		label: qsTr("> Test value")						}
+		RadioButton { value: "less";		label: qsTr("< Test value")						}
 	}
 
 	Group
@@ -48,13 +48,13 @@ Form
 		title: qsTr("Plots")
 		CheckBox
 		{
-			name: "plotPriorAndPosterior";		label: qsTr("Prior and posterior")
-			CheckBox { name: "plotPriorAndPosteriorAdditionalInfo";		label: qsTr("Additional info"); checked: true }
+			name: "priorPosteriorPlot";		label: qsTr("Prior and posterior")
+			CheckBox { name: "priorPosteriorPlotAdditionalInfo";		label: qsTr("Additional info"); checked: true }
 		}
 		CheckBox
 		{
-			name: "plotBayesFactorRobustness";	label: qsTr("Bayes factor robustness check")
-			CheckBox { name: "plotBayesFactorRobustnessAdditionalInfo";	label: qsTr("Additional info"); checked: true }
+			name: "bfRobustnessPlot";	label: qsTr("Bayes factor robustness check")
+			CheckBox { name: "bfRobustnessPlotAdditionalInfo";	label: qsTr("Additional info"); checked: true }
 		}
 	}
 

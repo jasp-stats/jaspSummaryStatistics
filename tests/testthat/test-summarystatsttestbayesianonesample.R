@@ -4,9 +4,9 @@ test_that("Main table results match", {
   set.seed(0)
   options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianOneSample")
   options$tStatistic      <- 2.3
-  options$n1Size          <- 23
+  options$sampleSize          <- 23
   options$bayesFactorType <- "LogBF10"
-  options$hypothesis      <- "greaterThanTestValue"
+  options$alternative      <- "greater"
   results <- jaspTools::runAnalysis("SummaryStatsTTestBayesianOneSample", "debug.csv", options)
 
   table <- results[["results"]][["ttestContainer"]][["collection"]][["ttestContainer_ttestTable"]][["data"]]
@@ -17,9 +17,9 @@ test_that("BF for Informed and Default Prior Matches", {
   set.seed(0)
   options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianOneSample")
   options$tStatistic                        <- 2.3
-  options$n1Size                            <- 23
+  options$sampleSize                            <- 23
   options$bayesFactorType                   <- "LogBF10"
-  options$hypothesis                        <- "greaterThanTestValue"
+  options$alternative                        <- "greater"
   options$effectSizeStandardized            <- "informative"
   options$informativeStandardizedEffectSize <- "cauchy"
   results <- jaspTools::runAnalysis("SummaryStatsTTestBayesianOneSample", "debug.csv", options)
@@ -31,10 +31,10 @@ test_that("BF for Informed and Default Prior Matches", {
 
 options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianOneSample")
 options$tStatistic <- 6
-options$n1Size <- 20
-options$plotPriorAndPosterior <- TRUE
-options$plotBayesFactorRobustness <- TRUE
-options$plotBayesFactorRobustnessAdditionalInfo <- FALSE
+options$sampleSize <- 20
+options$priorPosteriorPlot <- TRUE
+options$bfRobustnessPlot <- TRUE
+options$bfRobustnessPlotAdditionalInfo <- FALSE
 set.seed(1)
 results <- jaspTools::runAnalysis("SummaryStatsTTestBayesianOneSample", "debug.csv", options)
 
@@ -60,10 +60,10 @@ test_that("Default Prior and Posterior plot matches", {
 
 options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianOneSample")
 options$tStatistic <- 6
-options$n1Size <- 20
-options$plotPriorAndPosterior <- TRUE
-options$plotBayesFactorRobustness <- TRUE
-options$plotBayesFactorRobustnessAdditionalInfo <- FALSE
+options$sampleSize <- 20
+options$priorPosteriorPlot <- TRUE
+options$bfRobustnessPlot <- TRUE
+options$bfRobustnessPlotAdditionalInfo <- FALSE
 options$informativeCauchyLocation <- 1
 options$effectSizeStandardized <- "informative"
 set.seed(1)
