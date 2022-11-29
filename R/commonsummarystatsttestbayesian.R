@@ -584,7 +584,7 @@
     dfPoints     = dfPoints,
     pointLegend  = additionalInformation,
     xName        = gettext("Cauchy prior width"),
-    alternative   = alternative,
+    hypothesis   = alternative,
     bfType       = bfType
   )
 

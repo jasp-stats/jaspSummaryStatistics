@@ -23,7 +23,7 @@ import JASP.Controls 1.0
 import JASP.Widgets 1.0
 
 
-Form 
+Form
 {
 
 	Group
@@ -39,9 +39,9 @@ Form
 	{
 		title: qsTr("Alt. Hypothesis")
 		name: "alternative"
-		RadioButton { value: "groupsNotEqual";	label: qsTr("Group 1 \u2260 Group 2"); checked: true	}
-		RadioButton { value: "groupOneGreater";	label: qsTr("Group 1 > Group 2")						}
-		RadioButton { value: "groupTwoGreater";	label: qsTr("Group 1 < Group 2")						}
+		RadioButton { value: "twoSided";	label: qsTr("Group 1 \u2260 Group 2"); checked: true	}
+		RadioButton { value: "greater";	  label: qsTr("Group 1 > Group 2")						}
+		RadioButton { value: "less";	    label: qsTr("Group 1 < Group 2")						}
 	}
 
 	Group
