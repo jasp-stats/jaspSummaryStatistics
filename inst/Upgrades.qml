@@ -112,4 +112,36 @@ Upgrades
 		ChangeRename{	from: "sigma_stepsize_lower";				to: "bfRobustnessPlotLowerPriorSd"		}
 		ChangeRename{	from: "sigma_stepsize_upper";				to: "bfRobustnessPlotUpperPriorSd"		}
     }
+
+    Upgrade
+    {
+        functionName:       "SummaryStatsBayesianZTest"
+        fromVersion:        "0.16.4"
+        toVersion:          "0.17.0"
+
+        ChangeRename{   from: "hypothesis"; to: "alternative"   }
+        ChangeJS
+        {
+            name:       "alternative"
+            jsFunction: function(options)
+            {
+                switch(options["alternative"])
+                {
+                    case "notEqualToTestValue":     return "twoSided";
+                    case "greaterThanTestValue":    return "greater";
+                    case "lessThanTestValue":       return "less";
+                }
+            }
+        }
+        ChangeRename{ from: "plotPriorAndPosterior";		            to: "priorPosteriorPlot"			        }
+        ChangeRename{ from: "plotPriorAndPosteriorAdditionalInfo";		to: "priorPosteriorPlotAdditionalInfo"	    }
+        ChangeRename{ from: "plotBayesFactorRobustness";                to: "bfRobustnessPlot"                      }
+        ChangeRename{ from: "robustnessPriorMeanMin";                   to: "bfRobustnessPlotPriorMeanMin"          }
+        ChangeRename{ from: "robustnessPriorMeanMax";                   to: "bfRobustnessPlotPriorMeanMax"          }
+        ChangeRename{ from: "robustnessPriorSdMin";                     to: "bfRobustnessPlotPriorSdMin"            }
+        ChangeRename{ from: "robustnessPriorSdMax";                     to: "bfRobustnessPlotPriorSdMax"            }
+        ChangeRename{ from: "plotBayesFactorRobustnessContours";        to: "bfRobustnessPlotPriorContour"          }
+        ChangeRename{ from: "plotBayesFactorRobustnessContoursValues";       to: "bfRobustnessPlotPriorContourValues"    }
+
+    }
 }
