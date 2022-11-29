@@ -38,10 +38,10 @@ Form
 	RadioButtonGroup
 	{
 		title: qsTr("Alt. Hypothesis")
-		name: "hypothesis"
-		RadioButton { value: "notEqualToTestValue";		label: qsTr("\u2260 Test value"); checked: true	}
-		RadioButton { value: "greaterThanTestValue";	label: qsTr("> Test value")						}
-		RadioButton { value: "lessThanTestValue";		label: qsTr("< Test value")						}
+		name: "alternative"
+		RadioButton { value: "twoSided";	label: qsTr("\u2260 Test value"); checked: true	}
+		RadioButton { value: "greater";		label: qsTr("> Test value")						}
+		RadioButton { value: "less";		label: qsTr("< Test value")						}
 	}
 
 	Group
@@ -49,8 +49,8 @@ Form
 		title: qsTr("Plots")
 		CheckBox
 		{
-			name: "plotPriorAndPosterior";		label: qsTr("Prior and posterior")
-			CheckBox { name: "plotPriorAndPosteriorAdditionalInfo"; label: qsTr("Additional info"); checked: true }
+			name: "priorPosteriorPlot";		label: qsTr("Prior and posterior")
+			CheckBox { name: "priorPosteriorPlotAdditionalInfo"; label: qsTr("Additional info"); checked: true }
 		}
 	}
 
@@ -60,7 +60,7 @@ Form
 	Group
 	{
 		title: qsTr("Prior")
-		DoubleField { name: "betaPriorParamA"; label: qsTr("Beta prior: parameter a"); defaultValue: 1; max: 10000; inclusive: JASP.None; decimals: 3 }
-		DoubleField { name: "betaPriorParamB"; label: qsTr("Beta prior: parameter b"); defaultValue: 1; max: 10000; inclusive: JASP.None; decimals: 3 }
+		DoubleField { name: "betaPriorA"; label: qsTr("Beta prior: parameter a"); defaultValue: 1; max: 10000; inclusive: JASP.None; decimals: 3 }
+		DoubleField { name: "betaPriorB"; label: qsTr("Beta prior: parameter b"); defaultValue: 1; max: 10000; inclusive: JASP.None; decimals: 3 }
 	}
 }

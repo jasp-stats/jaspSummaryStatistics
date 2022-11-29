@@ -144,4 +144,30 @@ Upgrades
         ChangeRename{ from: "plotBayesFactorRobustnessContoursValues";       to: "bfRobustnessPlotPriorContourValues"    }
 
     }
+
+    Upgrade
+    {
+        functionName:       "SummaryStatsBinomialTestBayesian"
+        fromVersion:        "0.16.4"
+        toVersion:          "0.17.0"
+
+        ChangeRename{   from: "hypothesis"; to: "alternative"   }
+        ChangeJS
+        {
+            name:       "alternative"
+            jsFunction: function(options)
+            {
+                switch(options["alternative"])
+                {
+                    case "notEqualToTestValue":     return "twoSided";
+                    case "greaterThanTestValue":    return "greater";
+                    case "lessThanTestValue":       return "less";
+                }
+            }
+        }
+        ChangeRename{	from: "plotPriorAndPosterior";					to: "priorPosteriorPlot"			    }
+		ChangeRename{	from: "plotPriorAndPosteriorAdditionalInfo";	to: "priorPosteriorPlotAdditionalInfo"	}
+        ChangeRename{	from: "betaPriorParamA";	to: "betaPriorA"	}
+        ChangeRename{	from: "betaPriorParamB";	to: "betaPriorB"	}
+    }
 }

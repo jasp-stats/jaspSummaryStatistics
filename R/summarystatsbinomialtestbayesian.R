@@ -39,7 +39,7 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   # This function is the main workhorse, and also makes the table
   container <- jaspResults[["binomialContainer"]]
   if (is.null(container)) {
-    container <- createJaspContainer(dependencies=c("successes", "failures", "betaPriorParamA", "betaPriorParamB", "testValue", "hypothesis"))
+    container <- createJaspContainer(dependencies=c("successes", "failures", "betaPriorA", "betaPriorB", "testValue", "alternative"))
     jaspResults[["binomialContainer"]] <- container
   }
 
@@ -48,15 +48,15 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
     return(container[["stateSummaryStatsBinomialResults"]]$object)
 
   # Otherwise: create the empty table before executing the analysis
-  hypothesisList        <- .hypothesisTypeSummaryStatsBinomial(options$hypothesis, options$testValueUnparsed, options$bayesFactorType)
-  container[["bayesianBinomialTable"]] <- .summaryStatsBinomialTableMain(options, hypothesisList)
+  alternativeList        <- .alternativeTypeSummaryStatsBinomial(options$alternative, options$testValueUnparsed, options$bayesFactorType)
+  container[["bayesianBinomialTable"]] <- .summaryStatsBinomialTableMain(options, alternativeList)
 
   if (!is.null(container[["stateSummaryStatsBinomialResults"]])) {
     results <- container[["stateSummaryStatsBinomialResults"]]$object
     # only change possible: BF type
     results[["binomTable"]][["BF"]] <- results[["BFlist"]][[options$bayesFactorType]]
   } else {
-    results <- .summaryStatsBinomialComputeResults(hypothesisList, options)
+    results <- .summaryStatsBinomialComputeResults(alternativeList, options)
     # Save results to state
     container[["stateSummaryStatsBinomialResults"]] <- createJaspState(results)
 
@@ -71,12 +71,12 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   return(results)
 }
 
-.summaryStatsBinomialComputeResults <- function(hypothesisList, options) {
+.summaryStatsBinomialComputeResults <- function(alternativeList, options) {
 
   # Extract important information from options list
-  hypothesis <- hypothesisList$hypothesis
-  a          <- options$betaPriorParamA
-  b          <- options$betaPriorParamB
+  alternative <- alternativeList$alternative
+  a          <- options$betaPriorA
+  b          <- options$betaPriorB
   successes  <- options$successes
   failures   <- options$failures
   n          <- successes + failures
@@ -90,10 +90,10 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
     return(list(ready = ready))
 
   # Conduct frequentist and Bayesian binomial test
-  pValue <- stats::binom.test(x = successes, n = n, p = theta0, alternative = hypothesis)$p.value
+  pValue <- stats::binom.test(x = successes, n = n, p = theta0, alternative = alternative)$p.value
   # if p-value cannot be computed, return NA
   if(!is.numeric(pValue)) pValue <- NaN
-  BF10   <- jaspFrequencies::.bayesBinomialTest(counts = successes, n = n, theta0 = theta0, alternative = hypothesis, a = a, b = b)
+  BF10   <- jaspFrequencies::.bayesBinomialTest(counts = successes, n = n, theta0 = theta0, alternative = alternative, a = a, b = b)
 
   BFlist <- list(BF10    = BF10,
                  BF01    = 1/BF10,
@@ -119,7 +119,7 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   )
   # This will be the object that we fill with results
   results        <- list(
-    hypothesisList = hypothesisList,
+    alternativeList = alternativeList,
     binomPlot      = binomPlot,
     binomTable     = binomTable
   )
@@ -131,7 +131,7 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
 }
 
 # Main table ----
-.summaryStatsBinomialTableMain <- function(options, hypothesisList){
+.summaryStatsBinomialTableMain <- function(options, alternativeList){
 
   # create table and state dependencies
   bayesianBinomialTable <- createJaspTable(gettext("Bayesian Binomial Test"))
@@ -146,12 +146,12 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
 
 
   # set title for different Bayes factor types
-  bfTitle <- hypothesisList$bfTitle
+  bfTitle <- alternativeList$bfTitle
 
   # set table citations and footnote message for different hypothesis types
   bayesianBinomialTable$addCitation(.summaryStatsCitations[c("Jeffreys1961", "OHagan2004", "Haldane1932")])
 
-  message <- hypothesisList$message
+  message <- alternativeList$message
   if (!is.null(message)) bayesianBinomialTable$addFootnote(message)
 
   bayesianBinomialTable$addColumnInfo(name = "successes", title = gettext("Successes") , type = "integer")
@@ -167,7 +167,7 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
 # Prior and Posterior plot ----
 .summaryStatsBinomialPlot <- function(jaspResults, options, summaryStatsBinomialResults) {
 
-  if (!options[["plotPriorAndPosterior"]])
+  if (!options[["priorPosteriorPlot"]])
     return()
 
   plot <- createJaspPlot(
@@ -177,16 +177,16 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
     aspectRatio = 0.7
   )
   plot$position <- 2
-  plot$dependOn(options = c("plotPriorAndPosterior", "plotPriorAndPosteriorAdditionalInfo"))
+  plot$dependOn(options = c("priorPosteriorPlot", "priorPosteriorPlotAdditionalInfo"))
   jaspResults[["binomialContainer"]][["priorPosteriorPlot"]] <- plot
 
   if (!summaryStatsBinomialResults[["ready"]] || jaspResults[["binomialContainer"]]$getError())
     return()
 
   plotResults    <- summaryStatsBinomialResults[["binomPlot"]]
-  hypothesisList <- summaryStatsBinomialResults[["hypothesisList"]]
-  hypothesis     <- hypothesisList$hypothesis
-  hypForPlots    <- .binomHypothesisForPlots(hypothesis)
+  alternativeList <- summaryStatsBinomialResults[["alternativeList"]]
+  alternative     <- alternativeList$alternative
+  hypForPlots    <- .binomHypothesisForPlots(alternative)
 
   # extract parameters needed for prior and posterior plot
   a         <- plotResults$a
@@ -197,7 +197,7 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   BF10      <- plotResults$BF[["BF10"]]
 
   # Prior and posterior plot
-  quantiles       <- jaspFrequencies::.credibleIntervalPlusMedian(credibleIntervalInterval = .95, a, b, successes, n, alternative = hypothesis, theta0 = theta0)
+  quantiles       <- jaspFrequencies::.credibleIntervalPlusMedian(credibleIntervalInterval = .95, a, b, successes, n, alternative = alternative, theta0 = theta0)
   medianPosterior <- quantiles$ci.median
   CIlower         <- quantiles$ci.lower
   CIupper         <- quantiles$ci.upper
@@ -209,8 +209,8 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   }
 
   ppCri           <- c(CIlower, CIupper)
-  dfLinesPP       <- jaspFrequencies::.dfLinesPP(dataset = NULL, a = a, b = b, hyp = hypothesis, theta0 = theta0, counts = successes, n = n)
-  dfPointsPP      <- jaspFrequencies::.dfPointsPP(dataset = NULL, a = a, b = b, hyp = hypothesis, theta0 = theta0, counts = successes, n = n)
+  dfLinesPP       <- jaspFrequencies::.dfLinesPP(dataset = NULL, a = a, b = b, hyp = alternative, theta0 = theta0, counts = successes, n = n)
+  dfPointsPP      <- jaspFrequencies::.dfPointsPP(dataset = NULL, a = a, b = b, hyp = alternative, theta0 = theta0, counts = successes, n = n)
   xName <- bquote(paste(.(gettext("Population proportion")), ~theta))
 
   # error check: Cannot evaluate prior or posterior density?
@@ -219,7 +219,7 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
     return()
   }
 
-  if(options$plotPriorAndPosteriorAdditionalInfo){
+  if(options$priorPosteriorPlotAdditionalInfo){
 
     p <- try(jaspGraphs::PlotPriorAndPosterior(dfLines = dfLinesPP, dfPoints = dfPointsPP, xName = xName, BF = BF10,
                                                bfType = "BF10", hypothesis = hypForPlots,
@@ -240,41 +240,41 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
 }
 
 # helper functions
-.hypothesisTypeSummaryStatsBinomial <- function(hypothesis_option, theta0, bayesFactorType) {
-  if (hypothesis_option == "notEqualToTestValue") {
+.alternativeTypeSummaryStatsBinomial <- function(alternative_option, theta0, bayesFactorType) {
+  if (alternative_option == "twoSided") {
 
-    hypothesis_for_common_functions   <- "twoSided"
-    hypothesis                        <- "two.sided"
+    alternative_for_common_functions   <- "twoSided"
+    alternative                        <- "two.sided"
     message <- gettextf("Proportions tested against value: %s.", theta0)
 
-  } else if (hypothesis_option == "greaterThanTestValue") {
+  } else if (alternative_option == "greater") {
 
-    hypothesis_for_common_functions   <- "plusSided"
-    hypothesis                        <- "greater"
+    alternative_for_common_functions   <- "plusSided"
+    alternative                        <- "greater"
     message <- gettextf("For all tests, the alternative hypothesis specifies that the proportion is greater than %s.", theta0)
 
-  } else if (hypothesis_option == "lessThanTestValue") {
+  } else if (alternative_option == "less") {
 
-    hypothesis_for_common_functions   <- "minSided"
-    hypothesis                        <- "less"
+    alternative_for_common_functions   <- "minSided"
+    alternative                        <- "less"
     message <- gettextf("For all tests, the alternative hypothesis specifies that the proportion is less than %s.", theta0)
   }
 
-  bfTitle      <- .getBayesfactorTitleSummaryStats(bayesFactorType, hypothesis_for_common_functions)
+  bfTitle      <- .getBayesfactorTitleSummaryStats(bayesFactorType, alternative_for_common_functions)
 
-  hypothesisList <- list(hypothesis    = hypothesis,
+  alternativeList <- list(alternative    = alternative,
                           message      = message,
                           bfTitle      = bfTitle)
 
-  return(hypothesisList)
+  return(alternativeList)
 }
 .checkErrorsSummaryStatsBinomial <- function(options) {
 
   # perform a check on the hypothesis
   custom <- function() {
-    if (options$testValue == 1 && options$hypothesis == "greaterThanTestValue")
+    if (options$testValue == 1 && options$alternative == "greater")
       return(gettext("Cannot test the hypothesis that the test value is greater than 1."))
-    else if (options$testValue == 0 && options$hypothesis == "lessThanTestValue")
+    else if (options$testValue == 0 && options$alternative == "less")
       return(gettext("Cannot test the hypothesis that the test value is less than 0."))
   }
 
