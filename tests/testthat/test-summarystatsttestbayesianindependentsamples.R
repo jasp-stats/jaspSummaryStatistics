@@ -2,11 +2,11 @@ context("Summary Statistics Bayesian Independent Samples T-Test")
 
 options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianIndependentSamples")
 options$tStatistic <- 2.3
-options$n1Size <- 20
-options$n2Size <- 20
-options$plotPriorAndPosterior <- TRUE
-options$plotBayesFactorRobustnessAdditionalInfo <- FALSE
-options$hypothesis <- "groupTwoGreater"
+options$sampleSizeGroupOne <- 20
+options$sampleSizeGroupTwo <- 20
+options$priorPosteriorPlot <- TRUE
+options$bfRobustnessPlotAdditionalInfo <- FALSE
+options$alternative <- "less"
 options$informativeCauchyLocation <- 1
 options$effectSizeStandardized <- "informative"
 set.seed(1)
@@ -27,14 +27,14 @@ test_that("Bayesian Independent Samples T-Test table results match", {
 })
 
 options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianIndependentSamples")
-options$hypothesis <- "groupTwoGreater"
+options$alternative <- "less"
 options$tStatistic <- 2.3
-options$n1Size <- 20
-options$n2Size <- 20
-options$plotPriorAndPosterior <- TRUE
-options$plotBayesFactorRobustnessAdditionalInfo <- TRUE
-options$plotBayesFactorRobustness <- TRUE
-options$plotBayesFactorRobustnessAdditionalInfo <- TRUE
+options$sampleSizeGroupOne <- 20
+options$sampleSizeGroupTwo <- 20
+options$priorPosteriorPlot <- TRUE
+options$bfRobustnessPlotAdditionalInfo <- TRUE
+options$bfRobustnessPlot <- TRUE
+options$bfRobustnessPlotAdditionalInfo <- TRUE
 set.seed(1)
 results <- jaspTools::runAnalysis("SummaryStatsTTestBayesianIndependentSamples", "debug.csv", options)
 
@@ -52,16 +52,16 @@ test_that("Prior and Posterior plot matches", {
 
 
 options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianIndependentSamples")
-options$hypothesis <- "groupTwoGreater"
+options$alternative <- "less"
 options$tStatistic <- 2.3
-options$n1Size <- 20
-options$n2Size <- 20
-options$plotPriorAndPosterior <- TRUE
-options$plotBayesFactorRobustnessAdditionalInfo <- TRUE
-options$plotBayesFactorRobustness <- TRUE
-options$plotBayesFactorRobustnessAdditionalInfo <- TRUE
+options$sampleSizeGroupOne <- 20
+options$sampleSizeGroupTwo <- 20
+options$priorPosteriorPlot <- TRUE
+options$bfRobustnessPlotAdditionalInfo <- TRUE
+options$bfRobustnessPlot <- TRUE
+options$bfRobustnessPlotAdditionalInfo <- TRUE
 options$bayesFactorType = "BF01"
-options$plotPriorAndPosteriorAdditionalInfo <- TRUE
+options$priorPosteriorPlotAdditionalInfo <- TRUE
 set.seed(1)
 results <- jaspTools::runAnalysis("SummaryStatsTTestBayesianIndependentSamples", "debug.csv", options)
 
@@ -81,8 +81,8 @@ test_that("BF Type Label Switches Correctly Prior Posterior", {
 test_that("Informed priors work", {
   options <- analysisOptions("SummaryStatsTTestBayesianIndependentSamples")
 
-  options$n1Size     <- 20
-  options$n2Size     <- 20
+  options$sampleSizeGroupOne     <- 20
+  options$sampleSizeGroupTwo     <- 20
   options$tStatistic <- 2
   options$effectSizeStandardized <- "informative"
 
@@ -110,9 +110,9 @@ test_that("Prior posterior plot agrees with full data analysis", {
   # based on https://github.com/jasp-stats/INTERNAL-jasp/issues/1668
   options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianIndependentSamples")
   options$tStatistic <- -2.267
-  options$n1Size <- 23
-  options$n2Size <- 21
-  options$plotPriorAndPosterior <- TRUE
+  options$sampleSizeGroupOne <- 23
+  options$sampleSizeGroupTwo <- 21
+  options$priorPosteriorPlot <- TRUE
 
   set.seed(1)
   results <- jaspTools::runAnalysis("SummaryStatsTTestBayesianIndependentSamples", "debug.csv", options)

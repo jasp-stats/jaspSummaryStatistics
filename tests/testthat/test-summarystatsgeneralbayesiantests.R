@@ -33,11 +33,11 @@ context("SummaryStatsGeneralBayesianTests")
   options$nullParScale2 <- "1"
   options$nullTruncationLower <- "-Inf"
   options$nullTruncationUpper <- "Inf"
-  options$plotLikelihood <- TRUE
-  options$plotPosteriors <- TRUE
-  options$plotPosteriorsPriors <- TRUE
-  options$plotPredictions <- TRUE
-  options$plotPriors <- TRUE
+  options$likelihoodPlot <- TRUE
+  options$posteriorPlot <- TRUE
+  options$posteriorPlotPrior <- TRUE
+  options$predictionPlot <- TRUE
+  options$priorPlot <- TRUE
   options$priorsAlt <- list(list(name = "#", parA = "0", parAlpha = "1", parB = "1",
                                  parBeta = "1", parDf = "2", parLocation = "0", parMean = "0",
                                  parScale = "1", parScale2 = "1", truncationLower = "-Inf",
@@ -241,8 +241,8 @@ context("SummaryStatsGeneralBayesianTests")
   options$nullTruncationLower <- "-Inf"
   options$nullTruncationUpper <- "Inf"
   options$nullType <- "normal"
-  options$plotLikelihood <- TRUE
-  options$plotPosteriors <- TRUE
+  options$likelihoodPlot <- TRUE
+  options$posteriorPlot <- TRUE
   options$priorsAlt <- list(list(name = "#", parA = "0", parAlpha = "1", parB = "1",
                                  parBeta = "1", parDf = "2", parLocation = "0", parMean = "0",
                                  parScale = "1", parScale2 = "1", truncationLower = "0", truncationUpper = "Inf",
@@ -332,8 +332,8 @@ context("SummaryStatsGeneralBayesianTests")
   options$nullTruncationLower <- "-Inf"
   options$nullTruncationUpper <- "Inf"
   options$nullType <- "beta"
-  options$plotLikelihood <- TRUE
-  options$plotPosteriors <- TRUE
+  options$likelihoodPlot <- TRUE
+  options$posteriorPlot <- TRUE
   options$priorsAlt <- list(list(name = "#", parA = "0", parAlpha = "1", parB = "1",
                                  parBeta = "1", parDf = "2", parLocation = "0", parMean = "1",
                                  parScale = "1", parScale2 = "1", truncationLower = "0", truncationUpper = "1",
@@ -413,7 +413,7 @@ context("SummaryStatsGeneralBayesianTests")
   options$nullTruncationLower <- "-Inf"
   options$nullTruncationUpper <- "Inf"
   options$nullType <- "cauchy"
-  options$plotLikelihood <- TRUE
+  options$likelihoodPlot <- TRUE
   options$priorsAlt <- list(list(name = "#", parA = "0", parAlpha = "1", parB = "1",
                                  parBeta = "1", parDf = "2", parLocation = "0", parMean = "1",
                                  parScale = "1", parScale2 = "1", truncationLower = "-Inf",
@@ -474,7 +474,7 @@ context("SummaryStatsGeneralBayesianTests")
   options$nullParScale2 <- "1"
   options$nullTruncationLower <- "-Inf"
   options$nullTruncationUpper <- "Inf"
-  options$plotLikelihood <- TRUE
+  options$likelihoodPlot <- TRUE
   options$priorsAlt <- list(list(name = "#", parA = "0", parAlpha = "1", parB = "1",
                                  parBeta = "1", parDf = "2", parLocation = "0", parMean = "1",
                                  parScale = "1", parScale2 = "1", truncationLower = "-Inf",

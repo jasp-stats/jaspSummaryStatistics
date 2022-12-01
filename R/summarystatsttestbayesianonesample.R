@@ -16,7 +16,10 @@
 #
 
 SummaryStatsTTestBayesianOneSample <- function(jaspResults, dataset = NULL, options, ...) {
-  
+  # Internally, common functions take sampleSizeGroupOne instead of sampleSize option
+  options[["sampleSizeGroupOne"]] <- options[["sampleSize"]]
+  options[["sampleSize"]] <- NULL
+
   # Reading in a datafile is not necessary
   # Check user input for possible errors
   .checkErrorsSummaryStatsTTest(options, "oneSample")

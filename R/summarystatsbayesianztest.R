@@ -26,10 +26,10 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   # get results
   .bayesianZTestSummaryTable(jaspResults, options)
 
-  if (options[["plotPriorAndPosterior"]])
+  if (options[["priorPosteriorPlot"]])
     .bayesianZTestPriorPosteriorPlot(jaspResults, options)
 
-  if (options[["plotBayesFactorRobustness"]])
+  if (options[["bfRobustnessPlot"]])
     .bayesianZTestRobustnessPlot(jaspResults, options)
 
   return()
@@ -38,7 +38,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
 
 .bayesianZTestsDependencies   <- c(
   "dataType", "dataEs", "dataSe", "dataLCi", "dataUCi", "dataSd", "dataN",
-  "hypothesis", "priorMean", "priorSd"
+  "alternative", "priorMean", "priorSd"
   )
 .bayesianZTestParseOptions       <- function(options) {
 
@@ -111,10 +111,10 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     mu  = options[["priorMean"]],
     sigma = options[["priorSd"]],
     alternative = switch(
-      options[["hypothesis"]],
-      "notEqualToTestValue"  = "two.sided",
-      "greaterThanTestValue" = "greater",
-      "lessThanTestValue"    = "less"
+      options[["alternative"]],
+      "twoSided"  = "two.sided",
+      "greater" = "greater",
+      "less"    = "less"
     ))
   maxBf <- 1/exp(-(data[["es"]]/data[["se"]])^2/2)
 
@@ -152,15 +152,15 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
 
   priorPosteriorPlot <- createJaspPlot(title = gettext("Prior and Posterior"), width = 530, height = 400, aspectRatio = 0.7)
   priorPosteriorPlot$position <- 2
-  priorPosteriorPlot$dependOn(c(.bayesianZTestsDependencies, c("plotPriorAndPosterior", "plotPriorAndPosteriorAdditionalInfo")))
+  priorPosteriorPlot$dependOn(c(.bayesianZTestsDependencies, c("priorPosteriorPlot", "priorPosteriorPlotAdditionalInfo")))
   jaspResults[["priorPosteriorPlot"]] <- priorPosteriorPlot
 
   data      <- jaspResults[["data"]][["object"]]
   alt       <- switch(
-    options[["hypothesis"]],
-    "notEqualToTestValue"  = "two.sided",
-    "greaterThanTestValue" = "greater",
-    "lessThanTestValue"    = "less"
+    options[["alternative"]],
+    "twoSided"  = "two.sided",
+    "greater" = "greater",
+    "less"    = "less"
   )
 
   BF10 <- .bayesianZTestsComputeBf10(
@@ -178,13 +178,13 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
   plot <- jaspGraphs::PlotPriorAndPosterior(
     dfLines    = plotData[["dfLines"]],
     dfPoints   = plotData[["dfPoints"]],
-    BF         = if(options[["plotPriorAndPosteriorAdditionalInfo"]]) {if (options[["bayesFactorType"]] == "BF01") 1/BF10 else BF10},
-    bfType     = if(options[["plotPriorAndPosteriorAdditionalInfo"]]) {if (options[["bayesFactorType"]] == "BF01") "BF01" else "BF10"},
-    hypothesis = switch(
-      options[["hypothesis"]],
-      "notEqualToTestValue"  = "equal",
-      "greaterThanTestValue" = "greater",
-      "lessThanTestValue"    = "smaller"
+    BF         = if(options[["priorPosteriorPlotAdditionalInfo"]]) {if (options[["bayesFactorType"]] == "BF01") 1/BF10 else BF10},
+    bfType     = if(options[["priorPosteriorPlotAdditionalInfo"]]) {if (options[["bayesFactorType"]] == "BF01") "BF01" else "BF10"},
+    alternative = switch(
+      options[["alternative"]],
+      "twoSided"  = "equal",
+      "greater" = "greater",
+      "less"    = "smaller"
     ),
     xName      = if (options[["dataType"]] == "esAndCiLog") gettext("exp(Effect size)") else gettext("Effect size")
   )
@@ -200,13 +200,13 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
 
   robustnessPlot <- createJaspPlot(title = gettext("Bayes Factor Robustness Plot"), width = 550, height = 450)
   robustnessPlot$position <- 3
-  robustnessPlot$dependOn(c(.bayesianZTestsDependencies, c("plotBayesFactorRobustness" ,"robustnessPriorMeanMin", "robustnessPriorMeanMax", "robustnessPriorSdMin", "robustnessPriorSdMax", "plotBayesFactorRobustnessContours", "plotBayesFactorRobustnessContoursValues")))
+  robustnessPlot$dependOn(c(.bayesianZTestsDependencies, c("bfRobustnessPlot" ,"bfRobustnessPlotPriorMeanMin", "bfRobustnessPlotPriorMeanMax", "bfRobustnessPlotPriorSdMin", "bfRobustnessPlotPriorSdMax", "bfRobustnessPlotPriorContour", "bfRobustnessPlotPriorContourValues")))
   jaspResults[["robustnessPlot"]] <- robustnessPlot
 
   # specify contour breaks
   formatBF <- function(BF) ifelse(BF < 1, paste0("1/", round(1/BF, 2)), as.character(round(BF, 2)))
-  if (options[["plotBayesFactorRobustnessContours"]]) {
-    bfBreaks <- strsplit(options[["plotBayesFactorRobustnessContoursValues"]], ",")[[1]]
+  if (options[["bfRobustnessPlotPriorContour"]]) {
+    bfBreaks <- strsplit(options[["bfRobustnessPlotPriorContourValues"]], ",")[[1]]
     bfBreaks <- try(vapply(bfBreaks, FUN = function(bfBreak) eval(parse(text = bfBreak)), FUN.VALUE = numeric(1)))
     if (anyNA(bfBreaks) || inherits(bfBreaks, "try-error")) {
       robustnessPlot$setError(gettext("Bayes factor contours breaks could not be parsed into numbers."))
@@ -228,15 +228,15 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
 
   # compute BF grid
   data      <- jaspResults[["data"]][["object"]]
-  priorM    <- seq(options[["robustnessPriorMeanMin"]], options[["robustnessPriorMeanMax"]], length.out = 100)
-  priorSD   <- seq(options[["robustnessPriorSdMin"]],   options[["robustnessPriorSdMax"]],   length.out = 100)
+  priorM    <- seq(options[["bfRobustnessPlotPriorMeanMin"]], options[["bfRobustnessPlotPriorMeanMax"]], length.out = 100)
+  priorSD   <- seq(options[["bfRobustnessPlotPriorSdMin"]],   options[["bfRobustnessPlotPriorSdMax"]],   length.out = 100)
   priorSD   <- priorSD[priorSD > 0.001] # in order to keep contours from sliding into the edges
   priorGrid <- expand.grid(mean = priorM, sd = priorSD)
   alt       <- switch(
-    options[["hypothesis"]],
-    "notEqualToTestValue"  = "two.sided",
-    "greaterThanTestValue" = "greater",
-    "lessThanTestValue"    = "less"
+    options[["alternative"]],
+    "twoSided"  = "two.sided",
+    "greater" = "greater",
+    "less"    = "less"
   )
   priorGrid$bf <- .bayesianZTestsComputeBf10(x = data[["es"]], se = data[["se"]], mu = priorGrid$mean, sigma = priorGrid$sd, alternative = alt)
   priorGrid$bf[priorGrid$bf < bfLims[1]] <- bfLims[1]
@@ -286,7 +286,7 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
     ) +
     ggplot2::scale_x_continuous(
       name   = gettext("Prior standard deviation"),
-      limits = if(options[["robustnessPriorSdMin"]] == 0) c(0, max(sdBreaks)) else range(sdBreaks),
+      limits = if(options[["bfRobustnessPlotPriorSdMin"]] == 0) c(0, max(sdBreaks)) else range(sdBreaks),
       breaks = sdBreaks,
       expand = c(0, 0)
     )

@@ -23,14 +23,14 @@ import JASP.Controls 1.0
 import JASP.Widgets 1.0
 
 
-Form 
+Form
 {
 
 	Group
 	{
-		DoubleField  { name: "tStatistic";	label: qsTr("t"); negativeValues: true	}
-		IntegerField { name: "n1Size";		label: qsTr("Group 1 size")				}
-		IntegerField { name: "n2Size";		label: qsTr("Group 2 size")				}
+		DoubleField  { name: "tStatistic";				label: qsTr("t"); negativeValues: true			}
+		IntegerField { name: "sampleSizeGroupOne";		label: qsTr("Sample size group 1")				}
+		IntegerField { name: "sampleSizeGroupTwo";		label: qsTr("Sample size group 1")				}
     }
 
     Divider { }
@@ -38,10 +38,10 @@ Form
 	RadioButtonGroup
 	{
 		title: qsTr("Alt. Hypothesis")
-		name: "hypothesis"
-		RadioButton { value: "groupsNotEqual";	label: qsTr("Group 1 \u2260 Group 2"); checked: true	}
-		RadioButton { value: "groupOneGreater";	label: qsTr("Group 1 > Group 2")						}
-		RadioButton { value: "groupTwoGreater";	label: qsTr("Group 1 < Group 2")						}
+		name: "alternative"
+		RadioButton { value: "twoSided";	label: qsTr("Group 1 \u2260 Group 2"); checked: true	}
+		RadioButton { value: "greater";	  label: qsTr("Group 1 > Group 2")						}
+		RadioButton { value: "less";	    label: qsTr("Group 1 < Group 2")						}
 	}
 
 	Group
@@ -49,13 +49,13 @@ Form
 		title: qsTr("Plots")
 		CheckBox
 		{
-			name: "plotPriorAndPosterior";		label: qsTr("Prior and posterior")
-			CheckBox { name: "plotPriorAndPosteriorAdditionalInfo";		label: qsTr("Additional info"); checked: true }
+			name: "priorPosteriorPlot";		label: qsTr("Prior and posterior")
+			CheckBox { name: "priorPosteriorPlotAdditionalInfo";		label: qsTr("Additional info"); checked: true }
 		}
 		CheckBox
 		{
-			name: "plotBayesFactorRobustness";	label: qsTr("Bayes factor robustness check")
-			CheckBox { name: "plotBayesFactorRobustnessAdditionalInfo";	label: qsTr("Additional info"); checked: true }
+			name: "bfRobustnessPlot";	label: qsTr("Bayes factor robustness check")
+			CheckBox { name: "bfRobustnessPlotAdditionalInfo";	label: qsTr("Additional info"); checked: true }
 		}
 	}
 

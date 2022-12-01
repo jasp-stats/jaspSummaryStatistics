@@ -146,11 +146,11 @@ Form
 		RadioButtonGroup
 		{
 			title:	qsTr("Alt. Hypothesis")
-			name:	"hypothesis"
+			name:	"alternative"
 			id:		hypothesis
-			RadioButton { value: "notEqualToTestValue";		label: qsTr("\u2260 Test value"); checked: true	}
-			RadioButton { value: "greaterThanTestValue";	label: qsTr("> Test value")						}
-			RadioButton { value: "lessThanTestValue";		label: qsTr("< Test value")						}
+			RadioButton { value: "twoSided";	label: qsTr("\u2260 Test value"); checked: true	}
+			RadioButton { value: "greater";		label: qsTr("> Test value")						}
+			RadioButton { value: "less";		label: qsTr("< Test value")						}
 		}
 
 		Group
@@ -219,12 +219,12 @@ Form
 
 		CheckBox
 		{
-			name:	"plotPriorAndPosterior"
+			name:	"priorPosteriorPlot"
 			label:	qsTr("Prior and posterior")
 
 			CheckBox
 			{
-				name:		"plotPriorAndPosteriorAdditionalInfo"
+				name:		"priorPosteriorPlotAdditionalInfo"
 				label:		qsTr("Additional info")
 				checked:	true
 			}
@@ -232,7 +232,7 @@ Form
 
 		CheckBox
 		{
-			name:	"plotBayesFactorRobustness"
+			name:	"bfRobustnessPlot"
 			label:	qsTr("Bayes factor robustness check")
 			
 
@@ -242,7 +242,7 @@ Form
 				DoubleField
 				{
 					label:			qsTr("Prior mean   min:")
-					name:			"robustnessPriorMeanMin"
+					name:			"bfRobustnessPlotPriorMeanMin"
 					id:				robustnessPriorMeanMin
 					defaultValue:	hypothesis.value === "greaterThanTestValue" ? 0 : -1
 					fieldWidth:		50
@@ -253,7 +253,7 @@ Form
 				DoubleField
 				{
 					label:			qsTr("max:")
-					name:			"robustnessPriorMeanMax"
+					name:			"bfRobustnessPlotPriorMeanMax"
 					id:				robustnessPriorMeanMax
 					defaultValue:	hypothesis.value === "lessThanTestValue" ? 0 : 1
 					fieldWidth:		50
@@ -264,7 +264,7 @@ Form
 				DoubleField
 				{
 					label:			qsTr("Prior std	min:")
-					name:			"robustnessPriorSdMin"
+					name:			"bfRobustnessPlotPriorSdMin"
 					id:				robustnessPriorSdMin
 					defaultValue:	0
 					fieldWidth:		50
@@ -274,7 +274,7 @@ Form
 				DoubleField
 				{
 					label:			qsTr("max")
-					name:			"robustnessPriorSdMax"
+					name:			"bfRobustnessPlotPriorSdMax"
 					id:				robustnessPriorSdMax
 					defaultValue:	1
 					fieldWidth:		50
@@ -284,12 +284,12 @@ Form
 
 			CheckBox
 			{
-				name:				"plotBayesFactorRobustnessContours"
+				name:				"bfRobustnessPlotPriorContour"
 				label:				qsTr("Specify Bayes factor contours")
 
 				FormulaField
 				{
-					name:			"plotBayesFactorRobustnessContoursValues"
+					name:			"bfRobustnessPlotPriorContourValues"
 					label:			""
 					value:			"1/100, 1/30, 1/10, 1/3, 1, 3, 10, 30, 100"
 					fieldWidth:		250

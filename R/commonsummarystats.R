@@ -22,35 +22,35 @@ gettextf <- function(fmt, ..., domain = NULL)  {
 }
 
 # set BF title for main table
-.getBayesfactorTitleSummaryStats <- function(bayesFactorType, hypothesis) {
+.getBayesfactorTitleSummaryStats <- function(bayesFactorType, alternative) {
 	# returns the Bayes factor title to be shown on the table
 	#
 	# Args:
 	#   bayesFactorType: the BF type selected by user
-	#   hypothesis: hypothesis type selected by user
+	#   alternative: alternative type selected by user
 	#
 	# Output:
 	#   A list containing:
 	#     bftitle: title of Bayes factor to be used in the output table
 
-	hypothesisMap <- NULL
+	alternativeMap <- NULL
 
-	# map hypothesis type to a number
-	if (hypothesis == "twoSided" || hypothesis == "correlated") {
+	# map alternative type to a number
+	if (alternative == "twoSided" || alternative == "correlated") {
 
-		hypothesisMap <- 1
-	} else if (hypothesis == "plusSided" || hypothesis == "correlatedPositively") {
+		alternativeMap <- 1
+	} else if (alternative == "plusSided" || alternative == "correlatedPositively") {
 
-		hypothesisMap <- 2
-	} else if (hypothesis == "minSided" || hypothesis == "correlatedNegatively") {
+		alternativeMap <- 2
+	} else if (alternative == "minSided" || alternative == "correlatedNegatively") {
 
-		hypothesisMap <- 3
+		alternativeMap <- 3
 	}
 
   switch(bayesFactorType,
     BF01 = {
       bf.title <- switch(
-                    hypothesisMap,
+                    alternativeMap,
                     gettextf("BF%s", "\u2080\u2081"),
                     gettextf("BF%s", "\u2080\u208A"),
                     gettextf("BF%s", "\u2080\u208B")
@@ -58,7 +58,7 @@ gettextf <- function(fmt, ..., domain = NULL)  {
     },
     BF10 = {
       bf.title <- switch(
-                    hypothesisMap,
+                    alternativeMap,
                     gettextf("BF%s", "\u2081\u2080"),
                     gettextf("BF%s", "\u208A\u2080"),
                     gettextf("BF%s", "\u208B\u2080")
@@ -66,7 +66,7 @@ gettextf <- function(fmt, ..., domain = NULL)  {
     },
     LogBF10 = {
       bf.title <- switch(
-                    hypothesisMap,
+                    alternativeMap,
                     gettextf("Log(BF%s)", "\u2081\u2080"),
                     gettextf("Log(BF%s)", "\u208A\u2080"),
                     gettextf("Log(BF%s)", "\u208B\u2080")
