@@ -372,14 +372,6 @@ msgid "t"
 msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 size"
-msgstr "グループ1のサイズ"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 2 size"
-msgstr "グループ2のサイズ"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
 msgstr "対立仮説"
 
@@ -416,10 +408,6 @@ msgid "t"
 msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Group size"
-msgstr "グループサイズ"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
 msgstr "対立仮説"
 
@@ -454,10 +442,6 @@ msgstr "ベイズファクターの頑健性チェック"
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
 msgstr "t"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Group size"
-msgstr "グループサイズ"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
@@ -793,3 +777,17 @@ msgstr ""
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
 msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 1"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Sample size"
+msgstr "サンプルサイズ"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Sample size"
+msgstr "サンプルサイズ"

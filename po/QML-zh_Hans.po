@@ -376,14 +376,6 @@ msgid "t"
 msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 size"
-msgstr "组 1 大小"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 2 size"
-msgstr "组 2 大小"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
 msgstr "备择假设"
 
@@ -420,10 +412,6 @@ msgid "t"
 msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Group size"
-msgstr "组大小"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
 msgstr "备择假设"
 
@@ -458,10 +446,6 @@ msgstr "贝叶斯因子稳健性检验"
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
 msgstr "t"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Group size"
-msgstr "组大小"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
@@ -782,3 +766,17 @@ msgstr "最大值"
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
 msgstr "指定贝叶斯因子等值线"
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 1"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Sample size"
+msgstr "样本量"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Sample size"
+msgstr "样本量"

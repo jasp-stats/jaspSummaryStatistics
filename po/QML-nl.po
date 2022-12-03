@@ -373,14 +373,6 @@ msgid "t"
 msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 size"
-msgstr "Groep 1 grootte"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 2 size"
-msgstr "Groep 2 grootte"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
 msgstr "Alt. hypothese"
 
@@ -417,10 +409,6 @@ msgid "t"
 msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Group size"
-msgstr "Groepsgrootte"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
 msgstr "Alt. hypothese"
 
@@ -455,10 +443,6 @@ msgstr "Bayes factor robuustheidsevaluatie"
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
 msgstr "t"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Group size"
-msgstr "Groepsgrootte"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
@@ -783,3 +767,17 @@ msgstr "max"
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
 msgstr "Specificeer Bayes factor contouren"
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 1"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Sample size"
+msgstr "Steekproefgrootte"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Sample size"
+msgstr "Steekproefgrootte"

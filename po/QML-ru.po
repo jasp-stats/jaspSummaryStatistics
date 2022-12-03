@@ -3,27 +3,23 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Language: fr\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Summary Statistics"
-msgstr "Statistiques récapitulatives"
+msgstr ""
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Apply common Bayesian tests from sufficient statistics"
 msgstr ""
-"Applique des tests bayésiens communs à partir de statistiques suffisantes"
 
 msgctxt "Description|"
 msgid "T-Tests"
-msgstr "Tests t"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Test t bayésien pour échantillons indépendants"
+msgstr ""
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
@@ -31,7 +27,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Test t bayésien pour échantillons appariés"
+msgstr ""
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
@@ -39,7 +35,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr "Test t bayésien pour échantillon unique"
+msgstr ""
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
@@ -47,11 +43,11 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Regression"
-msgstr "Régression"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Correlation"
-msgstr "Corrélation bayésienne"
+msgstr ""
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
@@ -59,7 +55,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
-msgstr "Régression linéaire bayésienne"
+msgstr ""
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
@@ -67,7 +63,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Frequencies"
-msgstr "Fréquences"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Binomial Test"
@@ -87,6 +83,14 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Miscellaneous"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Bayesian Z-Test"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. Bayesian Z-Test"
 msgstr ""
 
 msgctxt "Description|"
@@ -211,6 +215,154 @@ msgstr ""
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "upper:"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Data"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size & SE"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size & CI"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size & CI (log)"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size, SD & N"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size log"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "SE"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Sd"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "N"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Confidence interval log"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Confidence interval"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "lower"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "upper"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Alt. Hypothesis"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "≠ Test value"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "> Test value"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "< Test value"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior Distribution"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Normal   mean:"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "std"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Default Bayes factor"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Select effect size"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Cohen's d"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "log(OR)"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "log(HR)"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Custom"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Unit information SD"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Plots"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior and posterior"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Additional info"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Bayes factor robustness check"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior mean   min:"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "max:"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior std\tmin:"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "max"
+msgstr ""
+
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Specify Bayes factor contours"
 msgstr ""
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
@@ -510,6 +662,10 @@ msgid "t"
 msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 1"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
 msgstr ""
 
@@ -546,6 +702,10 @@ msgid "t"
 msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Sample size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
 msgstr ""
 
@@ -582,6 +742,10 @@ msgid "t"
 msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Sample size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
 msgstr ""
 
@@ -611,172 +775,4 @@ msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
-msgstr ""
-
-msgctxt "Description|"
-msgid "Bayesian Z-Test"
-msgstr ""
-
-msgctxt "Description|"
-msgid "S.S. Bayesian Z-Test"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Data"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Effect size & SE"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Effect size & CI"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Effect size & CI (log)"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Effect size, SD & N"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Effect size log"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Effect size"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "SE"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Sd"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "N"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Confidence interval log"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Confidence interval"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "lower"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "upper"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Alt. Hypothesis"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "≠ Test value"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "> Test value"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "< Test value"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Prior Distribution"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Normal   mean:"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "std"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Default Bayes factor"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Select effect size"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Cohen's d"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "log(OR)"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "log(HR)"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Custom"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Unit information SD"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Plots"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Prior and posterior"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Additional info"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Bayes factor robustness check"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Prior mean   min:"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "max:"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Prior std\tmin:"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "max"
-msgstr ""
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid "Specify Bayes factor contours"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Sample size group 1"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Sample size"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Sample size"
 msgstr ""

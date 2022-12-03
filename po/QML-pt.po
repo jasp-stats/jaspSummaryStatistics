@@ -372,14 +372,6 @@ msgid "t"
 msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 size"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 2 size"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
 msgstr ""
 
@@ -416,10 +408,6 @@ msgid "t"
 msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Group size"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
 msgstr ""
 
@@ -453,10 +441,6 @@ msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Group size"
 msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
@@ -781,4 +765,16 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 1"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Sample size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Sample size"
 msgstr ""

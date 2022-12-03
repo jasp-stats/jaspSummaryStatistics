@@ -1,17 +1,11 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-09 04:41+0000\n"
-"Last-Translator: Changya Hu <changyahu@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
-"jasp/jaspsummarystatistics-qml/zh_Hant/>\n"
-"Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
-"X-Qt-Contexts: true\n"
 "X-Language: zh_Hant\n"
+"X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Summary Statistics"
@@ -670,14 +664,6 @@ msgid "t"
 msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 size"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 2 size"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
 msgstr ""
 
@@ -711,10 +697,6 @@ msgstr "貝氏因子穩健性檢查"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Group size"
 msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
@@ -754,10 +736,6 @@ msgid "t"
 msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Group size"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
 msgstr ""
 
@@ -788,3 +766,15 @@ msgstr ""
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
 msgstr "貝氏因子穩健性檢查"
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 1"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Sample size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Sample size"
+msgstr ""
