@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.17.0\n"
 "POT-Creation-Date: 2022-12-03 02:38\n"
-"PO-Revision-Date: 2022-12-13 19:50+0000\n"
+"PO-Revision-Date: 2022-12-31 02:35+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/pl/>\n"
@@ -12,22 +12,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 msgid "BF%s"
-msgstr ""
+msgstr "BF%s"
 
 msgid "Log(BF%s)"
-msgstr ""
+msgstr "Log(BF%s)"
 
 msgid "t"
 msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "Bayesowski test t dla prób niezależnych"
 
 msgid "n%s"
-msgstr ""
+msgstr "n%s"
 
 msgid "n"
 msgstr "n"
@@ -42,13 +42,13 @@ msgid "Proportional error estimate could not be computed."
 msgstr ""
 
 msgid "Prior and Posterior"
-msgstr ""
+msgstr "Prior i posterior"
 
 msgid "Plotting not possible: %s"
-msgstr ""
+msgstr "Nie można utworzyć wykresu: %s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr ""
+msgstr "Weryfikacja odporności współczynnika Bayesa"
 
 msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
 msgstr ""
@@ -57,7 +57,7 @@ msgid "Bayes factors could not be computed for 100 values of the prior."
 msgstr ""
 
 msgid "max BF%s"
-msgstr ""
+msgstr "maks. BF%s"
 
 msgid "user prior"
 msgstr ""
@@ -69,55 +69,67 @@ msgid "ultrawide prior"
 msgstr ""
 
 msgid "%s at r==%s"
-msgstr ""
+msgstr "%s przy r==%s"
 
 msgid "Cauchy prior width"
 msgstr ""
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
 msgstr ""
+"Dla każdego z testów hipoteza alternatywna wskazuje, że grupa 1 jest większa "
+"niż grupa 2."
 
 msgid "For all tests, the alternative hypothesis specifies that the mean is greater than 0."
 msgstr ""
+"Dla każdego z testów hipoteza alternatywna wskazuje, że średnia jest większa "
+"niż 0."
 
 msgid "For all tests, the alternative hypothesis specifies that measure 1 is greater than measure 2."
 msgstr ""
+"Dla każdego z testów hipoteza alternatywna wskazuje, że pomiar 1 jest "
+"większy niż pomiar 2."
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is less than group 2."
 msgstr ""
+"Dla każdego z testów hipoteza alternatywna wskazuje, że grupa 1 jest "
+"mniejsza niż grupa 2."
 
 msgid "For all tests, the alternative hypothesis specifies that the mean is less than 0."
 msgstr ""
+"Dla każdego z testów hipoteza alternatywna wskazuje, że średnia jest "
+"mniejsza niż 0."
 
 msgid "For all tests, the alternative hypothesis specifies that measure 1 is less than measure 2."
 msgstr ""
+"Dla każdego z testów hipoteza alternatywna wskazuje, że pomiar 1 jest "
+"mniejszy niż pomiar 2."
 
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "Bayesowski test t dla jednej próby"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "Bayesowski test t dla prób zależnych"
 
 msgid "Not enough observations."
-msgstr ""
+msgstr "Niewystarczająca liczba obserwacji."
 
 msgid "Model Summary"
-msgstr ""
+msgstr "Podsumowanie modelu"
 
 msgid "Effect size"
 msgstr "Wielkość efektu"
 
 msgid "Standard error"
-msgstr ""
+msgstr "Błąd standardowy"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "Maks. %1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "Domyślny %1$s"
 
 msgid "exp(Effect size)"
-msgstr ""
+msgstr "exp(wielkość efektu)"
 
 msgid "Bayes Factor Robustness Plot"
 msgstr ""
@@ -156,7 +168,7 @@ msgid "Failures"
 msgstr ""
 
 msgid "Test value"
-msgstr ""
+msgstr "Wartość testu"
 
 msgid "Plotting not possible: Posterior too peaked!"
 msgstr ""
@@ -168,40 +180,48 @@ msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
 
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "Proporcje testowane względem wartości: %s."
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
 msgstr ""
+"Dla każdego z testów hipoteza alternatywna wskazuje, że proporcja jest "
+"większa niż %s."
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is less than %s."
 msgstr ""
+"Dla każdego z testów hipoteza alternatywna wskazuje, że proporcja jest "
+"mniejsza niż %s."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
 msgstr ""
+"Nie można przetestować hipotezy wskazującej, że wartość testowa jest większa "
+"niż 1."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
 msgstr ""
+"Nie można przetestować hipotezy wskazującej, że wartość testowa jest "
+"mniejsza niż 0."
 
 msgid "Undefined hypothesis"
-msgstr ""
+msgstr "Niezdefiniowana hipoteza"
 
 msgid "r"
-msgstr ""
+msgstr "r"
 
 msgid "tau"
-msgstr ""
+msgstr "tau"
 
 msgid "rho"
-msgstr ""
+msgstr "rho"
 
 msgid "%s%% Credible interval"
-msgstr ""
+msgstr "%s%% Przedział wiarygodności"
 
 msgid "Inferential Plots"
 msgstr ""
 
 msgid "Normal(%1$s, %2$s)"
-msgstr ""
+msgstr "Normalny(%1$s, %2$s)"
 
 msgid "Student-t(%1$s, %2$s, %3$s)"
 msgstr ""
@@ -210,7 +230,7 @@ msgid "Cauchy(%1$s, %2$s)"
 msgstr ""
 
 msgid "Beta(%1$s, %2$s)"
-msgstr ""
+msgstr "Beta(%1$s, %2$s)"
 
 msgid "Uniform(%1$s, %2$s)"
 msgstr ""
@@ -219,31 +239,31 @@ msgid "Spike(%1$s)"
 msgstr ""
 
 msgid "Prior"
-msgstr ""
+msgstr "Prior"
 
 msgid "Compared to %1$s."
-msgstr ""
+msgstr "W porównaniu do %1$s."
 
 msgid "The variance parameter of the normal distribution is assumed to be known."
-msgstr ""
+msgstr "Przyjęto, że parametr wariancji rozkładu normalnego jest znany."
 
 msgid "Probability"
-msgstr ""
+msgstr "Prawdopodobieństwo"
 
 msgid "Density"
-msgstr ""
+msgstr "Gęstość"
 
 msgid "Model Comparison"
 msgstr "Porównanie modeli"
 
 msgid "Number of covariates"
-msgstr ""
+msgstr "Liczba współzmiennych"
 
 msgid "R%s"
-msgstr ""
+msgstr "R%s"
 
 msgid "Robustness Plot"
-msgstr ""
+msgstr "Wykres odporności"
 
 msgid "r scale"
 msgstr ""
@@ -252,13 +272,14 @@ msgid "r scale used is: %s."
 msgstr ""
 
 msgid "n = %i"
-msgstr ""
+msgstr "n = %i"
 
 msgid "Bayesian Linear Regression"
-msgstr ""
+msgstr "Bayesowska regresja liniowa"
 
 msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
 msgstr ""
+"Liczba współzmiennych musi być mniejsza niż N-1 (wielkość próby minus 1)"
 
 msgid "Input: When number of covariates for Alternative hypothesis is greater than that of Null hypothesis, the R%s has to be higher under Alternative than under Null hypothesis"
 msgstr ""
