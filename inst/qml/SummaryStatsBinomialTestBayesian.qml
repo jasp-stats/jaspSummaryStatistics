@@ -23,17 +23,17 @@ import JASP.Widgets		1.0
 import JASP				1.0
 
 
-Form 
+Form
 {
 
 	Group
 	{
 		IntegerField { name: "successes";	label: qsTr("Successes")	}
 		IntegerField { name: "failures";	label: qsTr("Failures")		}
-		FormulaField { name: "testValue";	label: qsTr("Test value"); defaultValue: "0.5" ; max: 1 }
-    }
+		FormulaField { name: "testValue";	label: qsTr("Test value"); defaultValue: "0.5" ; max: 1; min: 0 }
+		}
 
-    Divider { }
+		Divider { }
 
 	RadioButtonGroup
 	{
