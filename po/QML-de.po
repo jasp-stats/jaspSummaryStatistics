@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-31 10:22+0000\n"
+"PO-Revision-Date: 2023-01-15 10:50+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/de/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "X-Language: de\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -120,7 +120,7 @@ msgstr "Deskriptive Statistiken"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Plots"
-msgstr "Abbildungen"
+msgstr "Diagramme"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior and posterior"
@@ -232,7 +232,7 @@ msgstr "< Testwert"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Plots"
-msgstr "Abbildungen"
+msgstr "Diagramme"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior and posterior"
@@ -300,7 +300,7 @@ msgstr "Intervall"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Plots"
-msgstr "Abbildungen"
+msgstr "Diagramme"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior and posterior"
@@ -352,7 +352,7 @@ msgstr "Alternatives Modell"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Plots"
-msgstr "Abbildungen"
+msgstr "Diagramme"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Bayes factor robustness check"
@@ -404,7 +404,7 @@ msgstr "Gruppe 1 < Gruppe 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
-msgstr "Abbildungen"
+msgstr "Diagramme"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
@@ -444,7 +444,7 @@ msgstr "< Testwert"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Plots"
-msgstr "Abbildungen"
+msgstr "Diagramme"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
@@ -484,7 +484,7 @@ msgstr "Messung 1 < Messung 2"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Plots"
-msgstr "Abbildungen"
+msgstr "Diagramme"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
@@ -616,7 +616,7 @@ msgstr "Alternativhypothese"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Plots"
-msgstr "Abbildungen"
+msgstr "Diagramme"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Priors"
@@ -756,7 +756,7 @@ msgstr "Einheitsinformation SD"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Plots"
-msgstr "Abbildungen"
+msgstr "Diagramme"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior and posterior"
