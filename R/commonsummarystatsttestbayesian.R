@@ -202,7 +202,7 @@
   if (is.null(container)) {
     container <- createJaspContainer()
     # add dependencies for main table (i.e., when does it have to recompute values for the main table)
-    container$dependOn(c("tStatistic", "sampleSizeGroupOne", "sampleSizeGroupTwo", "alternative", "bayesFactorType",            # standard entries
+    container$dependOn(c("tStatistic", "sampleSizeGroupOne", "sampleSizeGroupTwo", "sampleSize", "alternative", "bayesFactorType", # standard entries
                          "defaultStandardizedEffectSize" , "informativeStandardizedEffectSize",        # informative or default
                          "priorWidth"                    , "effectSizeStandardized",                   # default prior
                          "informativeCauchyLocation"     , "informativeCauchyScale",                   # informed cauchy priors
