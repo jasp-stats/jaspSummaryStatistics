@@ -1,17 +1,11 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-04 13:51+0000\n"
-"Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/jasp/"
-"jaspsummarystatistics-qml/pl/>\n"
-"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Language: pl\n"
-"X-Generator: Weblate 4.15.1-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -379,14 +373,6 @@ msgid "t"
 msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 size"
-msgstr "Wielkość grupy 1"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 2 size"
-msgstr "Wielkość grupy 2"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
 msgstr "Hipoteza alt."
 
@@ -423,10 +409,6 @@ msgid "t"
 msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Group size"
-msgstr "Wielkość grupy"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
 msgstr "Hipoteza alt."
 
@@ -461,10 +443,6 @@ msgstr "Weryfikacja odporności współczynnika Bayesa"
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
 msgstr "t"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Group size"
-msgstr "Wielkość grupy"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
@@ -789,3 +767,17 @@ msgstr "maks."
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
 msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 1"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Sample size"
+msgstr "Wielkość próby"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Sample size"
+msgstr "Wielkość próby"
