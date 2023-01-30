@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-30 18:49+0000\n"
+"PO-Revision-Date: 2023-01-31 20:35+0000\n"
 "Last-Translator: Ünal Halit ÖZDEN <uozden@ticaret.edu.tr>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/tr/>\n"
@@ -35,7 +35,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "Bayesçi Eşlenik Örneklem t-Testi"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
@@ -43,7 +43,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "Bayesçi Tek Örneklem T-Testi"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
@@ -55,7 +55,7 @@ msgstr "Regresyon"
 
 msgctxt "Description|"
 msgid "Bayesian Correlation"
-msgstr ""
+msgstr "Bayesçi korelasyon"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
@@ -63,7 +63,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
-msgstr ""
+msgstr "Bayesçi Doğrusal Regresyon"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
@@ -75,7 +75,7 @@ msgstr "Frekanslar"
 
 msgctxt "Description|"
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "Bayesçi Binom Testi"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
@@ -83,7 +83,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
-msgstr ""
+msgstr "Bayesçi A/B Testi"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian A/B Test"
@@ -91,7 +91,7 @@ msgstr ""
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 1"
-msgstr ""
+msgstr "Grup 1"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Successes"
@@ -99,11 +99,11 @@ msgstr ""
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sample Size"
-msgstr ""
+msgstr "Örneklem büyüklüğü"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 2"
-msgstr ""
+msgstr "Grup 2"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Normal Prior on Log Odds Ratio"
@@ -123,11 +123,11 @@ msgstr ""
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Plots"
-msgstr ""
+msgstr "Grafikler"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Önceki ve sonraki"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sequential analysis"
