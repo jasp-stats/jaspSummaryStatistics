@@ -30,7 +30,7 @@ Form
 	{
 		DoubleField  { name: "tStatistic";				label: qsTr("t"); negativeValues: true			}
 		IntegerField { name: "sampleSizeGroupOne";		label: qsTr("Sample size group 1")				}
-		IntegerField { name: "sampleSizeGroupTwo";		label: qsTr("Sample size group 1")				}
+		IntegerField { name: "sampleSizeGroupTwo";		label: qsTr("Sample size group 2")				}
     }
 
     Divider { }
