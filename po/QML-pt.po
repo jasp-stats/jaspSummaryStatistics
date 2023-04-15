@@ -778,3 +778,7 @@ msgstr ""
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Sample size"
 msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 2"
+msgstr ""

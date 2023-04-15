@@ -778,3 +778,8 @@ msgstr "样本量"
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Sample size"
 msgstr "样本量"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 2"
+msgstr "样本量组 2"

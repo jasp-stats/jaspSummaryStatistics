@@ -812,3 +812,7 @@ msgstr "Ukuran sampel"
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Sample size"
 msgstr "Ukuran sampel"
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 2"
+msgstr ""

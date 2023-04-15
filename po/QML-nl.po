@@ -779,3 +779,8 @@ msgstr "Steekproefomvang"
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Sample size"
 msgstr "Steekproefomvang"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 2"
+msgstr "Steekproefomvang groep 2"
