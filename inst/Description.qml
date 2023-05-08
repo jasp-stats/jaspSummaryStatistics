@@ -8,7 +8,7 @@ Description
 	description		: qsTr("Apply common Bayesian tests from sufficient statistics")
 	icon			: "analysis-bayesian-ttest.svg"
 	requiresData	: false
-    version			: "0.17.1"
+    version			: "0.17.2"
 	author			: "JASP Team"
 	maintainer		: "JASP Team <info@jasp-stats.org>"
 	website			: "jasp-stats.org"
