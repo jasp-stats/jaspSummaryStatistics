@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-07 05:50+0000\n"
-"Last-Translator: Josée Turcotte <jturcotte@laurentienne.ca>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/jasp/"
-"jaspsummarystatistics-qml/fr/>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Language: fr\n"
 "X-Qt-Contexts: true\n"
 
@@ -107,9 +101,10 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 1"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Successes"
-msgstr ""
+msgstr "Succès"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sample Size"
@@ -135,9 +130,10 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Descriptives"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Plots"
-msgstr ""
+msgstr "Graphiques"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior and posterior"
@@ -291,9 +287,10 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Spearman's rho"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Hypothèse alternative"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Correlated"
@@ -315,9 +312,10 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Interval"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Plots"
-msgstr ""
+msgstr "Graphiques"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior and posterior"
@@ -335,9 +333,10 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Bayes factor robustness check"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Additional info"
-msgstr ""
+msgstr "Information additionnelle"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior"
@@ -391,9 +390,10 @@ msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "df"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
-msgstr ""
+msgstr "Succès"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations"
@@ -451,9 +451,10 @@ msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Alternative Hypothesis"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Plots"
-msgstr ""
+msgstr "Graphiques"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Priors"
@@ -467,9 +468,10 @@ msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Posteriors"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Sample size"
-msgstr ""
+msgstr "Taille de l'échantillon"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Null Model"
@@ -487,21 +489,24 @@ msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Alternative Model"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Plots"
-msgstr ""
+msgstr "Graphiques"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Bayes factor robustness check"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Additional info"
-msgstr ""
+msgstr "Information additionnelle"
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Advanced Options"
-msgstr ""
+msgstr "Options avancées"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Prior"
@@ -515,9 +520,10 @@ msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Hypothèse alternative"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 ≠ Group 2"
@@ -531,17 +537,19 @@ msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 < Group 2"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
-msgstr ""
+msgstr "Graphiques"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Additional info"
-msgstr ""
+msgstr "Information additionnelle"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Bayes factor robustness check"
@@ -551,33 +559,39 @@ msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Hypothèse alternative"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ valeur du test"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "> Test value"
-msgstr ""
+msgstr "> valeur du test"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "< Test value"
-msgstr ""
+msgstr "< valeur du test"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Plots"
-msgstr ""
+msgstr "Graphiques"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Additional info"
-msgstr ""
+msgstr "Information additionnelle"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Bayes factor robustness check"
@@ -587,9 +601,10 @@ msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Hypothèse alternative"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 ≠ Measure 2"
@@ -603,17 +618,19 @@ msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 < Measure 2"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Plots"
-msgstr ""
+msgstr "Graphiques"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Additional info"
-msgstr ""
+msgstr "Information additionnelle"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
@@ -683,21 +700,25 @@ msgctxt "SummaryStatsBayesianZTest|"
 msgid "upper"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Hypothèse alternative"
 
+#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ valeur du test"
 
+#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "> Test value"
-msgstr ""
+msgstr "> valeur du test"
 
+#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "< Test value"
-msgstr ""
+msgstr "< valeur du test"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior Distribution"
@@ -739,17 +760,19 @@ msgctxt "SummaryStatsBayesianZTest|"
 msgid "Unit information SD"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Plots"
-msgstr ""
+msgstr "Graphiques"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior and posterior"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Additional info"
-msgstr ""
+msgstr "Information additionnelle"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Bayes factor robustness check"
@@ -779,13 +802,15 @@ msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 1"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Sample size"
-msgstr ""
+msgstr "Taille de l'échantillon"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Sample size"
-msgstr ""
+msgstr "Taille de l'échantillon"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 2"
