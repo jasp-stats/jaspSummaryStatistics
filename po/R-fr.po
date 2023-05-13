@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
 "POT-Creation-Date: 2022-09-28 10:01\n"
-"PO-Revision-Date: 2023-05-05 21:48+0000\n"
+"PO-Revision-Date: 2023-05-08 12:20+0000\n"
 "Last-Translator: Josée Turcotte <jturcotte@laurentienne.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/fr/>\n"
@@ -14,22 +14,22 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 msgid "BF%s"
-msgstr "BF%s"
+msgstr "FB%s"
 
 msgid "Log(BF%s)"
-msgstr "Log(BF%s)"
+msgstr "Log(FB%s)"
 
 msgid "t"
 msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Test t d'échantillons indépendants Bayésien"
+msgstr "Test t bayésien pour échantillons indépendants"
 
 msgid "n%s"
-msgstr ""
+msgstr "n%s"
 
 msgid "n"
-msgstr "n"
+msgstr ""
 
 msgid "error %"
 msgstr "% d'erreur"
@@ -40,8 +40,9 @@ msgstr "p"
 msgid "Proportional error estimate could not be computed."
 msgstr ""
 
+#, fuzzy
 msgid "Prior and Posterior"
-msgstr "Antérieur et postérieur"
+msgstr "Prior and Postérieur"
 
 msgid "Plotting not possible: %s"
 msgstr "Traçage impossible : %s"
@@ -72,65 +73,78 @@ msgstr "Priori ultra étendu"
 msgid "%s at r==%s"
 msgstr "%s à r==%s"
 
+#, fuzzy
 msgid "Cauchy prior width"
-msgstr "Distribution à priori Cauchy"
+msgstr "Distribution a priori Cauchy"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is greater "
 "than group 2."
 msgstr ""
+"Pour tous les tests, l'hypothèse alternative indique que le groupe 1 est "
+"plus grande que le groupe 2."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the mean is greater "
 "than 0."
 msgstr ""
+"Pour tous les tests, l'hypothèse alternative indique que la moyenne est plus "
+"grande que 0."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that measure 1 is "
 "greater than measure 2."
 msgstr ""
+"Pour tous les tests, l'hypothèse alternative indique que la mesure 1 est "
+"plus grande que la mesure 2."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is less "
 "than group 2."
 msgstr ""
+"Pour tous les tests, l'hypothèse alternative indique que le groupe 1 est "
+"moins grand que le groupe 2."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the mean is less "
 "than 0."
 msgstr ""
+"Pour tous les tests, l'hypothèse alternative indique que la moyenne est "
+"inférieure à 0."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that measure 1 is less "
 "than measure 2."
 msgstr ""
+"Pour tous les tests, l'hypothèse alternative indique que la mesure 1 est "
+"moins que la mesure 2."
 
 msgid "Bayesian One Sample T-Test"
-msgstr "Test t Bayésien à un échantillon"
+msgstr "Test t bayésien pour échantillon unique"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Test t Bayésien d'échantillons pairés"
+msgstr "Test t bayésien pour échantillons appariés"
 
 msgid "Not enough observations."
-msgstr ""
+msgstr "Nombre d'observations insuffisant."
 
 msgid "Model Summary"
-msgstr "Résumé du modèle"
+msgstr "Sommaire du modèle"
 
 msgid "Effect size"
-msgstr "Taille de l'effet"
+msgstr "Taille d'effet"
 
 msgid "Standard error"
-msgstr ""
+msgstr "Erreur standard"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "Max %1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "Par défaut %1$s"
 
 msgid "exp(Effect size)"
-msgstr ""
+msgstr "exp(Taille d'effet)"
 
 msgid "Bayes Factor Robustness Plot"
 msgstr ""
@@ -159,7 +173,7 @@ msgid ""
 msgstr ""
 
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "Test bayésien binomial"
 
 msgid ""
 "- *Bayes factor*: If one-sided test is requested:\n"
@@ -179,65 +193,73 @@ msgid ""
 msgstr ""
 
 msgid "Successes"
-msgstr ""
+msgstr "Succès"
 
 msgid "Failures"
-msgstr ""
+msgstr "Échecs"
 
 msgid "Test value"
-msgstr ""
+msgstr "Valeur du test"
 
 msgid "Plotting not possible: Posterior too peaked!"
 msgstr ""
 
 msgid "Population proportion"
-msgstr ""
+msgstr "Proportion de la population"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
 
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "Proportions testées par rapport à la valeur : %s."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "greater than %s."
 msgstr ""
+"Pour tous les tests, l'hypothèse alternative précise que la proportion est "
+"plus grande que %s."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "less than %s."
 msgstr ""
+"Pour tous les tests, l'hypothèse alternatives précise que la proportion est "
+"inférieure à %s."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
 msgstr ""
+"Impossible de tester l'hypothèse selon laquelle la valeur du test est "
+"supérieure à 1."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
 msgstr ""
+"Impossible de tester l'hypothèse selon laquelle la valeur du test est "
+"inférieure à 0."
 
 msgid "Undefined hypothesis"
-msgstr ""
+msgstr "Hypothèse indéfinie"
 
 msgid "r"
-msgstr ""
+msgstr "r"
 
 msgid "tau"
-msgstr ""
+msgstr "tau"
 
 msgid "rho"
-msgstr ""
+msgstr "rho"
 
 msgid "%s%% Credible interval"
-msgstr ""
+msgstr "Intervalle de crédibilité %s%%"
 
 msgid "Inferential Plots"
 msgstr "Graphiques inférentiels"
 
 msgid "Normal(%1$s, %2$s)"
-msgstr ""
+msgstr "Normal(%1$s, %2$s)"
 
 msgid "Student-t(%1$s, %2$s, %3$s)"
-msgstr ""
+msgstr "t de Student(%1$s, %2$s, %3$s)"
 
 msgid "Cauchy(%1$s, %2$s)"
 msgstr ""
@@ -251,6 +273,7 @@ msgstr ""
 msgid "Spike(%1$s)"
 msgstr ""
 
+#, fuzzy
 msgid "Prior"
 msgstr "Précédent"
 
@@ -268,13 +291,13 @@ msgid "Density"
 msgstr "Densité"
 
 msgid "Model Comparison"
-msgstr ""
+msgstr "Comparaison du modèle"
 
 msgid "Number of covariates"
 msgstr ""
 
 msgid "R%s"
-msgstr ""
+msgstr "R%s"
 
 msgid "Robustness Plot"
 msgstr ""
