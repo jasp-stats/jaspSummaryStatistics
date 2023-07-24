@@ -73,8 +73,8 @@ msgstr "brede prior"
 msgid "ultrawide prior"
 msgstr "zeer brede prior"
 
-msgid "%s at r==%s"
-msgstr "%s bij r==%s"
+msgid "%1$s at r==%2$s"
+msgstr "%1$s bij r==%2$s"
 
 msgid "Cauchy prior width"
 msgstr "Cauchy prior breedte"

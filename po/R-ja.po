@@ -72,8 +72,8 @@ msgstr "広い事前分布"
 msgid "ultrawide prior"
 msgstr "とても広い事前分布"
 
-msgid "%s at r==%s"
-msgstr "%s at r==%s"
+msgid "%1$s at r==%2$s"
+msgstr "%1$s at r==%2$s"
 
 msgid "Cauchy prior width"
 msgstr "コーシー事前分布の幅"

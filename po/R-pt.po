@@ -71,7 +71,7 @@ msgstr ""
 msgid "ultrawide prior"
 msgstr ""
 
-msgid "%s at r==%s"
+msgid "%1$s at r==%2$s"
 msgstr ""
 
 msgid "Cauchy prior width"

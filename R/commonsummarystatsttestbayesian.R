@@ -554,7 +554,7 @@
     BFandSubscript <- gettextf("BF%s", BFsubscript)
     BFandSubscript <- gsub(pattern = "\\s+", "~", BFandSubscript)
     label2 <- c(
-      gettextf("%s at r==%s",      format(maxBF10,  digits = 4), format(maxBFrVal, digits = 4)),
+      gettextf("%1$s at r==%2$s",      format(maxBF10,  digits = 4), format(maxBFrVal, digits = 4)),
       paste0(BFandSubscript, "==", format(BF10user, digits = 4)),
       paste0(BFandSubscript, "==", format(BF10w,    digits = 4)),
       paste0(BFandSubscript, "==", format(BF10ultra,digits = 4))
