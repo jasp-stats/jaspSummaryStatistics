@@ -72,8 +72,8 @@ msgstr "breiter Prior"
 msgid "ultrawide prior"
 msgstr "ultrabreiter Prior"
 
-msgid "%s at r==%s"
-msgstr "%s mit r==%s"
+msgid "%1$s at r==%2$s"
+msgstr "%1$s mit r==%2$s"
 
 msgid "Cauchy prior width"
 msgstr "Breite Cauchy-Prior"

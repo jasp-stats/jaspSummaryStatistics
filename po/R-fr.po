@@ -70,8 +70,8 @@ msgstr "Priori étendu"
 msgid "ultrawide prior"
 msgstr "Priori ultra étendu"
 
-msgid "%s at r==%s"
-msgstr "%s à r==%s"
+msgid "%1$s at r==%2$s"
+msgstr "%1$s à r==%2$s"
 
 #, fuzzy
 msgid "Cauchy prior width"

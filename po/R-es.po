@@ -72,8 +72,8 @@ msgstr "anchura previa"
 msgid "ultrawide prior"
 msgstr "ultra anchura previa"
 
-msgid "%s at r==%s"
-msgstr "%s en r==%s"
+msgid "%1$s at r==%2$s"
+msgstr "%1$s en r==%2$s"
 
 msgid "Cauchy prior width"
 msgstr "Anchura previa de Cauchy"
