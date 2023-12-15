@@ -2,46 +2,49 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.18.2\n"
 "POT-Creation-Date: 2023-11-18 02:32\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-16 02:31+0000\n"
+"Last-Translator: Ginger Shu-Ying Yeh <gingershuying@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"jasp/jaspsummarystatistics-r/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.3\n"
 
 msgid "BF%s"
-msgstr ""
+msgstr "BF%s"
 
 msgid "Log(BF%s)"
 msgstr ""
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "貝氏獨立樣本T檢定"
 
 msgid "n%s"
 msgstr ""
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "error %"
-msgstr ""
+msgstr "誤差 %"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "Proportional error estimate could not be computed."
 msgstr ""
 
 msgid "Prior and Posterior"
-msgstr ""
+msgstr "先驗分布與後驗分布"
 
 msgid "Plotting not possible: %s"
-msgstr ""
+msgstr "無法繪圖：%s"
 
 msgid "Bayes Factor Robustness Check"
 msgstr ""
@@ -98,10 +101,10 @@ msgid "Not enough observations."
 msgstr ""
 
 msgid "Model Summary"
-msgstr ""
+msgstr "模型摘要"
 
 msgid "Effect size"
-msgstr ""
+msgstr "效果量"
 
 msgid "Standard error"
 msgstr ""
@@ -227,10 +230,10 @@ msgid "Probability"
 msgstr ""
 
 msgid "Density"
-msgstr ""
+msgstr "密度"
 
 msgid "Model Comparison"
-msgstr ""
+msgstr "模型比較"
 
 msgid "Number of covariates"
 msgstr ""
