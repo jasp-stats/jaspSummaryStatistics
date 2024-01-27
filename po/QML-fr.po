@@ -1,49 +1,54 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-01-22 18:11+0000\n"
+"Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Language: fr\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Summary Statistics"
-msgstr "Statistiques récapitulatives"
+msgstr "Résumé Statistiques"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Apply common Bayesian tests from sufficient statistics"
 msgstr ""
-"Applique des tests bayésiens communs à partir de statistiques suffisantes"
+"Applique les tests bayésiens usuels à partir de statistiques exhaustives"
 
 msgctxt "Description|"
 msgid "T-Tests"
-msgstr "Tests t"
+msgstr "Tests T"
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Test t bayésien pour échantillons indépendants"
+msgstr "Test T bayésien pour échantillons indépendants"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "R.S. Test T bayésien pour échantillons indépendants"
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Test t bayésien pour échantillons appariés"
+msgstr "Test T bayésien pour échantillons appariés"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "R.S. Test T bayésien pour échantillons appariés"
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr "Test t bayésien pour échantillon unique"
+msgstr "Test T bayésien pour un échantillon"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
-msgstr ""
+msgstr "R.S. Test T bayésien pour un échantillon"
 
 msgctxt "Description|"
 msgid "Regression"
@@ -55,7 +60,7 @@ msgstr "Corrélation bayésienne"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
-msgstr ""
+msgstr "R.S. Corrélation Bayésienne"
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
@@ -63,7 +68,7 @@ msgstr "Régression linéaire bayésienne"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
-msgstr ""
+msgstr "R.S. Régression Linéaire Bayésienne"
 
 msgctxt "Description|"
 msgid "Frequencies"
@@ -75,7 +80,7 @@ msgstr "Test Binomial de Bayes"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
-msgstr ""
+msgstr "R.S. Test Binomial Bayésien"
 
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
@@ -83,81 +88,79 @@ msgstr "Test Bayésien A/B"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian A/B Test"
-msgstr ""
+msgstr "R.S. Test A/B Bayésien"
 
 msgctxt "Description|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Divers"
 
 msgctxt "Description|"
 msgid "General Bayesian Tests"
-msgstr ""
+msgstr "Tests Bayésiens Généraux"
 
 msgctxt "Description|"
 msgid "S.S. General Bayesian Tests"
-msgstr ""
+msgstr "R.S. Tests Bayésiens Généraux"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 1"
-msgstr ""
+msgstr "Groupe 1"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Successes"
 msgstr "Succès"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sample Size"
-msgstr ""
+msgstr "Effectif de l'Echantillon"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 2"
-msgstr ""
+msgstr "Groupe 2"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Normal Prior on Log Odds Ratio"
-msgstr ""
+msgstr "Distribution Gaussienne a Priori sur le Log du Rapport de Chances"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "μ:"
-msgstr ""
+msgstr "μ :"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "σ:"
-msgstr ""
+msgstr "σ :"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Descriptives"
 msgstr ""
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Plots"
 msgstr "Graphiques"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Distributions a priori et a posteriori"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sequential analysis"
-msgstr ""
+msgstr "Analyse Séquentielle"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "Distribution a priori"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Validation de la robustesse des facteurs de Bayes"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Order"
-msgstr ""
+msgstr "Ordonner"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Compare to best model"
-msgstr ""
+msgstr "Comparer au meilleur modèle"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Compare to null model"
@@ -169,23 +172,23 @@ msgstr "Options avancées"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior Model Probability"
-msgstr ""
+msgstr "Distribution du modèle a priori"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio = 0"
-msgstr ""
+msgstr "Log du rapport des chances = 0"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio > 0"
-msgstr ""
+msgstr "Log du rapport des chances > 0"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio < 0"
-msgstr ""
+msgstr "Log du rapport des chances < 0"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio ≠ 0"
-msgstr ""
+msgstr "Log du rapport des chances ≠ 0"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sampling"
@@ -197,7 +200,7 @@ msgstr "Nbre d'échantillons"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Robustness Plot"
-msgstr ""
+msgstr "Graphique de Robustesse"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "No. Steps"
@@ -205,7 +208,7 @@ msgstr "Nombre d'étapes"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Step Range"
-msgstr ""
+msgstr "Intervalle du Pas"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "lower:"
@@ -249,7 +252,7 @@ msgstr "Graphiques"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Distributions a priori et a posteriori"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Additional info"
@@ -257,15 +260,15 @@ msgstr "Information additionnelle"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "Distribution a priori"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Beta prior: parameter a"
-msgstr ""
+msgstr "Distribution Beta a priori : paramètre a"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Beta prior: parameter b"
-msgstr ""
+msgstr "Distribution Beta a priori : paramètre b"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Sample size"
@@ -281,7 +284,7 @@ msgstr "R de Pearson"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Kendall's tau-b"
-msgstr ""
+msgstr "Tau-b de Kendall"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Spearman's rho"
