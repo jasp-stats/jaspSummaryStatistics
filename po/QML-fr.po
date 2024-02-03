@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-22 18:11+0000\n"
-"Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/jasp/"
-"jaspsummarystatistics-qml/fr/>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Language: fr\n"
 "X-Qt-Contexts: true\n"
 
@@ -320,9 +314,10 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Plots"
 msgstr "Graphiques"
 
+#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Distributions a priori et a posteriori"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Estimation info"
@@ -332,18 +327,20 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Testing info"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Validation de la robustesse des facteurs de Bayes"
 
 #, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Additional info"
 msgstr "Information additionnelle"
 
+#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior"
-msgstr ""
+msgstr "Distribution a priori"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Stretched beta prior width"
@@ -497,9 +494,10 @@ msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Plots"
 msgstr "Graphiques"
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Validation de la robustesse des facteurs de Bayes"
 
 #, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
@@ -511,9 +509,10 @@ msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Advanced Options"
 msgstr "Options avancées"
 
+#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "Distribution a priori"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "r scale covariates"
@@ -545,18 +544,20 @@ msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
 msgstr "Graphiques"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Distributions a priori et a posteriori"
 
 #, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Additional info"
 msgstr "Information additionnelle"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Validation de la robustesse des facteurs de Bayes"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t"
@@ -587,18 +588,20 @@ msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Plots"
 msgstr "Graphiques"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Distributions a priori et a posteriori"
 
 #, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Additional info"
 msgstr "Information additionnelle"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Validation de la robustesse des facteurs de Bayes"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
@@ -626,18 +629,20 @@ msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Plots"
 msgstr "Graphiques"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Distributions a priori et a posteriori"
 
 #, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Additional info"
 msgstr "Information additionnelle"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Validation de la robustesse des facteurs de Bayes"
 
 msgctxt "Description|"
 msgid "Bayesian Z-Test"
@@ -768,18 +773,20 @@ msgctxt "SummaryStatsBayesianZTest|"
 msgid "Plots"
 msgstr "Graphiques"
 
+#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior and posterior"
-msgstr ""
+msgstr "Distributions a priori et a posteriori"
 
 #, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Additional info"
 msgstr "Information additionnelle"
 
+#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Validation de la robustesse des facteurs de Bayes"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior mean   min:"
