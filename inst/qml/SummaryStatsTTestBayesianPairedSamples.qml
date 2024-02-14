@@ -36,8 +36,9 @@ Form
 
 	RadioButtonGroup
 	{
-		name: "alternative"
-		title: qsTr("Alt. Hypothesis")
+		id:		hypothesis
+		name:	"alternative"
+		title:	qsTr("Alt. Hypothesis")
 		RadioButton { value: "twoSided";	label: qsTr("Measure 1 \u2260 Measure 2"); checked: true	}
 		RadioButton { value: "greater";		label: qsTr("Measure 1 > Measure 2")						}
 		RadioButton { value: "less";		label: qsTr("Measure 1 < Measure 2")						}
@@ -58,7 +59,7 @@ Form
 		}
 	}
 
-	BayesFactorType { }
+	BayesFactorType { correlated: hypothesis.value }
 
     SubjectivePriors { }
 }

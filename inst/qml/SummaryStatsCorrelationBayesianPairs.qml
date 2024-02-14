@@ -55,8 +55,9 @@ Form
 
 	RadioButtonGroup
 	{
-		title: qsTr("Alt. Hypothesis")
-        name: "alternative"
+		id:		hypothesis
+		title:	qsTr("Alt. Hypothesis")
+		name:	"alternative"
         RadioButton { value: "twoSided";                           label: qsTr("Correlated"); checked: true	}
         RadioButton { value: "greater";                             label: qsTr("Correlated positively")		}
         RadioButton { value: "less";                                label: qsTr("Correlated negatively")		}
@@ -84,7 +85,7 @@ Form
 		}
 	}
 
-	BayesFactorType { }
+	BayesFactorType { correlated: hypothesis.value }
 
 	Group
 	{
