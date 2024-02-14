@@ -175,7 +175,7 @@ Form
 			}
 		}
 
-		BayesFactorType	{}
+		BayesFactorType	{ correlated: hypothesis.value }
 
 		CheckBox
 		{
@@ -244,7 +244,7 @@ Form
 					label:			qsTr("Prior mean   min:")
 					name:			"bfRobustnessPlotPriorMeanMin"
 					id:				robustnessPriorMeanMin
-					defaultValue:	hypothesis.value === "greaterThanTestValue" ? 0 : -1
+					defaultValue:	hypothesis.value === "greater" ? 0 : -1
 					fieldWidth:		50
 					negativeValues:	true
 					max:			robustnessPriorMeanMax.value
@@ -255,7 +255,7 @@ Form
 					label:			qsTr("max:")
 					name:			"bfRobustnessPlotPriorMeanMax"
 					id:				robustnessPriorMeanMax
-					defaultValue:	hypothesis.value === "lessThanTestValue" ? 0 : 1
+					defaultValue:	hypothesis.value === "less" ? 0 : 1
 					fieldWidth:		50
 					negativeValues:	true
 					min:			robustnessPriorMeanMin.value
