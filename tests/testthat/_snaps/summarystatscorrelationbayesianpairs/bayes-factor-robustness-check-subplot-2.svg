@@ -88,17 +88,17 @@
 <polyline points='72.47,134.97 80.97,134.97 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
 <polyline points='72.47,42.59 80.97,42.59 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
 <polyline points='595.72,502.11 595.72,20.71 ' style='stroke-width: 0.00; stroke: none; stroke-linecap: butt;' />
-<polyline points='595.72,480.23 604.22,480.23 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='595.72,438.08 604.22,438.08 ' style='stroke-width: 0.64; stroke: none; stroke-linecap: butt;' />
-<polyline points='595.72,395.94 604.22,395.94 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='595.72,353.79 604.22,353.79 ' style='stroke-width: 0.64; stroke: none; stroke-linecap: butt;' />
-<polyline points='595.72,311.64 604.22,311.64 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='595.72,265.45 604.22,265.45 ' style='stroke-width: 0.64; stroke: none; stroke-linecap: butt;' />
-<polyline points='595.72,219.26 604.22,219.26 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='595.72,177.12 604.22,177.12 ' style='stroke-width: 0.64; stroke: none; stroke-linecap: butt;' />
-<polyline points='595.72,134.97 604.22,134.97 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
-<polyline points='595.72,88.78 604.22,88.78 ' style='stroke-width: 0.64; stroke: none; stroke-linecap: butt;' />
-<polyline points='595.72,42.59 604.22,42.59 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='604.22,480.23 595.72,480.23 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='604.22,438.08 595.72,438.08 ' style='stroke-width: 0.64; stroke: none; stroke-linecap: butt;' />
+<polyline points='604.22,395.94 595.72,395.94 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='604.22,353.79 595.72,353.79 ' style='stroke-width: 0.64; stroke: none; stroke-linecap: butt;' />
+<polyline points='604.22,311.64 595.72,311.64 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='604.22,265.45 595.72,265.45 ' style='stroke-width: 0.64; stroke: none; stroke-linecap: butt;' />
+<polyline points='604.22,219.26 595.72,219.26 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='604.22,177.12 595.72,177.12 ' style='stroke-width: 0.64; stroke: none; stroke-linecap: butt;' />
+<polyline points='604.22,134.97 595.72,134.97 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
+<polyline points='604.22,88.78 595.72,88.78 ' style='stroke-width: 0.64; stroke: none; stroke-linecap: butt;' />
+<polyline points='604.22,42.59 595.72,42.59 ' style='stroke-width: 0.64; stroke-linecap: butt;' />
 <text x='604.22' y='443.93' style='font-size: 17.00px; font-family: sans;' textLength='75.62px' lengthAdjust='spacingAndGlyphs'>Anecdotal</text>
 <text x='604.22' y='359.64' style='font-size: 17.00px; font-family: sans;' textLength='75.62px' lengthAdjust='spacingAndGlyphs'>Anecdotal</text>
 <text x='604.22' y='271.30' style='font-size: 17.00px; font-family: sans;' textLength='71.83px' lengthAdjust='spacingAndGlyphs'>Moderate</text>
@@ -122,7 +122,7 @@
 <text transform='translate(19.02,268.98) rotate(-90)' style='font-size: 20.40px; font-family: sans;' textLength='12.46px' lengthAdjust='spacingAndGlyphs'>F</text>
 <text transform='translate(22.79,256.52) rotate(-90)' style='font-size: 14.28px; font-family: sans;' textLength='7.94px' lengthAdjust='spacingAndGlyphs'>0</text>
 <text transform='translate(22.79,248.58) rotate(-90)' style='font-size: 14.28px; font-family: sans;' textLength='8.35px' lengthAdjust='spacingAndGlyphs'>+</text>
-<text transform='translate(701.73,261.41) rotate(90)' text-anchor='middle' style='font-size: 20.40px; font-family: sans;' textLength='83.94px' lengthAdjust='spacingAndGlyphs'>Evidence</text>
+<text transform='translate(705.96,261.41) rotate(90)' text-anchor='middle' style='font-size: 20.40px; font-family: sans;' textLength='83.94px' lengthAdjust='spacingAndGlyphs'>Evidence</text>
 <text x='338.35' y='11.70' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='308.10px' lengthAdjust='spacingAndGlyphs'>bayes-factor-robustness-check-subplot-2</text>
 </g>
 </svg>

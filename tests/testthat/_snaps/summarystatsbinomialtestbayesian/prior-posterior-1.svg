@@ -66,14 +66,14 @@
 <text x='483.35' y='562.55' style='font-size: 20.40px; font-family: sans;' textLength='5.10px' lengthAdjust='spacingAndGlyphs'> </text>
 <text x='488.45' y='562.55' style='font-size: 20.40px; font-family: sans;' textLength='9.76px' lengthAdjust='spacingAndGlyphs'>θ</text>
 <text transform='translate(19.02,261.39) rotate(-90)' text-anchor='middle' style='font-size: 20.40px; font-family: sans;' textLength='68.04px' lengthAdjust='spacingAndGlyphs'>Density</text>
-<rect x='100.48' y='80.88' width='129.98' height='76.12' style='stroke-width: 0.75; stroke: none;' />
-<rect x='100.48' y='80.88' width='129.98' height='76.12' style='stroke-width: 10.67; stroke: none;' />
-<rect x='105.95' y='94.83' width='42.52' height='28.35' style='stroke-width: 10.67; stroke: none;' />
-<line x1='110.21' y1='109.00' x2='144.22' y2='109.00' style='stroke-width: 2.13; stroke-linecap: butt;' />
-<rect x='105.95' y='123.17' width='42.52' height='28.35' style='stroke-width: 10.67; stroke: none;' />
-<line x1='110.21' y1='137.35' x2='144.22' y2='137.35' style='stroke-width: 2.13; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
-<text x='156.94' y='113.85' style='font-size: 17.00px; font-family: sans;' textLength='68.03px' lengthAdjust='spacingAndGlyphs'>Posterior</text>
-<text x='156.94' y='142.20' style='font-size: 17.00px; font-family: sans;' textLength='35.89px' lengthAdjust='spacingAndGlyphs'>Prior</text>
+<rect x='104.71' y='80.88' width='121.51' height='67.65' style='stroke-width: 0.75; stroke: none;' />
+<rect x='104.71' y='80.88' width='121.51' height='67.65' style='stroke-width: 10.67; stroke: none;' />
+<rect x='110.19' y='86.36' width='42.52' height='28.35' style='stroke-width: 10.67; stroke: none;' />
+<line x1='114.44' y1='100.53' x2='148.46' y2='100.53' style='stroke-width: 2.13; stroke-linecap: butt;' />
+<rect x='110.19' y='114.70' width='42.52' height='28.35' style='stroke-width: 10.67; stroke: none;' />
+<line x1='114.44' y1='128.88' x2='148.46' y2='128.88' style='stroke-width: 2.13; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
+<text x='152.71' y='105.39' style='font-size: 17.00px; font-family: sans;' textLength='68.03px' lengthAdjust='spacingAndGlyphs'>Posterior</text>
+<text x='152.71' y='133.73' style='font-size: 17.00px; font-family: sans;' textLength='35.89px' lengthAdjust='spacingAndGlyphs'>Prior</text>
 <text x='393.80' y='11.70' text-anchor='middle' style='font-size: 17.00px; font-family: sans;' textLength='120.93px' lengthAdjust='spacingAndGlyphs'>prior-posterior-1</text>
 </g>
 </svg>
