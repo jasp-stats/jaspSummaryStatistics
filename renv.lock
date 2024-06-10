@@ -56,7 +56,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "0.12.8.3.0",
+      "Version": "0.12.8.4.0",
       "Source": "Repository"
     },
     "RcppEigen": {
@@ -71,7 +71,7 @@
     },
     "SparseM": {
       "Package": "SparseM",
-      "Version": "1.82",
+      "Version": "1.83",
       "Source": "Repository"
     },
     "SuppDists": {
@@ -293,7 +293,7 @@
     },
     "datawizard": {
       "Package": "datawizard",
-      "Version": "0.10.0",
+      "Version": "0.11.0",
       "Source": "Repository"
     },
     "deSolve": {
@@ -599,7 +599,7 @@
     },
     "insight": {
       "Package": "insight",
-      "Version": "0.19.11",
+      "Version": "0.20.0",
       "Source": "Repository"
     },
     "isoband": {
@@ -621,7 +621,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspAnova",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7f125f8c7f64b7ba4de61c0e9a6d0bd40aa1d423"
+      "RemoteSha": "a5a89eb7bd511fc5996044eec50bff59bddb5a89"
     },
     "jaspBase": {
       "Package": "jaspBase",
@@ -632,7 +632,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b9c1808d9bc72109359074cfe3b8badde3f0bfdd"
+      "RemoteSha": "b89e24ee72bc63e66655f30f5bb00650d5f22cde"
     },
     "jaspDescriptives": {
       "Package": "jaspDescriptives",
@@ -643,7 +643,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
       "RemoteRef": "HEAD",
-      "RemoteSha": "35ff35f8de3ef5453b6bf4e89b6115c917635948"
+      "RemoteSha": "053c4950c284a43ce299d306948c840691b2194d"
     },
     "jaspFrequencies": {
       "Package": "jaspFrequencies",
@@ -654,7 +654,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspFrequencies",
       "RemoteRef": "HEAD",
-      "RemoteSha": "635d5aac66b8a47c10683898834eef0bb99d5ccc"
+      "RemoteSha": "aba51ac298c5a758b33acb5167112884f88c9773"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -665,7 +665,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
       "RemoteRef": "HEAD",
-      "RemoteSha": "764f90f6d7781c4087a757254facc8125f5b600b"
+      "RemoteSha": "e05d48559699a775d0fa27899378f7cb5316586c"
     },
     "jaspRegression": {
       "Package": "jaspRegression",
@@ -676,7 +676,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspRegression",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d6e3feac34585caab55e3f3ce3d4e1913afd5728"
+      "RemoteSha": "f022d6ee254378e8e3f3cdf32386776070a66f93"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -687,7 +687,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c1ac60819bb0eeaaba34a75b2ebf88afa8db1642"
+      "RemoteSha": "135dc69eb2754ab00edf5aa1945c9566205bdf4d"
     },
     "jomo": {
       "Package": "jomo",
@@ -736,7 +736,7 @@
     },
     "lavaan": {
       "Package": "lavaan",
-      "Version": "0.6-17",
+      "Version": "0.6-18",
       "Source": "Repository"
     },
     "libcoin": {
@@ -791,7 +791,7 @@
     },
     "markdown": {
       "Package": "markdown",
-      "Version": "1.12",
+      "Version": "1.13",
       "Source": "Repository"
     },
     "matrixStats": {
@@ -956,7 +956,7 @@
     },
     "performance": {
       "Package": "performance",
-      "Version": "0.11.0",
+      "Version": "0.12.0",
       "Source": "Repository"
     },
     "pillar": {
@@ -1142,7 +1142,7 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "1.1.3",
+      "Version": "1.1.4",
       "Source": "Repository"
     },
     "rmarkdown": {
@@ -1382,7 +1382,7 @@
     },
     "xts": {
       "Package": "xts",
-      "Version": "0.13.2",
+      "Version": "0.14.0",
       "Source": "Repository"
     },
     "yaml": {
