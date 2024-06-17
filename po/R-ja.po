@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.0.0\n"
 "POT-Creation-Date: 2022-09-28 10:01\n"
-"PO-Revision-Date: 2021-11-08 13:05+0000\n"
+"PO-Revision-Date: 2024-06-18 14:09+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/ja/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -44,7 +44,7 @@ msgid "Prior and Posterior"
 msgstr "事前分布と事後分布"
 
 msgid "Plotting not possible: %s"
-msgstr "プロットできません：%s"
+msgstr "プロットできません: %s"
 
 msgid "Bayes Factor Robustness Check"
 msgstr "ベイズファクターの頑健性チェック"
@@ -129,48 +129,46 @@ msgid "Model Summary"
 msgstr "モデルの概要"
 
 msgid "Effect size"
-msgstr ""
+msgstr "効果量"
 
 msgid "Standard error"
-msgstr ""
+msgstr "標準誤差"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "最大 %1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "デフォルト %1$s"
 
 msgid "exp(Effect size)"
-msgstr ""
+msgstr "exp(効果量)"
 
-#, fuzzy
 msgid "Bayes Factor Robustness Plot"
-msgstr "ベイズファクターの頑健性チェック"
+msgstr "ベイズファクター頑健性プロット"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
 msgstr ""
 
 msgid "Bayes factor contours breaks must be positive."
-msgstr ""
+msgstr "Bayes factor contours breaksは正でなければなりません."
 
 msgid "Bayes factor contours breaks must be increasing."
-msgstr ""
+msgstr "Bayes factor contours breaksは増加しなければなりません."
 
 msgid "exp(Prior mean)"
-msgstr ""
+msgstr "exp(事前平均)"
 
-#, fuzzy
 msgid "Prior mean"
-msgstr "事前分布"
+msgstr "事前平均"
 
-#, fuzzy
 msgid "Prior standard deviation"
-msgstr "事前分布と事後分布"
+msgstr "事前標準偏差"
 
 msgid ""
 "The default Bayes factor is based on unit information prior corresponding to "
 "a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
-msgstr ""
+msgstr "デフォルトベイズファクターは効果量 %1$s 、平均=0、sd= %2$s "
+"の正規分布に対応する単位情報事前分布に基づいている."
 
 msgid "Bayesian Binomial Test"
 msgstr "ベイジアンニ項検定"
