@@ -31,7 +31,7 @@ msgstr ""
 msgid "n"
 msgstr "ν"
 
-msgid "error %"
+msgid "error %%"
 msgstr ""
 
 msgid "p"

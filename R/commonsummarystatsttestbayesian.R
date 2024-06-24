@@ -281,7 +281,7 @@
   }
 
   ttestTable$addColumnInfo(name = "BF"     , title = bfTitle            , type = "number")
-  ttestTable$addColumnInfo(name = "error"  , title = gettext("error %") , type = "number")
+  ttestTable$addColumnInfo(name = "error"  , title = gettextf("error %%") , type = "number")
   ttestTable$addColumnInfo(name = "pValue" , title = gettext("p")       , type = "pvalue")
 
   return(ttestTable)
