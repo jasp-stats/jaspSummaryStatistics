@@ -166,7 +166,7 @@ SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, op
   regressionTable$addColumnInfo(name = "nCovariates", title = gettext("Number of covariates"), type = "integer")
   regressionTable$addColumnInfo(name = "R2"         , title = gettextf("R%s", "\u00B2")      , type = "number", format = "dp:3")
   regressionTable$addColumnInfo(name = "BF"         , title = bfTitle                        , type = "number")
-  regressionTable$addColumnInfo(name = "error"      , title = gettext("error %")             , type = "number")
+  regressionTable$addColumnInfo(name = "error"      , title = gettextf("error %%")             , type = "number")
 
   mainContainer[["regressionTable"]] <- regressionTable
 
