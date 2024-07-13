@@ -303,7 +303,7 @@
     },
     "datawizard": {
       "Package": "datawizard",
-      "Version": "0.11.0",
+      "Version": "0.12.0",
       "Source": "Repository"
     },
     "deSolve": {
@@ -631,7 +631,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspAnova",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fbf77984a58bbf710c2e845ee6e7c0b359a8a8a6"
+      "RemoteSha": "1172c953966e53789496d21fa684af46fec49135"
     },
     "jaspBase": {
       "Package": "jaspBase",
@@ -642,7 +642,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e7b21a684768ac8853057a935ff21bcba3314212"
+      "RemoteSha": "7de02c442478e028fe2036e3b906059bf504c13e"
     },
     "jaspDescriptives": {
       "Package": "jaspDescriptives",
@@ -653,7 +653,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
       "RemoteRef": "HEAD",
-      "RemoteSha": "feaa9a47889074ed02841037c20c07285dd11f07"
+      "RemoteSha": "f6ba4aa4c933febecf2ff3a8c81e9af3341a451a"
     },
     "jaspFrequencies": {
       "Package": "jaspFrequencies",
@@ -664,7 +664,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspFrequencies",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3e1243314aae3c1a7fb8cbe1ae053739b922a045"
+      "RemoteSha": "f94529d357d1d7949faadc6b870d0c6a7df8f56d"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -675,7 +675,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5c6cb6a4723197ca3befd3d0a5fab5b8291c08a2"
+      "RemoteSha": "e439c080e3841e0719c00ce35c376b34c833b546"
     },
     "jaspRegression": {
       "Package": "jaspRegression",
@@ -686,7 +686,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspRegression",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5e625a4a53e02431df1961fea76e61ce2fc3508f"
+      "RemoteSha": "abfe57c3193a23a000fbbcbeca50ebe7778f5c1e"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -697,7 +697,7 @@
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ac388c2cf6fc23a1af6b8c60ce01c7e665f72591"
+      "RemoteSha": "e04f30b6db24df245bb46bcb7f7a115c98cc8e02"
     },
     "jomo": {
       "Package": "jomo",
