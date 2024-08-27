@@ -197,7 +197,6 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "AlexanderLyNL",
       "RemoteRepo": "bstats",
-      "RemoteRef": "HEAD",
       "RemoteSha": "42d34c18df08d233825bae34fdc0dfa0cd70ce8c"
     },
     "ca": {
@@ -293,7 +292,6 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "vandenman",
       "RemoteRepo": "conting",
-      "RemoteRef": "HEAD",
       "RemoteSha": "03a4eb9a687e015d602022a01d4e638324c110c8"
     },
     "corpcor": {
@@ -419,7 +417,6 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "dustinfife",
       "RemoteRepo": "flexplot",
-      "RemoteRef": "HEAD",
       "RemoteSha": "303a03968f677e71c99a5e22f6352c0811b7b2fb"
     },
     "fontBitstreamVera": {
@@ -665,8 +662,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspAnova",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "6d9c6ba1918637ce8246ce2ef92ad53f3ad4fc39"
+      "RemoteSha": "04de0932b7b1ec323e247bace6c24cb211d6f895"
     },
     "jaspBase": {
       "Package": "jaspBase",
@@ -676,7 +672,6 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
-      "RemoteRef": "HEAD",
       "RemoteSha": "7de02c442478e028fe2036e3b906059bf504c13e"
     },
     "jaspDescriptives": {
@@ -687,8 +682,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "641b5a1fae1fcb3033dbcc38bf0f865d8174f5b4"
+      "RemoteSha": "e9472067e787a3d6f953e48f8af1c25ddc3cacea"
     },
     "jaspFrequencies": {
       "Package": "jaspFrequencies",
@@ -698,8 +692,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspFrequencies",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "7d7d6a354c3ac061450e60bfe590418aab591b1d"
+      "RemoteSha": "98fcab3153d96c9294da62bd6297579313994326"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -709,7 +702,6 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
-      "RemoteRef": "HEAD",
       "RemoteSha": "e439c080e3841e0719c00ce35c376b34c833b546"
     },
     "jaspRegression": {
@@ -720,8 +712,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspRegression",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "032d087fec0ddbc2719be2119b914981c362191c"
+      "RemoteSha": "f8484ee8e4c52522d750690a8297c37d1bda468a"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -731,8 +722,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "bf5e91576bada4b8d98735b816842feeb9d7a8ce"
+      "RemoteSha": "232d43df09f5dbb0fecc08462b018083be349268"
     },
     "jomo": {
       "Package": "jomo",
@@ -1192,7 +1182,6 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "Kucharssim",
       "RemoteRepo": "restriktor",
-      "RemoteRef": "HEAD",
       "RemoteSha": "70b3ae290ecd0fc15fdb0e241f36ffaeb1553019"
     },
     "rjson": {
