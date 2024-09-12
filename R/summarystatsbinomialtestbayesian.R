@@ -101,11 +101,12 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
 
   # Add rows to the main table
   binomTable <- list(
-    successes = successes,
-    failures  = failures,
-    theta0    = theta0,
-    BF        = BFlist[[options$bayesFactorType]],
-    pValue    = pValue
+    successes  = successes,
+    failures   = failures,
+    proportion = successes / (successes + failures),
+    theta0     = theta0,
+    BF         = BFlist[[options$bayesFactorType]],
+    pValue     = pValue
   )
 
   # Add information for plot
@@ -154,11 +155,12 @@ SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, option
   message <- alternativeList$message
   if (!is.null(message)) bayesianBinomialTable$addFootnote(message)
 
-  bayesianBinomialTable$addColumnInfo(name = "successes", title = gettext("Successes") , type = "integer")
-  bayesianBinomialTable$addColumnInfo(name = "failures" , title = gettext("Failures")  , type = "integer")
-  bayesianBinomialTable$addColumnInfo(name = "theta0"   , title = gettext("Test value"), type = "number")
-  bayesianBinomialTable$addColumnInfo(name = "BF"       , title = bfTitle,				 type = "number")
-  bayesianBinomialTable$addColumnInfo(name = "pValue"   , title = gettext("p")         , type = "pvalue")
+  bayesianBinomialTable$addColumnInfo(name = "successes",  title = gettext("Successes") , type = "integer")
+  bayesianBinomialTable$addColumnInfo(name = "failures" ,  title = gettext("Failures")  , type = "integer")
+  bayesianBinomialTable$addColumnInfo(name = "proportion", title = gettext("Proportion"), type = "number")
+  bayesianBinomialTable$addColumnInfo(name = "theta0"   ,  title = gettext("Test value"), type = "number")
+  bayesianBinomialTable$addColumnInfo(name = "BF"       ,  title = bfTitle,               type = "number")
+  bayesianBinomialTable$addColumnInfo(name = "pValue"   ,  title = gettext("p")         , type = "pvalue")
 
   return(bayesianBinomialTable)
 
