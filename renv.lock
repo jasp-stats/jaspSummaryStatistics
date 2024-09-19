@@ -647,7 +647,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspAnova",
-      "RemoteSha": "4cfc82653d14673a6592127fa9008e04936246c8"
+      "RemoteSha": "24a7c984788e636d7c18fd9228cf39afade3dbdb"
     },
     "jaspBase": {
       "Package": "jaspBase",
@@ -657,7 +657,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
-      "RemoteSha": "f12f1ffb8b2310c249fbe674596f5a08b3aac606"
+      "RemoteSha": "24d4ae8eb2efcaae974b6c900ebf1c64020bb90e"
     },
     "jaspDescriptives": {
       "Package": "jaspDescriptives",
@@ -667,7 +667,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "60cbfeb3c90c1f8bb84e5bc966572248c31ad69c"
+      "RemoteSha": "86c666a0687898efd0878d06c09ff56d9d8340f2"
     },
     "jaspFrequencies": {
       "Package": "jaspFrequencies",
@@ -677,7 +677,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspFrequencies",
-      "RemoteSha": "fb69c56a16b0158084b5a00c20d7b856e20a2860"
+      "RemoteSha": "577ef4ecfb8cc932c3be5002f2875e38927bfe2a"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -697,7 +697,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspRegression",
-      "RemoteSha": "447876e7706977b6c4064c267397d310c4d73b72"
+      "RemoteSha": "d917b5e950e6d727cdd9958c41e86007a9b30f12"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -707,7 +707,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "75bbf17fcf8c2453ee15a4ae52d86888191613d3"
+      "RemoteSha": "c3c2f40db75637bc3dd82d69fce0684a08c9d2a2"
     },
     "jomo": {
       "Package": "jomo",
@@ -1116,7 +1116,7 @@
     },
     "ragg": {
       "Package": "ragg",
-      "Version": "1.3.2",
+      "Version": "1.3.3",
       "Source": "Repository"
     },
     "rappdirs": {
