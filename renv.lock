@@ -1558,7 +1558,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspAnova",
-      "RemoteSha": "632c1d8222736fd8bf764cac982eb2a0dc73e960"
+      "RemoteSha": "9c54931a0b48ca2aecffb5ea32a64ea60a4bebdc"
     },
     "jaspBase": {
       "Package": "jaspBase",
@@ -1616,7 +1616,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "ac0785a11282ef2ac12fc196993955a54691ea4f"
+      "RemoteSha": "0b943ee8f6342d9a420e0ab81f863f3c316fe739"
     },
     "jaspFrequencies": {
       "Package": "jaspFrequencies",
@@ -1641,7 +1641,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspFrequencies",
-      "RemoteSha": "d2d5142e5443745807622874e24475fe8ac33b2b"
+      "RemoteSha": "8f60e60051ab83f12c2406befbddc59173b78b14"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -1699,7 +1699,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspRegression",
-      "RemoteSha": "baf6265c9af1db980c7f13fa2261bf98ecd391eb"
+      "RemoteSha": "34913caf556eef1d17fb5c4725a45cd98e7f518a"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -1719,7 +1719,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "5d5819c70a9afbd8b0f7a8f54e88b68d6101dd9e"
+      "RemoteSha": "427880f04c0afdfab8498be21e73e9eb3564b708"
     },
     "jomo": {
       "Package": "jomo",
@@ -3322,7 +3322,7 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.48",
+      "Version": "0.49",
       "Source": "Repository",
       "Requirements": [
         "R",
