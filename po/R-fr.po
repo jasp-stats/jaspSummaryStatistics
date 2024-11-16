@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
-"POT-Creation-Date: 2022-09-28 10:01\n"
+"POT-Creation-Date: 2024-11-16 02:46\n"
 "PO-Revision-Date: 2024-05-04 02:29+0000\n"
 "Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
@@ -199,6 +199,10 @@ msgstr "Succès"
 
 msgid "Failures"
 msgstr "Échecs"
+
+#, fuzzy
+msgid "Proportion"
+msgstr "Proportion de la population"
 
 msgid "Test value"
 msgstr "Valeur du test"

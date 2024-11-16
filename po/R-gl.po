@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-09-28 10:01\n"
+"POT-Creation-Date: 2024-11-16 02:46\n"
 "PO-Revision-Date: 2022-12-26 17:53+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
@@ -222,6 +222,10 @@ msgstr "Acertos"
 
 msgid "Failures"
 msgstr "Fracasos"
+
+#, fuzzy
+msgid "Proportion"
+msgstr "Proporción de poboación"
 
 msgid "Test value"
 msgstr "Probar valor"

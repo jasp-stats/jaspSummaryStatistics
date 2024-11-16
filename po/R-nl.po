@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2022-09-28 10:01\n"
+"POT-Creation-Date: 2024-11-16 02:46\n"
 "PO-Revision-Date: 2023-10-17 19:07+0000\n"
 "Last-Translator: Koen Derks <koen-derks@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
@@ -216,6 +216,10 @@ msgstr "Successen"
 
 msgid "Failures"
 msgstr "Mislukkingen"
+
+#, fuzzy
+msgid "Proportion"
+msgstr "Populatieproportie"
 
 msgid "Test value"
 msgstr "Toetswaarde"

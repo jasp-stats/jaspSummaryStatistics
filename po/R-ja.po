@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.0.0\n"
-"POT-Creation-Date: 2022-09-28 10:01\n"
+"POT-Creation-Date: 2024-11-16 02:46\n"
 "PO-Revision-Date: 2024-06-20 16:09+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
@@ -167,8 +167,9 @@ msgstr "事前標準偏差"
 msgid ""
 "The default Bayes factor is based on unit information prior corresponding to "
 "a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
-msgstr "デフォルトベイズファクターは効果量 %1$s 、平均=0、sd= %2$s "
-"の正規分布に対応する単位情報事前分布に基づいている."
+msgstr ""
+"デフォルトベイズファクターは効果量 %1$s 、平均=0、sd= %2$s の正規分布に対応す"
+"る単位情報事前分布に基づいている."
 
 msgid "Bayesian Binomial Test"
 msgstr "ベイジアンニ項検定"
@@ -205,6 +206,10 @@ msgstr "成功数"
 
 msgid "Failures"
 msgstr "失敗数"
+
+#, fuzzy
+msgid "Proportion"
+msgstr "母比率"
 
 msgid "Test value"
 msgstr "検定統計量"
