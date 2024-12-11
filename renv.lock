@@ -11,7 +11,7 @@
   "Packages": {
     "BAS": {
       "Package": "BAS",
-      "Version": "1.7.3",
+      "Version": "1.7.5",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -79,7 +79,7 @@
     },
     "Hmisc": {
       "Package": "Hmisc",
-      "Version": "5.2-0",
+      "Version": "5.2-1",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -178,7 +178,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "14.2.0-1",
+      "Version": "14.2.2-1",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -357,7 +357,7 @@
     },
     "bit": {
       "Package": "bit",
-      "Version": "4.5.0",
+      "Version": "4.5.0.1",
       "Source": "Repository",
       "Requirements": [
         "R"
@@ -673,7 +673,7 @@
     },
     "cpp11": {
       "Package": "cpp11",
-      "Version": "0.5.0",
+      "Version": "0.5.1",
       "Source": "Repository",
       "Requirements": [
         "R"
@@ -699,7 +699,7 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.16.2",
+      "Version": "1.16.4",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -816,7 +816,7 @@
     },
     "effectsize": {
       "Package": "effectsize",
-      "Version": "0.8.9",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -905,7 +905,7 @@
     },
     "flexplot": {
       "Package": "flexplot",
-      "Version": "0.21.4",
+      "Version": "0.22.1.2",
       "Source": "GitHub",
       "Requirements": [
         "R",
@@ -939,7 +939,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "dustinfife",
       "RemoteRepo": "flexplot",
-      "RemoteSha": "d28b0828aa7fa18167d708230b056ecadf541557"
+      "RemoteSha": "aaf2261e9ac03261a0c843034b64fec87037d071"
     },
     "fontBitstreamVera": {
       "Package": "fontBitstreamVera",
@@ -1467,7 +1467,7 @@
     },
     "igraph": {
       "Package": "igraph",
-      "Version": "2.1.1",
+      "Version": "2.1.2",
       "Source": "Repository",
       "Requirements": [
         "methods",
@@ -1488,7 +1488,7 @@
     },
     "insight": {
       "Package": "insight",
-      "Version": "0.20.5",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1558,7 +1558,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspAnova",
-      "RemoteSha": "b25a4d8b52c744b2982a0be701d4695ec31259b7"
+      "RemoteSha": "5800b7a159901fe3958416cbe58a09c68c0144af"
     },
     "jaspBase": {
       "Package": "jaspBase",
@@ -1593,7 +1593,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
-      "RemoteSha": "67652e03f135b8d9b7c42e353a0fe02b9fea0929"
+      "RemoteSha": "e1c6dab867c820187bec60b941b1e3c6dc2834d9"
     },
     "jaspDescriptives": {
       "Package": "jaspDescriptives",
@@ -1616,7 +1616,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "40ffc1390ef19b76af813ae2c771584b740c226c"
+      "RemoteSha": "332e355508c76e231289bef221b022dbb644ed76"
     },
     "jaspFrequencies": {
       "Package": "jaspFrequencies",
@@ -1641,7 +1641,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspFrequencies",
-      "RemoteSha": "3304885a032b40b2c88025b4f916c8c1b1b5208e"
+      "RemoteSha": "95723898a4848ea0aef0eed02c13785bdb278cb3"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -1664,7 +1664,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
-      "RemoteSha": "797e38a84746e9aa0f456439b8f00f756164d82c"
+      "RemoteSha": "c73a76cd55a7f15ccbace1f7eb3b04a5209197ee"
     },
     "jaspRegression": {
       "Package": "jaspRegression",
@@ -1699,7 +1699,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspRegression",
-      "RemoteSha": "5acdef4853be2695fa83ef9d96d76d623703ce12"
+      "RemoteSha": "674065160864065938625c1f4e974cca11ed714f"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -1719,7 +1719,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "980bdd6e099ca5fb981975660758b1a0a7c09af4"
+      "RemoteSha": "9fcc81dde7777933f96ebb32ca54e5dc7e423b5c"
     },
     "jomo": {
       "Package": "jomo",
@@ -1807,7 +1807,7 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.3.2",
+      "Version": "1.4.1",
       "Source": "Repository",
       "Requirements": [
         "Rcpp",
@@ -1944,7 +1944,7 @@
     },
     "lubridate": {
       "Package": "lubridate",
-      "Version": "1.9.3",
+      "Version": "1.9.4",
       "Source": "Repository",
       "Requirements": [
         "methods",
@@ -2016,23 +2016,20 @@
     },
     "mice": {
       "Package": "mice",
-      "Version": "3.16.0",
+      "Version": "3.17.0",
       "Source": "Repository",
       "Requirements": [
         "R",
         "broom",
         "dplyr",
-        "generics",
         "glmnet",
         "graphics",
         "grDevices",
         "lattice",
-        "methods",
         "mitml",
         "nnet",
         "Rcpp",
         "rpart",
-        "rlang",
         "stats",
         "tidyr",
         "utils",
@@ -2314,7 +2311,7 @@
     },
     "parameters": {
       "Package": "parameters",
-      "Version": "0.23.0",
+      "Version": "0.24.0",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -2522,7 +2519,7 @@
     },
     "promises": {
       "Package": "promises",
-      "Version": "1.3.0",
+      "Version": "1.3.2",
       "Source": "Repository",
       "Requirements": [
         "fastmap",
@@ -2639,7 +2636,7 @@
     },
     "quantreg": {
       "Package": "quantreg",
-      "Version": "5.99",
+      "Version": "5.99.1",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -3051,7 +3048,7 @@
     },
     "textshaping": {
       "Package": "textshaping",
-      "Version": "0.4.0",
+      "Version": "0.4.1",
       "Source": "Repository",
       "Requirements": [
         "R",
