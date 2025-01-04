@@ -1,0 +1,263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspSummaryStatistics 0.19.2\n"
+"POT-Creation-Date: 2024-11-16 02:46\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "BF%s"
+msgstr ""
+
+msgid "Log(BF%s)"
+msgstr ""
+
+msgid "t"
+msgstr ""
+
+msgid "Bayesian Independent Samples T-Test"
+msgstr ""
+
+msgid "n%s"
+msgstr ""
+
+msgid "n"
+msgstr ""
+
+msgid "error %%"
+msgstr ""
+
+msgid "p"
+msgstr ""
+
+msgid "Proportional error estimate could not be computed."
+msgstr ""
+
+msgid "Prior and Posterior"
+msgstr ""
+
+msgid "Plotting not possible: %s"
+msgstr ""
+
+msgid "Bayes Factor Robustness Check"
+msgstr ""
+
+msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
+msgstr ""
+
+msgid "Bayes factors could not be computed for 100 values of the prior."
+msgstr ""
+
+msgid "max BF%s"
+msgstr ""
+
+msgid "user prior"
+msgstr ""
+
+msgid "wide prior"
+msgstr ""
+
+msgid "ultrawide prior"
+msgstr ""
+
+msgid "%1$s at r==%2$s"
+msgstr ""
+
+msgid "Cauchy prior width"
+msgstr ""
+
+msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
+msgstr ""
+
+msgid "For all tests, the alternative hypothesis specifies that the mean is greater than 0."
+msgstr ""
+
+msgid "For all tests, the alternative hypothesis specifies that measure 1 is greater than measure 2."
+msgstr ""
+
+msgid "For all tests, the alternative hypothesis specifies that group 1 is less than group 2."
+msgstr ""
+
+msgid "For all tests, the alternative hypothesis specifies that the mean is less than 0."
+msgstr ""
+
+msgid "For all tests, the alternative hypothesis specifies that measure 1 is less than measure 2."
+msgstr ""
+
+msgid "Bayesian One Sample T-Test"
+msgstr ""
+
+msgid "Bayesian Paired Samples T-Test"
+msgstr ""
+
+msgid "Not enough observations."
+msgstr ""
+
+msgid "Model Summary"
+msgstr ""
+
+msgid "Effect size"
+msgstr ""
+
+msgid "Standard error"
+msgstr ""
+
+msgid "Max %1$s"
+msgstr ""
+
+msgid "Default %1$s"
+msgstr ""
+
+msgid "exp(Effect size)"
+msgstr ""
+
+msgid "Bayes Factor Robustness Plot"
+msgstr ""
+
+msgid "Bayes factor contours breaks could not be parsed into numbers."
+msgstr ""
+
+msgid "Bayes factor contours breaks must be positive."
+msgstr ""
+
+msgid "Bayes factor contours breaks must be increasing."
+msgstr ""
+
+msgid "exp(Prior mean)"
+msgstr ""
+
+msgid "Prior mean"
+msgstr ""
+
+msgid "Prior standard deviation"
+msgstr ""
+
+msgid "The default Bayes factor is based on unit information prior corresponding to a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
+msgstr ""
+
+msgid "Bayesian Binomial Test"
+msgstr ""
+
+msgid "- *Bayes factor*: If one-sided test is requested:\n  - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value\n  - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value\n- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value\n- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value\n  - **p**: p-value corresponding to t-statistic."
+msgstr ""
+
+msgid "Successes"
+msgstr ""
+
+msgid "Failures"
+msgstr ""
+
+msgid "Proportion"
+msgstr ""
+
+msgid "Test value"
+msgstr ""
+
+msgid "Plotting not possible: Posterior too peaked!"
+msgstr ""
+
+msgid "Population proportion"
+msgstr ""
+
+msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
+msgstr ""
+
+msgid "Proportions tested against value: %s."
+msgstr ""
+
+msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
+msgstr ""
+
+msgid "For all tests, the alternative hypothesis specifies that the proportion is less than %s."
+msgstr ""
+
+msgid "Cannot test the hypothesis that the test value is greater than 1."
+msgstr ""
+
+msgid "Cannot test the hypothesis that the test value is less than 0."
+msgstr ""
+
+msgid "Undefined hypothesis"
+msgstr ""
+
+msgid "r"
+msgstr ""
+
+msgid "tau"
+msgstr ""
+
+msgid "rho"
+msgstr ""
+
+msgid "%s%% Credible interval"
+msgstr ""
+
+msgid "Inferential Plots"
+msgstr ""
+
+msgid "Normal(%1$s, %2$s)"
+msgstr ""
+
+msgid "Student-t(%1$s, %2$s, %3$s)"
+msgstr ""
+
+msgid "Cauchy(%1$s, %2$s)"
+msgstr ""
+
+msgid "Beta(%1$s, %2$s)"
+msgstr ""
+
+msgid "Uniform(%1$s, %2$s)"
+msgstr ""
+
+msgid "Spike(%1$s)"
+msgstr ""
+
+msgid "Prior"
+msgstr ""
+
+msgid "Compared to %1$s."
+msgstr ""
+
+msgid "The variance parameter of the normal distribution is assumed to be known."
+msgstr ""
+
+msgid "Probability"
+msgstr ""
+
+msgid "Density"
+msgstr ""
+
+msgid "Model Comparison"
+msgstr ""
+
+msgid "Number of covariates"
+msgstr ""
+
+msgid "R%s"
+msgstr ""
+
+msgid "Robustness Plot"
+msgstr ""
+
+msgid "r scale"
+msgstr ""
+
+msgid "r scale used is: %s."
+msgstr ""
+
+msgid "n = %i"
+msgstr ""
+
+msgid "Bayesian Linear Regression"
+msgstr ""
+
+msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
+msgstr ""
+
+msgid "Input: When number of covariates for Alternative hypothesis is greater than that of Null hypothesis, the R%s has to be higher under Alternative than under Null hypothesis"
+msgstr ""
