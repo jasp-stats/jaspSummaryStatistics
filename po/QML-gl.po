@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-17 09:00+0000\n"
+"PO-Revision-Date: 2025-01-04 21:55+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/gl/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 "X-Language: gl_ES\n"
 "X-Source-Language: C\n"
 "X-Qt-Contexts: true\n"
@@ -293,7 +293,7 @@ msgstr "Gráficas"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior and posterior"
-msgstr "Previa e posterior"
+msgstr "Previa e Posterior"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sequential analysis"
@@ -305,7 +305,7 @@ msgstr "Previo"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Bayes factor robustness check"
-msgstr "Comprobación da robustez do factor de Bayes"
+msgstr "Comprobación da robustez do Factor de Bayes"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Advanced Options"
@@ -337,7 +337,7 @@ msgstr "Gráficas"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior and posterior"
-msgstr "Previa e posterior"
+msgstr "Previa e Posterior"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Additional info"
@@ -369,11 +369,11 @@ msgstr "Gráficas"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior and posterior"
-msgstr "Previa e posterior"
+msgstr "Previa e Posterior"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Bayes factor robustness check"
-msgstr "Comprobación da robustez do factor de Bayes"
+msgstr "Comprobación da robustez do Factor de Bayes"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Additional info"
@@ -389,7 +389,7 @@ msgstr "Gráficas"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Bayes factor robustness check"
-msgstr "Comprobación da robustez do factor de Bayes"
+msgstr "Comprobación da robustez do Factor de Bayes"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Additional info"
@@ -421,7 +421,7 @@ msgstr "Gráficas"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
-msgstr "Previa e posterior"
+msgstr "Previa e Posterior"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Additional info"
@@ -429,7 +429,7 @@ msgstr "Información adicional"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Bayes factor robustness check"
-msgstr "Comprobación da robustez do factor de Bayes"
+msgstr "Comprobación da robustez do Factor de Bayes"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t"
@@ -461,7 +461,7 @@ msgstr "Gráficas"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
-msgstr "Previa e posterior"
+msgstr "Previa e Posterior"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Additional info"
@@ -469,7 +469,7 @@ msgstr "Información adicional"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Bayes factor robustness check"
-msgstr "Comprobación da robustez do factor de Bayes"
+msgstr "Comprobación da robustez do Factor de Bayes"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
@@ -493,7 +493,7 @@ msgstr "Gráficas"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
-msgstr "Previa e posterior"
+msgstr "Previa e Posterior"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Additional info"
@@ -501,7 +501,7 @@ msgstr "Información adicional"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
-msgstr "Comprobación da robustez do factor de Bayes"
+msgstr "Comprobación da robustez do Factor de Bayes"
 
 msgctxt "Description|"
 msgid "Miscellaneous"
@@ -717,7 +717,7 @@ msgstr "< Valor a probar"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior Distribution"
-msgstr "Distribución Previa"
+msgstr "Distribución previa"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Normal   mean:"
@@ -773,7 +773,7 @@ msgstr "Información adicional"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Bayes factor robustness check"
-msgstr "Comprobación da robustez do factor de Bayes"
+msgstr "Comprobación da robustez do Factor de Bayes"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior mean   min:"
@@ -793,4 +793,4 @@ msgstr "máx"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
-msgstr "Especificar os contornos do factor de Bayes"
+msgstr "Especificar os contornos do Factor de Bayes"
