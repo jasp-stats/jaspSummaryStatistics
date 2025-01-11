@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspSummaryStatistics 0.19.2\n"
+"POT-Creation-Date: 2024-11-16 02:46\n"
+"PO-Revision-Date: 2025-01-04 21:55+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-r/ta/>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
+
+msgid "BF%s"
+msgstr ""
+
+msgid "Log(BF%s)"
+msgstr "பதிவு (பி.எஃப்%s)"
+
+msgid "t"
+msgstr ""
+
+msgid "Bayesian Independent Samples T-Test"
+msgstr ""
+
+msgid "n%s"
+msgstr "n%s"
+
+msgid "n"
+msgstr ""
+
+msgid "error %%"
+msgstr ""
+
+msgid "p"
+msgstr ""
+
+msgid "Proportional error estimate could not be computed."
+msgstr "விகிதாசார பிழை மதிப்பீட்டைக் கணக்கிட முடியவில்லை."
+
+msgid "Prior and Posterior"
+msgstr ""
+
+msgid "Plotting not possible: %s"
+msgstr "சூழ்ச்சி செய்ய முடியாது: %s"
+
+msgid "Bayes Factor Robustness Check"
+msgstr ""
+
+msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
+msgstr ""
+"சூழ்ச்சி செய்ய முடியாது: பேயச் காரணி வலுவான தன்மை சோதனை சூழ்ச்சி தற்போது தகவலறிந்த முன்"
+" ஆதரிக்கப்படவில்லை."
+
+msgid "Bayes factors could not be computed for 100 values of the prior."
+msgstr "முந்தைய 100 மதிப்புகளுக்கு பேயச் காரணிகளைக் கணக்கிட முடியவில்லை."
+
+msgid "max BF%s"
+msgstr ""
+
+msgid "user prior"
+msgstr ""
+
+msgid "wide prior"
+msgstr ""
+
+msgid "ultrawide prior"
+msgstr ""
+
+msgid "%1$s at r==%2$s"
+msgstr ""
+
+msgid "Cauchy prior width"
+msgstr ""
+
+msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
+msgstr ""
+"அனைத்து சோதனைகளுக்கும், குழு 2 ஐ விட குழு 1 அதிகமாக உள்ளது என்பதை மாற்று கருதுகோள் "
+"குறிப்பிடுகிறது."
+
+msgid "For all tests, the alternative hypothesis specifies that the mean is greater than 0."
+msgstr ""
+"எல்லா சோதனைகளுக்கும், மாற்று கருதுகோள் சராசரி 0 ஐ விட அதிகமாக உள்ளது என்பதைக் "
+"குறிப்பிடுகிறது."
+
+msgid "For all tests, the alternative hypothesis specifies that measure 1 is greater than measure 2."
+msgstr ""
+"அனைத்து சோதனைகளுக்கும், மாற்று கருதுகோள் அளவீட்டு 2 ஐ விட 1 அதிகமாக உள்ளது என்பதைக் "
+"குறிப்பிடுகிறது."
+
+msgid "For all tests, the alternative hypothesis specifies that group 1 is less than group 2."
+msgstr ""
+"அனைத்து சோதனைகளுக்கும், குழு 1 குழு 2 ஐ விட குறைவாக இருப்பதைக் குறிப்பிடுகிறது."
+
+msgid "For all tests, the alternative hypothesis specifies that the mean is less than 0."
+msgstr ""
+"எல்லா சோதனைகளுக்கும், மாற்று கருதுகோள் சராசரி 0 க்கும் குறைவாக இருப்பதைக் "
+"குறிப்பிடுகிறது."
+
+msgid "For all tests, the alternative hypothesis specifies that measure 1 is less than measure 2."
+msgstr ""
+"எல்லா சோதனைகளுக்கும், மாற்று கருதுகோள் அளவீட்டு 2 ஐ விட குறைவாக இருப்பதைக் "
+"குறிப்பிடுகிறது."
+
+msgid "Bayesian One Sample T-Test"
+msgstr ""
+
+msgid "Bayesian Paired Samples T-Test"
+msgstr ""
+
+msgid "Not enough observations."
+msgstr "போதுமான அவதானிப்புகள் இல்லை."
+
+msgid "Model Summary"
+msgstr "மாதிரி சுருக்கம்"
+
+msgid "Effect size"
+msgstr ""
+
+msgid "Standard error"
+msgstr "நிலையான பிழை"
+
+msgid "Max %1$s"
+msgstr "அதிகபட்சம் %1$s"
+
+msgid "Default %1$s"
+msgstr "இயல்புநிலை %1$s"
+
+msgid "exp(Effect size)"
+msgstr "எக்ச்ப் (விளைவு அளவு)"
+
+msgid "Bayes Factor Robustness Plot"
+msgstr "பேயச் காரணி வலுவான சூழ்ச்சி"
+
+msgid "Bayes factor contours breaks could not be parsed into numbers."
+msgstr "பேயச் காரணி வரையறைகள் இடைவெளிகளை எண்களாக பாகுபடுத்த முடியவில்லை."
+
+msgid "Bayes factor contours breaks must be positive."
+msgstr "பேயச் காரணி வரையறைகள் இடைவெளிகள் நேர்மறையாக இருக்க வேண்டும்."
+
+msgid "Bayes factor contours breaks must be increasing."
+msgstr "பேயச் காரணி வரையறைகள் இடைவெளிகள் அதிகரிக்க வேண்டும்."
+
+msgid "exp(Prior mean)"
+msgstr "எக்ச்ப் (முன் சராசரி)"
+
+msgid "Prior mean"
+msgstr "முன் சராசரி"
+
+msgid "Prior standard deviation"
+msgstr "முன் நிலையான விலகல்"
+
+msgid "The default Bayes factor is based on unit information prior corresponding to a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
+msgstr ""
+"இயல்புநிலை பேயச் காரணி ஒரு %1$s விளைவு அளவோடு தொடர்புடைய அலகு தகவல்களை "
+"அடிப்படையாகக் கொண்டது, சராசரி = 0 மற்றும் SD = %2$s உடன் ஒரு சாதாரண வழங்கல்."
+
+msgid "Bayesian Binomial Test"
+msgstr "பேய்சியன் பைனோமியல் சோதனை"
+
+msgid "- *Bayes factor*: If one-sided test is requested:\n  - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value\n  - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value\n- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value\n- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value\n  - **p**: p-value corresponding to t-statistic."
+msgstr ""
+"- *பேயச் காரணி *: ஒருதலைப்பட்ச சோதனை கோரப்பட்டால்:\n"
+" - BF+0: மக்கள்தொகை சராசரி சோதனை மதிப்பை விட பெரியது என்ற ஒருதலைப்பட்ச மாற்று "
+"கருதுகோளுக்கான ஆதாரங்களை அளவிடும் பேயச் காரணி\n"
+" -பி.எஃப் -0: மக்கள்தொகை சராசரி சோதனை மதிப்பை விட சிறியது என்ற ஒருதலைப்பட்ச மாற்று "
+"கருதுகோளுக்கான ஆதாரங்களை அளவிடும் பேயச் காரணி\n"
+" - BF0+: மக்கள்தொகை சராசரி சோதனை மதிப்பை விட பெரியது என்ற ஒருதலைப்பட்ச மாற்று "
+"கருதுகோளுடன் தொடர்புடைய சுழிய கருதுகோளுக்கான ஆதாரங்களை அளவிடும் பேயச் காரணி\n"
+" .\n"
+" -** ப **: டி-புள்ளிவிவரத்துடன் தொடர்புடைய பி-மதிப்பு."
+
+msgid "Successes"
+msgstr "வெற்றிகள்"
+
+msgid "Failures"
+msgstr "தோல்விகள்"
+
+msgid "Proportion"
+msgstr "விகிதம்"
+
+msgid "Test value"
+msgstr "சோதனை மதிப்பு"
+
+msgid "Plotting not possible: Posterior too peaked!"
+msgstr "சூழ்ச்சி செய்ய முடியாது: பின்புறமும் உச்சம்!"
+
+msgid "Population proportion"
+msgstr "மக்கள் தொகை விகிதம்"
+
+msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
+msgstr ""
+"சூழ்ச்சி செய்ய முடியாது: முன் அல்லது பின்புற அடர்த்தியை மதிப்பீடு செய்ய முடியாது!"
+
+msgid "Proportions tested against value: %s."
+msgstr "மதிப்புக்கு எதிராக சோதிக்கப்பட்ட விகிதாச்சாரம்: %s."
+
+msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
+msgstr ""
+"அனைத்து சோதனைகளுக்கும், மாற்று கருதுகோள் விகிதாச்சாரத்தை %s ஐ விட அதிகமாக உள்ளது "
+"என்பதைக் குறிப்பிடுகிறது."
+
+msgid "For all tests, the alternative hypothesis specifies that the proportion is less than %s."
+msgstr ""
+"அனைத்து சோதனைகளுக்கும், மாற்று கருதுகோள் விகிதாச்சாரத்திற்கு %s க்கும் குறைவாக இருப்பதைக்"
+" குறிப்பிடுகிறது."
+
+msgid "Cannot test the hypothesis that the test value is greater than 1."
+msgstr "சோதனை மதிப்பு 1 ஐ விட அதிகமாக உள்ளது என்ற கருதுகோளை சோதிக்க முடியாது."
+
+msgid "Cannot test the hypothesis that the test value is less than 0."
+msgstr "சோதனை மதிப்பு 0 ஐ விடக் குறைவாக உள்ளது என்ற கருதுகோளை சோதிக்க முடியாது."
+
+msgid "Undefined hypothesis"
+msgstr "வரையறுக்கப்படாத கருதுகோள்"
+
+msgid "r"
+msgstr "r"
+
+msgid "tau"
+msgstr "பெறுங்கள்"
+
+msgid "rho"
+msgstr "ரோ"
+
+msgid "%s%% Credible interval"
+msgstr "%s %% நம்பகமான இடைவெளி"
+
+msgid "Inferential Plots"
+msgstr ""
+
+msgid "Normal(%1$s, %2$s)"
+msgstr "இயல்பானது ( %1$s, %2$s)"
+
+msgid "Student-t(%1$s, %2$s, %3$s)"
+msgstr "மாணவர்-டி ( %1$s, %2$s, %3$s)"
+
+msgid "Cauchy(%1$s, %2$s)"
+msgstr "Cauchy ( %1$s, %2$s)"
+
+msgid "Beta(%1$s, %2$s)"
+msgstr "பீட்டா ( %1$s, %2$s)"
+
+msgid "Uniform(%1$s, %2$s)"
+msgstr "சீருடை ( %1$s, %2$s)"
+
+msgid "Spike(%1$s)"
+msgstr "ச்பைக் (%1$s)"
+
+msgid "Prior"
+msgstr ""
+
+msgid "Compared to %1$s."
+msgstr "%1$s உடன் ஒப்பிடும்போது."
+
+msgid "The variance parameter of the normal distribution is assumed to be known."
+msgstr "சாதாரண விநியோகத்தின் மாறுபாடு அளவுரு அறியப்படுகிறது."
+
+msgid "Probability"
+msgstr "நிகழ்தகவு"
+
+msgid "Density"
+msgstr ""
+
+msgid "Model Comparison"
+msgstr "மாதிரி ஒப்பீடு"
+
+msgid "Number of covariates"
+msgstr "கோவாரியட்டுகளின் எண்ணிக்கை"
+
+msgid "R%s"
+msgstr "R%s"
+
+msgid "Robustness Plot"
+msgstr "வலுவான சூழ்ச்சி"
+
+msgid "r scale"
+msgstr "r அளவுகோல்"
+
+msgid "r scale used is: %s."
+msgstr "பயன்படுத்தப்பட்ட ஆர் அளவு: %s."
+
+msgid "n = %i"
+msgstr "n = %i"
+
+msgid "Bayesian Linear Regression"
+msgstr "பேய்சியன் நேரியல் பின்னடைவு"
+
+msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
+msgstr ""
+"கோவாரியட்டுகளின் எண்ணிக்கை N-1 ஐ விட குறைவாக இருக்க வேண்டும் (மாதிரி அளவு கழித்தல் 1)"
+
+msgid "Input: When number of covariates for Alternative hypothesis is greater than that of Null hypothesis, the R%s has to be higher under Alternative than under Null hypothesis"
+msgstr ""
+"உள்ளீடு: மாற்று கருதுகோளுக்கான கோவாரியட்டுகளின் எண்ணிக்கை சுழிய கருதுகோளை விட அதிகமா"
+"க இருக்கும்போது, பூச்ய கருதுகோளின் கீழ் இருப்பதை விட மாற்றீட்டின் கீழ் ஆர்%s அதிகமாக இருக்க "
+"வேண்டும்"
