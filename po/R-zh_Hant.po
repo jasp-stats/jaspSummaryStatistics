@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.18.2\n"
 "POT-Creation-Date: 2024-11-16 02:46\n"
-"PO-Revision-Date: 2025-01-21 18:00+0000\n"
+"PO-Revision-Date: 2025-02-01 02:40+0000\n"
 "Last-Translator: 陳寬裕 <pf.kuan.yu.chen@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jasp/jaspsummarystatistics-r/zh_Hant/>\n"
@@ -159,7 +159,7 @@ msgid ""
 msgstr ""
 
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "貝氏二項式檢定"
 
 msgid ""
 "- *Bayes factor*: If one-sided test is requested:\n"
@@ -185,7 +185,7 @@ msgid "Failures"
 msgstr ""
 
 msgid "Proportion"
-msgstr ""
+msgstr "比例"
 
 msgid "Test value"
 msgstr "檢定值"
@@ -194,13 +194,13 @@ msgid "Plotting not possible: Posterior too peaked!"
 msgstr ""
 
 msgid "Population proportion"
-msgstr ""
+msgstr "母體比例"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
 
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "比例檢定之檢定值設定為： %s。"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
