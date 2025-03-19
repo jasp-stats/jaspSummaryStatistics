@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-03-19 23:04+0000\n"
+"PO-Revision-Date: 2025-03-20 03:45+0000\n"
 "Last-Translator: Uğur ÇELİK <prof_ugur@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/tr/>\n"
@@ -233,12 +233,10 @@ msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "< Test value"
 msgstr "< Test değeri"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
@@ -273,11 +271,11 @@ msgstr "Pearson r değeri"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Kendall's tau-b"
-msgstr "Kendall's tau-b"
+msgstr "Kendall'ın tau-b"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Spearman's rho"
-msgstr "Spearman's rho"
+msgstr "Spearman'ın rho"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Alt. Hypothesis"
@@ -303,12 +301,10 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Interval"
 msgstr "Aralık"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
@@ -358,7 +354,6 @@ msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Alternative Model"
 msgstr "Alternatif Model"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Plots"
 msgstr "Grafikler"
@@ -403,12 +398,10 @@ msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 < Group 2"
 msgstr "Group 1 < Group 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
@@ -441,12 +434,10 @@ msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "< Test value"
 msgstr "< Test değeri"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
@@ -479,12 +470,10 @@ msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 < Measure 2"
 msgstr "Ölçüm 1 < Ölçüm 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
@@ -547,7 +536,7 @@ msgstr "d"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
-msgstr ""
+msgstr "SH"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
@@ -569,14 +558,13 @@ msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Parameters"
 msgstr "Parametreler"
 
-#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Truncation"
 msgstr "Kesme"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Spike(x₀)"
-msgstr ""
+msgstr "Spike(x₀)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal(μ,σ)"
@@ -610,7 +598,6 @@ msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Alternative Hypothesis"
 msgstr "Alternatif Hipotez"
 
-#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Plots"
 msgstr "Grafikler"
@@ -629,7 +616,7 @@ msgstr "Arka kısımlar"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "df"
-msgstr ""
+msgstr "sd (serbestlik derecesi)df"
 
 msgctxt "Description|"
 msgid "Bayesian Z-Test"
@@ -673,11 +660,11 @@ msgstr "SH"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Sd"
-msgstr ""
+msgstr "SS"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Confidence interval log"
@@ -721,7 +708,7 @@ msgstr "Normal   ortalama:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "std"
-msgstr ""
+msgstr "std"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Default Bayes factor"
@@ -751,12 +738,10 @@ msgctxt "SummaryStatsBayesianZTest|"
 msgid "Unit information SD"
 msgstr "SS birim bilgisi"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
@@ -799,7 +784,7 @@ msgstr "Örneklem büyüklüğü"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Sample size"
-msgstr ""
+msgstr "Örneklem büyüklüğü"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 2"
