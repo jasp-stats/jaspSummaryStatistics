@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-03-20 03:45+0000\n"
+"Last-Translator: Uğur ÇELİK <prof_ugur@hotmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/tr/>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11-dev\n"
 "X-Language: tr\n"
 "X-Qt-Contexts: true\n"
 
@@ -13,35 +19,35 @@ msgstr "Özet İstatistikler"
 
 msgctxt "Description|"
 msgid "Apply common Bayesian tests from sufficient statistics"
-msgstr ""
+msgstr "Yeterli istatistiklerden ortak Bayes testlerini uygulayın"
 
 msgctxt "Description|"
 msgid "T-Tests"
-msgstr "t-Testleri"
+msgstr "T-Testleri"
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Bayesçi Bağımsız Örnekler t-Testi"
+msgstr "Bayes Bağımsız Örnekler T-Testi"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "S.S. Bayes Bağımsız Örneklemler T-Testi"
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Bayesçi Eşlenik Örneklem t-Testi"
+msgstr "Bayes Eşleştirilmiş Örnekler T-Testi"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "S.S. Bayes Eşleştirilmiş Örnekler T-Testi"
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr "Bayesçi Tek Örneklem T-Testi"
+msgstr "Bayes Tek Örneklem T-Testi"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
-msgstr ""
+msgstr "S.S. Bayes Tek Örneklem T-Testi"
 
 msgctxt "Description|"
 msgid "Regression"
@@ -49,19 +55,19 @@ msgstr "Regresyon"
 
 msgctxt "Description|"
 msgid "Bayesian Correlation"
-msgstr "Bayesçi korelasyon"
+msgstr "Bayes Korelasyonu"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
-msgstr ""
+msgstr "S.S. Bayes Korelasyonu"
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
-msgstr "Bayesçi Doğrusal Regresyon"
+msgstr "Bayes Doğrusal(Lineer) Regresyonu"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
-msgstr ""
+msgstr "S.S. Bayes Doğrusal(Lineer) Regresyon"
 
 msgctxt "Description|"
 msgid "Frequencies"
@@ -69,19 +75,19 @@ msgstr "Frekanslar"
 
 msgctxt "Description|"
 msgid "Bayesian Binomial Test"
-msgstr "Bayesçi Binom Testi"
+msgstr "Bayes Binom Testi"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
-msgstr ""
+msgstr "S.S. Bayes Binom Testi"
 
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
-msgstr "Bayesçi A/B Testi"
+msgstr "Bayes A/B Testi"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian A/B Test"
-msgstr ""
+msgstr "S.S. Bayes A/B Testi"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 1"
@@ -89,7 +95,7 @@ msgstr "Grup 1"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Successes"
-msgstr ""
+msgstr "Başarılar"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sample Size"
@@ -101,19 +107,19 @@ msgstr "Grup 2"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Normal Prior on Log Odds Ratio"
-msgstr ""
+msgstr "Log İhtimalleri Oranında Normal Öncelik"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "μ:"
-msgstr ""
+msgstr "μ:"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "σ:"
-msgstr ""
+msgstr "σ:"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Descriptives"
-msgstr ""
+msgstr "Tanımlayıcılar"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Plots"
@@ -125,674 +131,661 @@ msgstr "Önceki ve sonraki"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sequential analysis"
-msgstr ""
+msgstr "Sıralı analiz"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "Önceki"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Bayes faktörü sağlamlık kontrolü"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Order"
-msgstr ""
+msgstr "Sıra"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Compare to best model"
-msgstr ""
+msgstr "En iyi modelle karşılaştırın"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Compare to null model"
-msgstr ""
+msgstr "Boş modelle karşılaştır"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Advanced Options"
-msgstr ""
+msgstr "Gelişmiş Seçenekler"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior Model Probability"
-msgstr ""
+msgstr "Önceki Model Olasılığı"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio = 0"
-msgstr ""
+msgstr "Log ihtimalleri oranı = 0"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio > 0"
-msgstr ""
+msgstr "Log ihtimalleri oranı > 0"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio < 0"
-msgstr ""
+msgstr "Log ihtimalleri oranı < 0"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Log odds ratio ≠ 0"
-msgstr ""
+msgstr "Log ihtimalleri oranı ≠ 0"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sampling"
-msgstr ""
+msgstr "Örnekleme"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "No. samples"
-msgstr ""
+msgstr "Örnek yok"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Robustness Plot"
-msgstr ""
+msgstr "Sağlamlık Grafiği"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "No. Steps"
-msgstr ""
+msgstr "Adım yok"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Step Range"
-msgstr ""
+msgstr "Adım Aralığı"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "lower:"
-msgstr ""
+msgstr "daha düşük:"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "upper:"
-msgstr ""
+msgstr "daha yüksek:"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Successes"
-msgstr ""
+msgstr "Başarılar"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Failures"
-msgstr ""
+msgstr "Başarısızlıklar"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Test value"
-msgstr ""
+msgstr "Test değeri"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Alt. Hipotez"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ Test değeri"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "> Test value"
-msgstr ""
+msgstr "> Test değeri"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "< Test value"
-msgstr ""
+msgstr "< Test değeri"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Additional info"
-msgstr ""
+msgstr "Ek bilgi"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "Önceki"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Beta prior: parameter a"
-msgstr ""
+msgstr "Beta öncesi: a parametresi"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Beta prior: parameter b"
-msgstr ""
+msgstr "Beta öncesi: b parametresi"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Sample size"
-msgstr ""
+msgstr "Örneklem boyutu"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Sample Correlation Coefficient"
-msgstr ""
+msgstr "Örnek Korelasyon Katsayısı"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Pearson's r"
-msgstr ""
+msgstr "Pearson r değeri"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Kendall's tau-b"
-msgstr ""
+msgstr "Kendall'ın tau-b"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Spearman's rho"
-msgstr ""
+msgstr "Spearman'ın rho"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Alt. Hipotez"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Correlated"
-msgstr ""
+msgstr "İlişkili"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Correlated positively"
-msgstr ""
+msgstr "Pozitif korelasyon"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Correlated negatively"
-msgstr ""
+msgstr "Negatif korelasyon"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Credible intervals"
-msgstr ""
+msgstr "Güvenilir aralıklar"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Interval"
-msgstr ""
+msgstr "Aralık"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Estimation info"
-msgstr ""
+msgstr "Tahmin bilgisi"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Testing info"
-msgstr ""
+msgstr "Test bilgisi"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Bayes faktörü sağlamlık kontrolü"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Additional info"
-msgstr ""
+msgstr "Ek bilgi"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior"
-msgstr ""
+msgstr "Önceki"
 
+#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Stretched beta prior width"
-msgstr ""
+msgstr "Gerilmiş beta önceki genişlik"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Sample size"
-msgstr ""
+msgstr "Örneklem boyutu"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Null Model"
-msgstr ""
+msgstr "Boş Model"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Number of covariates"
-msgstr ""
+msgstr "Yardımcı değişkenlerin sayısı"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "R-squared"
-msgstr ""
+msgstr "R-kare"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Alternative Model"
-msgstr ""
+msgstr "Alternatif Model"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Plots"
 msgstr "Grafikler"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Bayes faktörü sağlamlık kontrolü"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Additional info"
-msgstr ""
+msgstr "Ek bilgi"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Advanced Options"
-msgstr ""
+msgstr "Gelişmiş Seçenekler"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "Önceki"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "r scale covariates"
-msgstr ""
+msgstr "r ölçekli yardımcı değişkenler"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Alt. Hipotez"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 ≠ Group 2"
-msgstr ""
+msgstr "Group 1 ≠ Group 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 > Group 2"
-msgstr ""
+msgstr "Group 1 > Group 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 < Group 2"
-msgstr ""
+msgstr "Group 1 < Group 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Additional info"
-msgstr ""
+msgstr "Ek bilgi"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Bayes faktörü sağlamlık kontrolü"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Alt. Hipotez"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ Test değeri"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "> Test value"
-msgstr ""
+msgstr "> Test değeri"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "< Test value"
-msgstr ""
+msgstr "< Test değeri"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Additional info"
-msgstr ""
+msgstr "Ek bilgi"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Bayes faktörü sağlamlık kontrolü"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Alt. Hipotez"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 ≠ Measure 2"
-msgstr ""
+msgstr "Ölçüm 1 ≠ Ölçüm 2"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 > Measure 2"
-msgstr ""
+msgstr "Ölçüm 1 ≠ Ölçüm 2"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 < Measure 2"
-msgstr ""
+msgstr "Ölçüm 1 < Ölçüm 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Additional info"
-msgstr ""
+msgstr "Ek bilgi"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Bayes faktörü sağlamlık kontrolü"
 
 msgctxt "Description|"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Çeşitli"
 
 msgctxt "Description|"
 msgid "General Bayesian Tests"
-msgstr ""
+msgstr "Genel Bayes Testleri"
 
 msgctxt "Description|"
 msgid "S.S. General Bayesian Tests"
-msgstr ""
+msgstr "S.S. Genel Bayes Testleri"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Likelihood"
-msgstr ""
+msgstr "Olasılık"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Student-t"
-msgstr ""
+msgstr "Student-t"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Binomial"
-msgstr ""
+msgstr "Binom"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central d"
-msgstr ""
+msgstr "Merkezi olmayan d"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central t"
-msgstr ""
+msgstr "Merkezi olmayan t"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Mean"
-msgstr ""
+msgstr "Ortalama"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "t-statistic"
-msgstr ""
+msgstr "t-istatistiği"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "d"
-msgstr ""
+msgstr "d"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
-msgstr ""
+msgstr "SH"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
-msgstr ""
+msgstr "Başarılar"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations"
-msgstr ""
+msgstr "Gözlemler"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Null Hypothesis"
-msgstr ""
+msgstr "Sıfır Hipotezi"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Distribution"
-msgstr ""
+msgstr "Dağılım"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Parameters"
-msgstr ""
+msgstr "Parametreler"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Truncation"
-msgstr ""
+msgstr "Kesme"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Spike(x₀)"
-msgstr ""
+msgstr "Spike(x₀)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal(μ,σ)"
-msgstr ""
+msgstr "Normal(μ,σ)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Student-t(μ,σ,v)"
-msgstr ""
+msgstr "Student-t(μ,σ,v)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Cauchy(x₀,θ)"
-msgstr ""
+msgstr "Cauchy(x₀,θ)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Beta(α,β)"
-msgstr ""
+msgstr "Beta(α,β)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Uniform(a,b)"
-msgstr ""
+msgstr "Uniform(a,b)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "lower"
-msgstr ""
+msgstr "daha düşük"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "upper"
-msgstr ""
+msgstr "daha yüksek"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Alternative Hypothesis"
-msgstr ""
+msgstr "Alternatif Hipotez"
 
-#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Plots"
 msgstr "Grafikler"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Priors"
-msgstr ""
+msgstr "Öncekiler"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Prior predictions"
-msgstr ""
+msgstr "Önceki tahminler"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Posteriors"
-msgstr ""
+msgstr "Arka kısımlar"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "df"
-msgstr ""
+msgstr "sd (serbestlik derecesi)df"
 
 msgctxt "Description|"
 msgid "Bayesian Z-Test"
-msgstr ""
+msgstr "Bayes Z-Testi"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Z-Test"
-msgstr ""
+msgstr "S.S. Bayes Z-Testi"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Data"
-msgstr ""
+msgstr "Veri"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & SE"
-msgstr ""
+msgstr "Etki boyutu ve SH"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & CI"
-msgstr ""
+msgstr "Etki boyutu ve CI"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & CI (log)"
-msgstr ""
+msgstr "Etki boyutu ve CI(log)"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size, SD & N"
-msgstr ""
+msgstr "Etki büyüklüğü, SS ve N"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size log"
-msgstr ""
+msgstr "Etki boyutu logu"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size"
-msgstr ""
+msgstr "Etki boyutu"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "SE"
-msgstr ""
+msgstr "SH"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Sd"
-msgstr ""
+msgstr "SS"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Confidence interval log"
-msgstr ""
+msgstr "Güven aralığı logu"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Confidence interval"
-msgstr ""
+msgstr "Güven aralığı"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "lower"
-msgstr ""
+msgstr "daha düşük"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "upper"
-msgstr ""
+msgstr "daha yüksek"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Alt. Hypothesis"
-msgstr ""
+msgstr "Alt. Hipotez"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "≠ Test value"
-msgstr ""
+msgstr "≠ Test değeri"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "> Test value"
-msgstr ""
+msgstr "> Test değeri"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "< Test value"
-msgstr ""
+msgstr "< Test değeri"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior Distribution"
-msgstr ""
+msgstr "Önceki Dağılım"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Normal   mean:"
-msgstr ""
+msgstr "Normal   ortalama:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "std"
-msgstr ""
+msgstr "std"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Default Bayes factor"
-msgstr ""
+msgstr "Varsayılan Bayes faktörü"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Select effect size"
-msgstr ""
+msgstr "Efekt boyutunu seçin"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Cohen's d"
-msgstr ""
+msgstr "Cohen d"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "log(OR)"
-msgstr ""
+msgstr "log(VEYA)"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "log(HR)"
-msgstr ""
+msgstr "log(HR)"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Custom"
-msgstr ""
+msgstr "Özel"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Unit information SD"
-msgstr ""
+msgstr "SS birim bilgisi"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Plots"
 msgstr "Grafikler"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior and posterior"
 msgstr "Önceki ve sonraki"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Additional info"
-msgstr ""
+msgstr "Ek bilgi"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Bayes faktörü sağlamlık kontrolü"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior mean   min:"
-msgstr ""
+msgstr "Önceki ortalama   minimum:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "max:"
-msgstr ""
+msgstr "maksimum:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior std\tmin:"
-msgstr ""
+msgstr "Önceki std\tminimum:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "max"
-msgstr ""
+msgstr "maksimum"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
-msgstr ""
+msgstr "Bayes faktör konturlarını özelleştirin(belirtin)"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 1"
-msgstr ""
+msgstr "Örneklem büyüklüğü grubu 1"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Sample size"
-msgstr ""
+msgstr "Örneklem büyüklüğü"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Sample size"
-msgstr ""
+msgstr "Örneklem büyüklüğü"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 2"
-msgstr ""
+msgstr "Örneklem büyüklüğü grubu 2"
