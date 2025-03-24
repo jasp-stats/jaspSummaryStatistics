@@ -1,9 +1,16 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-03-24 23:56+0000\n"
+"Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
+"Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.11-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -16,7 +23,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "Бајесов t-тест за независне узорке"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
@@ -32,7 +39,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "Бајесов t-тест за један узорак"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
@@ -124,7 +131,7 @@ msgstr ""
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "Претходно"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Bayes factor robustness check"
@@ -236,7 +243,7 @@ msgstr ""
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "Претходно"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Beta prior: parameter a"
@@ -316,7 +323,7 @@ msgstr ""
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior"
-msgstr ""
+msgstr "Претходно"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Stretched beta prior width"
@@ -360,7 +367,7 @@ msgstr ""
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Prior"
-msgstr ""
+msgstr "Претходно"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "r scale covariates"
@@ -528,7 +535,7 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
@@ -644,11 +651,11 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size"
-msgstr ""
+msgstr "Величина ефекта"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Sd"
@@ -656,7 +663,7 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Confidence interval log"
