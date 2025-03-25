@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.19.2\n"
 "POT-Creation-Date: 2024-11-16 02:46\n"
-"PO-Revision-Date: 2025-03-25 01:47+0000\n"
+"PO-Revision-Date: 2025-03-26 01:12+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/sr/>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "X-Generator: Weblate 5.11-dev\n"
 
 msgid "BF%s"
-msgstr ""
+msgstr "BF%s"
 
 msgid "Log(BF%s)"
-msgstr ""
+msgstr "Log(BF%s)"
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
 msgstr "Бајесов t-тест за независне узорке"
 
 msgid "n%s"
-msgstr ""
+msgstr "n%s"
 
 msgid "n"
 msgstr "n"
@@ -36,79 +36,91 @@ msgid "error %%"
 msgstr "грешка %%"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "Proportional error estimate could not be computed."
-msgstr ""
+msgstr "Процена пропорционалне грешке није могла бити израчуната."
 
 msgid "Prior and Posterior"
 msgstr "Претходни и постериорни"
 
 msgid "Plotting not possible: %s"
-msgstr ""
+msgstr "Цртање није могуће: %s"
 
 msgid "Bayes Factor Robustness Check"
 msgstr "Провера робусности Бајесовог фактора"
 
 msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
 msgstr ""
+"Цртање није могуће: Графикон провере робусности Бајесовог фактора тренутно "
+"није подржан за задати претходни услов."
 
 msgid "Bayes factors could not be computed for 100 values of the prior."
 msgstr ""
+"Бајесови фактори нису могли бити израчунати за 100 вредности претходног "
+"услова."
 
 msgid "max BF%s"
-msgstr ""
+msgstr "максимум BF%s"
 
 msgid "user prior"
-msgstr ""
+msgstr "претходни корисник"
 
 msgid "wide prior"
-msgstr ""
+msgstr "широки претходни"
 
 msgid "ultrawide prior"
-msgstr ""
+msgstr "ултрашироки претходни"
 
 msgid "%1$s at r==%2$s"
-msgstr ""
+msgstr "%1$s на r==%2$s"
 
 msgid "Cauchy prior width"
 msgstr "Ширина Кошијевог претходног услова"
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
 msgstr ""
+"За све тестове, алтернативна хипотеза одређује да је група 1 већа од групе 2."
 
 msgid "For all tests, the alternative hypothesis specifies that the mean is greater than 0."
 msgstr ""
+"За све тестове, алтернативна хипотеза одређује да је средња вредност већа од "
+"0."
 
 msgid "For all tests, the alternative hypothesis specifies that measure 1 is greater than measure 2."
 msgstr ""
+"За све тестове, алтернативна хипотеза одређује да је Мера 1 већа од Мере 2."
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is less than group 2."
 msgstr ""
+"За све тестове, алтернативна хипотеза одређује да је група 1 мања од групе 2."
 
 msgid "For all tests, the alternative hypothesis specifies that the mean is less than 0."
 msgstr ""
+"За све тестове, алтернативна хипотеза одређује да је средња вредност мања од "
+"0."
 
 msgid "For all tests, the alternative hypothesis specifies that measure 1 is less than measure 2."
 msgstr ""
+"За све тестове, алтернативна хипотеза одређује да је Мера 1 мања од Мере 2."
 
 msgid "Bayesian One Sample T-Test"
 msgstr "Бајесов t-тест за један узорак"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "Бајесов T-тест за упарене узорке"
 
 msgid "Not enough observations."
-msgstr ""
+msgstr "Недовољно опажања."
 
 msgid "Model Summary"
-msgstr ""
+msgstr "Резиме модела"
 
 msgid "Effect size"
 msgstr "Величина ефекта"
 
 msgid "Standard error"
-msgstr ""
+msgstr "Стандардна грешка"
 
 msgid "Max %1$s"
 msgstr ""
