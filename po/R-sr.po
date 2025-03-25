@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.19.2\n"
 "POT-Creation-Date: 2024-11-16 02:46\n"
-"PO-Revision-Date: 2025-03-24 23:56+0000\n"
+"PO-Revision-Date: 2025-03-25 01:47+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/sr/>\n"
@@ -42,13 +42,13 @@ msgid "Proportional error estimate could not be computed."
 msgstr ""
 
 msgid "Prior and Posterior"
-msgstr ""
+msgstr "Претходни и постериорни"
 
 msgid "Plotting not possible: %s"
 msgstr ""
 
 msgid "Bayes Factor Robustness Check"
-msgstr ""
+msgstr "Провера робусности Бајесовог фактора"
 
 msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
 msgstr ""
@@ -201,7 +201,7 @@ msgid "%s%% Credible interval"
 msgstr ""
 
 msgid "Inferential Plots"
-msgstr ""
+msgstr "Инференцијални графикони"
 
 msgid "Normal(%1$s, %2$s)"
 msgstr ""
