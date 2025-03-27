@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-03-26 01:12+0000\n"
+"PO-Revision-Date: 2025-03-28 12:20+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/sr/>\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Regression"
-msgstr ""
+msgstr "Регресија"
 
 msgctxt "Description|"
 msgid "Bayesian Correlation"
@@ -523,7 +523,7 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Mean"
-msgstr ""
+msgstr "Аритметичка средина"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "t-statistic"
