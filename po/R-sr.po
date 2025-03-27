@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.19.2\n"
 "POT-Creation-Date: 2024-11-16 02:46\n"
-"PO-Revision-Date: 2025-03-26 01:12+0000\n"
+"PO-Revision-Date: 2025-03-28 12:20+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/sr/>\n"
@@ -123,31 +123,31 @@ msgid "Standard error"
 msgstr "Стандардна грешка"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "Максимум %1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "Подразумевано %1$s"
 
 msgid "exp(Effect size)"
-msgstr ""
+msgstr "exp(Величина ефекта)"
 
 msgid "Bayes Factor Robustness Plot"
-msgstr ""
+msgstr "Графикон робусности Бајесовог фактора"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
-msgstr ""
+msgstr "Контуре Бајесовог фактора нису могле бити рашчлањене у бројеве."
 
 msgid "Bayes factor contours breaks must be positive."
-msgstr ""
+msgstr "Контуре Бајесовог фактора морају бити позитивне."
 
 msgid "Bayes factor contours breaks must be increasing."
-msgstr ""
+msgstr "Контуре Бајесовог фактора морају бити растуће."
 
 msgid "exp(Prior mean)"
-msgstr ""
+msgstr "exp(Средња вредност претходног услова)"
 
 msgid "Prior mean"
-msgstr ""
+msgstr "Средња вредност претходног услова"
 
 msgid "Prior standard deviation"
 msgstr ""
@@ -210,7 +210,7 @@ msgid "rho"
 msgstr ""
 
 msgid "%s%% Credible interval"
-msgstr ""
+msgstr "%s%% веродостојан интервал"
 
 msgid "Inferential Plots"
 msgstr "Инференцијални графикони"
@@ -246,7 +246,7 @@ msgid "Probability"
 msgstr ""
 
 msgid "Density"
-msgstr ""
+msgstr "Густина"
 
 msgid "Model Comparison"
 msgstr ""
