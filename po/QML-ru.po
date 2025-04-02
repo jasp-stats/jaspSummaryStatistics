@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-04-01 15:06+0000\n"
+"PO-Revision-Date: 2025-04-02 18:58+0000\n"
 "Last-Translator: Иван Рудаков <riv@polygene.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/ru/>\n"
@@ -257,7 +257,7 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Sd"
@@ -301,7 +301,7 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior Distribution"
-msgstr ""
+msgstr "Априорное Распределение"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Normal   mean:"
@@ -541,7 +541,7 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
-msgstr ""
+msgstr "SE"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "df"
@@ -561,7 +561,7 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Distribution"
-msgstr ""
+msgstr "Распределение"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Parameters"
@@ -613,7 +613,7 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Priors"
-msgstr ""
+msgstr "Априорные распределения"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Prior predictions"
