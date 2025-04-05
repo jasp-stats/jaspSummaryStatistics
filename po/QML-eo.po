@@ -3,9 +3,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Language: ru\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -46,11 +43,11 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Regression"
-msgstr "Регрессия"
+msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Correlation"
-msgstr "Байесовский корреляционный анализ"
+msgstr ""
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
@@ -58,7 +55,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
-msgstr "Байесовская линейная регрессия"
+msgstr ""
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
@@ -66,12 +63,11 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Frequencies"
-msgstr "Частоты"
+msgstr ""
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian Binomial Test"
-msgstr "Байесовский биномиальный тест"
+msgstr ""
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
@@ -79,7 +75,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
-msgstr "Байесовское A/B тестирование"
+msgstr ""
 
 msgctxt "Description|"
 msgid "S.S. Bayesian A/B Test"
@@ -251,7 +247,7 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "SE"
-msgstr "SE"
+msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Sd"
@@ -271,12 +267,11 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "lower"
-msgstr "нижний"
+msgstr ""
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "upper"
-msgstr "верхний"
+msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Alt. Hypothesis"
@@ -296,7 +291,7 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior Distribution"
-msgstr "Априорное Распределение"
+msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Normal   mean:"
@@ -536,7 +531,7 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "SE"
-msgstr "SE"
+msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "df"
@@ -556,7 +551,7 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Distribution"
-msgstr "Распределение"
+msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Parameters"
@@ -592,11 +587,11 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "lower"
-msgstr "нижний"
+msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "upper"
-msgstr "верхний"
+msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Alternative Hypothesis"
@@ -608,7 +603,7 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Priors"
-msgstr "Априорные распределения"
+msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Prior predictions"
@@ -668,6 +663,10 @@ msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 1"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 2"
 msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
@@ -780,8 +779,4 @@ msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
-msgstr ""
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Sample size group 2"
 msgstr ""
