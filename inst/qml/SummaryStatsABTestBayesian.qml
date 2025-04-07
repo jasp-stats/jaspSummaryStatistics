@@ -29,15 +29,15 @@ Form
 	Group
 	{
 		title: qsTr("Group 1")
-		IntegerField { name: "y1";	label: qsTr("Successes"); max: n1.value}
-		IntegerField { name: "n1";	label: qsTr("Sample Size"); id: n1}
+		IntegerField { name: "y1";	label: qsTr("Successes"); id: y1; onValueChanged: if (n1.value < value) n1.value = value}
+		IntegerField { name: "n1";	label: qsTr("Sample Size"); id: n1; onValueChanged: if (value < y1.value) y1.value = value}
 	}
 
 	Group
 	{
 		title: qsTr("Group 2")
-		IntegerField { name: "y2";	label: qsTr("Successes"); max: n2.value}
-		IntegerField { name: "n2";	label: qsTr("Sample Size"); id: n2}
+		IntegerField { name: "y2";	label: qsTr("Successes"); id: y2; onValueChanged: if (n2.value < value) n2.value = value}
+		IntegerField { name: "n2";	label: qsTr("Sample Size"); id: n2; onValueChanged: if (value < y2.value) y2.value = value}
 	}
 
 	Divider { }
