@@ -4,7 +4,7 @@
     "Repositories": [
       {
         "Name": "CRAN",
-        "URL": "http://cloud.r-project.org"
+        "URL": "https://cloud.r-project.org"
       }
     ]
   },
@@ -308,7 +308,7 @@
     },
     "bayestestR": {
       "Package": "bayestestR",
-      "Version": "0.15.2",
+      "Version": "0.15.3",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1390,7 +1390,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspAnova",
-      "RemoteSha": "55dcf9c0ffed8d0a3257ed04a9cd19e938532ad4"
+      "RemoteSha": "cd3f7509a182fc7ec4bfc15a5c0fef73f4274136"
     },
     "jaspBase": {
       "Package": "jaspBase",
@@ -1444,7 +1444,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "b0af498acdaefd20b0dde4cca2a13e1ad48188bb"
+      "RemoteSha": "b274b7692867f4e12db72d54f0ec3b4e8045d469"
     },
     "jaspFrequencies": {
       "Package": "jaspFrequencies",
@@ -1469,7 +1469,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspFrequencies",
-      "RemoteSha": "4cdfd6fbb9659de17815f3eec5df7542f1b50927"
+      "RemoteSha": "b47edadb5198235d43595628abd729ca705b47cf"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -1527,7 +1527,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspRegression",
-      "RemoteSha": "6c95d88ab5cc54455bc9d7c40227709cccd40338"
+      "RemoteSha": "2a0cd6858f94914af84b12d4c1d6ed5e078a484c"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -1547,7 +1547,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "d214f916b5b590d02ff319c181459124a9015121"
+      "RemoteSha": "2a912f9ce452a9c5f138af1e5545b5436bd1cfc0"
     },
     "jomo": {
       "Package": "jomo",
@@ -1630,7 +1630,7 @@
     },
     "lattice": {
       "Package": "lattice",
-      "Version": "0.22-6",
+      "Version": "0.22-7",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1827,7 +1827,7 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.9-1",
+      "Version": "1.9-3",
       "Source": "Repository",
       "Requirements": [
         "R",
