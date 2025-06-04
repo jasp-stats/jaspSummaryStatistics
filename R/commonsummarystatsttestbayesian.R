@@ -676,9 +676,9 @@
 .processInputTypeOptions <- function(options, analysis = "independentSamples") {
 
   if (analysis == "independentSamples") {
-    if (options[["inputType"]] == "cohensD") {
+    if (options[["inputType"]] == "cohensD" && options[["sampleSizeGroupOne"]] > 0 && options[["sampleSizeGroupTwo"]] > 0) {
       options[["tStatistic"]] <- options[["cohensD"]] * sqrt(1/options[["sampleSizeGroupOne"]] + 1/options[["sampleSizeGroupTwo"]])
-    } else if (options[["inputType"]] == "meansAndSDs" && options[["sd1"]] > 0 && options[["sd2"]] > 0) {
+    } else if (options[["inputType"]] == "meansAndSDs" && options[["sd1"]] > 0 && options[["sd2"]] > 0 && options[["sampleSizeGroupOne"]] > 0 && options[["sampleSizeGroupTwo"]] > 0) {
       pooledSd <- sqrt(
         ((options[["sd1"]] ^ 2) * (options[["sampleSizeGroupOne"]] - 1) +
          (options[["sd2"]] ^ 2) * (options[["sampleSizeGroupTwo"]] - 1)) /
@@ -686,6 +686,18 @@
       )
       options[["tStatistic"]] <- (options[["mean1"]] - options[["mean2"]]) /
         pooledSd * sqrt(1 / options[["sampleSizeGroupOne"]] + 1 / options[["sampleSizeGroupTwo"]])
+    }
+  } else if (analysis == "pairedSamples") {
+    if (options[["inputType"]] == "cohensD" && options[["sampleSizeGroupOne"]] > 0) {
+      options[["tStatistic"]] <- options[["cohensD"]] * sqrt(options[["sampleSizeGroupOne"]])
+    } else if (options[["inputType"]] == "meanDiffAndSD" && options[["sdDifference"]] > 0 && options[["sampleSizeGroupOne"]] > 0) {
+      options[["tStatistic"]] <- options[["meanDifference"]] / (options[["sdDifference"]] / sqrt(options[["sampleSizeGroupOne"]]))
+    }
+  } else if (analysis == "oneSample") {
+    if (options[["inputType"]] == "cohensD" && options[["sampleSizeGroupOne"]] > 0) {
+      options[["tStatistic"]] <- options[["cohensD"]] * sqrt(options[["sampleSizeGroupOne"]])
+    } else if (options[["inputType"]] == "meanAndSD" && options[["sd"]] > 0 && options[["sampleSizeGroupOne"]] > 0) {
+      options[["tStatistic"]] <- (options[["mean"]] - options[["testValue"]]) / (options[["sd"]] / sqrt(options[["sampleSizeGroupOne"]]))
     }
   }
 

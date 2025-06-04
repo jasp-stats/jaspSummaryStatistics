@@ -37,7 +37,7 @@ Form
 			DoubleField  { name: "mean";		label: qsTr("Mean"); negativeValues: true}
 			DoubleField  { name: "sd";			label: qsTr("SD")}
 		}	
-		DoubleField  { name: "testValue";	label: qsTr("Test value"); value: 0; visible: inputType.value === "meanAndSD" } // Default to 0 for mu0
+		DoubleField  { name: "testValue";	label: qsTr("Test value");  visible: inputType.value === "meanAndSD" }
 		IntegerField { name: "sampleSize";	label: qsTr("Sample size")				}
 	}
 
