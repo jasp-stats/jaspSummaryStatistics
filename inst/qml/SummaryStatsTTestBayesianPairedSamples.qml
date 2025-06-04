@@ -16,17 +16,38 @@
 // <http://www.gnu.org/licenses/>.
 //
 
-import QtQuick
-import QtQuick.Layouts
+
+import QtQuick 2.8
+import QtQuick.Layouts 1.3
 import JASP.Controls
+import JASP.Widgets
+
 
 Form
 {
 
 	Group
 	{
-		DoubleField  { label: qsTr("t");			name: "tStatistic"; negativeValues: true	}
-		IntegerField { label: qsTr("Sample size");	name: "sampleSize"							}
+		DoubleField  { label: qsTr("t");					name: "tStatistic"; negativeValues: true; visible: inputType.value === "tAndN" }
+		DoubleField  { label: qsTr("Cohen's d");			name: "cohensD"; visible: inputType.value === "cohensD" }
+		Group
+		{
+			columns: 2
+			visible: inputType.value === "meanDiffAndSD"
+			DoubleField  { label: qsTr("Mean difference");		name: "meanDifference"; negativeValues: true}
+			DoubleField  { label: qsTr("SD");					name: "sdDifference"}
+		}
+		IntegerField { label: qsTr("Sample size");			name: "sampleSize" }
+	}
+
+	RadioButtonGroup
+	{
+		title: qsTr("Input Type")
+		id:		inputType
+		name:	"inputType"
+		RadioButton { value: "tAndN";				label: qsTr("t and Sample Size"); checked: true }
+		RadioButton { value: "cohensD";				label: qsTr("Cohen's d and Sample Size")			}
+		RadioButton { value: "meanDiffAndSD";		label: qsTr("Mean Diff., SD, and Sample Size") }
 	}
 
     Divider { }
