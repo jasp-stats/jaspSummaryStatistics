@@ -16,16 +16,17 @@
 #
 
 SummaryStatsTTestBayesianIndependentSamples <- function(jaspResults, dataset = NULL, options, ...) {
-  
+
   # Reading in a datafile is not necessary
   # Check user input for possible errors
+  options <- .processInputTypeOptions(options, "independentSamples")
   .checkErrorsSummaryStatsTTest(options, "independentSamples")
-  
+
   # Compute the results
   summaryStatsIndSamplesResults <- .summaryStatsTTestMainFunction(jaspResults, options, "independentSamples")
-  # Output plots 
+  # Output plots
   .ttestBayesianPriorPosteriorPlotSummaryStats(jaspResults, summaryStatsIndSamplesResults, options)
   .ttestBayesianPlotRobustnessSummaryStats(jaspResults, summaryStatsIndSamplesResults, options)
-  
+
   return()
 }

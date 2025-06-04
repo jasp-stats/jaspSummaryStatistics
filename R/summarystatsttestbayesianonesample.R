@@ -22,13 +22,14 @@ SummaryStatsTTestBayesianOneSample <- function(jaspResults, dataset = NULL, opti
 
   # Reading in a datafile is not necessary
   # Check user input for possible errors
+  options <- .processInputTypeOptions(options, "oneSample")
   .checkErrorsSummaryStatsTTest(options, "oneSample")
-  
+
   # Compute the results and create main results table
   summaryStatsOneSampleResults <- .summaryStatsTTestMainFunction(jaspResults, options, "oneSample")
-  # Output plots 
+  # Output plots
   .ttestBayesianPriorPosteriorPlotSummaryStats(jaspResults, summaryStatsOneSampleResults, options)
   .ttestBayesianPlotRobustnessSummaryStats(jaspResults, summaryStatsOneSampleResults, options)
-  
+
   return()
 }

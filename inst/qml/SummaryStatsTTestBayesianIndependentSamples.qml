@@ -17,19 +17,46 @@
 //
 
 
-import QtQuick
-import QtQuick.Layouts
+import QtQuick 2.8
+import QtQuick.Layouts 1.3
 import JASP.Controls
+import JASP.Widgets
+
 
 Form
 {
 
 	Group
 	{
-		DoubleField  { name: "tStatistic";				label: qsTr("t"); negativeValues: true			}
+		DoubleField  { name: "tStatistic";				label: qsTr("t"); 			visible: inputType.value === "tAndN";	negativeValues: true }
+		DoubleField  { name: "cohensD";					label: qsTr("Cohen's d");	visible: inputType.value === "cohensD"	}
+		Group
+		{
+			columns: 2
+			visible: inputType.value === "meansAndSDs"
+			DoubleField  { name: "mean1";					label: qsTr("Mean 1"); negativeValues: true}	
+			DoubleField  { name: "sd1";						label: qsTr("SD 1")}
+		}
+		Group
+		{
+			columns: 2
+			visible: inputType.value === "meansAndSDs"
+			DoubleField  { name: "mean2";					label: qsTr("Mean 2"); negativeValues: true}
+			DoubleField  { name: "sd2";						label: qsTr("SD 2")}
+		}
 		IntegerField { name: "sampleSizeGroupOne";		label: qsTr("Sample size group 1")				}
 		IntegerField { name: "sampleSizeGroupTwo";		label: qsTr("Sample size group 2")				}
     }
+
+	RadioButtonGroup
+	{
+		id:		inputType
+		name:	"inputType"
+		title: qsTr("Input Type")
+		RadioButton { value: "tAndN";			label: qsTr("t and Sample Sizes"); checked: true	}
+		RadioButton { value: "cohensD";			label: qsTr("Cohen's d and Sample Sizes")			}
+		RadioButton { value: "meansAndSDs";		label: qsTr("Means, SDs, and Sample Sizes")			}
+	}
 
     Divider { }
 

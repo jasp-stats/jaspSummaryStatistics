@@ -19,16 +19,17 @@ SummaryStatsTTestBayesianPairedSamples <- function(jaspResults, dataset = NULL, 
   # Internally, common functions take sampleSizeGroupOne instead of sampleSize option
   options[["sampleSizeGroupOne"]] <- options[["sampleSize"]]
   options[["sampleSize"]] <- NULL
-  
+
   # Reading in a datafile is not necessary
   # Check user input for possible errors
+  options <- .processInputTypeOptions(options, "pairedSamples")
   .checkErrorsSummaryStatsTTest(options, "pairedSamples")
-  
+
   # Compute the results and create main results table
   summaryStatsPairedSamplesResults <- .summaryStatsTTestMainFunction(jaspResults, options, "pairedSamples")
-  # Output plots 
+  # Output plots
   .ttestBayesianPriorPosteriorPlotSummaryStats(jaspResults, summaryStatsPairedSamplesResults, options)
   .ttestBayesianPlotRobustnessSummaryStats(jaspResults, summaryStatsPairedSamplesResults, options)
-  
+
   return()
 }
