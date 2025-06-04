@@ -35,11 +35,12 @@ Form
 			name:				"likelihood"
 			values:
 			[
-				{ label: qsTr("Normal"),				value: "normal"},
-				{ label: qsTr("Student-t"),				value: "t"},
-				{ label: qsTr("Binomial"),				value: "binomial"},
-				{ label: qsTr("Non-central d"),			value: "nonCentralD"},
-				{ label: qsTr("Non-central t"),			value: "nonCentralT"}
+				{ label: qsTr("Normal"),						value: "normal"},
+				{ label: qsTr("Student-t"),						value: "t"},
+				{ label: qsTr("Binomial"),						value: "binomial"},
+				{ label: qsTr("Non-central d (one-sample)"),	value: "nonCentralD"},
+				{ label: qsTr("Non-central d (two-sample)"),	value: "nonCentralD2"},
+				{ label: qsTr("Non-central t"),					value: "nonCentralT"}
 			]
 			//onValueChanged:		if (likelihood.value == "binomial") {
 			// - TODO: set trunctation to interval 0-1 for all hypotheses
@@ -71,7 +72,7 @@ Form
 			{
 				name:			"dataD"
 				label:			qsTr("d")
-				visible:		likelihood.value == "nonCentralD"
+				visible:		likelihood.value == "nonCentralD" || likelihood.value == "nonCentralD2"
 				value:			"0"
 				fieldWidth:     60
 			}
@@ -112,6 +113,24 @@ Form
 				label:			qsTr("Observations")
 				id:				dataObservations
 				visible:		likelihood.value == "binomial" || likelihood.value == "nonCentralD"
+				defaultValue:	10
+				min:			dataSuccesses.value
+			}
+
+			IntegerField
+			{
+				name:			"dataObservationsGroup1"
+				label:			qsTr("Observations (Group 1)")
+				visible:		likelihood.value == "nonCentralD2"
+				defaultValue:	10
+				min:			dataSuccesses.value
+			}
+
+			IntegerField
+			{
+				name:			"dataObservationsGroup2"
+				label:			qsTr("Observations (Group 2)")
+				visible:		likelihood.value == "nonCentralD2"
 				defaultValue:	10
 				min:			dataSuccesses.value
 			}
