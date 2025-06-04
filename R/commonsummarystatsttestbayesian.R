@@ -203,6 +203,7 @@
     container <- createJaspContainer()
     # add dependencies for main table (i.e., when does it have to recompute values for the main table)
     container$dependOn(c("tStatistic", "sampleSizeGroupOne", "sampleSizeGroupTwo", "sampleSize", "alternative", "bayesFactorType", # standard entries
+                         "mean", "sd", "meanDifference", "sdDifference", "mean1", "mean2", "sd1", "sd2", "cohensD", "inputType",
                          "defaultStandardizedEffectSize" , "informativeStandardizedEffectSize",        # informative or default
                          "priorWidth"                    , "effectSizeStandardized",                   # default prior
                          "informativeCauchyLocation"     , "informativeCauchyScale",                   # informed cauchy priors
@@ -672,4 +673,21 @@
   )
 
 }
+.processInputTypeOptions <- function(options, analysis = "independentSamples") {
 
+  if (analysis == "independentSamples") {
+    if (options[["inputType"]] == "cohensD") {
+      options[["tStatistic"]] <- options[["cohensD"]] * sqrt(1/options[["sampleSizeGroupOne"]] + 1/options[["sampleSizeGroupTwo"]])
+    } else if (options[["inputType"]] == "meansAndSDs" && options[["sd1"]] > 0 && options[["sd2"]] > 0) {
+      pooledSd <- sqrt(
+        ((options[["sd1"]] ^ 2) * (options[["sampleSizeGroupOne"]] - 1) +
+         (options[["sd2"]] ^ 2) * (options[["sampleSizeGroupTwo"]] - 1)) /
+        (options[["sampleSizeGroupOne"]] + options[["sampleSizeGroupTwo"]] - 2)
+      )
+      options[["tStatistic"]] <- (options[["mean1"]] - options[["mean2"]]) /
+        pooledSd * sqrt(1 / options[["sampleSizeGroupOne"]] + 1 / options[["sampleSizeGroupTwo"]])
+    }
+  }
+
+  return(options)
+}
