@@ -627,7 +627,7 @@
     },
     "curl": {
       "Package": "curl",
-      "Version": "6.2.3",
+      "Version": "6.3.0",
       "Source": "Repository",
       "Requirements": [
         "R"
@@ -787,16 +787,6 @@
       "Requirements": [
         "R",
         "stats"
-      ]
-    },
-    "fansi": {
-      "Package": "fansi",
-      "Version": "1.0.6",
-      "Source": "Repository",
-      "Requirements": [
-        "grDevices",
-        "R",
-        "utils"
       ]
     },
     "farver": {
@@ -1116,7 +1106,7 @@
     },
     "glmnet": {
       "Package": "glmnet",
-      "Version": "4.1-8",
+      "Version": "4.1-9",
       "Source": "Repository",
       "Requirements": [
         "foreach",
@@ -1223,7 +1213,7 @@
     },
     "haven": {
       "Package": "haven",
-      "Version": "2.5.4",
+      "Version": "2.5.5",
       "Source": "Repository",
       "Requirements": [
         "cli",
@@ -1390,7 +1380,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspAnova",
-      "RemoteSha": "d85ec7d152486fa8bd7556f99f93f536d6fdcbca"
+      "RemoteSha": "e3238b6a44648d7fc9e09215580a5541c7d854ec"
     },
     "jaspBase": {
       "Package": "jaspBase",
@@ -1444,7 +1434,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "3cc4f1791b93da32ac6efc769a6ad6c3ea25c61b"
+      "RemoteSha": "9111e160b48c011e0eab9e4761878ae57139764d"
     },
     "jaspFrequencies": {
       "Package": "jaspFrequencies",
@@ -1469,7 +1459,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspFrequencies",
-      "RemoteSha": "ff468a4f67f32fca1fa1d0cacd23f0c8c32a9b82"
+      "RemoteSha": "b6d33cb5af6cec71fd2d17f6343bdf00bdadb21a"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -1492,7 +1482,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
-      "RemoteSha": "e9e962c1e3c95e09f984b52708d39e49599e394e"
+      "RemoteSha": "c884a4239590cdb08c1f18cbeaad9107395425aa"
     },
     "jaspRegression": {
       "Package": "jaspRegression",
@@ -1527,7 +1517,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspRegression",
-      "RemoteSha": "2321a061bb8ababee7c13f7117dbda48de6e55d4"
+      "RemoteSha": "562b79fe66d330558eb8e40eae3063bb063ad97c"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
@@ -1547,7 +1537,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "6f23fffa770d6fa9cc4bc928957109b0eece972a"
+      "RemoteSha": "8585814d8a7c413ef0692592643712c5bc9b9eff"
     },
     "jomo": {
       "Package": "jomo",
@@ -2046,7 +2036,7 @@
     },
     "officer": {
       "Package": "officer",
-      "Version": "0.6.9",
+      "Version": "0.6.10",
       "Source": "Repository",
       "Requirements": [
         "cli",
@@ -2327,7 +2317,7 @@
     },
     "promises": {
       "Package": "promises",
-      "Version": "1.3.2",
+      "Version": "1.3.3",
       "Source": "Repository",
       "Requirements": [
         "fastmap",
@@ -2798,10 +2788,10 @@
     },
     "tibble": {
       "Package": "tibble",
-      "Version": "3.2.1",
+      "Version": "3.3.0",
       "Source": "Repository",
       "Requirements": [
-        "fansi",
+        "cli",
         "lifecycle",
         "magrittr",
         "methods",
@@ -2923,7 +2913,7 @@
     },
     "utf8": {
       "Package": "utf8",
-      "Version": "1.2.5",
+      "Version": "1.2.6",
       "Source": "Repository",
       "Requirements": [
         "R"
