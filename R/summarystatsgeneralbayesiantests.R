@@ -43,7 +43,7 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
 }
 
 .bayesianTestsDependenciesPriors <- c("priorsAlt", paste0("null", c("ParA", "ParAlpha", "ParB", "ParBeta", "ParDf", "ParLocation", "ParMean", "ParScale", "ParScale2", "TruncationLower", "TruncationUpper", "Type")))
-.bayesianTestsDependenciesData   <- c("likelihood", "dataMean", "dataSd", "dataDf", "dataT", "dataD", "dataObservations", "dataSuccesses")
+.bayesianTestsDependenciesData   <- c("likelihood", "dataMean", "dataSd", "dataDf", "dataT", "dataD", "dataObservations", "dataObservationsGroup1", "dataObservationsGroup2", "dataSuccesses")
 
 .bayesianTestsSetPriors       <- function(jaspResults, options) {
 
@@ -100,6 +100,12 @@ SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, option
       family = "noncentral_d",
       d      = jaspBase:::.parseRCodeInOptions(options[["dataD"]]),
       n      = jaspBase:::.parseRCodeInOptions(options[["dataObservations"]])
+    ),
+    "nonCentralD2" = bayesplay::likelihood(
+      family = "noncentral_d2",
+      d      = jaspBase:::.parseRCodeInOptions(options[["dataD"]]),
+      n1     = jaspBase:::.parseRCodeInOptions(options[["dataObservationsGroup1"]]),
+      n2     = jaspBase:::.parseRCodeInOptions(options[["dataObservationsGroup2"]])
     ),
     "binomial" = bayesplay::likelihood(
       family = "binomial",
