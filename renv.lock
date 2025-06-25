@@ -1553,7 +1553,7 @@
     },
     "jaspAnova": {
       "Package": "jaspAnova",
-      "Version": "0.20.0",
+      "Version": "0.95.0",
       "Source": "GitHub",
       "Requirements": [
         "afex",
@@ -1583,7 +1583,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspAnova",
-      "RemoteSha": "c60c584ec5211734bd03071a30987445659b3880"
+      "RemoteSha": "382a0ae7864ca0500bcfffb8ca22a87260d47b37"
     },
     "jaspBase": {
       "Package": "jaspBase",
@@ -1618,7 +1618,7 @@
     },
     "jaspDescriptives": {
       "Package": "jaspDescriptives",
-      "Version": "0.20.0",
+      "Version": "0.95.0",
       "Source": "GitHub",
       "Requirements": [
         "ggplot2",
@@ -1641,11 +1641,11 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspDescriptives",
-      "RemoteSha": "f76d58ffb634dc5a91e1b993396d80b37e4b168f"
+      "RemoteSha": "0e54c8e9261b41a94037cc2affaf6a8a980890f3"
     },
     "jaspFrequencies": {
       "Package": "jaspFrequencies",
-      "Version": "0.20.0",
+      "Version": "0.95.0",
       "Source": "GitHub",
       "Requirements": [
         "abtest",
@@ -1666,7 +1666,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspFrequencies",
-      "RemoteSha": "81e398cbbf5c6201f824350be66bb5cebfa417f4"
+      "RemoteSha": "8cce29988457434624b30b374396d666fb1c503c"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
@@ -1693,7 +1693,7 @@
     },
     "jaspRegression": {
       "Package": "jaspRegression",
-      "Version": "0.20.0",
+      "Version": "0.95.0",
       "Source": "GitHub",
       "Requirements": [
         "BAS",
@@ -1724,11 +1724,11 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspRegression",
-      "RemoteSha": "3cde3ec5e642453499b274632e6eaea1a8e25f94"
+      "RemoteSha": "c0269f5500a53ff78041d6d13d42e74cbf712133"
     },
     "jaspTTests": {
       "Package": "jaspTTests",
-      "Version": "0.20.0",
+      "Version": "0.95.0",
       "Source": "GitHub",
       "Requirements": [
         "BayesFactor",
@@ -1744,7 +1744,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspTTests",
-      "RemoteSha": "20f0d01bc746315bca1338db9b5dea289bd58548"
+      "RemoteSha": "91356e2d9445269064239ef8e517d5ad5649ed67"
     },
     "jomo": {
       "Package": "jomo",
