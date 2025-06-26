@@ -56,7 +56,9 @@ The `Custom` option allows users to specify the width of their own unit informat
 
 ### References
 ---
-- Spiegelhalter, D. J., Abrams, K. R., & Myles, J. P. (2004). Bayesian approaches to clinical trials and health-care evaluation. John Wiley & Sons.
+- Bartoš, F., Pawel, S., & Wagenmakers, E. J. (2022). When Evidence and Significance Collide. _arXiv Preprint_.
+- Dienes, Z. (2014). Using Bayes to get the most out of non-significant results. _Frontiers in Psychology, 5_, 781.
+- Spiegelhalter, D. J., Abrams, K. R., & Myles, J. P. (2004). *Bayesian approaches to clinical trials and health-care evaluation*. John Wiley & Sons.
 - Jeffreys, H. (1961). *Theory of probability (3rd ed.)*. Oxford, UK: Oxford University Press.
 
 
