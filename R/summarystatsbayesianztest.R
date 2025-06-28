@@ -319,13 +319,13 @@ SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...)
 
   } else {
 
-    postVar  <- .bayesianZTestsPosteriorSd(se, sigma)
+    postSd   <- .bayesianZTestsPosteriorSd(se, sigma)
     postMean <- .bayesianZTestsPosteriorMean(x, se, mu, sigma)
 
     if (alternative == "greater")
-      bf <- bfUncorrect*pnorm(q = postMean/sqrt(postVar))/stats::pnorm(q = mu/sigma)
+      bf <- bfUncorrect*pnorm(q = postMean/postSd)/stats::pnorm(q = mu/sigma)
     else if (alternative == "less")
-      bf <- bfUncorrect*pnorm(q = -postMean/sqrt(postVar))/stats::pnorm(q = -mu/sigma)
+      bf <- bfUncorrect*pnorm(q = -postMean/postSd)/stats::pnorm(q = -mu/sigma)
     else
       bf <- NaN
 
