@@ -24,23 +24,23 @@ msgstr "Contrastes t"
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Contraste T bayesiano para muestras independientes"
+msgstr "Contraste t bayesiano para muestras independientes"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
-msgstr "Contraste T bayesiano S.S. para Muestras Independientes"
+msgstr "Contraste t bayesiano S.S. para muestras independientes"
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Prueba T bayesiana para Muestras Emparejadas"
+msgstr "Contraste t bayesiano para muestras emparejadas"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
-msgstr "Contraste T bayesiano S.S. para Muestras Emparejadas"
+msgstr "Contraste t bayesiano S.S. para muestras emparejadas"
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr "Prueba T bayesiana para Una Muestra"
+msgstr "Contraste t bayesiano para una muestra"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
