@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
 "POT-Creation-Date: 2024-11-16 02:46\n"
-"PO-Revision-Date: 2021-08-27 20:21+0000\n"
-"Last-Translator: Laura Durans <lauraadurans@gmail.com>\n"
+"PO-Revision-Date: 2025-08-04 17:01+0000\n"
+"Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/pt/>\n"
 "Language: pt\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -23,7 +23,7 @@ msgid "t"
 msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Teste T de Amostras Independentes Bayesianas"
+msgstr "Teste-T de Amostras Independentes Bayesiano"
 
 msgid "n%s"
 msgstr "n%s"
@@ -47,7 +47,7 @@ msgid "Plotting not possible: %s"
 msgstr "Não foi possível realizar a plotagem: %s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr "Verificar robustez do fator de Bayes"
+msgstr "Verificação de Robustez do Fator de Bayes"
 
 msgid ""
 "Plotting not possible: Bayes factor robustness check plot currently not "
@@ -60,10 +60,10 @@ msgid "Bayes factors could not be computed for 100 values of the prior."
 msgstr ""
 
 msgid "max BF%s"
-msgstr ""
+msgstr "Máximo BF%s"
 
 msgid "user prior"
-msgstr ""
+msgstr "Usuário anterior"
 
 msgid "wide prior"
 msgstr ""
@@ -75,7 +75,7 @@ msgid "%1$s at r==%2$s"
 msgstr ""
 
 msgid "Cauchy prior width"
-msgstr ""
+msgstr "Largura anterior de Cauchy"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is greater "
@@ -108,10 +108,10 @@ msgid ""
 msgstr ""
 
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "Teste-T para uma Amostra Bayesiano"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "Teste-T para Amostras Pareadas Bayesiano"
 
 msgid "Not enough observations."
 msgstr ""
@@ -120,7 +120,7 @@ msgid "Model Summary"
 msgstr ""
 
 msgid "Effect size"
-msgstr ""
+msgstr "Tamanho do efeito"
 
 msgid "Standard error"
 msgstr ""
@@ -134,9 +134,8 @@ msgstr ""
 msgid "exp(Effect size)"
 msgstr ""
 
-#, fuzzy
 msgid "Bayes Factor Robustness Plot"
-msgstr "Verificar robustez do fator de Bayes"
+msgstr "Gráfico de robustez do fator de Bayes"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
 msgstr ""
@@ -153,9 +152,8 @@ msgstr ""
 msgid "Prior mean"
 msgstr ""
 
-#, fuzzy
 msgid "Prior standard deviation"
-msgstr "Anterior e Posterior"
+msgstr "Desvio padrão anterior"
 
 msgid ""
 "The default Bayes factor is based on unit information prior corresponding to "
@@ -238,7 +236,7 @@ msgid "%s%% Credible interval"
 msgstr ""
 
 msgid "Inferential Plots"
-msgstr ""
+msgstr "Gráficos inferenciais"
 
 msgid "Normal(%1$s, %2$s)"
 msgstr ""
@@ -259,7 +257,7 @@ msgid "Spike(%1$s)"
 msgstr ""
 
 msgid "Prior"
-msgstr ""
+msgstr "Anterior"
 
 msgid "Compared to %1$s."
 msgstr ""
