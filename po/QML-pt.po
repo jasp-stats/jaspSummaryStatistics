@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-06 02:02+0000\n"
+"PO-Revision-Date: 2025-08-06 07:43+0000\n"
 "Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/pt/>\n"
@@ -55,7 +55,7 @@ msgstr "Correlação bayesiana"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
-msgstr ""
+msgstr "Correlação S.S. Bayesiana"
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
@@ -63,7 +63,7 @@ msgstr "Regressão linear bayesiana"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
-msgstr ""
+msgstr "Regressão Linear S.S. Bayesiana"
 
 msgctxt "Description|"
 msgid "Frequencies"
@@ -75,7 +75,7 @@ msgstr "Teste binomial bayesiano"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
-msgstr ""
+msgstr "Teste Binomial S.S. Bayesiano"
 
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
@@ -83,11 +83,11 @@ msgstr "Teste Bayesian A/B"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian A/B Test"
-msgstr ""
+msgstr "Teste A/B S.S. Bayesiano"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 1"
-msgstr ""
+msgstr "Grupo 1"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Successes"
