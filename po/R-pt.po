@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
 "POT-Creation-Date: 2024-11-16 02:46\n"
-"PO-Revision-Date: 2025-08-06 07:43+0000\n"
+"PO-Revision-Date: 2025-08-07 22:02+0000\n"
 "Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/pt/>\n"
@@ -64,7 +64,7 @@ msgid "max BF%s"
 msgstr "Máximo BF%s"
 
 msgid "user prior"
-msgstr "Usuário anterior"
+msgstr "usuário anterior"
 
 msgid "wide prior"
 msgstr "ampla a priori"
@@ -118,13 +118,13 @@ msgid "Not enough observations."
 msgstr ""
 
 msgid "Model Summary"
-msgstr ""
+msgstr "Resumo do Modelo"
 
 msgid "Effect size"
 msgstr "Tamanho do efeito"
 
 msgid "Standard error"
-msgstr ""
+msgstr "Erro padrão"
 
 msgid "Max %1$s"
 msgstr ""
@@ -268,7 +268,7 @@ msgid ""
 msgstr ""
 
 msgid "Probability"
-msgstr ""
+msgstr "Probabilidade"
 
 msgid "Density"
 msgstr ""
@@ -280,7 +280,7 @@ msgid "Number of covariates"
 msgstr ""
 
 msgid "R%s"
-msgstr ""
+msgstr "R%s"
 
 msgid "Robustness Plot"
 msgstr ""
