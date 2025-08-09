@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.15\n"
 "POT-Creation-Date: 2024-11-16 02:46\n"
-"PO-Revision-Date: 2021-08-27 20:21+0000\n"
-"Last-Translator: Laura Durans <lauraadurans@gmail.com>\n"
+"PO-Revision-Date: 2025-08-09 02:57+0000\n"
+"Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/pt/>\n"
 "Language: pt\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -23,7 +23,7 @@ msgid "t"
 msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Teste T de Amostras Independentes Bayesianas"
+msgstr "Teste-T de Amostras Independentes Bayesiano"
 
 msgid "n%s"
 msgstr "n%s"
@@ -47,7 +47,7 @@ msgid "Plotting not possible: %s"
 msgstr "Não foi possível realizar a plotagem: %s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr "Verificar robustez do fator de Bayes"
+msgstr "Verificação de Robustez do Fator de Bayes"
 
 msgid ""
 "Plotting not possible: Bayes factor robustness check plot currently not "
@@ -58,112 +58,126 @@ msgstr ""
 
 msgid "Bayes factors could not be computed for 100 values of the prior."
 msgstr ""
+"Os fatores de Bayes não puderam ser calculados para 100 valores do anterior."
 
 msgid "max BF%s"
-msgstr ""
+msgstr "Máximo BF%s"
 
 msgid "user prior"
-msgstr ""
+msgstr "usuário anterior"
 
 msgid "wide prior"
-msgstr ""
+msgstr "ampla a priori"
 
 msgid "ultrawide prior"
-msgstr ""
+msgstr "ultra-ampla a priori"
 
 msgid "%1$s at r==%2$s"
-msgstr ""
+msgstr "%1$s em r==%2$s"
 
 msgid "Cauchy prior width"
-msgstr ""
+msgstr "Largura anterior de Cauchy"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is greater "
 "than group 2."
 msgstr ""
+"Para todos os testes, a hipótese alternativa especifica que o grupo 1 é "
+"maior do que o grupo 2."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the mean is greater "
 "than 0."
 msgstr ""
+"Para todos, a hipótese alternativa especifica que a média é maior do que 0."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that measure 1 is "
 "greater than measure 2."
 msgstr ""
+"Para todos os testes, a hipótese alternativa especifica que a medição 1 é "
+"maior do que a medição 2."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is less "
 "than group 2."
 msgstr ""
+"Para todos os testes, a hipótese alternativa especifica que o grupo 1 é "
+"menor do que o grupo 2."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the mean is less "
 "than 0."
 msgstr ""
+"Para todos os testes, a hipótese alternativa especifica que a média é menor "
+"do que 0."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that measure 1 is less "
 "than measure 2."
 msgstr ""
+"Para todos os testes, a hipótese alternativa especifica que a medição 1 é "
+"menor do que a medição 2."
 
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "Teste-T para uma Amostra Bayesiano"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "Teste-T para Amostras Pareadas Bayesiano"
 
 msgid "Not enough observations."
-msgstr ""
+msgstr "Não há observações suficientes."
 
 msgid "Model Summary"
-msgstr ""
+msgstr "Resumo do Modelo"
 
 msgid "Effect size"
-msgstr ""
+msgstr "Tamanho do efeito"
 
 msgid "Standard error"
-msgstr ""
+msgstr "Erro padrão"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "Máx %1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "Padrão %1$s"
 
 msgid "exp(Effect size)"
-msgstr ""
+msgstr "exp(Tamanho do efeito)"
 
-#, fuzzy
 msgid "Bayes Factor Robustness Plot"
-msgstr "Verificar robustez do fator de Bayes"
+msgstr "Gráfico de robustez do fator de Bayes"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
 msgstr ""
+"Quebras de contornos do fator de Bayes não puderam ser analisadas em números."
 
 msgid "Bayes factor contours breaks must be positive."
-msgstr ""
+msgstr "As quebras dos contornos de Bayes devem ser positivas."
 
 msgid "Bayes factor contours breaks must be increasing."
-msgstr ""
+msgstr "As quebras dos fatores de Bayes devem ser crescentes."
 
 msgid "exp(Prior mean)"
-msgstr ""
+msgstr "exp(Média anterior)"
 
 msgid "Prior mean"
-msgstr ""
+msgstr "Média anterior"
 
-#, fuzzy
 msgid "Prior standard deviation"
-msgstr "Anterior e Posterior"
+msgstr "Desvio padrão anterior"
 
 msgid ""
 "The default Bayes factor is based on unit information prior corresponding to "
 "a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
 msgstr ""
+"O fator de Bayes padrão é baseado em uma unidade de informação anterior "
+"correspondente a um tamanho de efeito %1$s, uma distribuição normal com "
+"média = 0 e DP = %2$s."
 
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "Teste Binomial Bayesiano"
 
 msgid ""
 "- *Bayes factor*: If one-sided test is requested:\n"
@@ -181,128 +195,156 @@ msgid ""
 "mean is smaller than the test value\n"
 "  - **p**: p-value corresponding to t-statistic."
 msgstr ""
+"- *Fator de Bayes*: Se for solicitado um teste unilateral:\n"
+"- BF+0: Fator de Bayes que quantifica a evidência para a hipótese "
+"alternativa unilateral de que a média populacional é maior que o valor do "
+"teste\n"
+"- BF-0: Fator de Bayes que quantifica a evidência para a hipótese "
+"alternativa unilateral de que a média populacional é menor que o valor do "
+"teste\n"
+"- BF0+: Fator de Bayes que quantifica a evidência para a hipótese nula em "
+"relação à hipótese alternativa unilateral de que a média populacional é "
+"maior que o valor do teste\n"
+"- BF0-: Fator de Bayes que quantifica a evidência para a hipótese nula em "
+"relação à hipótese alternativa unilateral de que a média populacional é "
+"menor que o valor do teste\n"
+"- **p**: valor-p correspondente à estatística t."
 
 msgid "Successes"
-msgstr ""
+msgstr "Sucessos"
 
 msgid "Failures"
-msgstr ""
+msgstr "Falhas"
 
 msgid "Proportion"
-msgstr ""
+msgstr "Proporção"
 
 msgid "Test value"
-msgstr ""
+msgstr "Valor de teste"
 
 msgid "Plotting not possible: Posterior too peaked!"
-msgstr ""
+msgstr "Plotagem impossível: Posterior muito pontiagudo!"
 
 msgid "Population proportion"
-msgstr ""
+msgstr "Proporção da população"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
+"A plotagem não é possível: Não é possível avaliar a densidade anterior ou "
+"posterior!"
 
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "Proporções testadas contra o valor: %s."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "greater than %s."
 msgstr ""
+"Para todos os testes, a hipótese alternativa especifica que a proporção é "
+"maior do que %s."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "less than %s."
 msgstr ""
+"Para todos os testes, a hipótese alternativa especifica que a proporção é "
+"menor do que %s."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
 msgstr ""
+"Não é possível testar a hipótese de que o valor de teste é maior do que 1."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
 msgstr ""
+"Não é possível testar a hipótese de que o valor de teste é menor do que 0."
 
 msgid "Undefined hypothesis"
-msgstr ""
+msgstr "Hipótese indefinida"
 
 msgid "r"
-msgstr ""
+msgstr "r"
 
 msgid "tau"
-msgstr ""
+msgstr "tau"
 
 msgid "rho"
-msgstr ""
+msgstr "rho"
 
 msgid "%s%% Credible interval"
-msgstr ""
+msgstr "%s%% intervalo Credível"
 
 msgid "Inferential Plots"
-msgstr ""
+msgstr "Gráficos inferenciais"
 
 msgid "Normal(%1$s, %2$s)"
-msgstr ""
+msgstr "Normal(%1$s, %2$s)"
 
 msgid "Student-t(%1$s, %2$s, %3$s)"
-msgstr ""
+msgstr "t de Student(%1$s, %2$s, %3$s)"
 
 msgid "Cauchy(%1$s, %2$s)"
-msgstr ""
+msgstr "Cauchy(%1$s, %2$s)"
 
 msgid "Beta(%1$s, %2$s)"
-msgstr ""
+msgstr "Beta(%1$s, %2$s)"
 
 msgid "Uniform(%1$s, %2$s)"
-msgstr ""
+msgstr "Uniforme(%1$s, %2$s)"
 
 msgid "Spike(%1$s)"
-msgstr ""
+msgstr "Pico(%1$s)"
 
 msgid "Prior"
-msgstr ""
+msgstr "Anterior"
 
 msgid "Compared to %1$s."
-msgstr ""
+msgstr "Comparado a %1$s."
 
 msgid ""
 "The variance parameter of the normal distribution is assumed to be known."
 msgstr ""
+"O parâmetro variância da distribuição normal é assumido como desconhecido."
 
 msgid "Probability"
-msgstr ""
+msgstr "Probabilidade"
 
 msgid "Density"
-msgstr ""
+msgstr "Densidade"
 
 msgid "Model Comparison"
-msgstr ""
+msgstr "Comparação de Modelos"
 
 msgid "Number of covariates"
-msgstr ""
+msgstr "Número de covariáveis"
 
 msgid "R%s"
-msgstr ""
+msgstr "R%s"
 
 msgid "Robustness Plot"
-msgstr ""
+msgstr "Gráfico de Robustez"
 
 msgid "r scale"
-msgstr ""
+msgstr "escala r"
 
 msgid "r scale used is: %s."
-msgstr ""
+msgstr "A escala r usada é %s."
 
 msgid "n = %i"
-msgstr ""
+msgstr "n = %i"
 
 msgid "Bayesian Linear Regression"
-msgstr ""
+msgstr "Regressão Linear Bayesiana"
 
 msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
 msgstr ""
+"O número de covariáveis deve ser menor do que N-1 (tamanho de amostra menos "
+"1)"
 
 msgid ""
 "Input: When number of covariates for Alternative hypothesis is greater than "
 "that of Null hypothesis, the R%s has to be higher under Alternative than "
 "under Null hypothesis"
 msgstr ""
+"Entrada: Quando o número de covariáveis para a Hipótese alternativa é maior "
+"do que aquela da Hipótese nula, o R%s deve ser maior na Hipótese alternativa "
+"do que na Hipótese nula"
