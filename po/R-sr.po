@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.19.2\n"
 "POT-Creation-Date: 2024-11-16 02:46\n"
-"PO-Revision-Date: 2025-04-15 23:01+0000\n"
+"PO-Revision-Date: 2025-08-23 02:50+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/sr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -42,7 +42,7 @@ msgid "Proportional error estimate could not be computed."
 msgstr "Процена пропорционалне грешке није могла бити израчуната."
 
 msgid "Prior and Posterior"
-msgstr "Претходни и постериорни"
+msgstr "Претходно и задње"
 
 msgid "Plotting not possible: %s"
 msgstr "Цртање није могуће: %s"
@@ -156,7 +156,7 @@ msgid "The default Bayes factor is based on unit information prior corresponding
 msgstr ""
 
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "Бајесов биномни тест"
 
 msgid "- *Bayes factor*: If one-sided test is requested:\n  - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value\n  - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value\n- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value\n- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value\n  - **p**: p-value corresponding to t-statistic."
 msgstr ""
@@ -168,7 +168,7 @@ msgid "Failures"
 msgstr ""
 
 msgid "Proportion"
-msgstr ""
+msgstr "Пропорција"
 
 msgid "Test value"
 msgstr ""
@@ -177,28 +177,30 @@ msgid "Plotting not possible: Posterior too peaked!"
 msgstr ""
 
 msgid "Population proportion"
-msgstr ""
+msgstr "Пропорција популације"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
 
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "Пропорције тестиране у односу на вредност: %s."
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
 msgstr ""
+"За све тестове, алтернативна хипотеза прецизира да је пропорција већа од %s."
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is less than %s."
 msgstr ""
+"За све тестове, алтернативна хипотеза прецизира да је пропорција мања од %s."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
-msgstr ""
+msgstr "Не може се тестирати хипотеза да је тест вредност већа од 1."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
-msgstr ""
+msgstr "Не може се тестирати хипотеза да је тест вредност мања од 0."
 
 msgid "Undefined hypothesis"
-msgstr ""
+msgstr "Недефинисане хипотезе"
 
 msgid "r"
 msgstr ""
@@ -234,7 +236,7 @@ msgid "Spike(%1$s)"
 msgstr ""
 
 msgid "Prior"
-msgstr "Претходно"
+msgstr "Претходни"
 
 msgid "Compared to %1$s."
 msgstr ""
@@ -243,7 +245,7 @@ msgid "The variance parameter of the normal distribution is assumed to be known.
 msgstr ""
 
 msgid "Probability"
-msgstr ""
+msgstr "Вероватноћа"
 
 msgid "Density"
 msgstr "Густина"
