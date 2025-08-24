@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-03-28 12:20+0000\n"
+"PO-Revision-Date: 2025-08-25 12:03+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/sr/>\n"
@@ -8,9 +8,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.13\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -115,7 +115,7 @@ msgstr ""
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Descriptives"
-msgstr "Дескриптивна статистика"
+msgstr "Дескриптивна"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Plots"
@@ -123,7 +123,7 @@ msgstr ""
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior and posterior"
-msgstr "Претходни и постериорни"
+msgstr "Претходна и задња"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sequential analysis"
@@ -235,7 +235,7 @@ msgstr ""
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Prior and posterior"
-msgstr "Претходни и постериорни"
+msgstr "Претходна и задња"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Additional info"
@@ -303,7 +303,7 @@ msgstr ""
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior and posterior"
-msgstr "Претходни и постериорни"
+msgstr "Претходна и задња"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Estimation info"
@@ -399,7 +399,7 @@ msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
-msgstr "Претходни и постериорни"
+msgstr "Претходна и задња"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Additional info"
@@ -435,7 +435,7 @@ msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
-msgstr "Претходни и постериорни"
+msgstr "Претходна и задња"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Additional info"
@@ -471,7 +471,7 @@ msgstr ""
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
-msgstr "Претходни и постериорни"
+msgstr "Претходна и задња"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Additional info"
@@ -743,7 +743,7 @@ msgstr ""
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior and posterior"
-msgstr "Претходни и постериорни"
+msgstr "Претходна и задња"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Additional info"
