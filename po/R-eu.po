@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.95.0\n"
 "POT-Creation-Date: 2025-06-21 02:55\n"
-"PO-Revision-Date: 2025-09-02 11:01+0000\n"
+"PO-Revision-Date: 2025-09-05 09:02+0000\n"
 "Last-Translator: Jose Ramon Rueda <joseramon.rueda@ehu.eus>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/eu/>\n"
@@ -11,10 +11,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.1-dev\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 
 msgid "BF%s"
-msgstr ""
+msgstr "BF%a"
 
 msgid "Log(BF%s)"
 msgstr ""
@@ -41,13 +41,13 @@ msgid "Proportional error estimate could not be computed."
 msgstr ""
 
 msgid "Prior and Posterior"
-msgstr ""
+msgstr "Aurrekoa eta Ondorengoa"
 
 msgid "Plotting not possible: %s"
-msgstr "Ezinezkoa da grafikoa egitea: %s"
+msgstr "Ezin da grafikoa egitea: %s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr ""
+msgstr "Bayes Faktorearen Sendotasuna Egiaztatzea"
 
 msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
 msgstr ""
@@ -143,7 +143,7 @@ msgid "The default Bayes factor is based on unit information prior corresponding
 msgstr ""
 
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "Bayesiar Binomial Testa"
 
 msgid "- *Bayes factor*: If one-sided test is requested:\n  - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value\n  - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value\n- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value\n- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value\n  - **p**: p-value corresponding to t-statistic."
 msgstr ""
@@ -169,14 +169,21 @@ msgstr ""
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
 
+#, fuzzy
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "Balioaren arabera probatutako proportzioak: %a."
 
+#, fuzzy
 msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
 msgstr ""
+"Proba guztietarako, hipotesi alternatiboak zehazten du proportzioa %a baino "
+"handiagoa dela."
 
+#, fuzzy
 msgid "For all tests, the alternative hypothesis specifies that the proportion is less than %s."
 msgstr ""
+"Proba guztietarako, hipotesi alternatiboak zehazten du proportzioa %a baino "
+"txikiagoa dela."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
 msgstr ""
