@@ -7,7 +7,7 @@ test_that("z-test two-sided works", {
   options$zStatistic <- 1.96
   options$alternative <- "twoSided"
   
-  results <- jaspTools::runAnalysis("SummaryStatsTestStatistics", "", options)
+  results <- jaspTools::runAnalysis("SummaryStatsTestStatistics", NULL, options)
   table <- results[["results"]][["testStatisticsTable"]][["data"]]
   
   expect_equal(table[[1]][["testType"]], "z")
@@ -26,7 +26,7 @@ test_that("t-test one-sided works", {
   
   expect_equal(table[[1]][["testType"]], "t")
   expect_equal(table[[1]][["statistic"]], 2.0, tolerance = 1e-6)
-  expect_equal(table[[1]][["df"]], "10")
+  expect_equal(table[[1]][["df"]], 10)
   expect_equal(table[[1]][["pValue"]], 0.03593486, tolerance = 1e-6)
 })
 
@@ -40,7 +40,7 @@ test_that("chi-squared test works", {
   
   expect_equal(table[[1]][["testType"]], "χ²")
   expect_equal(table[[1]][["statistic"]], 3.84, tolerance = 1e-6)
-  expect_equal(table[[1]][["df"]], "1")
+  expect_equal(table[[1]][["df"]], 1)
   expect_equal(table[[1]][["pValue"]], 0.05004025, tolerance = 1e-6)
 })
 
@@ -55,6 +55,7 @@ test_that("f-test works", {
   
   expect_equal(table[[1]][["testType"]], "F")
   expect_equal(table[[1]][["statistic"]], 4.0, tolerance = 1e-6)
-  expect_equal(table[[1]][["df"]], "2, 10")
+  expect_equal(table[[1]][["df1"]], 2)
+  expect_equal(table[[1]][["df2"]], 10)
   expect_equal(table[[1]][["pValue"]], 0.05188997, tolerance = 1e-6)
 })

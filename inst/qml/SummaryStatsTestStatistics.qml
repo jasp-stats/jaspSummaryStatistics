@@ -155,7 +155,7 @@ Form
 			RadioButton
 			{
 				value: "greater"
-				label: qsTr("Greater than 0")
+				label: qsTr("Greater")
 			}
 
 			RadioButton
