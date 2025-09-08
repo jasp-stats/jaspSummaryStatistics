@@ -20,9 +20,7 @@ applyTo: "**/inst/qml/*.qml"
 - **Translation & docs:**
   - Wrap **all user-visible strings** in `qsTr("Text")`.
   - Populate `info:` with a short, user-facing description (also wrapped in `qsTr`) to feed module help.
-- **Layout model:** Two-column grid, filled left→right, top→bottom. Use `Layout.rowSpan` / `Layout.columnSpan` to prevent gaps and make tall items span appropriately.
 - **Variables workflow:** Place variable pickers inside a `VariablesForm`; connect lists with `source:` (can read all data columns, other lists, levels, or R sources).
-- **Configurable constants:** When defaults depend on site config, use `form.getConstant(key, fallback)` (e.g., to set default CIs).
 
 ## 2) Input Validation
 
@@ -150,6 +148,5 @@ Prefer **declarative validation** via built-in field properties:
 ## 6) When in doubt
 
 - Prefer built-in JASP controls.
-- Bind, don’t imperative-set.
 - Keep `name:` stable; translate strings; validate inputs.
 - Put rare/expert options in a `Section` and document via `info:`.

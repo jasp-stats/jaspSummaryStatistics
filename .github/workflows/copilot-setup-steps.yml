@@ -23,7 +23,7 @@ jobs:
       _R_CHECK_MATRIX_DATA_: TRUE       # only works from R 4.2.0 onwards
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: r-lib/actions/setup-r@v2
         with:

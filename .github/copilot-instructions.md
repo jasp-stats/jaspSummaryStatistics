@@ -58,7 +58,7 @@ Since this module runs within JASP desktop application, manual testing requires:
 
 ### QML Interface Rules
 - QML interfaces in `inst/qml/` define user-facing options passed to R functions
-- Each analysis links: `inst/Descriptions/` → `inst/qml/` → `R/` functions
+- Each analysis links: `inst/Description.qml/` → `inst/qml/` → `R/` functions
 - QML elements use `name` (camelCase internal) and `title`/`label` (user-facing)
 - Document QML elements using `info` property for help generation
 - Use existing QML files as examples for structure and style
@@ -120,9 +120,8 @@ Since this module runs within JASP desktop application, manual testing requires:
 
 ### Detailed Development Process
 - **Step 1**: Create main analysis function with `jaspResults`, `dataset`, `options` arguments
-- **Step 2**: Check if results can be computed (`ready <- length(options$variables) > 0`)
-- **Step 3**: **CRITICAL** - Use `.quitAnalysis()` for `dataset`, `TextField`, `FormulaField` validation only
-- **Step 5**: Create output tables/plots with proper dependencies, citations, column specs
+- **Step 2**: **CRITICAL** - Use `.quitAnalysis()` for `dataset`, `TextField`, `FormulaField` validation only
+- **Step 3**: Create output tables/plots with proper dependencies, citations, column specs
 - Use `createJaspTable()`, `createJaspPlot()`, `createJaspHtml()` for output elements
 - Always set `$dependOn()` for proper caching and state management
 - Use containers for grouping related elements, state objects for reusing computed results

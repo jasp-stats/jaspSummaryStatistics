@@ -7,7 +7,7 @@ applyTo: "**/R/*.R"
 ## 1) Core Basics
 
 - **Main entry point (name matters):**
-  - The R function name **must match** the case-sensitive `"function"` field in `description.json`.
+  - The R function name **must match** the case-sensitive `"function"` field in `Description.qml`.
   - Signature is always:
     ```r
     AnalysisName <- function(jaspResults, dataset, options) { ... }
@@ -68,12 +68,13 @@ Other useful checks:
 **Skeleton:**
 ```r
 .createMyTable <- function(jaspResults, dataset, options, ready) {
+  if (!is.null(jaspResults[["mainTable"]])) return()
   tab <- createJaspTable(title = gettext("My Table"))
   tab$dependOn(c("variables", "alpha", "showCI"))
   tab$addColumnInfo("variable", gettext("Variable"), "string", combine = TRUE)
   tab$addColumnInfo("estimate", gettext("Estimate"), "number")
-  if (isTRUE(options$showCI)) {
-    over <- sprintf("%g%% CI", 100 * options$alpha)
+  if (options$showCI) {
+    over <- gettextf("%f%% CI", 100 * options$alpha)
     tab$addColumnInfo("lcl", gettext("Lower"), "number", overtitle = over)
     tab$addColumnInfo("ucl", gettext("Upper"), "number", overtitle = over)
   }
@@ -93,6 +94,7 @@ Other useful checks:
 **Skeleton:**
 ```r
 .createMyPlot <- function(jaspResults, dataset, options, ready) {
+  if (!is.null(jaspResults[["descPlot"]])) return()
   plt <- createJaspPlot(title = gettext("My Plot"), width = 400, height = 300)
   plt$dependOn(c("variables", "alpha"))
   jaspResults[["descPlot"]] <- plt
@@ -106,6 +108,7 @@ Other useful checks:
 ### Text blocks — `createJaspHtml()`
 Display formatted messages; can depend on options like other outputs.
 ```r
+if (!is.null(jaspResults[["note"]])) return()
 msg <- createJaspHtml(text = gettextf("The variable <b>%s</b> was omitted.", variable))
 msg$dependOn(c("variable"))
 jaspResults[["note"]] <- msg
@@ -117,16 +120,18 @@ Group related outputs; container dependencies propagate to children. Useful for 
 - Nest containers freely.
 
 ```r
-grp <- createJaspContainer(title = gettext("Descriptive Plots"))
-grp$dependOn(c("variables", "alpha"))
-jaspResults[["descGroup"]] <- grp
-
+if (is.null(jaspResults[["descGroup"]])) {
+  grp <- createJaspContainer(title = gettext("Descriptive Plots"))
+  grp$dependOn(c("variables", "alpha"))
+  jaspResults[["descGroup"]] <- grp
+} else {
+  grp <- jaspResults[["descGroup"]]
+}
 for (v in options$variables) {
-  id <- encodeColNames(v)
-  if (!is.null(grp[[id]])) next
+  if (!is.null(grp[[v]])) next
   p <- createJaspPlot(title = v, width = 480, height = 320)
   p$dependOn(optionContainsValue = list(variables = v))
-  grp[[id]] <- p
+  grp[[v]] <- p
 }
 ```
 
@@ -137,9 +142,10 @@ Cache computed results across reruns (while dependencies hold).
 
 ```r
 .stateCompute <- function(jaspResults, dataset, options) {
-  st <- createJaspState(); st$dependOn(c("variables", "alpha"))
+  st <- createJaspState()
+  st$dependOn(c("variables", "alpha"))
   jaspResults[["internalResults"]] <- st
-  res <- lapply(options$variables, function(v) list(mean = mean(dataset[, encodeColNames(v)], na.rm = TRUE)))
+  res <- colMeans(dataset[options$variables], na.rm = TRUE)
   st$object <- res
 }
 ```
@@ -166,12 +172,8 @@ MyAnalysis <- function(jaspResults, dataset, options) {
   ready <- length(options$variables) > 0
   if (ready) dataset <- .readData(dataset, options)
 
-  if (is.null(jaspResults[["mainTable"]]))
-    .createMyTable(jaspResults, dataset, options, ready)
+  .createMyTable(jaspResults, dataset, options, ready)
+  .createMyPlot(jaspResults, dataset, options, ready)
 
-  if (is.null(jaspResults[["descPlot"]]))
-    .createMyPlot(jaspResults, dataset, options, ready)
-
-  invisible()
 }
 ```
