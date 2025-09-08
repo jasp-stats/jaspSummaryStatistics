@@ -74,7 +74,7 @@ Other useful checks:
   tab$addColumnInfo("variable", gettext("Variable"), "string", combine = TRUE)
   tab$addColumnInfo("estimate", gettext("Estimate"), "number")
   if (options$showCI) {
-    over <- gettextf("%f%% CI", 100 * options$alpha)
+    over <- gettextf("%f%% CI", 100 * options[["alpha"]])
     tab$addColumnInfo("lcl", gettext("Lower"), "number", overtitle = over)
     tab$addColumnInfo("ucl", gettext("Upper"), "number", overtitle = over)
   }
@@ -99,9 +99,7 @@ Other useful checks:
   plt$dependOn(c("variables", "alpha"))
   jaspResults[["descPlot"]] <- plt
   if (!ready) return()
-  p <- try(ggplot2::ggplot(dataset, ggplot2::aes(x = encodeColNames(options$variables[1]))) + ggplot2::geom_histogram())
-  if (inherits(p, "try-error")) { plt$setError(as.character(p)); return() }
-  plt$plotObject <- p
+  .fillMyPlot(plt, dataset, options)
 }
 ```
 
@@ -109,7 +107,7 @@ Other useful checks:
 Display formatted messages; can depend on options like other outputs.
 ```r
 if (!is.null(jaspResults[["note"]])) return()
-msg <- createJaspHtml(text = gettextf("The variable <b>%s</b> was omitted.", variable))
+msg <- createJaspHtml(text = gettextf("The variable <b>%s</b> was omitted.", options[["variable"]]))
 msg$dependOn(c("variable"))
 jaspResults[["note"]] <- msg
 ```
@@ -127,7 +125,7 @@ if (is.null(jaspResults[["descGroup"]])) {
 } else {
   grp <- jaspResults[["descGroup"]]
 }
-for (v in options$variables) {
+for (v in options[["variables"]]) {
   if (!is.null(grp[[v]])) next
   p <- createJaspPlot(title = v, width = 480, height = 320)
   p$dependOn(optionContainsValue = list(variables = v))
@@ -145,7 +143,7 @@ Cache computed results across reruns (while dependencies hold).
   st <- createJaspState()
   st$dependOn(c("variables", "alpha"))
   jaspResults[["internalResults"]] <- st
-  res <- colMeans(dataset[options$variables], na.rm = TRUE)
+  res <- colMeans(dataset[options[["variables"]]], na.rm = TRUE)
   st$object <- res
 }
 ```
@@ -169,11 +167,9 @@ Cache computed results across reruns (while dependencies hold).
 
 ```r
 MyAnalysis <- function(jaspResults, dataset, options) {
-  ready <- length(options$variables) > 0
-  if (ready) dataset <- .readData(dataset, options)
+
+  ready <- length(options[["variables"]]) > 0
 
   .createMyTable(jaspResults, dataset, options, ready)
   .createMyPlot(jaspResults, dataset, options, ready)
-
 }
-```

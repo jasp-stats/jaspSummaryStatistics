@@ -69,6 +69,7 @@ Since this module runs within JASP desktop application, manual testing requires:
 - Use camelCase for all function and variable names
 - NEVER use `library()` or `require()` - use `package::function()` syntax
 - Avoid new dependencies - re-implement simple functions instead
+- Access `options` list via `options[["name"]]` notation to avoid partial matching
 - Follow CRAN guidelines for code structure and documentation
 
 ### Input Validation and Error Handling
