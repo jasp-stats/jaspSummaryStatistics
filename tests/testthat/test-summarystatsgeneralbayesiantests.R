@@ -61,7 +61,7 @@ context("SummaryStatsGeneralBayesianTests")
                                                                                                                                                        parScale2 = "1", truncationLower = "-Inf", truncationUpper = "Inf",
                                                                                                                                                        type = "spike"))
   set.seed(1)
-  results <- runAnalysis("SummaryStatsGeneralBayesianTests", "", options)
+  results <- runAnalysis("SummaryStatsGeneralBayesianTests", "debug", options)
 
 
   test_that("Likelihood plot matches", {
@@ -254,7 +254,7 @@ context("SummaryStatsGeneralBayesianTests")
                                                                                                        parLocation = "0", parMean = "0", parScale = "1", parScale2 = "1",
                                                                                                        truncationLower = "-Inf", truncationUpper = "Inf", type = "uniform"))
   set.seed(1)
-  results <- runAnalysis("SummaryStatsGeneralBayesianTests", "", options)
+  results <- runAnalysis("SummaryStatsGeneralBayesianTests", "debug", options)
 
 
   test_that("Likelihood plot matches", {
@@ -342,7 +342,7 @@ context("SummaryStatsGeneralBayesianTests")
                                                         parMean = "0", parScale = "1", parScale2 = "1", truncationLower = "-Inf",
                                                         truncationUpper = "Inf", type = "spike"))
   set.seed(1)
-  results <- runAnalysis("SummaryStatsGeneralBayesianTests", "", options)
+  results <- runAnalysis("SummaryStatsGeneralBayesianTests", "debug", options)
 
 
   test_that("Likelihood plot matches", {
@@ -422,7 +422,7 @@ context("SummaryStatsGeneralBayesianTests")
                                                                                  parLocation = ".99", parMean = "0", parScale = "1", parScale2 = "1",
                                                                                  truncationLower = "-Inf", truncationUpper = "Inf", type = "spike"))
   set.seed(1)
-  results <- runAnalysis("SummaryStatsGeneralBayesianTests", "", options)
+  results <- runAnalysis("SummaryStatsGeneralBayesianTests", "debug", options)
 
 
   test_that("Likelihood plot matches", {
@@ -483,7 +483,7 @@ context("SummaryStatsGeneralBayesianTests")
                                                                                   parLocation = "1/2", parMean = "0", parScale = "1", parScale2 = "1",
                                                                                   truncationLower = "-Inf", truncationUpper = "Inf", type = "spike"))
   set.seed(1)
-  results <- runAnalysis("SummaryStatsGeneralBayesianTests", "", options)
+  results <- runAnalysis("SummaryStatsGeneralBayesianTests", "debug", options)
 
 
   test_that("Likelihood plot matches", {

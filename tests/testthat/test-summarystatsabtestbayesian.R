@@ -10,7 +10,7 @@ options$setSeed <- TRUE
 options$y1 <- 5
 options$y2 <- 10
 set.seed(1)
-results <- jaspTools::runAnalysis("SummaryStatsABTestBayesian", "", options)
+results <- jaspTools::runAnalysis("SummaryStatsABTestBayesian", "debug", options)
 
 
 test_that("Descriptives table results match", {
