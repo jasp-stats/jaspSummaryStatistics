@@ -135,34 +135,30 @@ Form
 		}
 	}
 
-	Group
+
+	RadioButtonGroup
 	{
-		title: qsTr("Hypothesis")
+		name: "alternative"
+		title: qsTr("Alternative Hypothesis")
+		enabled: testType.value === "z" || testType.value === "t"
 
-		RadioButtonGroup
+		RadioButton
 		{
-			name: "alternative"
-			title: qsTr("Alternative Hypothesis")
-			enabled: testType.value === "z" || testType.value === "t"
+			value: "twoSided"
+			label: qsTr("Two-sided")
+			checked: true
+		}
 
-			RadioButton
-			{
-				value: "twoSided"
-				label: qsTr("Two-sided")
-				checked: true
-			}
+		RadioButton
+		{
+			value: "greater"
+			label: qsTr("Greater")
+		}
 
-			RadioButton
-			{
-				value: "greater"
-				label: qsTr("Greater")
-			}
-
-			RadioButton
-			{
-				value: "less"
-				label: qsTr("Less than 0")
-			}
+		RadioButton
+		{
+			value: "less"
+			label: qsTr("Less")
 		}
 	}
 }
