@@ -31,6 +31,7 @@ Form
 		{
 			name: "testType"
 			id: testType
+			info: qsTr("Select the type of statistical test to analyze")
 
 			RadioButton
 			{
@@ -38,6 +39,7 @@ Form
 				label: qsTr("z-test")
 				checked: true
 				childrenOnSameRow: true
+				info: qsTr("Use when population standard deviation is known")
 
 				DoubleField
 				{
@@ -46,6 +48,7 @@ Form
 					defaultValue: 0
 					fieldWidth: 80
 					negativeValues: true
+					info: qsTr("Enter the calculated z-statistic value")
 				}
 			}
 
@@ -54,6 +57,7 @@ Form
 				value: "t"
 				label: qsTr("t-test")
 				childrenOnSameRow: true
+				info: qsTr("Use when sample standard deviation is used to estimate population standard deviation")
 
 				DoubleField
 				{
@@ -62,6 +66,7 @@ Form
 					defaultValue: 0
 					fieldWidth: 80
 					negativeValues: true
+					info: qsTr("Enter the calculated t-statistic value")
 				}
 
 				IntegerField
@@ -71,6 +76,7 @@ Form
 					defaultValue: 1
 					min: 1
 					fieldWidth: 60
+					info: qsTr("Enter the degrees of freedom for the t-test")
 				}
 			}
 
@@ -79,6 +85,7 @@ Form
 				value: "chi2"
 				label: qsTr("χ² test")
 				childrenOnSameRow: true
+				info: qsTr("Use for goodness of fit or independence tests")
 
 				DoubleField
 				{
@@ -87,6 +94,7 @@ Form
 					defaultValue: 0
 					min: 0
 					fieldWidth: 80
+					info: qsTr("Enter the calculated chi-squared statistic value")
 				}
 
 				IntegerField
@@ -96,6 +104,7 @@ Form
 					defaultValue: 1
 					min: 1
 					fieldWidth: 60
+					info: qsTr("Enter the degrees of freedom for the chi-squared test")
 				}
 			}
 
@@ -104,6 +113,7 @@ Form
 				value: "f"
 				label: qsTr("F-test")
 				childrenOnSameRow: true
+				info: qsTr("Use for comparing variances or in ANOVA")
 
 				DoubleField
 				{
@@ -112,6 +122,7 @@ Form
 					defaultValue: 0
 					min: 0
 					fieldWidth: 80
+					info: qsTr("Enter the calculated F-statistic value")
 				}
 
 				IntegerField
@@ -121,6 +132,7 @@ Form
 					defaultValue: 1
 					min: 1
 					fieldWidth: 60
+					info: qsTr("Enter the numerator degrees of freedom")
 				}
 
 				IntegerField
@@ -130,6 +142,7 @@ Form
 					defaultValue: 1
 					min: 1
 					fieldWidth: 60
+					info: qsTr("Enter the denominator degrees of freedom")
 				}
 			}
 		}
@@ -141,24 +154,28 @@ Form
 		name: "alternative"
 		title: qsTr("Alternative Hypothesis")
 		enabled: testType.value === "z" || testType.value === "t"
+		info: qsTr("Choose the direction of the alternative hypothesis for directional tests")
 
 		RadioButton
 		{
 			value: "twoSided"
 			label: qsTr("Two-sided")
 			checked: true
+			info: qsTr("Test if the parameter differs from the null value in either direction")
 		}
 
 		RadioButton
 		{
 			value: "greater"
 			label: qsTr("Greater")
+			info: qsTr("Test if the parameter is greater than the null value")
 		}
 
 		RadioButton
 		{
 			value: "less"
 			label: qsTr("Less")
+			info: qsTr("Test if the parameter is less than the null value")
 		}
 	}
 }
