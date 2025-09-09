@@ -37,9 +37,17 @@ SummaryStatsTestStatistics <- function(jaspResults, dataset = NULL, options, ...
   # Add columns
   table$addColumnInfo(name = "testType", title = gettext("Test"), type = "string")
   table$addColumnInfo(name = "statistic", title = gettext("Statistic"), type = "number")
-  table$addColumnInfo(name = "df", title = gettext("df"), type = "integer")
-  table$addColumnInfo(name = "df1", title = gettext("df1"), type = "integer")
-  table$addColumnInfo(name = "df2", title = gettext("df2"), type = "integer")
+  
+  # Add df columns conditionally based on test type
+  testType <- options[["testType"]]
+  if (testType %in% c("t", "chi2")) {
+    table$addColumnInfo(name = "df", title = gettext("df"), type = "integer")
+  }
+  if (testType == "f") {
+    table$addColumnInfo(name = "df1", title = gettext("df1"), type = "integer")
+    table$addColumnInfo(name = "df2", title = gettext("df2"), type = "integer")
+  }
+  
   table$addColumnInfo(name = "pValue", title = gettext("p"), type = "pvalue")
 
   jaspResults[["testStatisticsTable"]] <- table
@@ -47,13 +55,8 @@ SummaryStatsTestStatistics <- function(jaspResults, dataset = NULL, options, ...
   # Compute results
   results <- .testStatisticsComputeResults(options)
   
-  if (!is.null(results$error)) {
-    table$setError(results$error)
-    return()
-  }
-
   # Add results to table
-  table$addRows(results$row)
+  table$addRows(results)
 
   return()
 }
@@ -79,9 +82,6 @@ SummaryStatsTestStatistics <- function(jaspResults, dataset = NULL, options, ...
     row <- list(
       testType = gettext("z"),
       statistic = statistic,
-      df = "",
-      df1 = "",
-      df2 = "",
       pValue = pValue
     )
     
@@ -101,8 +101,6 @@ SummaryStatsTestStatistics <- function(jaspResults, dataset = NULL, options, ...
       testType = gettext("t"),
       statistic = statistic,
       df = df,
-      df1 = "",
-      df2 = "",
       pValue = pValue
     )
     
@@ -116,8 +114,6 @@ SummaryStatsTestStatistics <- function(jaspResults, dataset = NULL, options, ...
       testType = gettext("χ²"),
       statistic = statistic,
       df = df,
-      df1 = "",
-      df2 = "",
       pValue = pValue
     )
     
@@ -131,12 +127,11 @@ SummaryStatsTestStatistics <- function(jaspResults, dataset = NULL, options, ...
     row <- list(
       testType = gettext("F"),
       statistic = statistic,
-      df = "",
       df1 = df1,
       df2 = df2,
       pValue = pValue
     )
   }
   
-  return(list(error = NULL, row = row))
+  return(row)
 }
