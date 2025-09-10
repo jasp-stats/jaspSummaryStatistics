@@ -16,7 +16,7 @@ Description
 
 	GroupTitle
 	{
-		title:	qsTr("Frequentist")
+		title:	qsTr("Classical")
 		icon:	"analysis-classical-ttest.svg"
 	}
 	Analysis
