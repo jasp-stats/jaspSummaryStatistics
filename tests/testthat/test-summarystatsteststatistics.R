@@ -12,7 +12,7 @@ test_that("z-test two-sided works", {
 
   expect_equal(table[[1]][["testType"]], "z")
   expect_equal(table[[1]][["statistic"]], 1.96, tolerance = 1e-6)
-  expect_equal(table[[1]][["pValue"]], pnorm(options$zStatistic, lower.tail = F) * 2, tolerance = 1e-6)
+  expect_equal(table[[1]][["pValue"]], pnorm(options$zStatistic, lower.tail = FALSE) * 2, tolerance = 1e-6)
 })
 
 test_that("t-test one-sided works", {
