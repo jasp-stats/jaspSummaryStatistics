@@ -42,8 +42,7 @@ SummaryStatsTestStatistics <- function(jaspResults, dataset = NULL, options, ...
   testType <- options[["testType"]]
   if (testType %in% c("t", "chi2")) {
     table$addColumnInfo(name = "df", title = gettext("df"), type = "integer")
-  }
-  if (testType == "f") {
+  } else if (testType == "f") {
     table$addColumnInfo(name = "df1", title = gettext("df1"), type = "integer")
     table$addColumnInfo(name = "df2", title = gettext("df2"), type = "integer")
   }
