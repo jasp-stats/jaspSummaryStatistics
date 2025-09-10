@@ -16,6 +16,18 @@ Description
 
 	GroupTitle
 	{
+		title:	qsTr("Classical")
+		icon:	"analysis-classical-ttest.svg"
+	}
+	Analysis
+	{
+		menu:	qsTr("Test Statistics")
+		title:	qsTr("S.S. Test Statistics")
+		func:	"SummaryStatsTestStatistics"
+	}
+
+	GroupTitle
+	{
 		title:	qsTr("T-Tests")
 		icon:	"analysis-bayesian-ttest.svg"
 	}
