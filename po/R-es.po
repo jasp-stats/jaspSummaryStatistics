@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2025-07-26 07:51+0000\n"
+"PO-Revision-Date: 2025-09-14 08:01+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/es/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 msgid "BF%s"
 msgstr "FB%s"
@@ -356,31 +356,31 @@ msgstr ""
 "hipótesis alternativa que en la nula"
 
 msgid "Test Statistics"
-msgstr ""
+msgstr "Estadísticos de contrastes"
 
 msgid "Test"
-msgstr ""
+msgstr "Contraste"
 
 msgid "Statistic"
-msgstr ""
+msgstr "Estadístico"
 
 msgid "df"
-msgstr ""
+msgstr "gl"
 
 msgid "df1"
-msgstr ""
+msgstr "gl1"
 
 msgid "df2"
-msgstr ""
+msgstr "gl2"
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "χ²"
-msgstr ""
+msgstr "χ²"
 
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #~ msgid "Plotting not possible: Bayes factor should be numeric!"
 #~ msgstr ""
