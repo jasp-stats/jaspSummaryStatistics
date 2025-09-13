@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2024-11-16 02:46\n"
+"POT-Creation-Date: 2025-09-13 02:42\n"
 "PO-Revision-Date: 2024-11-29 09:29+0000\n"
 "Last-Translator: Koen Derks <koen-derks@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
@@ -345,6 +345,33 @@ msgstr ""
 "Invoer: Wanneer het aantal covariaten voor de alternatieve hypothese groter "
 "is dan die van de nulhypothese moet de R%s hoger zijn onder de alternatieve "
 "dan onder de nulhypothese"
+
+msgid "Test Statistics"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Statistic"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "df1"
+msgstr ""
+
+msgid "df2"
+msgstr ""
+
+msgid "z"
+msgstr ""
+
+msgid "χ²"
+msgstr ""
+
+msgid "F"
+msgstr ""
 
 #~ msgid "Plotting not possible: Bayes factor should be numeric!"
 #~ msgstr "Grafiek maken niet mogelijk: Bayes factor moet numeriek zijn!"

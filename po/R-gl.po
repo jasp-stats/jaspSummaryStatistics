@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-11-16 02:46\n"
+"POT-Creation-Date: 2025-09-13 02:42\n"
 "PO-Revision-Date: 2025-07-26 07:51+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
@@ -353,6 +353,33 @@ msgstr ""
 "Entrada: Cando o número de covariantes para a hipótese Alternativa é maior "
 "que os da hipótese Nula, o R%s ten que ser maior baixo a hipótese "
 "Alternativa que baixo a Nula"
+
+msgid "Test Statistics"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Statistic"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "df1"
+msgstr ""
+
+msgid "df2"
+msgstr ""
+
+msgid "z"
+msgstr ""
+
+msgid "χ²"
+msgstr ""
+
+msgid "F"
+msgstr ""
 
 #~ msgid "Plotting not possible: Bayes factor should be numeric!"
 #~ msgstr "Non é posible facer a gráfica: O factor de Bayes debe ser numérico!"

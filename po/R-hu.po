@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.19.0\n"
-"POT-Creation-Date: 2024-11-16 02:46\n"
+"POT-Creation-Date: 2025-09-13 02:42\n"
 "PO-Revision-Date: 2024-09-11 19:09+0000\n"
 "Last-Translator: Salyámosy András <salyamos@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/jasp/"
@@ -301,4 +301,31 @@ msgid ""
 "Input: When number of covariates for Alternative hypothesis is greater than "
 "that of Null hypothesis, the R%s has to be higher under Alternative than "
 "under Null hypothesis"
+msgstr ""
+
+msgid "Test Statistics"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Statistic"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "df1"
+msgstr ""
+
+msgid "df2"
+msgstr ""
+
+msgid "z"
+msgstr ""
+
+msgid "χ²"
+msgstr ""
+
+msgid "F"
 msgstr ""

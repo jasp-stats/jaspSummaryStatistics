@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.0.0\n"
-"POT-Creation-Date: 2024-11-16 02:46\n"
+"POT-Creation-Date: 2025-09-13 02:42\n"
 "PO-Revision-Date: 2024-06-20 16:09+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
@@ -330,6 +330,33 @@ msgid ""
 msgstr ""
 "入力: 対立仮説の共変量の数が帰無仮説の数より大きい場合、R%sは帰無仮説下より"
 "も、対立仮説下で高くする必要があります"
+
+msgid "Test Statistics"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Statistic"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "df1"
+msgstr ""
+
+msgid "df2"
+msgstr ""
+
+msgid "z"
+msgstr ""
+
+msgid "χ²"
+msgstr ""
+
+msgid "F"
+msgstr ""
 
 #~ msgid "Plotting not possible: Bayes factor should be numeric!"
 #~ msgstr "プロットができません: ベイズファクターは数値である必要があります!"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2024-11-16 02:46\n"
+"POT-Creation-Date: 2025-09-13 02:42\n"
 "PO-Revision-Date: 2024-11-30 02:46+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
@@ -342,6 +342,33 @@ msgstr ""
 "Eingabe: Wenn die Anzahl der Kovariaten für die Alternativhypothese größer "
 "als die der Nullhypothese ist, muss R%s unter Alternativ höher als unter der "
 "Nullhypothese sein"
+
+msgid "Test Statistics"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Statistic"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "df1"
+msgstr ""
+
+msgid "df2"
+msgstr ""
+
+msgid "z"
+msgstr ""
+
+msgid "χ²"
+msgstr ""
+
+msgid "F"
+msgstr ""
 
 #~ msgid "Plotting not possible: Bayes factor should be numeric!"
 #~ msgstr "Abbilden unmöglich: Bayesfaktor muss numerisch sein!"

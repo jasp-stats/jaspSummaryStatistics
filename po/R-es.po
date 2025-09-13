@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
-"POT-Creation-Date: 2024-11-16 02:46\n"
+"POT-Creation-Date: 2025-09-13 02:42\n"
 "PO-Revision-Date: 2025-07-26 07:51+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
@@ -159,7 +159,8 @@ msgid "Bayes factor contours breaks must be positive."
 msgstr "Las rupturas de los contornos del Factor de Bayes deben ser positivas."
 
 msgid "Bayes factor contours breaks must be increasing."
-msgstr "Las rupturas de los contornos del Factor de Bayes deben ser crecientes."
+msgstr ""
+"Las rupturas de los contornos del Factor de Bayes deben ser crecientes."
 
 msgid "exp(Prior mean)"
 msgstr "exp(Media previa)"
@@ -353,6 +354,33 @@ msgstr ""
 "Entrada: Cuando el número de covariables para la hipótesis alternativa es "
 "mayor que el de la hipótesis nula, el R%s tiene que ser mayor en la "
 "hipótesis alternativa que en la nula"
+
+msgid "Test Statistics"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Statistic"
+msgstr ""
+
+msgid "df"
+msgstr ""
+
+msgid "df1"
+msgstr ""
+
+msgid "df2"
+msgstr ""
+
+msgid "z"
+msgstr ""
+
+msgid "χ²"
+msgstr ""
+
+msgid "F"
+msgstr ""
 
 #~ msgid "Plotting not possible: Bayes factor should be numeric!"
 #~ msgstr ""
