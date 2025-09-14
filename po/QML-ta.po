@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-01-06 12:24+0000\n"
+"PO-Revision-Date: 2025-09-14 18:02+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/ta/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -22,7 +22,7 @@ msgstr "டி-சோதனைகள்"
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "பேய்சியன் சுயாதீன மாதிரிகள் டி-சோதனை"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
@@ -30,7 +30,7 @@ msgstr "எச்.எச். பேய்சியன் சுயாதீன �
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "பேய்சியன் இணை மாதிரிகள் டி-சோதனை"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
@@ -38,7 +38,7 @@ msgstr "எச்.எச். பேய்சியன் இணை மாதி�
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "பேய்சியன் ஒரு மாதிரி டி-சோதனை"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
@@ -707,7 +707,7 @@ msgstr "சாதாரண சராசரி:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "std"
-msgstr "std"
+msgstr "நிலையான"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Default Bayes factor"
