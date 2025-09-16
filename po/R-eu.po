@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.95.0\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2025-09-05 09:02+0000\n"
+"PO-Revision-Date: 2025-09-16 18:01+0000\n"
 "Last-Translator: Jose Ramon Rueda <joseramon.rueda@ehu.eus>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/eu/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13.1-rc\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -20,34 +20,34 @@ msgid "Log(BF%s)"
 msgstr ""
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "Lagin independenteen T-proba bayesiarra"
 
 msgid "n%s"
 msgstr ""
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "error %%"
-msgstr ""
+msgstr "errorea %%"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "Proportional error estimate could not be computed."
 msgstr ""
 
 msgid "Prior and Posterior"
-msgstr "Aurrekoa eta Ondorengoa"
+msgstr "Aurrekoa eta ondorengoa"
 
 msgid "Plotting not possible: %s"
 msgstr "Ezin da grafikoa egitea: %s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr "Bayes Faktorearen Sendotasuna Egiaztatzea"
+msgstr "Bayes faktorearen sendotasun egiaztapena"
 
 msgid ""
 "Plotting not possible: Bayes factor robustness check plot currently not "
@@ -58,22 +58,22 @@ msgid "Bayes factors could not be computed for 100 values of the prior."
 msgstr ""
 
 msgid "max BF%s"
-msgstr ""
+msgstr "gehienezko BF%ak"
 
 msgid "user prior"
-msgstr ""
+msgstr "erabiltzailearen aurrekoa"
 
 msgid "wide prior"
-msgstr ""
+msgstr "aurreko zabala"
 
 msgid "ultrawide prior"
-msgstr ""
+msgstr "aurreko ultrazabala"
 
 msgid "%1$s at r==%2$s"
-msgstr ""
+msgstr "%1$s r==%2$s-tan"
 
 msgid "Cauchy prior width"
-msgstr ""
+msgstr "Cauchyren aurreko zabalera"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is greater "
@@ -106,10 +106,10 @@ msgid ""
 msgstr ""
 
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "Lagin bakarreko Bayesiar T-testa"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "Lagin parekatuen Bayesiar T-testa"
 
 msgid "Not enough observations."
 msgstr ""
@@ -118,7 +118,7 @@ msgid "Model Summary"
 msgstr ""
 
 msgid "Effect size"
-msgstr ""
+msgstr "Efektuaren tamaina"
 
 msgid "Standard error"
 msgstr ""
@@ -241,7 +241,7 @@ msgid "%s%% Credible interval"
 msgstr ""
 
 msgid "Inferential Plots"
-msgstr ""
+msgstr "Inferentziazko grafikoak"
 
 msgid "Normal(%1$s, %2$s)"
 msgstr ""
@@ -262,7 +262,7 @@ msgid "Spike(%1$s)"
 msgstr ""
 
 msgid "Prior"
-msgstr ""
+msgstr "Aurrekoa"
 
 msgid "Compared to %1$s."
 msgstr ""
@@ -277,8 +277,9 @@ msgstr ""
 msgid "Density"
 msgstr "Dentsitatea"
 
+#, fuzzy
 msgid "Model Comparison"
-msgstr ""
+msgstr "Modeloaren konparaketa"
 
 msgid "Number of covariates"
 msgstr ""
@@ -314,13 +315,13 @@ msgid "Test Statistics"
 msgstr ""
 
 msgid "Test"
-msgstr ""
+msgstr "Proba"
 
 msgid "Statistic"
-msgstr ""
+msgstr "Estatistikoa"
 
 msgid "df"
-msgstr ""
+msgstr "ag askatasun graduak"
 
 msgid "df1"
 msgstr ""
@@ -329,10 +330,10 @@ msgid "df2"
 msgstr ""
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "χ²"
 msgstr ""
 
 msgid "F"
-msgstr ""
+msgstr "F"
