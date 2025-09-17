@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.95.0\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2025-09-16 18:01+0000\n"
+"PO-Revision-Date: 2025-09-18 07:01+0000\n"
 "Last-Translator: Jose Ramon Rueda <joseramon.rueda@ehu.eus>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/eu/>\n"
@@ -19,6 +19,7 @@ msgstr "BF%s"
 msgid "Log(BF%s)"
 msgstr ""
 
+#, fuzzy
 msgid "t"
 msgstr "t"
 
@@ -115,7 +116,7 @@ msgid "Not enough observations."
 msgstr ""
 
 msgid "Model Summary"
-msgstr ""
+msgstr "Ereduaren Laburpena"
 
 msgid "Effect size"
 msgstr "Efektuaren tamaina"
@@ -277,9 +278,8 @@ msgstr ""
 msgid "Density"
 msgstr "Dentsitatea"
 
-#, fuzzy
 msgid "Model Comparison"
-msgstr "Modeloaren konparaketa"
+msgstr "Modeloen Konparaketa"
 
 msgid "Number of covariates"
 msgstr ""
@@ -324,10 +324,10 @@ msgid "df"
 msgstr "ag askatasun graduak"
 
 msgid "df1"
-msgstr ""
+msgstr "ag1"
 
 msgid "df2"
-msgstr ""
+msgstr "ag2"
 
 msgid "z"
 msgstr "z"
