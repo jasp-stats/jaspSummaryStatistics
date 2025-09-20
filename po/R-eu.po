@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.95.0\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2025-09-19 15:01+0000\n"
+"PO-Revision-Date: 2025-09-21 06:54+0000\n"
 "Last-Translator: Jose Ramon Rueda <joseramon.rueda@ehu.eus>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/eu/>\n"
@@ -123,7 +123,7 @@ msgid "Effect size"
 msgstr "Efektuaren tamaina"
 
 msgid "Standard error"
-msgstr ""
+msgstr "Errore estandarra"
 
 msgid "Max %1$s"
 msgstr ""
@@ -321,9 +321,8 @@ msgstr "Proba"
 msgid "Statistic"
 msgstr "Estatistikoa"
 
-#, fuzzy
 msgid "df"
-msgstr "ag (df)"
+msgstr "ag"
 
 msgid "df1"
 msgstr "ag1"
@@ -337,6 +336,5 @@ msgstr "z"
 msgid "χ²"
 msgstr ""
 
-#, fuzzy
 msgid "F"
 msgstr "F"
