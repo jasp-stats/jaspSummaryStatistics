@@ -59,7 +59,7 @@ msgid "Bayes factors could not be computed for 100 values of the prior."
 msgstr ""
 
 msgid "max BF%s"
-msgstr "gehienezko BF%ak"
+msgstr "gehienezko BF%s"
 
 #, fuzzy
 msgid "user prior"
