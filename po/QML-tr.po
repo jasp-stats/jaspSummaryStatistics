@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-09-24 22:01+0000\n"
+"Last-Translator: hakan dokumuş <dokumushakan@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/tr/>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14-dev\n"
 "X-Language: tr\n"
 "X-Qt-Contexts: true\n"
 
@@ -323,10 +329,9 @@ msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Prior"
 msgstr "Önceki"
 
-#, fuzzy
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Stretched beta prior width"
-msgstr "Gerilmiş beta önceki genişlik"
+msgstr "Genişletilmiş beta önsel dağılım genişliği"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Sample size"
@@ -782,120 +787,115 @@ msgstr "Örneklem büyüklüğü grubu 2"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central d (one-sample)"
-msgstr ""
+msgstr "Merkezî Olmayan d (tek örneklem)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central d (two-sample)"
-msgstr ""
+msgstr "Merkezî Olmayan d (iki örneklem)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations (Group 1)"
-msgstr ""
+msgstr "Gözlemler (Grup 1)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations (Group 2)"
-msgstr ""
+msgstr "Gözlemler (Grup 2)"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Cohen's d"
-msgstr "Cohen d"
+msgstr "Cohen’in d etki büyüklüğü"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Mean 1"
-msgstr ""
+msgstr "Ortalama 1"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "SD 1"
-msgstr ""
+msgstr "Standart sapma 1"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Mean 2"
-msgstr ""
+msgstr "Ortalama 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "SD 2"
-msgstr ""
+msgstr "Standart sapma 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t and Sample Sizes"
-msgstr ""
+msgstr "t ve Örneklem Büyüklükleri"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Cohen's d and Sample Sizes"
-msgstr ""
+msgstr "Cohen d ve Örneklem Büyüklükleri"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Means, SDs, and Sample Sizes"
-msgstr ""
+msgstr "Ortalamalar, Standart Sapmalar ve Örneklem Büyüklükleri"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Cohen's d"
 msgstr "Cohen d"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Mean"
 msgstr "Ortalama"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "SD"
-msgstr ""
+msgstr "Standart sapma"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Test value"
 msgstr "Test değeri"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t and Sample Size"
-msgstr ""
+msgstr "t ve Örneklem Büyüklüğü"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Cohen's d and Sample Size"
-msgstr ""
+msgstr "Cohen d ve Örneklem Büyüklüğü"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Mean, SD, and Sample Size"
-msgstr ""
+msgstr "Ortalama, Standart Sapma ve Örneklem Büyüklüğü"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Cohen's d"
 msgstr "Cohen d"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Mean difference"
-msgstr ""
+msgstr "Ortalama Farkı"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "SD"
-msgstr ""
+msgstr "Standart sapma"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t and Sample Size"
-msgstr ""
+msgstr "t ve Örneklem Büyüklüğü"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Cohen's d and Sample Size"
-msgstr ""
+msgstr "Cohen d ve Örneklem Büyüklüğü"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Mean Diff., SD, and Sample Size"
-msgstr ""
+msgstr "Ortalama Farkı, Standart Sapma ve Örneklem Büyüklüğü"
 
 msgctxt "Description|"
 msgid "Classical"
@@ -903,103 +903,104 @@ msgstr "Klasik"
 
 msgctxt "Description|"
 msgid "Test Statistics"
-msgstr ""
+msgstr "Test İstatistikleri"
 
 msgctxt "Description|"
 msgid "S.S. Test Statistics"
-msgstr ""
+msgstr "Kareler Toplamı Test İstatistikleri"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test Type"
-msgstr ""
+msgstr "Test Türleri"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Select the type of statistical test to analyze"
-msgstr ""
+msgstr "Analiz edilecek istatistiksel test türünü seçin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "z-test"
-msgstr ""
+msgstr "z-Testi"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use when population standard deviation is known"
-msgstr ""
+msgstr "Ana kütle standart sapması bilindiğinde kullanın"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test statistic:"
-msgstr ""
+msgstr "Test istatistiği:"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated z-statistic value"
-msgstr ""
+msgstr "Hesaplanan z-istatistiği değerini girin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "t-test"
-msgstr ""
+msgstr "t-Testi"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid ""
 "Use when sample standard deviation is used to estimate population standard "
 "deviation"
 msgstr ""
+"Örneklem standart sapması, ana kütle standart sapmasını tahmin etmek için "
+"kullanıldığında tercih edin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated t-statistic value"
-msgstr ""
+msgstr "Hesaplanan t-istatistiği değerini girin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "df:"
-msgstr ""
+msgstr "sd:"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the degrees of freedom for the t-test"
-msgstr ""
+msgstr "t-testi için serbestlik derecesini girin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "χ² test"
-msgstr ""
+msgstr "χ² testi"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use for goodness of fit or independence tests"
-msgstr ""
+msgstr "Uygunluk testi veya bağımsızlık testleri için kullanın"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated chi-squared statistic value"
-msgstr ""
+msgstr "Hesaplanan ki-kare istatistiği değerini girin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the degrees of freedom for the chi-squared test"
-msgstr ""
+msgstr "Ki-kare testi için serbestlik derecesini girin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "F-test"
-msgstr ""
+msgstr "F-testi"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use for comparing variances or in ANOVA"
-msgstr ""
+msgstr "Karşılaştırılan varyansları ya da ANOVA da kullanın"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated F-statistic value"
-msgstr ""
+msgstr "Hesaplanan F-istatistiği değerini girin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Numerator df:"
-msgstr ""
+msgstr "Serbestlik derecesi payı:"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the numerator degrees of freedom"
-msgstr ""
+msgstr "Serbestlik derecesini payını girin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Denominator df:"
-msgstr ""
+msgstr "Serbestlik derecesi paydası:"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the denominator degrees of freedom"
-msgstr ""
+msgstr "Serbestlik derecesinin paydasını girin"
 
-#, fuzzy
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Alternative Hypothesis"
 msgstr "Alternatif Hipotez"
@@ -1007,28 +1008,30 @@ msgstr "Alternatif Hipotez"
 msgctxt "SummaryStatsTestStatistics|"
 msgid ""
 "Choose the direction of the alternative hypothesis for directional tests"
-msgstr ""
+msgstr "Yönlü testler için alternatif hipotezin yönünü seçin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Two-sided"
-msgstr ""
+msgstr "İki-yönlü"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter differs from the null value in either direction"
 msgstr ""
+"Parametrenin sıfır hipotezi değerinden her iki yönde farklı olup olmadığını "
+"test edin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Greater"
-msgstr ""
+msgstr "Büyük"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter is greater than the null value"
-msgstr ""
+msgstr "Parametrenin sıfır hipotezi değerinden büyük olup olmadığını test edin"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Less"
-msgstr ""
+msgstr "Küçük"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter is less than the null value"
-msgstr ""
+msgstr "Parametrenin sıfır hipotezi değerinden küçük olup olmadığını test edin"
