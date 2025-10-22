@@ -3,17 +3,12 @@ import JASP.Module
 
 Description
 {
-	name			: "jaspSummaryStatistics"
 	title			: qsTr("Summary Statistics")
 	description		: qsTr("Apply common Bayesian tests from sufficient statistics")
 	icon			: "analysis-bayesian-ttest.svg"
 	requiresData	: false
-    version			: "0.18.0"
-	author			: "JASP Team"
-	maintainer		: "JASP Team <info@jasp-stats.org>"
-	website			: "jasp-stats.org"
-	license			: "GPL (>= 2)"
-
+	hasWrappers: 	  false
+	
 	GroupTitle
 	{
 		title:	qsTr("Classical")
