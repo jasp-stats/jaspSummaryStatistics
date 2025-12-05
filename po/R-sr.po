@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.19.2\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2025-12-02 01:00+0000\n"
+"PO-Revision-Date: 2025-12-05 23:00+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/sr/>\n"
@@ -66,7 +66,7 @@ msgid "max BF%s"
 msgstr "максимум BF%s"
 
 msgid "user prior"
-msgstr "претходни корисник"
+msgstr "prior предпоставка"
 
 msgid "wide prior"
 msgstr "широки претходни"
@@ -164,12 +164,15 @@ msgid "Prior mean"
 msgstr "Средња вредност претходног услова"
 
 msgid "Prior standard deviation"
-msgstr ""
+msgstr "Претпостављена стандардна девијација"
 
 msgid ""
 "The default Bayes factor is based on unit information prior corresponding to "
 "a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
 msgstr ""
+"Подразумевани Бејзов фактор заснован је на претпоставци о јединичној "
+"информацији која одговара величини ефекта %1$s , нормалној расподели са "
+"средњом вредношћу = 0 и стандардном девијацијом = %2$s."
 
 msgid "Bayesian Binomial Test"
 msgstr "Bayesian биномни тест"
@@ -190,27 +193,42 @@ msgid ""
 "mean is smaller than the test value\n"
 "  - **p**: p-value corresponding to t-statistic."
 msgstr ""
+"- *Бејзов фактор*: Ако је захтеван једностран тест:\n"
+"  - BF+0: Бејзов фактор који квантитује доказе за једнострану алтернативну "
+"хипотезу да је средња вредност популацијска већа од вредности теста\n"
+"  - BF-0: Бејзов фактор који квантитује доказе за једнострану алтернативну "
+"хипотезу да је средња вредност популацијска мања од вредности теста\n"
+"- BF0+: Бејзов фактор који квантитује доказе за нулту хипотезу у односу на "
+"једнострану алтернативну хипотезу да је средња вредност популацијска већа од "
+"вредности теста\n"
+"- BF0-: Бејзов фактор који квантитује доказе за нулту хипотезу у односу на "
+"једнострану алтернативну хипотезу да је средња вредност популацијска мања од "
+"вредности теста\n"
+"  - **p**: p-вредност која одговара t-статистици."
 
 msgid "Successes"
-msgstr ""
+msgstr "Успеси"
 
 msgid "Failures"
-msgstr ""
+msgstr "Неуспеси"
 
 msgid "Proportion"
 msgstr "Пропорција"
 
 msgid "Test value"
-msgstr ""
+msgstr "Вредност теста"
 
+#, fuzzy
 msgid "Plotting not possible: Posterior too peaked!"
-msgstr ""
+msgstr "Нису могући графикони: Постериорна расподела је превише концентрисана!"
 
 msgid "Population proportion"
 msgstr "Пропорција популације"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
+"Нису могући графикони: Немогућа процена претпостављене или постериорне "
+"густине!"
 
 msgid "Proportions tested against value: %s."
 msgstr "Пропорције тестиране у односу на вредност: %s."
@@ -237,13 +255,13 @@ msgid "Undefined hypothesis"
 msgstr "Недефинисане хипотезе"
 
 msgid "r"
-msgstr ""
+msgstr "r"
 
 msgid "tau"
-msgstr ""
+msgstr "Тау (τ)"
 
 msgid "rho"
-msgstr ""
+msgstr "Ро (ρ)"
 
 msgid "%s%% Credible interval"
 msgstr "%s%% веродостојан интервал"
@@ -252,32 +270,33 @@ msgid "Inferential Plots"
 msgstr "Инференцијални графикони"
 
 msgid "Normal(%1$s, %2$s)"
-msgstr ""
+msgstr "Нормална(%1$s, %2$s)"
 
 msgid "Student-t(%1$s, %2$s, %3$s)"
-msgstr ""
+msgstr "Студент-t(%1$s, %2$s, %3$s)"
 
 msgid "Cauchy(%1$s, %2$s)"
-msgstr ""
+msgstr "Коши/Cauchy(%1$s, %2$s)"
 
 msgid "Beta(%1$s, %2$s)"
-msgstr ""
+msgstr "Бета (β) (%1$s, %2$s)"
 
 msgid "Uniform(%1$s, %2$s)"
-msgstr ""
+msgstr "Униформна(%1$s, %2$s)"
 
+#, fuzzy
 msgid "Spike(%1$s)"
-msgstr ""
+msgstr "Spike(%1$s)"
 
 msgid "Prior"
 msgstr "Претходни"
 
 msgid "Compared to %1$s."
-msgstr ""
+msgstr "У поређењу са %1$s."
 
 msgid ""
 "The variance parameter of the normal distribution is assumed to be known."
-msgstr ""
+msgstr "Параметар варијансе нормалне расподеле се претпоставља као познат."
 
 msgid "Probability"
 msgstr "Вероватноћа"
@@ -289,25 +308,26 @@ msgid "Model Comparison"
 msgstr "Поређење модела"
 
 msgid "Number of covariates"
-msgstr ""
+msgstr "Број коваријанси"
 
 msgid "R%s"
 msgstr "R%s"
 
 msgid "Robustness Plot"
-msgstr ""
+msgstr "График робусности"
 
 msgid "r scale"
-msgstr ""
+msgstr "r скала"
 
 msgid "r scale used is: %s."
-msgstr ""
+msgstr "Користи се r скала: %s."
 
+#, fuzzy
 msgid "n = %i"
-msgstr ""
+msgstr "n = %i"
 
 msgid "Bayesian Linear Regression"
-msgstr ""
+msgstr "Бејзова линеарна регресија"
 
 msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
 msgstr ""
@@ -319,28 +339,29 @@ msgid ""
 msgstr ""
 
 msgid "Test Statistics"
-msgstr ""
+msgstr "Тест статистика"
 
 msgid "Test"
-msgstr ""
+msgstr "Тест"
 
 msgid "Statistic"
-msgstr ""
+msgstr "Статистика"
 
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "χ²"
-msgstr ""
+msgstr "χ²"
 
+#, fuzzy
 msgid "F"
-msgstr ""
+msgstr "F"
