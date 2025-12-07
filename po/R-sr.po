@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.19.2\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2025-12-05 23:00+0000\n"
+"PO-Revision-Date: 2025-12-08 20:00+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/sr/>\n"
@@ -24,7 +24,7 @@ msgid "t"
 msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Бајесов t-тест за независне узорке"
+msgstr "Бејзов t-тест за независне узорке"
 
 msgid "n%s"
 msgstr "n%s"
@@ -48,18 +48,18 @@ msgid "Plotting not possible: %s"
 msgstr "Цртање није могуће: %s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr "Провера робусности Бајесовог фактора"
+msgstr "Провера робусности Бејзовог фактора"
 
 msgid ""
 "Plotting not possible: Bayes factor robustness check plot currently not "
 "supported for informed prior."
 msgstr ""
-"Цртање није могуће: Графикон провере робусности Бајесовог фактора тренутно "
+"Цртање није могуће: Графикон провере робусности Бејзовог фактора тренутно "
 "није подржан за задати претходни услов."
 
 msgid "Bayes factors could not be computed for 100 values of the prior."
 msgstr ""
-"Бајесови фактори нису могли бити израчунати за 100 вредности претходног "
+"Бејзови фактори нису могли бити израчунати за 100 вредности претходног "
 "услова."
 
 msgid "max BF%s"
@@ -119,10 +119,10 @@ msgstr ""
 "За све тестове, алтернативна хипотеза одређује да је Мера 1 мања од Мере 2."
 
 msgid "Bayesian One Sample T-Test"
-msgstr "Бајесов t-тест за један узорак"
+msgstr "Бејзов t-тест за један узорак"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Бајесов T-тест за упарене узорке"
+msgstr "Бејзов T-тест за упарене узорке"
 
 msgid "Not enough observations."
 msgstr "Недовољно опажања."
@@ -146,16 +146,16 @@ msgid "exp(Effect size)"
 msgstr "exp(Величина ефекта)"
 
 msgid "Bayes Factor Robustness Plot"
-msgstr "Графикон робусности Бајесовог фактора"
+msgstr "Графикон робусности Бејзовог фактора"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
-msgstr "Контуре Бајесовог фактора нису могле бити рашчлањене у бројеве."
+msgstr "Контуре Бејзовог фактора нису могле бити рашчлањене у бројеве."
 
 msgid "Bayes factor contours breaks must be positive."
-msgstr "Контуре Бајесовог фактора морају бити позитивне."
+msgstr "Контуре Бејзовог фактора морају бити позитивне."
 
 msgid "Bayes factor contours breaks must be increasing."
-msgstr "Контуре Бајесовог фактора морају бити растуће."
+msgstr "Контуре Бејзовог фактора морају бити растуће."
 
 msgid "exp(Prior mean)"
 msgstr "exp(Средња вредност претходног услова)"
@@ -175,7 +175,7 @@ msgstr ""
 "средњом вредношћу = 0 и стандардном девијацијом = %2$s."
 
 msgid "Bayesian Binomial Test"
-msgstr "Bayesian биномни тест"
+msgstr "Бејзов биномни тест"
 
 msgid ""
 "- *Bayes factor*: If one-sided test is requested:\n"
@@ -362,6 +362,5 @@ msgstr "z"
 msgid "χ²"
 msgstr "χ²"
 
-#, fuzzy
 msgid "F"
 msgstr "F"
