@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-05 22:00+0000\n"
+"PO-Revision-Date: 2025-12-08 20:00+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/sr/>\n"
@@ -23,15 +23,15 @@ msgstr "T-тестови"
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Бајесов t-тест за независне узорке"
+msgstr "Бејзов t-тест за независне узорке"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
-msgstr "S.S. Бајесов t-тест за независне узорке"
+msgstr "S.S. Бејзов t-тест за независне узорке"
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Бајесов T-тест за упарене узорке"
+msgstr "Бејзов T-тест за упарене узорке"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
@@ -39,7 +39,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr "Бајесов t-тест за један узорак"
+msgstr "Бејзов t-тест за један узорак"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
@@ -71,7 +71,7 @@ msgstr "Фреквенције"
 
 msgctxt "Description|"
 msgid "Bayesian Binomial Test"
-msgstr "Bayesian биномни тест"
+msgstr "Бејзов биномни тест"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
@@ -79,7 +79,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
-msgstr ""
+msgstr "Бејзов A/Б тест"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian A/B Test"
@@ -135,7 +135,7 @@ msgstr "Претходно"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Bayes factor robustness check"
-msgstr "Провера робусности Бајесовог фактора"
+msgstr "Провера робусности Бејзовог фактора"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Order"
@@ -315,7 +315,7 @@ msgstr ""
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Bayes factor robustness check"
-msgstr "Провера робусности Бајесовог фактора"
+msgstr "Провера робусности Бејзовог фактора"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Additional info"
@@ -355,7 +355,7 @@ msgstr ""
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Bayes factor robustness check"
-msgstr "Провера робусности Бајесовог фактора"
+msgstr "Провера робусности Бејзовог фактора"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Additional info"
@@ -407,7 +407,7 @@ msgstr "Додатне информације"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Bayes factor robustness check"
-msgstr "Провера робусности Бајесовог фактора"
+msgstr "Провера робусности Бејзовог фактора"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t"
@@ -443,7 +443,7 @@ msgstr "Додатне информације"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Bayes factor robustness check"
-msgstr "Провера робусности Бајесовог фактора"
+msgstr "Провера робусности Бејзовог фактора"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
@@ -479,7 +479,7 @@ msgstr "Додатне информације"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
-msgstr "Провера робусности Бајесовог фактора"
+msgstr "Провера робусности Бејзовог фактора"
 
 msgctxt "Description|"
 msgid "Apply common Bayesian tests from sufficient statistics"
@@ -499,7 +499,7 @@ msgstr ""
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Likelihood"
-msgstr ""
+msgstr "Веродостојност"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal"
@@ -751,7 +751,7 @@ msgstr "Додатне информације"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Bayes factor robustness check"
-msgstr "Провера робусности Бајесовог фактора"
+msgstr "Провера робусности Бејзовог фактора"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior mean   min:"
