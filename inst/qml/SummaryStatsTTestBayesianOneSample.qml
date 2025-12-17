@@ -29,7 +29,7 @@ Form
 	Group
 	{
 		DoubleField  { name: "tStatistic";	label: qsTr("t"); 			negativeValues: true; visible: inputType.value === "tAndN"	}
-		DoubleField  { name: "cohensD";		label: qsTr("Cohen's d");;	negativeValues: true; visible: inputType.value === "cohensD"}
+		DoubleField  { name: "cohensD";		label: qsTr("Cohen's d");	negativeValues: true; visible: inputType.value === "cohensD"}
 		Group
 		{
 			columns: 2
