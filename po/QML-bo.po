@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-26 11:35+0000\n"
+"PO-Revision-Date: 2025-12-27 02:57+0000\n"
 "Last-Translator: Zev Oster <zevelijah@gmail.com>\n"
 "Language-Team: Tibetan <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/bo/>\n"
@@ -20,45 +20,37 @@ msgctxt "Description|"
 msgid "T-Tests"
 msgstr "ཊི་ཚོད་ལྟ།"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
 msgstr "བྷེ་ཡེ་སིའི་རང་དབང་ཅན་གྱི་མ་དཔེ་ཊི་ཚོད་ལྟ།"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
 msgstr "S.S. བྷེ་ཡེ་སིའི་རང་དབང་ཅན་གྱི་མ་དཔེ་ཊི་ཚོད་ལྟ།"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
 msgstr "བྷེ་ཡེ་སིའི་ཆ་སྒྲིག་མ་དཔེ་ཊི་ཚོད་ལྟ།"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
 msgstr "S.S. བྷེ་ཡེ་སིའི་ཆ་སྒྲིག་མ་དཔེ་ཊི་ཚོད་ལྟ།"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
 msgstr "བྷེ་ཡེ་སིའི་མ་དཔེ་གཅིག་གི་ཊི་ཚོད་ལྟ།"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
 msgstr "S.S. བྷེ་ཡེ་སིའི་མ་དཔེ་གཅིག་གི་ཊི་ཚོད་ལྟ།"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Regression"
-msgstr "ཕྱིར་འགྲོས།"
+msgstr "ཕྱིར་ལྡོག།"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian Correlation"
-msgstr "བྷེ་ཡེ་སིའི་འབྲེལ་བ།"
+msgstr "བྷེ་ཡེ་སིའི་ལྟོས་འབྲེལ།"
 
 #, fuzzy
 msgctxt "Description|"
@@ -79,17 +71,15 @@ msgctxt "Description|"
 msgid "Frequencies"
 msgstr "ཟློས་ཕྱོད།"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian Binomial Test"
-msgstr "བྷེ་ཡེ་སིའི་གཉིས་ཚན་ཚོད་ལྟ།"
+msgstr "བྷེ་ཡེ་སིའི་ཉིས་ཚན་ཚོད་ལྟ།"
 
 #, fuzzy
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
 msgstr "S.S. བྷེ་ཡེ་སིའི་གཉིས་ཚན་ཚོད་ལྟ།"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
 msgstr "བྷེ་ཡེ་སིའི་ A/B ཚོད་ལྟ།"
@@ -114,22 +104,19 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sample Size"
 msgstr "མ་དཔེའི་ཆེ་ཆུང་།"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 2"
-msgstr "ཚོགས་པ་ ༢"
+msgstr "ཚོགས་པ ༢"
 
 #, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Normal Prior on Log Odds Ratio"
 msgstr "ལོག་གྲངས་ཁྱད་བསྡུར་གྱི་རྒྱུན་ལྡན་སྔོན་ཚུད།"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "μ:"
 msgstr "μ:"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "σ:"
 msgstr "σ:"
@@ -149,12 +136,10 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior and posterior"
 msgstr "སྔོན་དང་རྗེས།"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sequential analysis"
 msgstr "རིམ་འགྲོས་དབྱེ་ཞིབ།"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior"
 msgstr "སྔོན་ཚུད།"
@@ -164,12 +149,10 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Bayes factor robustness check"
 msgstr "བྷེ་ཡེ་སི་མཐུན་སྡུར་བརྟན་པོའི་རང་བཞིན་ཞིབ་བཤེར།"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Order"
 msgstr "གོ་རིམ།"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Compare to best model"
 msgstr "དཔེ་དབྱིབས་ཡག་ཤོས་དང་བསྡུར་བ།"
@@ -187,7 +170,7 @@ msgstr "མཐོ་རིམ་འདེམས་ཀ།"
 #, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Prior Model Probability"
-msgstr "སྔོན་ཚུད་དཔེ་དབྱིབས་ཀྱི་སྲིད་ཕྱོད།"
+msgstr "སྔོན་ཚུད་དཔེའི་སྲིད་ཕྱོད།"
 
 #, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
@@ -222,9 +205,8 @@ msgstr "མ་དཔེའི་གྲངས།"
 #, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Robustness Plot"
-msgstr "བརྟན་པོའི་རང་བཞིན་གྱི་དཔེ་རིས།"
+msgstr "འགྱུར་བ་ལ་བརྟན་པོའི་དཔེ་རིས།"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "No. Steps"
 msgstr "གོམ་གྲངས།"
@@ -234,10 +216,9 @@ msgctxt "SummaryStatsABTestBayesian|"
 msgid "Step Range"
 msgstr "གོམ་པའི་ཁྱབ་རྒྱ།"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "lower:"
-msgstr "འོག་མ།"
+msgstr "འོག་མ:"
 
 #, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
