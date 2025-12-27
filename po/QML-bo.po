@@ -1,0 +1,1266 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-12-27 02:57+0000\n"
+"Last-Translator: Zev Oster <zevelijah@gmail.com>\n"
+"Language-Team: Tibetan <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/bo/>\n"
+"Language: bo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.15.1\n"
+"X-Qt-Contexts: true\n"
+
+msgctxt "Description|"
+msgid "Summary Statistics"
+msgstr "སྡོམ་རྩིས་སྙིང་བསྡུས།"
+
+msgctxt "Description|"
+msgid "T-Tests"
+msgstr "ཊི་ཚོད་ལྟ།"
+
+msgctxt "Description|"
+msgid "Bayesian Independent Samples T-Test"
+msgstr "བྷེ་ཡེ་སིའི་རང་དབང་ཅན་གྱི་མ་དཔེ་ཊི་ཚོད་ལྟ།"
+
+msgctxt "Description|"
+msgid "S.S. Bayesian Independent Samples T-Test"
+msgstr "S.S. བྷེ་ཡེ་སིའི་རང་དབང་ཅན་གྱི་མ་དཔེ་ཊི་ཚོད་ལྟ།"
+
+msgctxt "Description|"
+msgid "Bayesian Paired Samples T-Test"
+msgstr "བྷེ་ཡེ་སིའི་ཆ་སྒྲིག་མ་དཔེ་ཊི་ཚོད་ལྟ།"
+
+msgctxt "Description|"
+msgid "S.S. Bayesian Paired Samples T-Test"
+msgstr "S.S. བྷེ་ཡེ་སིའི་ཆ་སྒྲིག་མ་དཔེ་ཊི་ཚོད་ལྟ།"
+
+msgctxt "Description|"
+msgid "Bayesian One Sample T-Test"
+msgstr "བྷེ་ཡེ་སིའི་མ་དཔེ་གཅིག་གི་ཊི་ཚོད་ལྟ།"
+
+msgctxt "Description|"
+msgid "S.S. Bayesian One Sample T-Test"
+msgstr "S.S. བྷེ་ཡེ་སིའི་མ་དཔེ་གཅིག་གི་ཊི་ཚོད་ལྟ།"
+
+msgctxt "Description|"
+msgid "Regression"
+msgstr "ཕྱིར་ལྡོག།"
+
+msgctxt "Description|"
+msgid "Bayesian Correlation"
+msgstr "བྷེ་ཡེ་སིའི་ལྟོས་འབྲེལ།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "S.S. Bayesian Correlation"
+msgstr "S.S. བྷེ་ཡེ་སིའི་འབྲེལ་བ།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Bayesian Linear Regression"
+msgstr "བྷེ་ཡེ་སིའི་ཐིག་այինཕྱིར་འགྲོས།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "S.S. Bayesian Linear Regression"
+msgstr "S.S. བྷེ་ཡེ་སིའི་ཐིག་այինཕྱིར་འགྲོས།"
+
+msgctxt "Description|"
+msgid "Frequencies"
+msgstr "ཟློས་ཕྱོད།"
+
+msgctxt "Description|"
+msgid "Bayesian Binomial Test"
+msgstr "བྷེ་ཡེ་སིའི་ཉིས་ཚན་ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "S.S. Bayesian Binomial Test"
+msgstr "S.S. བྷེ་ཡེ་སིའི་གཉིས་ཚན་ཚོད་ལྟ།"
+
+msgctxt "Description|"
+msgid "Bayesian A/B Test"
+msgstr "བྷེ་ཡེ་སིའི་ A/B ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "S.S. Bayesian A/B Test"
+msgstr "S.S. བྷེ་ཡེ་སིའི་ A/B ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Group 1"
+msgstr "ཚོགས་པ་ ༡"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Successes"
+msgstr "ལེགས་འགྲུབ།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Sample Size"
+msgstr "མ་དཔེའི་ཆེ་ཆུང་།"
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Group 2"
+msgstr "ཚོགས་པ ༢"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Normal Prior on Log Odds Ratio"
+msgstr "ལོག་གྲངས་ཁྱད་བསྡུར་གྱི་རྒྱུན་ལྡན་སྔོན་ཚུད།"
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "μ:"
+msgstr "μ:"
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "σ:"
+msgstr "σ:"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Descriptives"
+msgstr "འགྲེལ་བརྗོད་རང་བཞིན།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Plots"
+msgstr "དཔེ་རིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Prior and posterior"
+msgstr "སྔོན་དང་རྗེས།"
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Sequential analysis"
+msgstr "རིམ་འགྲོས་དབྱེ་ཞིབ།"
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Prior"
+msgstr "སྔོན་ཚུད།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Bayes factor robustness check"
+msgstr "བྷེ་ཡེ་སི་མཐུན་སྡུར་བརྟན་པོའི་རང་བཞིན་ཞིབ་བཤེར།"
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Order"
+msgstr "གོ་རིམ།"
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Compare to best model"
+msgstr "དཔེ་དབྱིབས་ཡག་ཤོས་དང་བསྡུར་བ།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Compare to null model"
+msgstr "མེད་པའི་དཔེ་དབྱིབས་དང་བསྡུར་བ།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Advanced Options"
+msgstr "མཐོ་རིམ་འདེམས་ཀ།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Prior Model Probability"
+msgstr "སྔོན་ཚུད་དཔེའི་སྲིད་ཕྱོད།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Log odds ratio = 0"
+msgstr "ལོག་གྲངས་ཁྱད་བསྡུར་ = ༠"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Log odds ratio > 0"
+msgstr "ལོག་གྲངས་ཁྱད་བསྡུར་ > ༠"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Log odds ratio < 0"
+msgstr "ལོག་གྲངས་ཁྱད་བསྡུར་ < ༠"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Log odds ratio ≠ 0"
+msgstr "ལོག་གྲངས་ཁྱད་བསྡུར་ ≠ ༠"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Sampling"
+msgstr "མ་དཔེ་ལེན་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "No. samples"
+msgstr "མ་དཔེའི་གྲངས།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Robustness Plot"
+msgstr "འགྱུར་བ་ལ་བརྟན་པོའི་དཔེ་རིས།"
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "No. Steps"
+msgstr "གོམ་གྲངས།"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "Step Range"
+msgstr "གོམ་པའི་ཁྱབ་རྒྱ།"
+
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "lower:"
+msgstr "འོག་མ:"
+
+#, fuzzy
+msgctxt "SummaryStatsABTestBayesian|"
+msgid "upper:"
+msgstr "གོང་མ།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Successes"
+msgstr "ལེགས་འགྲུབ།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Failures"
+msgstr "ཕམ་ཉེས།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Test value"
+msgstr "ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Alt. Hypothesis"
+msgstr "གཞན་པའི་ཚོད་དཔག"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "≠ Test value"
+msgstr "≠ ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "> Test value"
+msgstr "> ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "< Test value"
+msgstr "< ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Plots"
+msgstr "དཔེ་རིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Prior and posterior"
+msgstr "སྔོན་དང་རྗེས།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Additional info"
+msgstr "གནས་ཚུལ་ཁ་སྣོན།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Prior"
+msgstr "སྔོན་ཚུད།"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Beta prior: parameter a"
+msgstr "བྷེ་ཊ་སྔོན་ཚུད། ཚད་གཞི་ a"
+
+#, fuzzy
+msgctxt "SummaryStatsBinomialTestBayesian|"
+msgid "Beta prior: parameter b"
+msgstr "བྷེ་ཊ་སྔོན་ཚུད། ཚད་གཞི་ b"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Sample size"
+msgstr "མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Sample Correlation Coefficient"
+msgstr "མ་དཔེའི་འབྲེལ་བའི་བཏགས་གྲངས།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Pearson's r"
+msgstr "པེར་སོན་གྱི་ r"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Kendall's tau-b"
+msgstr "ཀེན་ཌལ་གྱི་ tau-b"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Spearman's rho"
+msgstr "སི་པེར་མན་གྱི་ rho"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Alt. Hypothesis"
+msgstr "གཞན་པའི་ཚོད་དཔག"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Correlated"
+msgstr "འབྲེལ་བ་ཡོད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Correlated positively"
+msgstr "ཕོ་འབྲེལ་བ་ཡོད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Correlated negatively"
+msgstr "མོ་འབྲེལ་བ་ཡོད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Credible intervals"
+msgstr "དད་རུང་བར་མཚམས།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Interval"
+msgstr "བར་མཚམས།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Plots"
+msgstr "དཔེ་རིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Prior and posterior"
+msgstr "སྔོན་དང་རྗེས།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Estimation info"
+msgstr "ཚོད་དཔག་གནས་ཚུལ།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Testing info"
+msgstr "ཚོད་ལྟའི་གནས་ཚུལ།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Bayes factor robustness check"
+msgstr "བྷེ་ཡེ་སི་མཐུན་སྡུར་བརྟན་པོའི་རང་བཞིན་ཞིབ་བཤེར།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Additional info"
+msgstr "གནས་ཚུལ་ཁ་སྣོན།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Prior"
+msgstr "སྔོན་ཚུད།"
+
+#, fuzzy
+msgctxt "SummaryStatsCorrelationBayesianPairs|"
+msgid "Stretched beta prior width"
+msgstr "བརྐྱངས་པའི་བྷེ་ཊ་སྔོན་ཚུད་ཀྱི་ཞེང་ཚད།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Sample size"
+msgstr "མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Null Model"
+msgstr "མེད་པའི་དཔེ་དབྱིབས།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Number of covariates"
+msgstr "མཉམ་འགྱུར་གྲངས་ཀྱི་གྲངས།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "R-squared"
+msgstr "R-གྲུ་བཞི་མ།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Alternative Model"
+msgstr "གཞན་པའི་དཔེ་དབྱིབས།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Plots"
+msgstr "དཔེ་རིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Bayes factor robustness check"
+msgstr "བྷེ་ཡེ་སི་མཐུན་སྡུར་བརྟན་པོའི་རང་བཞིན་ཞིབ་བཤེར།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Additional info"
+msgstr "གནས་ཚུལ་ཁ་སྣོན།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Advanced Options"
+msgstr "མཐོ་རིམ་འདེམས་ཀ།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "Prior"
+msgstr "སྔོན་ཚུད།"
+
+#, fuzzy
+msgctxt "SummaryStatsRegressionLinearBayesian|"
+msgid "r scale covariates"
+msgstr "r ཆ་ཚད་ཀྱི་མཉམ་འགྱུར་གྲངས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "t"
+msgstr "t"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Alt. Hypothesis"
+msgstr "གཞན་པའི་ཚོད་དཔག"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Group 1 ≠ Group 2"
+msgstr "ཚོགས་པ་ ༡ ≠ ཚོགས་པ་ ༢"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Group 1 > Group 2"
+msgstr "ཚོགས་པ་ ༡ > ཚོགས་པ་ ༢"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Group 1 < Group 2"
+msgstr "ཚོགས་པ་ ༡ < ཚོགས་པ་ ༢"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Plots"
+msgstr "དཔེ་རིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Prior and posterior"
+msgstr "སྔོན་དང་རྗེས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Additional info"
+msgstr "གནས་ཚུལ་ཁ་སྣོན།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Bayes factor robustness check"
+msgstr "བྷེ་ཡེ་སི་མཐུན་སྡུར་བརྟན་པོའི་རང་བཞིན་ཞིབ་བཤེར།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "t"
+msgstr "t"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Alt. Hypothesis"
+msgstr "གཞན་པའི་ཚོད་དཔག"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "≠ Test value"
+msgstr "≠ ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "> Test value"
+msgstr "> ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "< Test value"
+msgstr "< ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Plots"
+msgstr "དཔེ་རིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Prior and posterior"
+msgstr "སྔོན་དང་རྗེས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Additional info"
+msgstr "གནས་ཚུལ་ཁ་སྣོན།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Bayes factor robustness check"
+msgstr "བྷེ་ཡེ་སི་མཐུན་སྡུར་བརྟན་པོའི་རང་བཞིན་ཞིབ་བཤེར།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "t"
+msgstr "t"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Alt. Hypothesis"
+msgstr "གཞན་པའི་ཚོད་དཔག"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Measure 1 ≠ Measure 2"
+msgstr "འཇལ་ཚད་ ༡ ≠ འཇལ་ཚད་ ༢"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Measure 1 > Measure 2"
+msgstr "འཇལ་ཚད་ ༡ > འཇལ་ཚད་ ༢"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Measure 1 < Measure 2"
+msgstr "འཇལ་ཚད་ ༡ < འཇལ་ཚད་ ༢"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Plots"
+msgstr "དཔེ་རིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Prior and posterior"
+msgstr "སྔོན་དང་རྗེས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Additional info"
+msgstr "གནས་ཚུལ་ཁ་སྣོན།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Bayes factor robustness check"
+msgstr "བྷེ་ཡེ་སི་མཐུན་སྡུར་བརྟན་པོའི་རང་བཞིན་ཞིབ་བཤེར།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Apply common Bayesian tests from sufficient statistics"
+msgstr "འདང་ངེས་སྡོམ་རྩིས་ནས་རྒྱུན་སྤྱོད་ཀྱི་བྷེ་ཡེ་སིའི་ཚོད་ལྟ་སྤྱོད་པ།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Miscellaneous"
+msgstr "སྣ་ཚོགས།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "General Bayesian Tests"
+msgstr "སྤྱིར་བཏང་བྷེ་ཡེ་སིའི་ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "S.S. General Bayesian Tests"
+msgstr "S.S. སྤྱིར་བཏང་བྷེ་ཡེ་སིའི་ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Likelihood"
+msgstr "སྲིད་ཕྱོད།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Normal"
+msgstr "རྒྱུན་ལྡན།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Student-t"
+msgstr "སློབ་མའི་ t"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Binomial"
+msgstr "གཉིས་ཚན།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Non-central t"
+msgstr "དབུས་མིན་ t"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Mean"
+msgstr "ཆ་སྙོམས།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "t-statistic"
+msgstr "t-སྡོམ་རྩིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "d"
+msgstr "d"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "SE"
+msgstr "SE"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Successes"
+msgstr "ལེགས་འགྲུབ།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Observations"
+msgstr "ལྟ་ཞིབ་གྲངས་གནས།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Null Hypothesis"
+msgstr "མེད་པའི་ཚོད་དཔག"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Distribution"
+msgstr "ཁྱབ་ཚུལ།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Parameters"
+msgstr "ཚད་གཞི།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Truncation"
+msgstr "གཅོད་འབྲེག"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Spike(x₀)"
+msgstr "Spike(x₀)"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Normal(μ,σ)"
+msgstr "Normal(μ,σ)"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Student-t(μ,σ,v)"
+msgstr "Student-t(μ,σ,v)"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Cauchy(x₀,θ)"
+msgstr "Cauchy(x₀,θ)"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Beta(α,β)"
+msgstr "Beta(α,β)"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Uniform(a,b)"
+msgstr "Uniform(a,b)"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "lower"
+msgstr "འོག་མ།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "upper"
+msgstr "གོང་མ།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Alternative Hypothesis"
+msgstr "གཞན་པའི་ཚོད་དཔག"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Plots"
+msgstr "དཔེ་རིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Priors"
+msgstr "སྔོན་ཚུད།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Prior predictions"
+msgstr "སྔོན་ཚུད་ཀྱི་སྔོན་དཔག"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Posteriors"
+msgstr "རྗེས་ཚུད།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "df"
+msgstr "df"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Bayesian Z-Test"
+msgstr "བྷེ་ཡེ་སིའི་ Z-ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "S.S. Bayesian Z-Test"
+msgstr "S.S. བྷེ་ཡེ་སིའི་ Z-ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Data"
+msgstr "གྲངས་གནས།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size & SE"
+msgstr "ནུས་པའི་ཆེ་ཆུང་། & SE"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size & CI"
+msgstr "ནུས་པའི་ཆེ་ཆུང་། & CI"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size & CI (log)"
+msgstr "ནུས་པའི་ཆེ་ཆུང་། & CI (log)"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size, SD & N"
+msgstr "ནུས་པའི་ཆེ་ཆུང་།, SD & N"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size log"
+msgstr "ནུས་པའི་ཆེ་ཆུང་། log"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Effect size"
+msgstr "ནུས་པའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "SE"
+msgstr "SE"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Sd"
+msgstr "Sd"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "N"
+msgstr "N"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Confidence interval log"
+msgstr "གདེང་ཚོད་ཀྱི་ཁྱབ་ཚད། log"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Confidence interval"
+msgstr "ཡིད་རྟོན་བར་མཚམས།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "lower"
+msgstr "འོག་མ།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "upper"
+msgstr "གོང་མ།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Alt. Hypothesis"
+msgstr "གཞན་པའི་ཚོད་དཔག"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "≠ Test value"
+msgstr "≠ ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "> Test value"
+msgstr "> ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "< Test value"
+msgstr "< ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior Distribution"
+msgstr "སྔོན་ཚུད་ཁྱབ་ཚུལ།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Normal   mean:"
+msgstr "རྒྱུན་ལྡན།   ཆ་སྙོམས།:"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "std"
+msgstr "std"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Default Bayes factor"
+msgstr "སོར་བཞག་བྷེ་ཡེ་སི་མཐུན་སྡུར།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Select effect size"
+msgstr "ནུས་པའི་ཆེ་ཆུང་འདེམས་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Cohen's d"
+msgstr "Cohen's d"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "log(OR)"
+msgstr "log(OR)"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "log(HR)"
+msgstr "log(HR)"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Custom"
+msgstr "རང་བཟོ།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Unit information SD"
+msgstr "གཅིག་འགྱུར་གནས་ཚུལ་ SD"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Plots"
+msgstr "དཔེ་རིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior and posterior"
+msgstr "སྔོན་དང་རྗེས།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Additional info"
+msgstr "གནས་ཚུལ་ཁ་སྣོན།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Bayes factor robustness check"
+msgstr "བྷེ་ཡེ་སི་མཐུན་སྡུར་བརྟན་པོའི་རང་བཞིན་ཞིབ་བཤེར།"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior mean   min:"
+msgstr "སྔོན་ཚུད་ཆ་སྙོམས།   min:"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "max:"
+msgstr "max:"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Prior std\tmin:"
+msgstr "སྔོན་ཚུད་ std\tmin:"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "max"
+msgstr "max"
+
+#, fuzzy
+msgctxt "SummaryStatsBayesianZTest|"
+msgid "Specify Bayes factor contours"
+msgstr "བྷེ་ཡེ་སི་མཐུན་སྡུར་གྱི་མཐའ་རིས་གསལ་བཀོད་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 1"
+msgstr "ཚོགས་པ་ ༡ གི་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Sample size"
+msgstr "མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Sample size"
+msgstr "མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 2"
+msgstr "ཚོགས་པ་ ༢ གི་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Non-central d (one-sample)"
+msgstr "དབུས་མིན་ d (མ་དཔེ་གཅིག་ཅན།)"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Non-central d (two-sample)"
+msgstr "དབུས་མིན་ d (མ་དཔེ་གཉིས་ཅན།)"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Observations (Group 1)"
+msgstr "ལྟ་ཞིབ་གྲངས་གནས། (ཚོགས་པ་ ༡)"
+
+#, fuzzy
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Observations (Group 2)"
+msgstr "ལྟ་ཞིབ་གྲངས་གནས། (ཚོགས་པ་ ༢)"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Cohen's d"
+msgstr "Cohen's d"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Mean 1"
+msgstr "ཆ་སྙོམས་ ༡"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "SD 1"
+msgstr "SD ༡"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Mean 2"
+msgstr "ཆ་སྙོམས་ ༢"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "SD 2"
+msgstr "SD ༢"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Input Type"
+msgstr "ནང་འཇུག་རིགས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "t and Sample Sizes"
+msgstr "t དང་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Cohen's d and Sample Sizes"
+msgstr "Cohen's d དང་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Means, SDs, and Sample Sizes"
+msgstr "ཆ་སྙོམས།, SDs, དང་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Cohen's d"
+msgstr "Cohen's d"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Mean"
+msgstr "ཆ་སྙོམས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "SD"
+msgstr "SD"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Test value"
+msgstr "ཚོད་ལྟའི་རིན་ཐང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Input Type"
+msgstr "ནང་འཇུག་རིགས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "t and Sample Size"
+msgstr "t དང་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Cohen's d and Sample Size"
+msgstr "Cohen's d དང་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Mean, SD, and Sample Size"
+msgstr "ཆ་སྙོམས།, SD, དང་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Cohen's d"
+msgstr "Cohen's d"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Mean difference"
+msgstr "ཆ་སྙོམས་ཁྱད་པར།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "SD"
+msgstr "SD"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Input Type"
+msgstr "ནང་འཇུག་རིགས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "t and Sample Size"
+msgstr "t དང་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Cohen's d and Sample Size"
+msgstr "Cohen's d དང་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Mean Diff., SD, and Sample Size"
+msgstr "ཆ་སྙོམས་ཁྱད་པར།, SD, དང་མ་དཔེའི་ཆེ་ཆུང་།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Classical"
+msgstr "སྲོལ་རྒྱུན།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "Test Statistics"
+msgstr "ཚོད་ལྟའི་སྡོམ་རྩིས།"
+
+#, fuzzy
+msgctxt "Description|"
+msgid "S.S. Test Statistics"
+msgstr "S.S. ཚོད་ལྟའི་སྡོམ་རྩིས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Test Type"
+msgstr "ཚོད་ལྟའི་རིགས།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Select the type of statistical test to analyze"
+msgstr "དབྱེ་ཞིབ་བྱ་རྒྱུའི་སྡོམ་རྩིས་ཚོད་ལྟའི་རིགས་འདེམས་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "z-test"
+msgstr "z་ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Use when population standard deviation is known"
+msgstr "མི་འབོར་ཚད་ལྡན་ཁྱད་འགྱུར་ཤེས་པའི་སྐབས་སུ་བེད་སྤྱོད་བྱེད།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Test statistic:"
+msgstr "ཚོད་ལྟའི་སྡོམ་རྩིས།:"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the calculated z-statistic value"
+msgstr "བརྩིས་པའི་ z-statistic རིན་ཐང་ནང་འཇུག་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "t-test"
+msgstr "ཊི་ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid ""
+"Use when sample standard deviation is used to estimate population standard "
+"deviation"
+msgstr ""
+"མ་དཔེའི་ཚད་ལྡན་ཁྱད་འགྱུར་བེད་སྤྱད་ནས་མི་འབོར་ཚད་ལྡན་ཁྱད་འགྱུར་ཚོད་དཔག་བྱེད་སྐབས་བེད་སྤྱོད་བྱེད།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the calculated t-statistic value"
+msgstr "བརྩིས་པའི་ t-statistic རིན་ཐང་ནང་འཇུག་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "df:"
+msgstr "df:"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the degrees of freedom for the t-test"
+msgstr "ཊི་ཚོད་ལྟ་གི་རང་དབང་ཚད་ནང་འཇུག་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "χ² test"
+msgstr "χ²་ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Use for goodness of fit or independence tests"
+msgstr "འཚམ་པའི་བཟང་ཚད་དང་རང་བཙན་ཚོད་ལྟར་བེད་སྤྱོད་བྱེད།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the calculated chi-squared statistic value"
+msgstr "བརྩིས་པའི་ chi-squared སྡོམ་རྩིས་རིན་ཐང་ནང་འཇུག་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the degrees of freedom for the chi-squared test"
+msgstr "chi-squared ཚོད་ལྟའི་རང་དབང་ཚད་ནང་འཇུག་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "F-test"
+msgstr "F་ཚོད་ལྟ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Use for comparing variances or in ANOVA"
+msgstr "ཁྱད་འགྱུར་བསྡུར་བའམ་ ANOVA ནང་བེད་སྤྱོད་བྱེད།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the calculated F-statistic value"
+msgstr "བརྩིས་པའི་ F-statistic རིན་ཐང་ནང་འཇུག་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Numerator df:"
+msgstr "གྲངས་ཆ་ df:"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the numerator degrees of freedom"
+msgstr "གྲངས་ཆའི་རང་དབང་ཚད་ནང་འཇུག་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Denominator df:"
+msgstr "གྲངས་བགོད་ df:"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the denominator degrees of freedom"
+msgstr "གྲངས་བགོད་ཀྱི་རང་དབང་ཚད་ནང་འཇུག་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Alternative Hypothesis"
+msgstr "གཞན་པའི་ཚོད་དཔག"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid ""
+"Choose the direction of the alternative hypothesis for directional tests"
+msgstr "ཁ་ཕྱོགས་ཅན་གྱི་ཚོད་ལྟའི་ཆེད་དུ་གཞན་པའི་ཚོད་དཔག་གི་ཁ་ཕྱོགས་འདེམས་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Two-sided"
+msgstr "ཕྱོགས་གཉིས་ཅན།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Test if the parameter differs from the null value in either direction"
+msgstr ""
+"ཚད་གཞི་དེ་མེད་པའི་རིན་ཐང་ལས་ཕྱོགས་གང་རུང་དུ་མི་འདྲ་བ་ཡོད་མེད་ཚོད་ལྟ་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Greater"
+msgstr "ཆེ་བ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Test if the parameter is greater than the null value"
+msgstr "ཚད་གཞི་དེ་མེད་པའི་རིན་ཐང་ལས་ཆེ་བ་ཡོད་མེད་ཚོད་ལྟ་བྱེད་པ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Less"
+msgstr "ཆུང་བ།"
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Test if the parameter is less than the null value"
+msgstr "ཚད་གཞི་དེ་མེད་པའི་རིན་ཐང་ལས་ཆུང་བ་ཡོད་མེད་ཚོད་ལྟ་བྱེད་པ།"
