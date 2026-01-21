@@ -8,6 +8,7 @@ Description
 	icon			: "analysis-bayesian-ttest.svg"
 	requiresData	: false
 	hasWrappers: 	  false
+	preloadData:		false
 	
 	GroupTitle
 	{
