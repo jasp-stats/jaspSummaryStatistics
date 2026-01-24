@@ -482,8 +482,7 @@ msgstr "பேயச் காரணி வலுவான சோதனை"
 
 msgctxt "Description|"
 msgid "Apply common Bayesian tests from sufficient statistics"
-msgstr ""
-"போதுமான புள்ளிவிவரங்களிலிருந்து பொதுவான பேய்சியன் சோதனைகளைப் பயன்படுத்துங்கள்"
+msgstr "போதுமான புள்ளிவிவரங்களிலிருந்து பொதுவான பேய்சியன் சோதனைகளைப் பயன்படுத்துங்கள்"
 
 msgctxt "Description|"
 msgid "Miscellaneous"
