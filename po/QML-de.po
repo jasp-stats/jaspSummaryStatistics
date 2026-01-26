@@ -789,7 +789,3 @@ msgstr "Max"
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
 msgstr "Bayesfaktor-Konturen angeben"
-
-msgctxt "SummaryStatsBayesianZTest|"
-msgid ""
-msgstr " "
