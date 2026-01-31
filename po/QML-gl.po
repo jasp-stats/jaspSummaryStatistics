@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-07-18 11:10+0000\n"
-"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
-"Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
-"jaspsummarystatistics-qml/gl/>\n"
-"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: gl_ES\n"
 "X-Source-Language: C\n"
 "X-Qt-Contexts: true\n"
@@ -45,18 +39,6 @@ msgstr "Intervalo"
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
 msgstr "t"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 2 size"
-msgstr "Tamaño do Grupo 2"
-
-msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
-msgid "Group 1 size"
-msgstr "Tamaño do Grupo 1"
-
-msgctxt "SummaryStatsTTestBayesianPairedSamples|"
-msgid "Group size"
-msgstr "Tamaño do grupo"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "R-squared"
@@ -436,10 +418,6 @@ msgid "t"
 msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
-msgid "Group size"
-msgstr "Tamaño do grupo"
-
-msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
 msgstr "Hipótese alternativa"
 
@@ -530,10 +508,6 @@ msgstr "T de Student"
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Binomial"
 msgstr "Binomial"
-
-msgctxt "SummaryStatsGeneralBayesianTests|"
-msgid "Non-central d"
-msgstr "D non-central"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central t"
@@ -790,3 +764,274 @@ msgstr "máx"
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
 msgstr "Especificar os contornos do Factor de Bayes"
+
+msgctxt "Description|"
+msgid "Classical"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Test Statistics"
+msgstr ""
+
+msgctxt "Description|"
+msgid "S.S. Test Statistics"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Non-central d (one-sample)"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Non-central d (two-sample)"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Observations (Group 1)"
+msgstr ""
+
+msgctxt "SummaryStatsGeneralBayesianTests|"
+msgid "Observations (Group 2)"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Test Type"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Select the type of statistical test to analyze"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "z-test"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Use when population standard deviation is known"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Test statistic:"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the calculated z-statistic value"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "t-test"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid ""
+"Use when sample standard deviation is used to estimate population standard "
+"deviation"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the calculated t-statistic value"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "df:"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the degrees of freedom for the t-test"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "χ² test"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Use for goodness of fit or independence tests"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the calculated chi-squared statistic value"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the degrees of freedom for the chi-squared test"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "F-test"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Use for comparing variances or in ANOVA"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the calculated F-statistic value"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Numerator df:"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the numerator degrees of freedom"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Denominator df:"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Enter the denominator degrees of freedom"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Alternative Hypothesis"
+msgstr "Hipótese alternativa"
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid ""
+"Choose the direction of the alternative hypothesis for directional tests"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Two-sided"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Test if the parameter differs from the null value in either direction"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Greater"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Test if the parameter is greater than the null value"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Less"
+msgstr ""
+
+msgctxt "SummaryStatsTestStatistics|"
+msgid "Test if the parameter is less than the null value"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Cohen's d"
+msgstr "D de Cohen"
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Mean 1"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "SD 1"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Mean 2"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "SD 2"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 1"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Sample size group 2"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Input Type"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "t and Sample Sizes"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Cohen's d and Sample Sizes"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
+msgid "Means, SDs, and Sample Sizes"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Cohen's d"
+msgstr "D de Cohen"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Mean"
+msgstr "Media"
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "SD"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Test value"
+msgstr "Probar valor"
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Sample size"
+msgstr "Tamaño da mostra"
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Input Type"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "t and Sample Size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Cohen's d and Sample Size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianOneSample|"
+msgid "Mean, SD, and Sample Size"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Cohen's d"
+msgstr "D de Cohen"
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Mean difference"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "SD"
+msgstr ""
+
+#, fuzzy
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Sample size"
+msgstr "Tamaño da mostra"
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Input Type"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "t and Sample Size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Cohen's d and Sample Size"
+msgstr ""
+
+msgctxt "SummaryStatsTTestBayesianPairedSamples|"
+msgid "Mean Diff., SD, and Sample Size"
+msgstr ""
