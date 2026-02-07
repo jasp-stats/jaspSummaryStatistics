@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2024-11-30 02:46+0000\n"
+"PO-Revision-Date: 2026-02-02 03:40+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/de/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==0 ? 0 : n==1 ? 0 : 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -344,31 +344,31 @@ msgstr ""
 "Nullhypothese sein"
 
 msgid "Test Statistics"
-msgstr ""
+msgstr "Test-Statistiken"
 
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 msgid "Statistic"
-msgstr ""
+msgstr "Statistik"
 
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "χ²"
-msgstr ""
+msgstr "χ²"
 
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #~ msgid "Plotting not possible: Bayes factor should be numeric!"
 #~ msgstr "Abbilden unmöglich: Bayesfaktor muss numerisch sein!"
