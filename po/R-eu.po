@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.95.0\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2025-10-01 11:02+0000\n"
+"PO-Revision-Date: 2026-02-12 11:09+0000\n"
 "Last-Translator: Jose Ramon Rueda <joseramon.rueda@ehu.eus>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/eu/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -199,11 +199,9 @@ msgstr "Populazio proportzioa"
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
 
-#, fuzzy
 msgid "Proportions tested against value: %s."
 msgstr "Balioaren arabera probatutako proportzioak: %a."
 
-#, fuzzy
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "greater than %s."
@@ -211,7 +209,6 @@ msgstr ""
 "Proba guztietarako, hipotesi alternatiboak zehazten du proportzioa %a baino "
 "handiagoa dela."
 
-#, fuzzy
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "less than %s."
@@ -220,13 +217,14 @@ msgstr ""
 "txikiagoa dela."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
-msgstr ""
+msgstr "Ezin da frogatu testaren balioa 1 baino handiagoa dela dioen hipotesia."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
 msgstr ""
+"Ezin da frogatu saiakuntzaren balioa 0 baino txikiagoa dela dioen hipotesia."
 
 msgid "Undefined hypothesis"
-msgstr ""
+msgstr "Hipotesi zehaztugabea"
 
 msgid "r"
 msgstr "r"
