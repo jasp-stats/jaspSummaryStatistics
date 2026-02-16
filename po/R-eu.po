@@ -200,20 +200,20 @@ msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
 
 msgid "Proportions tested against value: %s."
-msgstr "Balioaren arabera probatutako proportzioak: %a."
+msgstr "Balioaren arabera probatutako proportzioak: %s."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "greater than %s."
 msgstr ""
-"Proba guztietarako, hipotesi alternatiboak zehazten du proportzioa %a baino "
+"Proba guztietarako, hipotesi alternatiboak zehazten du proportzioa %s baino "
 "handiagoa dela."
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "less than %s."
 msgstr ""
-"Proba guztietarako, hipotesi alternatiboak zehazten du proportzioa %a baino "
+"Proba guztietarako, hipotesi alternatiboak zehazten du proportzioa %s baino "
 "txikiagoa dela."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
