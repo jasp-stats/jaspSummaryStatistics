@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-23 00:09+0000\n"
+"PO-Revision-Date: 2026-02-24 12:09+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/gl/>\n"
@@ -849,15 +849,15 @@ msgstr "Introducir os graos de liberdade para a proba T"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "χ² test"
-msgstr ""
+msgstr "Proba χ²"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use for goodness of fit or independence tests"
-msgstr ""
+msgstr "Usar para a bondade do axuste ou probas de independencia"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated chi-squared statistic value"
-msgstr ""
+msgstr "Introducir o valor calculado do estatístico Khi-cadrado"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the degrees of freedom for the chi-squared test"
