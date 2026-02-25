@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-24 12:09+0000\n"
+"PO-Revision-Date: 2026-02-25 13:09+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/es/>\n"
@@ -861,37 +861,36 @@ msgstr "Introducir el valor calculado del estadístico Chi-cuadrado"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the degrees of freedom for the chi-squared test"
-msgstr ""
+msgstr "Introducir los grados de libertad para el contraste Chi-cuadrado"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "F-test"
-msgstr ""
+msgstr "Contraste F"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use for comparing variances or in ANOVA"
-msgstr ""
+msgstr "Usar para comparar varianzas, o en ANOVA"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated F-statistic value"
-msgstr ""
+msgstr "Introducir el valor calculado del estadístico F"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Numerator df:"
-msgstr ""
+msgstr "GL del numerador:"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the numerator degrees of freedom"
-msgstr ""
+msgstr "Introducir los grados de libertad del numerador"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Denominator df:"
-msgstr ""
+msgstr "GL del denominador:"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the denominator degrees of freedom"
-msgstr ""
+msgstr "Introducir los grados de libertad del denominador"
 
-#, fuzzy
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Alternative Hypothesis"
 msgstr "Hipótesis alternativa"
@@ -900,18 +899,20 @@ msgctxt "SummaryStatsTestStatistics|"
 msgid ""
 "Choose the direction of the alternative hypothesis for directional tests"
 msgstr ""
+"Escoger la dirección de la hipótesis alternativa para contrastes "
+"direccionales"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Two-sided"
-msgstr ""
+msgstr "Bilateral"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter differs from the null value in either direction"
-msgstr ""
+msgstr "Comprobar si el parámetro difiere del valor nulo en alguna dirección"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Greater"
-msgstr ""
+msgstr "Mayor"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter is greater than the null value"
