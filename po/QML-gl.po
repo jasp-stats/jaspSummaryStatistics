@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-25 13:09+0000\n"
+"PO-Revision-Date: 2026-02-27 19:25+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/gl/>\n"
@@ -914,131 +914,124 @@ msgstr "Maior"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter is greater than the null value"
-msgstr ""
+msgstr "Probar se o parámetro é maior que o valor cero"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Less"
-msgstr ""
+msgstr "Menor"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter is less than the null value"
-msgstr ""
+msgstr "Probar se o parámetro é menor que o valor cero"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Cohen's d"
 msgstr "D de Cohen"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Mean 1"
-msgstr ""
+msgstr "Media 1"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "SD 1"
-msgstr ""
+msgstr "DP 1"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Mean 2"
-msgstr ""
+msgstr "Media 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "SD 2"
-msgstr ""
+msgstr "DP 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 1"
-msgstr ""
+msgstr "Tamaño mostral do Grupo 1"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 2"
-msgstr ""
+msgstr "Tamaño mostral do Grupo 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Input Type"
-msgstr ""
+msgstr "Tipo de entrada"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t and Sample Sizes"
-msgstr ""
+msgstr "T e Tamaños mostrais"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Cohen's d and Sample Sizes"
-msgstr ""
+msgstr "D de Cohen e Tamaños mostrais"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Means, SDs, and Sample Sizes"
-msgstr ""
+msgstr "Medias, DPs e Tamaños mostrais"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Cohen's d"
 msgstr "D de Cohen"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Mean"
 msgstr "Media"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "SD"
-msgstr ""
+msgstr "DP"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Test value"
 msgstr "Probar valor"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Sample size"
 msgstr "Tamaño da mostra"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Input Type"
-msgstr ""
+msgstr "Tipo de entrada"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t and Sample Size"
-msgstr ""
+msgstr "T e Tamaño mostral"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Cohen's d and Sample Size"
-msgstr ""
+msgstr "D de Cohen e Tamaño mostral"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Mean, SD, and Sample Size"
-msgstr ""
+msgstr "Media, DP e Tamaño mostral"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Cohen's d"
 msgstr "D de Cohen"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Mean difference"
-msgstr ""
+msgstr "Diferenza de Medias"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "SD"
-msgstr ""
+msgstr "DP"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Sample size"
 msgstr "Tamaño da mostra"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Input Type"
-msgstr ""
+msgstr "Tipo de entrada"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t and Sample Size"
-msgstr ""
+msgstr "T e Tamaño mostral"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Cohen's d and Sample Size"
-msgstr ""
+msgstr "D de Cohen e Tamaño mostral"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Mean Diff., SD, and Sample Size"
-msgstr ""
+msgstr "Dif. medias, DP e Tamaño mostral"
