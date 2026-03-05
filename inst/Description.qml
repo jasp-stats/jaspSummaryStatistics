@@ -48,6 +48,30 @@ Description
 
 	GroupTitle
 	{
+		title:	qsTr("Equivalence T-Tests")
+		icon:	"analysis-bayesian-ttest.svg"
+	}
+	Analysis
+	{
+		menu:	qsTr("Bayesian Equivalence Independent Samples T-Test")
+		title:	qsTr("S.S. Bayesian Equivalence Independent Samples T-Test")
+		func:	"SummaryStatsTTestEquivalenceBayesianIndependentSamples"
+	}
+	Analysis
+	{
+		menu:	qsTr("Bayesian Equivalence Paired Samples T-Test")
+		title:	qsTr("S.S. Bayesian Equivalence Paired Samples T-Test")
+		func:	"SummaryStatsTTestEquivalenceBayesianPairedSamples"
+	}
+	Analysis
+	{
+		menu:	qsTr("Bayesian Equivalence One Sample T-Test")
+		title:	qsTr("S.S. Bayesian Equivalence One Sample T-Test")
+		func:	"SummaryStatsTTestEquivalenceBayesianOneSample"
+	}
+
+	GroupTitle
+	{
 		title:	qsTr("Regression")
 		icon:	"analysis-bayesian-regression.svg"
 	}
