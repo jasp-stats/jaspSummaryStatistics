@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-03-06 11:56+0000\n"
+"PO-Revision-Date: 2026-03-07 03:08+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jasp/jaspsummarystatistics-qml/zh_Hant/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "T-Tests"
-msgstr "T-檢定"
+msgstr "T 檢定"
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
