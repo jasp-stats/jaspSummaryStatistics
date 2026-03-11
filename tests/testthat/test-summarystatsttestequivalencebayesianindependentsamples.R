@@ -14,11 +14,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianIndepende
 test_that("Bayesian Equivalence Independent Samples T-Test table results match", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(2.3, 20, 20, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           2.3, 20, 20, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           2.3, 20, 20, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Main equivalence table")
 })
@@ -53,11 +53,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianIndepende
 test_that("Bayesian Equivalence Independent Samples T-Test with informative Cauchy prior", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(1.5, 30, 30, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           1.5, 30, 30, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           1.5, 30, 30, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Informative Cauchy prior table")
 })
@@ -74,11 +74,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianIndepende
 test_that("Bayesian Equivalence Independent Samples T-Test with Cohen's d input", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(".", 25, 25, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           ".", 25, 25, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           ".", 25, 25, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Cohen's d input table")
 })
@@ -98,11 +98,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianIndepende
 test_that("Bayesian Equivalence Independent Samples T-Test with means and SDs input", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(".", 20, 20, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           ".", 20, 20, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           ".", 20, 20, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Means and SDs input table")
 })
@@ -119,11 +119,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianIndepende
 test_that("Bayesian Equivalence Independent Samples T-Test with BF01", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(2.3, 20, 20, "Overlapping (all vs. inside)",
+                      list("Overlapping (all vs. inside)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           2.3, 20, 20, "Overlapping (all vs. outside)",
+                           "Overlapping (all vs. outside)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           2.3, 20, 20, "Non-overlapping (outside vs. inside)",
+                           "Non-overlapping (outside vs. inside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "BF01 table")
 })
@@ -141,11 +141,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianIndepende
 test_that("Bayesian Equivalence Independent Samples T-Test with informative normal prior", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(2, 20, 20, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           2, 20, 20, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           2, 20, 20, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Informative normal prior table")
 })
@@ -162,11 +162,11 @@ test_that("Bayesian Equivalence Independent Samples T-Test with informative t pr
   results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianIndependentSamples", "debug.csv", options)
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(2, 20, 20, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           2, 20, 20, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           2, 20, 20, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Informative t prior table")
 })

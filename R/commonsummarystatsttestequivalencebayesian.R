@@ -246,15 +246,6 @@
   )
 
   # Columns
-  table$addColumnInfo(name = "t",     title = gettext("t"),     type = "number")
-
-  if (analysis == "independentSamples") {
-    table$addColumnInfo(name = "n1", title = gettextf("n%s", "\u2081"), type = "integer")
-    table$addColumnInfo(name = "n2", title = gettextf("n%s", "\u2082"), type = "integer")
-  } else {
-    table$addColumnInfo(name = "n1", title = gettext("n"), type = "integer")
-  }
-
   table$addColumnInfo(name = "type",      title = gettext("Type"),              type = "string")
   table$addColumnInfo(name = "statistic", title = gettext("Model Comparison"),  type = "string")
   table$addColumnInfo(name = "bf",        title = bfTitle,                      type = "number")
@@ -338,8 +329,6 @@
   )
 
   row1 <- list(
-    t         = results$t,
-    n1        = results$n1,
     type      = gettextf("Overlapping (%1$s vs. %2$s)",
                   if (bfType %in% c("BF10", "LogBF10")) gettext("inside") else gettext("all"),
                   if (bfType %in% c("BF10", "LogBF10")) gettext("all")    else gettext("inside")),
@@ -347,8 +336,6 @@
     bf        = bfEquivalence,
     error     = ifelse(error_in_alt == Inf, "NA", error_in_alt)
   )
-  if (!is.null(results$n2) && results$n2 > 0)
-    row1$n2 <- results$n2
 
   table$addRows(row1)
 
@@ -361,8 +348,6 @@
   )
 
   row2 <- list(
-    t         = results$t,
-    n1        = results$n1,
     type      = gettextf("Overlapping (%1$s vs. %2$s)",
                   if (bfType %in% c("BF10", "LogBF10")) gettext("outside") else gettext("all"),
                   if (bfType %in% c("BF10", "LogBF10")) gettext("all")     else gettext("outside")),
@@ -370,8 +355,6 @@
     bf        = bfNonequivalence,
     error     = ifelse(error_notin_alt == Inf, "NA", error_notin_alt)
   )
-  if (!is.null(results$n2) && results$n2 > 0)
-    row2$n2 <- results$n2
 
   table$addRows(row2)
 
@@ -384,8 +367,6 @@
   )
 
   row3 <- list(
-    t         = results$t,
-    n1        = results$n1,
     type      = gettextf("Non-overlapping (%1$s vs. %2$s)",
                   if (bfType %in% c("BF10", "LogBF10")) gettext("inside")  else gettext("outside"),
                   if (bfType %in% c("BF10", "LogBF10")) gettext("outside") else gettext("inside")),
@@ -393,10 +374,13 @@
     bf        = bfNonoverlapping,
     error     = ifelse(error_in_notin == Inf, "NA", error_in_notin)
   )
-  if (!is.null(results$n2) && results$n2 > 0)
-    row3$n2 <- results$n2
 
   table$addRows(row3)
+
+  # Add footnote with computed t statistic when input is not directly t
+  if (options[["inputType"]] != "tAndN") {
+    table$addFootnote(gettextf("The input corresponds to a t-statistic = %s.", format(results$t, digits = 3)))
+  }
 
   return()
 }

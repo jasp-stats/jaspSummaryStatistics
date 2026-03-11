@@ -13,11 +13,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianPairedSam
 test_that("Bayesian Equivalence Paired Samples T-Test table results match", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(1.5, 25, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           1.5, 25, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           1.5, 25, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Main equivalence table")
 })
@@ -51,11 +51,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianPairedSam
 test_that("Bayesian Equivalence Paired Samples T-Test with informative Cauchy prior", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(2.0, 30, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           2.0, 30, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           2.0, 30, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Informative Cauchy prior table")
 })
@@ -71,11 +71,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianPairedSam
 test_that("Bayesian Equivalence Paired Samples T-Test with Cohen's d input", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(".", 20, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           ".", 20, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           ".", 20, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Cohen's d input table")
 })
@@ -92,11 +92,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianPairedSam
 test_that("Bayesian Equivalence Paired Samples T-Test with mean diff and SD input", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(".", 25, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           ".", 25, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           ".", 25, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Mean diff and SD input table")
 })
@@ -112,11 +112,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianPairedSam
 test_that("Bayesian Equivalence Paired Samples T-Test with BF01", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(1.5, 25, "Overlapping (all vs. inside)",
+                      list("Overlapping (all vs. inside)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           1.5, 25, "Overlapping (all vs. outside)",
+                           "Overlapping (all vs. outside)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           1.5, 25, "Non-overlapping (outside vs. inside)",
+                           "Non-overlapping (outside vs. inside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "BF01 table")
 })
@@ -132,11 +132,11 @@ results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianPairedSam
 test_that("Bayesian Equivalence Paired Samples T-Test one-sided less", {
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(-1.2, 20, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           -1.2, 20, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           -1.2, 20, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "One-sided less table")
 })
@@ -152,11 +152,11 @@ test_that("Bayesian Equivalence Paired Samples T-Test with informative t prior",
   results <- jaspTools::runAnalysis("SummaryStatsTTestEquivalenceBayesianPairedSamples", "debug.csv", options)
   table <- results[["results"]][["equivalenceContainer"]][["collection"]][["equivalenceContainer_equivalenceTable"]][["data"]]
   jaspTools::expect_equal_tables(table,
-                      list(2, 30, "Overlapping (inside vs. all)",
+                      list("Overlapping (inside vs. all)",
                            "\U003B4 \U02208 I vs. H\u2081", ".", ".",
-                           2, 30, "Overlapping (outside vs. all)",
+                           "Overlapping (outside vs. all)",
                            "\U003B4 \U02209 I vs. H\u2081", ".", ".",
-                           2, 30, "Non-overlapping (inside vs. outside)",
+                           "Non-overlapping (inside vs. outside)",
                            "\U003B4 \U02208 I vs. \U003B4 \U02209 I", ".", "."),
                       label = "Informative t prior table")
 })
