@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-03-16 21:51+0000\n"
+"PO-Revision-Date: 2026-03-18 07:09+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-qml/id/>\n"
@@ -27,7 +27,7 @@ msgstr "Uji-T"
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr "Uji-T Sampel Independen Bayesian"
+msgstr "Uji-T Sampel Independen Bayes"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
@@ -35,7 +35,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr "Uji-T Sampel Berpasangan Bayesian"
+msgstr "Uji-T Sampel Berpasangan Bayes"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
@@ -43,7 +43,7 @@ msgstr ""
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr "Uji-T Satu Sampel Bayesian"
+msgstr "Uji-T Satu Sampel Bayes"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
