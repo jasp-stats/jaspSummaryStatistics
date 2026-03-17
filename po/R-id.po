@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.95.5\n"
 "POT-Creation-Date: 2025-11-15 02:52\n"
-"PO-Revision-Date: 2026-03-16 21:50+0000\n"
+"PO-Revision-Date: 2026-03-18 03:09+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/id/>\n"
@@ -23,7 +23,7 @@ msgid "t"
 msgstr ""
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "Uji-T Sampel Independen Bayes"
 
 msgid "n%s"
 msgstr ""
@@ -41,13 +41,13 @@ msgid "Proportional error estimate could not be computed."
 msgstr ""
 
 msgid "Prior and Posterior"
-msgstr ""
+msgstr "Priori dan Posterior"
 
 msgid "Plotting not possible: %s"
 msgstr ""
 
 msgid "Bayes Factor Robustness Check"
-msgstr ""
+msgstr "Faktor Bayes dan Pemeriksaan Kekuatan"
 
 msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
 msgstr ""
@@ -56,22 +56,22 @@ msgid "Bayes factors could not be computed for 100 values of the prior."
 msgstr ""
 
 msgid "max BF%s"
-msgstr ""
+msgstr "BF%s maks"
 
 msgid "user prior"
 msgstr "priori pengguna"
 
 msgid "wide prior"
-msgstr ""
+msgstr "priori lebar"
 
 msgid "ultrawide prior"
-msgstr ""
+msgstr "priori ultralebar"
 
 msgid "%1$s at r==%2$s"
-msgstr ""
+msgstr "%1$s di r==%2$s"
 
 msgid "Cauchy prior width"
-msgstr ""
+msgstr "Lebar priori Cauchy"
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
 msgstr ""
@@ -92,10 +92,10 @@ msgid "For all tests, the alternative hypothesis specifies that measure 1 is les
 msgstr ""
 
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "Uji-T Satu Sampel Bayes"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "Uji-T Sampel Terpasang Bayes"
 
 msgid "Not enough observations."
 msgstr ""
@@ -104,7 +104,7 @@ msgid "Model Summary"
 msgstr ""
 
 msgid "Effect size"
-msgstr ""
+msgstr "Ukuran efek"
 
 msgid "Standard error"
 msgstr ""
@@ -200,7 +200,7 @@ msgid "%s%% Credible interval"
 msgstr ""
 
 msgid "Inferential Plots"
-msgstr ""
+msgstr "Diagram Inferensial"
 
 msgid "Normal(%1$s, %2$s)"
 msgstr ""
@@ -221,7 +221,7 @@ msgid "Spike(%1$s)"
 msgstr ""
 
 msgid "Prior"
-msgstr ""
+msgstr "Priori"
 
 msgid "Compared to %1$s."
 msgstr ""
@@ -269,7 +269,7 @@ msgid "Test Statistics"
 msgstr ""
 
 msgid "Test"
-msgstr ""
+msgstr "Uji"
 
 msgid "Statistic"
 msgstr ""
@@ -284,10 +284,10 @@ msgid "df2"
 msgstr ""
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "χ²"
 msgstr ""
 
 msgid "F"
-msgstr ""
+msgstr "F"
