@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.95.5\n"
 "POT-Creation-Date: 2025-11-15 02:52\n"
-"PO-Revision-Date: 2026-03-21 03:10+0000\n"
+"PO-Revision-Date: 2026-03-22 14:09+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/id/>\n"
@@ -230,7 +230,7 @@ msgid "The variance parameter of the normal distribution is assumed to be known.
 msgstr ""
 
 msgid "Probability"
-msgstr ""
+msgstr "Probabilitas"
 
 msgid "Density"
 msgstr ""
