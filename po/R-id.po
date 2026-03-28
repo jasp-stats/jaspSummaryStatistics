@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.95.5\n"
 "POT-Creation-Date: 2025-11-15 02:52\n"
-"PO-Revision-Date: 2026-03-21 03:10+0000\n"
+"PO-Revision-Date: 2026-03-28 02:09+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/id/>\n"
@@ -32,7 +32,7 @@ msgid "n"
 msgstr ""
 
 msgid "error %%"
-msgstr ""
+msgstr "galat %%"
 
 msgid "p"
 msgstr "p"
@@ -230,13 +230,13 @@ msgid "The variance parameter of the normal distribution is assumed to be known.
 msgstr ""
 
 msgid "Probability"
-msgstr ""
+msgstr "Probabilitas"
 
 msgid "Density"
-msgstr ""
+msgstr "Kepadatan"
 
 msgid "Model Comparison"
-msgstr ""
+msgstr "Perbandingan Model"
 
 msgid "Number of covariates"
 msgstr ""
@@ -275,13 +275,13 @@ msgid "Statistic"
 msgstr "Statistik"
 
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 msgid "z"
 msgstr "z"
