@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.18.2\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2026-03-28 02:09+0000\n"
+"PO-Revision-Date: 2026-03-31 16:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jasp/jaspsummarystatistics-r/zh_Hant/>\n"
@@ -23,7 +23,7 @@ msgid "t"
 msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr "貝氏獨立樣本T檢定"
+msgstr "貝氏獨立樣本 T 檢定"
 
 msgid "n%s"
 msgstr ""
@@ -64,16 +64,16 @@ msgid "user prior"
 msgstr ""
 
 msgid "wide prior"
-msgstr ""
+msgstr "寬先驗"
 
 msgid "ultrawide prior"
-msgstr ""
+msgstr "超寬先驗"
 
 msgid "%1$s at r==%2$s"
-msgstr ""
+msgstr "%1$s 在 r==%2$s"
 
 msgid "Cauchy prior width"
-msgstr ""
+msgstr "Cauchy 先驗寬度"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is greater "
@@ -106,10 +106,10 @@ msgid ""
 msgstr ""
 
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "貝氏單一樣本 T 檢定"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "貝氏成對樣本 T 檢定"
 
 msgid "Not enough observations."
 msgstr ""
