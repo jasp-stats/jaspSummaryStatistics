@@ -13,6 +13,7 @@ Imports:
   BayesFactor,
   bstats,
   jaspBase,
+  jaspEquivalenceTTests,
   jaspFrequencies,
   jaspGraphs,
   jaspRegression,
@@ -24,6 +25,7 @@ Imports:
 Remotes:
   AlexanderLyNL/bstats,
   jasp-stats/jaspBase,
+  jasp-stats/jaspEquivalenceTTests,
   jasp-stats/jaspFrequencies,
   jasp-stats/jaspGraphs,
   jasp-stats/jaspRegression,
