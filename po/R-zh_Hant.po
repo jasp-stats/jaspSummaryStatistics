@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.18.2\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2026-03-31 16:09+0000\n"
+"PO-Revision-Date: 2026-04-02 10:09+0000\n"
 "Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/jasp/jaspsummarystatistics-r/zh_Hant/>\n"
@@ -38,7 +38,7 @@ msgid "p"
 msgstr "p"
 
 msgid "Proportional error estimate could not be computed."
-msgstr ""
+msgstr "比例誤差估計值無法計算。"
 
 msgid "Prior and Posterior"
 msgstr "先驗分布與後驗分布"
@@ -47,21 +47,21 @@ msgid "Plotting not possible: %s"
 msgstr "無法繪圖：%s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr ""
+msgstr "貝氏因子穩健性檢核"
 
 msgid ""
 "Plotting not possible: Bayes factor robustness check plot currently not "
 "supported for informed prior."
-msgstr ""
+msgstr "無法繪圖：目前不支援資訊先驗之貝氏因子穩健性檢核圖。"
 
 msgid "Bayes factors could not be computed for 100 values of the prior."
-msgstr ""
+msgstr "無法針對 100 個先驗值計算貝氏因子。"
 
 msgid "max BF%s"
-msgstr ""
+msgstr "最大 BF%s"
 
 msgid "user prior"
-msgstr ""
+msgstr "使用者先驗"
 
 msgid "wide prior"
 msgstr "寬先驗"
@@ -78,32 +78,32 @@ msgstr "Cauchy 先驗寬度"
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is greater "
 "than group 2."
-msgstr ""
+msgstr "對於所有檢定，對立假設指定第 1 組大於第 2 組。"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the mean is greater "
 "than 0."
-msgstr ""
+msgstr "對於所有檢定，對立假設指定平均數大於 0。"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that measure 1 is "
 "greater than measure 2."
-msgstr ""
+msgstr "對於所有檢定，對立假設指定測量 1 大於測量 2。"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that group 1 is less "
 "than group 2."
-msgstr ""
+msgstr "對於所有檢定，對立假設指定第 1 組小於第 2 組。"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the mean is less "
 "than 0."
-msgstr ""
+msgstr "對於所有檢定，對立假設指定平均數小於 0。"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that measure 1 is less "
 "than measure 2."
-msgstr ""
+msgstr "對於所有檢定，對立假設指定測量 1 小於測量 2。"
 
 msgid "Bayesian One Sample T-Test"
 msgstr "貝氏單一樣本 T 檢定"
@@ -112,7 +112,7 @@ msgid "Bayesian Paired Samples T-Test"
 msgstr "貝氏成對樣本 T 檢定"
 
 msgid "Not enough observations."
-msgstr ""
+msgstr "觀測數不足。"
 
 msgid "Model Summary"
 msgstr "模型摘要"
@@ -124,39 +124,41 @@ msgid "Standard error"
 msgstr "標準誤"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "最大 %1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "預設 %1$s"
 
 msgid "exp(Effect size)"
 msgstr "exp（效果量）"
 
 msgid "Bayes Factor Robustness Plot"
-msgstr ""
+msgstr "貝氏因子穩健性圖"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
-msgstr ""
+msgstr "貝氏因子等高線中斷值無法解析為數字。"
 
 msgid "Bayes factor contours breaks must be positive."
-msgstr ""
+msgstr "貝氏因子等高線中斷值必須為正數。"
 
 msgid "Bayes factor contours breaks must be increasing."
-msgstr ""
+msgstr "貝氏因子等高線中斷值必須遞增。"
 
 msgid "exp(Prior mean)"
-msgstr ""
+msgstr "exp(先驗平均數)"
 
 msgid "Prior mean"
-msgstr ""
+msgstr "先驗平均數"
 
 msgid "Prior standard deviation"
-msgstr ""
+msgstr "先驗標準差"
 
 msgid ""
 "The default Bayes factor is based on unit information prior corresponding to "
 "a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
 msgstr ""
+"預設貝氏因子係基於單位資訊先驗，對應於 %1$s 效果量，即平均數 = 0、標準差 = "
+"%2$s 之常態分配。"
 
 msgid "Bayesian Binomial Test"
 msgstr "貝氏二項式檢定"
@@ -179,10 +181,10 @@ msgid ""
 msgstr ""
 
 msgid "Successes"
-msgstr ""
+msgstr "成功次數"
 
 msgid "Failures"
-msgstr ""
+msgstr "失敗次數"
 
 msgid "Proportion"
 msgstr "比例"
@@ -191,13 +193,13 @@ msgid "Test value"
 msgstr "檢定值"
 
 msgid "Plotting not possible: Posterior too peaked!"
-msgstr ""
+msgstr "無法繪圖：後驗過於尖峰！"
 
 msgid "Population proportion"
 msgstr "母體比例"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
-msgstr ""
+msgstr "無法繪圖：無法評估先驗或後驗密度！"
 
 msgid "Proportions tested against value: %s."
 msgstr "比例檢定之檢定值設定為： %s。"
@@ -205,21 +207,21 @@ msgstr "比例檢定之檢定值設定為： %s。"
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "greater than %s."
-msgstr ""
+msgstr "對於所有檢定，對立假設指定比例大於 %s。"
 
 msgid ""
 "For all tests, the alternative hypothesis specifies that the proportion is "
 "less than %s."
-msgstr ""
+msgstr "對於所有檢定，對立假設指定比例小於 %s。"
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
-msgstr ""
+msgstr "無法檢定檢定值大於 1 之假設。"
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
-msgstr ""
+msgstr "無法檢定檢定值小於 0 之假設。"
 
 msgid "Undefined hypothesis"
-msgstr ""
+msgstr "未定義之假設"
 
 msgid "r"
 msgstr ""
@@ -231,13 +233,13 @@ msgid "rho"
 msgstr "rho"
 
 msgid "%s%% Credible interval"
-msgstr ""
+msgstr "%s%% 可信區間"
 
 msgid "Inferential Plots"
-msgstr ""
+msgstr "推論圖"
 
 msgid "Normal(%1$s, %2$s)"
-msgstr ""
+msgstr "常態分配(%1$s, %2$s)"
 
 msgid "Student-t(%1$s, %2$s, %3$s)"
 msgstr ""
@@ -249,20 +251,20 @@ msgid "Beta(%1$s, %2$s)"
 msgstr ""
 
 msgid "Uniform(%1$s, %2$s)"
-msgstr ""
+msgstr "均勻分配(%1$s, %2$s)"
 
 msgid "Spike(%1$s)"
 msgstr ""
 
 msgid "Prior"
-msgstr ""
+msgstr "先驗"
 
 msgid "Compared to %1$s."
-msgstr ""
+msgstr "相較於 %1$s。"
 
 msgid ""
 "The variance parameter of the normal distribution is assumed to be known."
-msgstr ""
+msgstr "常態分配之變異數參數假定為已知。"
 
 msgid "Probability"
 msgstr "機率"
@@ -274,58 +276,60 @@ msgid "Model Comparison"
 msgstr "模型比較"
 
 msgid "Number of covariates"
-msgstr ""
+msgstr "共變項數"
 
 msgid "R%s"
 msgstr ""
 
 msgid "Robustness Plot"
-msgstr ""
+msgstr "穩健性圖"
 
 msgid "r scale"
-msgstr ""
+msgstr "r 尺度"
 
 msgid "r scale used is: %s."
-msgstr ""
+msgstr "使用之 r 尺度為：%s。"
 
 msgid "n = %i"
 msgstr ""
 
 msgid "Bayesian Linear Regression"
-msgstr ""
+msgstr "貝氏線性迴歸"
 
 msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
-msgstr ""
+msgstr "共變項數必須小於 N-1（樣本數減 1）"
 
 msgid ""
 "Input: When number of covariates for Alternative hypothesis is greater than "
 "that of Null hypothesis, the R%s has to be higher under Alternative than "
 "under Null hypothesis"
 msgstr ""
+"輸入：當對立假設之共變項數大於虛無假設時，對立假設下之 R%s 必須高於虛無假設下"
+"之 R%s"
 
 msgid "Test Statistics"
-msgstr ""
+msgstr "檢定統計量"
 
 msgid "Test"
-msgstr ""
+msgstr "檢定"
 
 msgid "Statistic"
-msgstr ""
+msgstr "統計量"
 
 msgid "df"
-msgstr ""
+msgstr "自由度"
 
 msgid "df1"
-msgstr ""
+msgstr "自由度1"
 
 msgid "df2"
-msgstr ""
+msgstr "自由度2"
 
 msgid "z"
 msgstr ""
 
 msgid "χ²"
-msgstr ""
+msgstr "卡方"
 
 msgid "F"
 msgstr ""
