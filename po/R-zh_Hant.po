@@ -305,7 +305,7 @@ msgid ""
 "under Null hypothesis"
 msgstr ""
 "輸入：當對立假設之共變項數大於虛無假設時，對立假設下之 R%s 必須高於虛無假設下"
-"之 R%s"
+"之"
 
 msgid "Test Statistics"
 msgstr "檢定統計量"
