@@ -1,15 +1,9 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-04-19 10:09+0000\n"
-"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jasp/"
-"jaspsummarystatistics-qml/de/>\n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: de\n"
 "X-Source-Language: American English\n"
 "X-Qt-Contexts: true\n"
@@ -951,9 +945,10 @@ msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 2"
 msgstr ""
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Input Type"
-msgstr ""
+msgstr "Eingabetyp"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t and Sample Sizes"
@@ -977,9 +972,10 @@ msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Mean"
 msgstr "Mittelwert"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 #, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
@@ -991,17 +987,20 @@ msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Sample size"
 msgstr "Stichprobenumfang"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Input Type"
-msgstr ""
+msgstr "Eingabetyp"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t and Sample Size"
-msgstr ""
+msgstr "t und Stichprobenumfang"
 
+#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Cohen's d and Sample Size"
-msgstr ""
+msgstr "Cohens d und Stichprobenumfang"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Mean, SD, and Sample Size"
