@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.95.5\n"
 "POT-Creation-Date: 2025-11-15 02:52\n"
-"PO-Revision-Date: 2026-05-17 06:11+0000\n"
-"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
+"PO-Revision-Date: 2026-06-23 10:01+0000\n"
+"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/id/>\n"
 "Language: id\n"
@@ -11,13 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 
 msgid "BF%s"
-msgstr ""
+msgstr "BF%s"
 
 msgid "Log(BF%s)"
-msgstr ""
+msgstr "Log(BF%s)"
 
 msgid "t"
 msgstr "t"
@@ -26,7 +26,7 @@ msgid "Bayesian Independent Samples T-Test"
 msgstr "Uji-T Sampel Independen Bayes"
 
 msgid "n%s"
-msgstr ""
+msgstr "χ²"
 
 msgid "n"
 msgstr "n"
@@ -38,7 +38,7 @@ msgid "p"
 msgstr "p"
 
 msgid "Proportional error estimate could not be computed."
-msgstr ""
+msgstr "Estimasi galat proporsional tidak dapat dihitung."
 
 msgid "Prior and Posterior"
 msgstr "Priori dan Posterior"
@@ -51,9 +51,11 @@ msgstr "Faktor Bayes dan Pemeriksaan Kekuatan"
 
 msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
 msgstr ""
+"Pendiagraman tidak memungkinkan: Diagram pemeriksaan kekuatan faktor Bayes "
+"saat ini tidak didukung untuk priori terinform."
 
 msgid "Bayes factors could not be computed for 100 values of the prior."
-msgstr ""
+msgstr "Faktor Bayes tidak dapat dihitung untuk 100 nilai dari priori."
 
 msgid "max BF%s"
 msgstr "BF%s maks"
@@ -75,21 +77,31 @@ msgstr "Lebar priori Cauchy"
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
 msgstr ""
+"Untuk semua uji, hipotesis alternatif menentukan bahwa grup 1 lebih dari "
+"grup 2."
 
 msgid "For all tests, the alternative hypothesis specifies that the mean is greater than 0."
 msgstr ""
+"Untuk semua uji, hipotesis alternatif menentukan bahwa rerata lebih dari 0."
 
 msgid "For all tests, the alternative hypothesis specifies that measure 1 is greater than measure 2."
 msgstr ""
+"Untuk semua uji, hipotesis alternatif menentukan bahwa pengukuran 1 lebih "
+"dari pengukuran 2."
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is less than group 2."
 msgstr ""
+"Untuk semua uji, hipotesis alternatif menentukan bahwa grup 1 kurang dari "
+"grup 2."
 
 msgid "For all tests, the alternative hypothesis specifies that the mean is less than 0."
 msgstr ""
+"Untuk semua uji, hipotesis alternatif menentukan bahwa rerata kurang dari 0."
 
 msgid "For all tests, the alternative hypothesis specifies that measure 1 is less than measure 2."
 msgstr ""
+"Untuk semua uji, hipotesis alternatif menentukan bahwa pengukuran 1 kurang "
+"dari pengukuran 2."
 
 msgid "Bayesian One Sample T-Test"
 msgstr "Uji-T Satu Sampel Bayes"
@@ -98,7 +110,7 @@ msgid "Bayesian Paired Samples T-Test"
 msgstr "Uji-T Sampel Terpasang Bayes"
 
 msgid "Not enough observations."
-msgstr ""
+msgstr "Tidak cukup observasi."
 
 msgid "Model Summary"
 msgstr "Ringkasan Model"
@@ -107,127 +119,147 @@ msgid "Effect size"
 msgstr "Ukuran efek"
 
 msgid "Standard error"
-msgstr ""
+msgstr "Galat standar"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "Maks %1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "Bawaan %1$s"
 
 msgid "exp(Effect size)"
-msgstr ""
+msgstr "exp(Ukuran efek)"
 
 msgid "Bayes Factor Robustness Plot"
 msgstr "Diagram Kekuatan Faktor Bayes"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
-msgstr ""
+msgstr "Patahan kontur faktor Bayes tidak dapat diurai menjadi angka."
 
 msgid "Bayes factor contours breaks must be positive."
-msgstr ""
+msgstr "Patahan kontur faktor Bayes harus positif."
 
 msgid "Bayes factor contours breaks must be increasing."
-msgstr ""
+msgstr "Patahan kontur faktor Bayes harus ditingkatkan."
 
 msgid "exp(Prior mean)"
-msgstr ""
+msgstr "exp(Rerata priori)"
 
 msgid "Prior mean"
-msgstr ""
+msgstr "Rerata priori"
 
 msgid "Prior standard deviation"
-msgstr ""
+msgstr "Deviasi standar priori"
 
 msgid "The default Bayes factor is based on unit information prior corresponding to a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
 msgstr ""
+"Faktor Bayes bawaan berdasarkan priori informasi unit sesuai dengan %1$s "
+"ukuran efek, distribusi normal dengan rerata = 0 dan sd = %2$s."
 
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "Uji Binomial Bayes"
 
 msgid "- *Bayes factor*: If one-sided test is requested:\n  - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value\n  - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value\n- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value\n- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value\n  - **p**: p-value corresponding to t-statistic."
 msgstr ""
+"- *Faktor Bayes*: Jika uji satu sisi diminta:\n"
+"  - BF+0: Faktor Bayes yang menghitungkan bukti untuk hipotesis alternatif "
+"satu sisi yang rerata populasi lebih besar dari nilai uji\n"
+"  - BF-0: Faktor Bayes yang menghitungkan bukti untuk hipotesis alternatif "
+"satu sisi yang rerata populasi lebih kecil dari nilai uji\n"
+"- BF0+: Faktor Bayes yang menghitungkan bukti untuk hipotesis null relatif "
+"ke hipotesis alternatif satu sisi yang rerata populasi lebih besar dari "
+"nilai uji\n"
+"- BF0-: Faktor Bayes yang menghitungkan bukti untuk hipotesis null relatif "
+"ke hipotesis alternatif satu sisi yang rerata populasi lebih kecil dari "
+"nilai uji\n"
+"  - **p**: Nilai-p sesuai dengan statistik-t."
 
 msgid "Successes"
-msgstr ""
+msgstr "Keberhasilan"
 
 msgid "Failures"
-msgstr ""
+msgstr "Kegagalan"
 
 msgid "Proportion"
-msgstr ""
+msgstr "Proporsi"
 
 msgid "Test value"
-msgstr ""
+msgstr "Nilai uji"
 
 msgid "Plotting not possible: Posterior too peaked!"
-msgstr ""
+msgstr "Pendiagraman tidak memungkinkan: Posterior terlalu memuncak!"
 
 msgid "Population proportion"
-msgstr ""
+msgstr "Proporsi populasi"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
 msgstr ""
+"Pendiagraman tidak memungkinkan: Tidak dapat mengevaluasi kepadatan priori "
+"atau posterior!"
 
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "Proporsi diuji terhadap nilai: %s."
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
 msgstr ""
+"Untuk semua uji, hipotesis alternatif menentukan bahwa proporsi lebih dari "
+"%s."
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is less than %s."
 msgstr ""
+"Untuk semua uji, hipotesis alternatif menentukan bahwa proporsi kurang dari "
+"%s."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
-msgstr ""
+msgstr "Tidak dapat menguji hipotesis yang nilai uji lebih dari 1."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
-msgstr ""
+msgstr "Tidak dapat menguji hipotesis yang nilai uji kurang dari 0."
 
 msgid "Undefined hypothesis"
-msgstr ""
+msgstr "Hipotesis tidak ditentukan"
 
 msgid "r"
-msgstr ""
+msgstr "r"
 
 msgid "tau"
-msgstr ""
+msgstr "tau"
 
 msgid "rho"
-msgstr ""
+msgstr "rho"
 
 msgid "%s%% Credible interval"
-msgstr ""
+msgstr "%s%% Interval kredibel"
 
 msgid "Inferential Plots"
 msgstr "Diagram Inferensial"
 
 msgid "Normal(%1$s, %2$s)"
-msgstr ""
+msgstr "Normal(%1$s, %2$s)"
 
 msgid "Student-t(%1$s, %2$s, %3$s)"
-msgstr ""
+msgstr "t-Student(%1$s, %2$s, %3$s)"
 
 msgid "Cauchy(%1$s, %2$s)"
-msgstr ""
+msgstr "Cauchy(%1$s, %2$s)"
 
 msgid "Beta(%1$s, %2$s)"
-msgstr ""
+msgstr "Beta(%1$s, %2$s)"
 
 msgid "Uniform(%1$s, %2$s)"
-msgstr ""
+msgstr "Keseragaman(%1$s, %2$s)"
 
 msgid "Spike(%1$s)"
-msgstr ""
+msgstr "Lonjakan(%1$s)"
 
 msgid "Prior"
 msgstr "Priori"
 
 msgid "Compared to %1$s."
-msgstr ""
+msgstr "Dibandingkan dengan %1$s."
 
 msgid "The variance parameter of the normal distribution is assumed to be known."
-msgstr ""
+msgstr "Parameter varians dari distribusi normal diasumsikan untuk diketahui."
 
 msgid "Probability"
 msgstr "Probabilitas"
@@ -239,34 +271,37 @@ msgid "Model Comparison"
 msgstr "Perbandingan Model"
 
 msgid "Number of covariates"
-msgstr ""
+msgstr "Jumlah kovariat"
 
 msgid "R%s"
 msgstr "R%s"
 
 msgid "Robustness Plot"
-msgstr ""
+msgstr "Diagram Kekuatan"
 
 msgid "r scale"
-msgstr ""
+msgstr "skala r"
 
 msgid "r scale used is: %s."
-msgstr ""
+msgstr "skala r digunakan adalah: %s."
 
 msgid "n = %i"
-msgstr ""
+msgstr "n = %i"
 
 msgid "Bayesian Linear Regression"
-msgstr ""
+msgstr "Regresi Linear Bayes"
 
 msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
-msgstr ""
+msgstr "Jumlah Kovariat harus kurang dari N-1 (ukuran sampel minus 1)"
 
 msgid "Input: When number of covariates for Alternative hypothesis is greater than that of Null hypothesis, the R%s has to be higher under Alternative than under Null hypothesis"
 msgstr ""
+"Masukan: Ketika jumlah kovariat untuk Hipotesis alternatif lebih dari "
+"Hipotesis null itu, R%s harus lebih tinggi di bawah Alternatif dari di bawah "
+"Hipotesis null"
 
 msgid "Test Statistics"
-msgstr ""
+msgstr "Statistik Uji"
 
 msgid "Test"
 msgstr "Uji"
@@ -287,7 +322,7 @@ msgid "z"
 msgstr "z"
 
 msgid "χ²"
-msgstr ""
+msgstr "χ²"
 
 msgid "F"
 msgstr "F"
