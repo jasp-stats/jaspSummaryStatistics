@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-06-23 10:01+0000\n"
+"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
+"jaspsummarystatistics-qml/id/>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.7.dev0\n"
 "X-Language: id\n"
 "X-Qt-Contexts: true\n"
 
@@ -13,7 +19,7 @@ msgstr "Ringkasan Statistik"
 
 msgctxt "Description|"
 msgid "Apply common Bayesian tests from sufficient statistics"
-msgstr ""
+msgstr "Terapkan uji Bayes umum dari statistik cukup"
 
 msgctxt "Description|"
 msgid "T-Tests"
@@ -25,7 +31,7 @@ msgstr "Uji-T Sampel Independen Bayes"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "Uji-T Sampel Independen Bayes S.S."
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
@@ -33,7 +39,7 @@ msgstr "Uji-T Sampel Berpasangan Bayes"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "Uji-T Sampel Berpasangan Bayes S.S."
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
@@ -41,7 +47,7 @@ msgstr "Uji-T Satu Sampel Bayes"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
-msgstr ""
+msgstr "Uji-T Satu Sampel Bayes S.S."
 
 msgctxt "Description|"
 msgid "Regression"
@@ -53,7 +59,7 @@ msgstr "Korelasi Bayesian"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Correlation"
-msgstr ""
+msgstr "Korelasi Bayes S.S."
 
 msgctxt "Description|"
 msgid "Bayesian Linear Regression"
@@ -61,7 +67,7 @@ msgstr "Regresi Linier Bayesian"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Linear Regression"
-msgstr ""
+msgstr "Regresi Linear Bayes S.S."
 
 msgctxt "Description|"
 msgid "Frequencies"
@@ -73,7 +79,7 @@ msgstr "Uji Binomial Bayesian"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Binomial Test"
-msgstr ""
+msgstr "Uji Binomial Bayes S.S."
 
 msgctxt "Description|"
 msgid "Bayesian A/B Test"
@@ -81,7 +87,7 @@ msgstr "Uji A/B Bayesian"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian A/B Test"
-msgstr ""
+msgstr "Uji A/B Bayes S.S."
 
 msgctxt "Description|"
 msgid "Miscellaneous"
@@ -93,7 +99,7 @@ msgstr "Uji Bayesian Umum"
 
 msgctxt "Description|"
 msgid "S.S. General Bayesian Tests"
-msgstr ""
+msgstr "Uji Bayes Umum S.S."
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Group 1"
@@ -101,7 +107,7 @@ msgstr "Grup 1"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Successes"
-msgstr ""
+msgstr "Keberhasilan"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Sample Size"
@@ -113,13 +119,12 @@ msgstr "Grup 2"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Normal Prior on Log Odds Ratio"
-msgstr ""
+msgstr "Priori Normal pada Rasio Ganjil Log"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "μ:"
 msgstr "μ:"
 
-#, fuzzy
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "σ:"
 msgstr "σ:"
@@ -146,7 +151,7 @@ msgstr "Priori"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Pemeriksaan kekuatan faktor Bayes"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Order"
@@ -194,7 +199,7 @@ msgstr "Jml. sampel"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "Robustness Plot"
-msgstr ""
+msgstr "Diagram Kekuatan"
 
 msgctxt "SummaryStatsABTestBayesian|"
 msgid "No. Steps"
@@ -214,7 +219,7 @@ msgstr "atas:"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Successes"
-msgstr ""
+msgstr "Keberhasilan"
 
 msgctxt "SummaryStatsBinomialTestBayesian|"
 msgid "Failures"
@@ -326,7 +331,7 @@ msgstr "Info pengujian"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Pemeriksaan kekuatan faktor Bayes"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Additional info"
@@ -338,11 +343,11 @@ msgstr "Priori"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Stretched beta prior width"
-msgstr ""
+msgstr "Lebar priori beta yang direntang"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Likelihood"
-msgstr ""
+msgstr "Kemungkinan"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal"
@@ -378,7 +383,7 @@ msgstr "SE"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Successes"
-msgstr ""
+msgstr "Keberhasilan"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations"
@@ -398,11 +403,11 @@ msgstr "Parameter"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Truncation"
-msgstr ""
+msgstr "Trunkasi"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Spike(x₀)"
-msgstr ""
+msgstr "Lonjakan(x₀)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Normal(μ,σ)"
@@ -414,16 +419,15 @@ msgstr "Student-t(μ,σ,v)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Cauchy(x₀,θ)"
-msgstr ""
+msgstr "Cauchy(x₀,θ)"
 
-#, fuzzy
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Beta(α,β)"
 msgstr "Beta(α,β)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Uniform(a,b)"
-msgstr ""
+msgstr "Keseragaman(a,b)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "lower"
@@ -447,48 +451,44 @@ msgstr "Sebelumnya"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Prior predictions"
-msgstr ""
+msgstr "Prediksi priori"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Posteriors"
-msgstr ""
+msgstr "Posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Sample size"
 msgstr "Ukuran sampel"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Null Model"
-msgstr ""
+msgstr "Model Null"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Number of covariates"
-msgstr ""
+msgstr "Jumlah kovariat"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "R-squared"
-msgstr ""
+msgstr "R-kuadrat"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Alternative Model"
-msgstr ""
+msgstr "Model Alternatif"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Plots"
-msgstr "Plot"
+msgstr "Diagram"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Pemeriksaan kekuatan faktor Bayes"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Additional info"
 msgstr "Info tambahan"
 
-#, fuzzy
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "Advanced Options"
 msgstr "Opsi Lanjutan"
@@ -499,11 +499,11 @@ msgstr "Priori"
 
 msgctxt "SummaryStatsRegressionLinearBayesian|"
 msgid "r scale covariates"
-msgstr ""
+msgstr "Kovariat skala r"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Alt. Hypothesis"
@@ -511,80 +511,71 @@ msgstr "Hipotesis Alt."
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 ≠ Group 2"
-msgstr ""
+msgstr "Grup 1 ≠ Grup 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 > Group 2"
-msgstr ""
+msgstr "Grup 1 > Grup 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Group 1 < Group 2"
-msgstr ""
+msgstr "Grup 1 < Grup 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Plots"
-msgstr "Plot"
+msgstr "Diagram"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Prior and posterior"
-msgstr "Prior dan posterior"
+msgstr "Priori dan posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Additional info"
 msgstr "Info tambahan"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Pemeriksaan kekuatan faktor Bayes"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Alt. Hypothesis"
 msgstr "Hipotesis Alt."
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "≠ Test value"
 msgstr "≠ Nilai uji"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "> Test value"
 msgstr "> Nilai uji"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "< Test value"
 msgstr "< Nilai uji"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Plots"
-msgstr "Plot"
+msgstr "Diagram"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Prior and posterior"
-msgstr "Prior dan posterior"
+msgstr "Priori dan posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Additional info"
 msgstr "Info tambahan"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Pemeriksaan kekuatan faktor Bayes"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Alt. Hypothesis"
@@ -592,102 +583,96 @@ msgstr "Hipotesis Alt."
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 ≠ Measure 2"
-msgstr ""
+msgstr "Pengukuran 1 ≠ Pengukuran 2"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 > Measure 2"
-msgstr ""
+msgstr "Pengukuran 1 > Pengukuran 2"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Measure 1 < Measure 2"
-msgstr ""
+msgstr "Pengukuran 1 < Pengukuran 2"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Plots"
-msgstr "Plot"
+msgstr "Diagram"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Prior and posterior"
-msgstr "Prior dan posterior"
+msgstr "Priori dan posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Additional info"
 msgstr "Info tambahan"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Pemeriksaan kekuatan faktor Bayes"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgctxt "Description|"
 msgid "Bayesian Z-Test"
-msgstr ""
+msgstr "Uji-Z Bayes"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Z-Test"
-msgstr ""
+msgstr "Uji-Z Bayes S.S."
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Data"
-msgstr ""
+msgstr "Data"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & SE"
-msgstr ""
+msgstr "Ukuran efek & SE"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & CI"
-msgstr ""
+msgstr "Ukuran efek & CI"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size & CI (log)"
-msgstr ""
+msgstr "Ukuran efek & CI (log)"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size, SD & N"
-msgstr ""
+msgstr "Ukuran efek, SD & N"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size log"
-msgstr ""
+msgstr "Ukuran efek log"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Effect size"
-msgstr ""
+msgstr "Ukuran efek"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "SE"
 msgstr "SE"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Sd"
-msgstr ""
+msgstr "Sd"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Confidence interval log"
-msgstr ""
+msgstr "Interval kepercayaan log"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Confidence interval"
-msgstr ""
+msgstr "Interval kepercayaan"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "lower"
 msgstr "bawah"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "upper"
 msgstr "atas"
@@ -696,231 +681,221 @@ msgctxt "SummaryStatsBayesianZTest|"
 msgid "Alt. Hypothesis"
 msgstr "Hipotesis Alt."
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "≠ Test value"
 msgstr "≠ Nilai uji"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "> Test value"
 msgstr "> Nilai uji"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "< Test value"
 msgstr "< Nilai uji"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior Distribution"
-msgstr ""
+msgstr "Distribusi Priori"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Normal   mean:"
-msgstr ""
+msgstr "Normal   rerata:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "std"
-msgstr ""
+msgstr "std"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Default Bayes factor"
-msgstr ""
+msgstr "Faktor Bayes bawaan"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Select effect size"
-msgstr ""
+msgstr "Pilih ukuran efek"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Cohen's d"
-msgstr ""
+msgstr "d Cohen"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "log(OR)"
-msgstr ""
+msgstr "log(OR)"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "log(HR)"
-msgstr ""
+msgstr "log(HR)"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Custom"
-msgstr ""
+msgstr "Kustom"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Unit information SD"
-msgstr ""
+msgstr "Informasi unit SD"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Plots"
-msgstr "Plot"
+msgstr "Diagram"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior and posterior"
-msgstr "Prior dan posterior"
+msgstr "Priori dan posterior"
 
-#, fuzzy
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Additional info"
 msgstr "Info tambahan"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Bayes factor robustness check"
-msgstr ""
+msgstr "Pemeriksaan kekuatan faktor Bayes"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior mean   min:"
-msgstr ""
+msgstr "Rerata priori   min:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "max:"
-msgstr ""
+msgstr "maks:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Prior std\tmin:"
-msgstr ""
+msgstr "Std priori\tmin:"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "max"
-msgstr ""
+msgstr "maks"
 
 msgctxt "SummaryStatsBayesianZTest|"
 msgid "Specify Bayes factor contours"
-msgstr ""
+msgstr "Tentukan kontur faktor Bayes"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 1"
-msgstr ""
+msgstr "Ukuran sampel grup 1"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Sample size"
 msgstr "Ukuran sampel"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Sample size"
 msgstr "Ukuran sampel"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Sample size group 2"
-msgstr ""
+msgstr "Ukuran sampel grup 2"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central d (one-sample)"
-msgstr ""
+msgstr "d non-pusat (satu sampel)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central d (two-sample)"
-msgstr ""
+msgstr "d non-pusat (dua sampel)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations (Group 1)"
-msgstr ""
+msgstr "Observasi (Grup 1)"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations (Group 2)"
-msgstr ""
+msgstr "Observasi (Grup 2)"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Cohen's d"
-msgstr ""
+msgstr "d Cohen"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Mean 1"
-msgstr ""
+msgstr "Rerata 1"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "SD 1"
-msgstr ""
+msgstr "SD 1"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Mean 2"
-msgstr ""
+msgstr "Rerata 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "SD 2"
-msgstr ""
+msgstr "SD 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Input Type"
-msgstr ""
+msgstr "Jenis Masukan"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t and Sample Sizes"
-msgstr ""
+msgstr "t dan Ukuran Sampel"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Cohen's d and Sample Sizes"
-msgstr ""
+msgstr "d Cohen dan Ukuran Sampel"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Means, SDs, and Sample Sizes"
-msgstr ""
+msgstr "Rerata, SD, dan Ukuran Sampel"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Cohen's d"
-msgstr ""
+msgstr "d Cohen"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Mean"
 msgstr "Rerata"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Test value"
-msgstr "Nilai Uji"
+msgstr "Nilai uji"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Input Type"
-msgstr ""
+msgstr "Jenis Masukan"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t and Sample Size"
-msgstr ""
+msgstr "t dan Ukuran Sampel"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Cohen's d and Sample Size"
-msgstr ""
+msgstr "d Cohen dan Ukuran Sampel"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Mean, SD, and Sample Size"
-msgstr ""
+msgstr "Rerata, SD, dan Ukuran Sampel"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Cohen's d"
-msgstr ""
+msgstr "d Cohen"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Mean difference"
-msgstr ""
+msgstr "Perbedaan rerata"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Input Type"
-msgstr ""
+msgstr "Jenis Masukan"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t and Sample Size"
-msgstr ""
+msgstr "t dan Ukuran Sampel"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Cohen's d and Sample Size"
-msgstr ""
+msgstr "d Cohen dan Ukuran Sampel"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Mean Diff., SD, and Sample Size"
-msgstr ""
+msgstr "Perb. Rerata, SD, dan Ukuran Sampel"
 
 msgctxt "Description|"
 msgid "Classical"
@@ -928,103 +903,104 @@ msgstr "Klasikal"
 
 msgctxt "Description|"
 msgid "Test Statistics"
-msgstr ""
+msgstr "Statistik Uji"
 
 msgctxt "Description|"
 msgid "S.S. Test Statistics"
-msgstr ""
+msgstr "Statistik Uji S.S."
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test Type"
-msgstr ""
+msgstr "Jenis Uji"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Select the type of statistical test to analyze"
-msgstr ""
+msgstr "Pilih jenis uji statistikal untuk menganalisis"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "z-test"
-msgstr ""
+msgstr "uji-z"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use when population standard deviation is known"
-msgstr ""
+msgstr "Gunakan ketika deviasi standar populasi diketahui"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test statistic:"
-msgstr ""
+msgstr "Uji statistik:"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated z-statistic value"
-msgstr ""
+msgstr "Masukkan nilai statistik-z terhitung"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "t-test"
-msgstr ""
+msgstr "uji-t"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid ""
 "Use when sample standard deviation is used to estimate population standard "
 "deviation"
 msgstr ""
+"Gunakan ketika deviasi standar sampel digunakan untuk mengestimasi deviasi "
+"standar populasi"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated t-statistic value"
-msgstr ""
+msgstr "Masukkan nilai statistik-z terhitung"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "df:"
-msgstr ""
+msgstr "df:"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the degrees of freedom for the t-test"
-msgstr ""
+msgstr "Masukkan derajat kebebasan untuk uji-t"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "χ² test"
-msgstr ""
+msgstr "Uji χ²"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use for goodness of fit or independence tests"
-msgstr ""
+msgstr "Gunakan untuk uji kesesuaian atau independen"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated chi-squared statistic value"
-msgstr ""
+msgstr "Masukkan nilai statistik chi-kuadrat terhitung"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the degrees of freedom for the chi-squared test"
-msgstr ""
+msgstr "Masukkan derajat kebebasan untuk uji chi-kuadrat"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "F-test"
-msgstr ""
+msgstr "Uji-F"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use for comparing variances or in ANOVA"
-msgstr ""
+msgstr "Gunakan untuk membandingkan varians atau di ANOVA"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated F-statistic value"
-msgstr ""
+msgstr "Masukkan nilai statistik-F terhitung"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Numerator df:"
-msgstr ""
+msgstr "df Numerator:"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the numerator degrees of freedom"
-msgstr ""
+msgstr "Masukkan derajat kebebasan numerator"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Denominator df:"
-msgstr ""
+msgstr "df Denominator:"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the denominator degrees of freedom"
-msgstr ""
+msgstr "Masukkan derajat kebebasan denominator"
 
-#, fuzzy
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Alternative Hypothesis"
 msgstr "Hipotesis Alternatif"
@@ -1032,28 +1008,28 @@ msgstr "Hipotesis Alternatif"
 msgctxt "SummaryStatsTestStatistics|"
 msgid ""
 "Choose the direction of the alternative hypothesis for directional tests"
-msgstr ""
+msgstr "Pilih arahan dari hipotesis alternatif untuk uji terarah"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Two-sided"
-msgstr ""
+msgstr "Dua sisi"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter differs from the null value in either direction"
-msgstr ""
+msgstr "Uji jika parameter berbeda dari nilai null di kedua arah"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Greater"
-msgstr ""
+msgstr "Lebih"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter is greater than the null value"
-msgstr ""
+msgstr "Uji jika parameter lebih dari nilai null"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Less"
-msgstr ""
+msgstr "Kurang"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter is less than the null value"
-msgstr ""
+msgstr "Uji jika parameter kurang dari nilai null"
