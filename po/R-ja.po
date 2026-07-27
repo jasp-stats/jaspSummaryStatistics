@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.0.0\n"
 "POT-Creation-Date: 2025-09-13 02:42\n"
-"PO-Revision-Date: 2024-06-20 16:09+0000\n"
-"Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
+"PO-Revision-Date: 2026-07-28 06:01+0000\n"
+"Last-Translator: Koji Kosugi <kosugitti@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
 "jaspsummarystatistics-r/ja/>\n"
 "Language: ja\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6-rc\n"
+"X-Generator: Weblate 2026.8.dev0\n"
 
 msgid "BF%s"
 msgstr "BF%s"
@@ -64,7 +64,7 @@ msgid "max BF%s"
 msgstr "最大 BF%s"
 
 msgid "user prior"
-msgstr "ユーザー事前分布"
+msgstr "ユーザ指定の事前分布"
 
 msgid "wide prior"
 msgstr "広い事前分布"
@@ -126,7 +126,7 @@ msgid "Not enough observations."
 msgstr "十分な観測値がありません."
 
 msgid "Model Summary"
-msgstr "モデルの概要"
+msgstr "モデルの要約"
 
 msgid "Effect size"
 msgstr "効果量"
@@ -207,12 +207,11 @@ msgstr "成功数"
 msgid "Failures"
 msgstr "失敗数"
 
-#, fuzzy
 msgid "Proportion"
 msgstr "母比率"
 
 msgid "Test value"
-msgstr "検定統計量"
+msgstr "検定値"
 
 msgid "Plotting not possible: Posterior too peaked!"
 msgstr "プロットできません: 事後分布がピークに達しすぎています!"
@@ -332,31 +331,31 @@ msgstr ""
 "も、対立仮説下で高くする必要があります"
 
 msgid "Test Statistics"
-msgstr ""
+msgstr "検定統計量"
 
 msgid "Test"
-msgstr ""
+msgstr "検定"
 
 msgid "Statistic"
-msgstr ""
+msgstr "統計量"
 
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "χ²"
-msgstr ""
+msgstr "χ²"
 
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #~ msgid "Plotting not possible: Bayes factor should be numeric!"
 #~ msgstr "プロットができません: ベイズファクターは数値である必要があります!"
