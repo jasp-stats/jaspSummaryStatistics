@@ -26,7 +26,7 @@ msgid "Bayesian Independent Samples T-Test"
 msgstr "Uji-T Sampel Independen Bayes"
 
 msgid "n%s"
-msgstr "χ²"
+msgstr "n%s"
 
 msgid "n"
 msgstr "n"
