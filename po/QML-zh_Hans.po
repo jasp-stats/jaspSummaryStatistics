@@ -6,6 +6,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Language: zh_Hans\n"
 "X-Qt-Contexts: true\n"
+"PO-Revision-Date: 2026-10-25 12:51+0000\n"
+"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/jasp/jaspsummarystatistics-qml/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"X-Generator: Weblate 2026.11.dev0\n"
 
 msgctxt "Description|"
 msgid "Summary Statistics"
@@ -21,23 +27,23 @@ msgstr "T 检验"
 
 msgctxt "Description|"
 msgid "Bayesian Independent Samples T-Test"
-msgstr "贝叶斯独立样本T 检验"
+msgstr "贝叶斯独立样本 t 检验"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Independent Samples T-Test"
-msgstr "S.S. 贝叶斯独立样本 T 检验"
+msgstr "S.S. 贝叶斯独立样本 t 检验"
 
 msgctxt "Description|"
 msgid "Bayesian Paired Samples T-Test"
-msgstr "贝叶斯配对样本T检验"
+msgstr "贝叶斯配对样本 t 检验"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian Paired Samples T-Test"
-msgstr "S.S. 贝叶斯配对样本 T 检验"
+msgstr "S.S. 贝叶斯配对样本 t 检验"
 
 msgctxt "Description|"
 msgid "Bayesian One Sample T-Test"
-msgstr "贝叶斯单样本 T 检验"
+msgstr "贝叶斯单样本 t 检验"
 
 msgctxt "Description|"
 msgid "S.S. Bayesian One Sample T-Test"
@@ -45,7 +51,7 @@ msgstr "S.S.贝叶斯一样本T检验"
 
 msgctxt "Description|"
 msgid "Regression"
-msgstr "回归"
+msgstr "回归分析"
 
 msgctxt "Description|"
 msgid "Bayesian Correlation"
@@ -261,15 +267,15 @@ msgstr "样本相关系数"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Pearson's r"
-msgstr "皮尔逊系数( Pearson's r)"
+msgstr "Pearson 相关系数"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Kendall's tau-b"
-msgstr "肯德尔系数( Kendall's tau-b)"
+msgstr "Kendall tau-b 相关系数"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Spearman's rho"
-msgstr "斯皮尔曼系数( Spearman's rho)"
+msgstr "Spearman 相关系数"
 
 msgctxt "SummaryStatsCorrelationBayesianPairs|"
 msgid "Alt. Hypothesis"
@@ -513,7 +519,7 @@ msgstr "非中心 t"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Mean"
-msgstr "平均值"
+msgstr "均值"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "t-statistic"
@@ -781,132 +787,127 @@ msgstr "样本量组 2"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central d (one-sample)"
-msgstr ""
+msgstr "非中心 d（单样本）"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Non-central d (two-sample)"
-msgstr ""
+msgstr "非中心 d（双样本）"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations (Group 1)"
-msgstr ""
+msgstr "观测数（第 1 组）"
 
 msgctxt "SummaryStatsGeneralBayesianTests|"
 msgid "Observations (Group 2)"
-msgstr ""
+msgstr "观测数（第 2 组）"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Cohen's d"
 msgstr "Cohen's d"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Mean 1"
-msgstr ""
+msgstr "均值 1"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "SD 1"
-msgstr ""
+msgstr "标准差 1"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Mean 2"
-msgstr ""
+msgstr "均值 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "SD 2"
-msgstr ""
+msgstr "标准差 2"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Input Type"
-msgstr ""
+msgstr "输入类型"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "t and Sample Sizes"
-msgstr ""
+msgstr "t 和样本量"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Cohen's d and Sample Sizes"
-msgstr ""
+msgstr "Cohen's d 和样本量"
 
 msgctxt "SummaryStatsTTestBayesianIndependentSamples|"
 msgid "Means, SDs, and Sample Sizes"
-msgstr ""
+msgstr "均值、标准差和样本量"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Cohen's d"
 msgstr "Cohen's d"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Mean"
-msgstr "平均值"
+msgstr "均值"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "SD"
-msgstr ""
+msgstr "标准差"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Test value"
 msgstr "检验值"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Input Type"
-msgstr ""
+msgstr "输入类型"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "t and Sample Size"
-msgstr ""
+msgstr "t 和样本量"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Cohen's d and Sample Size"
-msgstr ""
+msgstr "Cohen's d 和样本量"
 
 msgctxt "SummaryStatsTTestBayesianOneSample|"
 msgid "Mean, SD, and Sample Size"
-msgstr ""
+msgstr "均值、标准差和样本量"
 
-#, fuzzy
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Cohen's d"
 msgstr "Cohen's d"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Mean difference"
-msgstr ""
+msgstr "均数差"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "SD"
-msgstr ""
+msgstr "标准差"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Input Type"
-msgstr ""
+msgstr "输入类型"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "t and Sample Size"
-msgstr ""
+msgstr "t 和样本量"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Cohen's d and Sample Size"
-msgstr ""
+msgstr "Cohen's d 和样本量"
 
 msgctxt "SummaryStatsTTestBayesianPairedSamples|"
 msgid "Mean Diff., SD, and Sample Size"
-msgstr ""
+msgstr "均数差、标准差和样本量"
 
 msgctxt "Description|"
 msgid "Classical"
-msgstr ""
+msgstr "经典"
 
 msgctxt "Description|"
 msgid "Test Statistics"
-msgstr ""
+msgstr "检验统计量"
 
 msgctxt "Description|"
 msgid "S.S. Test Statistics"
-msgstr ""
+msgstr "汇总统计检验统计量"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test Type"
@@ -914,91 +915,90 @@ msgstr "检验类型"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Select the type of statistical test to analyze"
-msgstr ""
+msgstr "选择要分析的统计检验类型"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "z-test"
-msgstr ""
+msgstr "z 检验"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use when population standard deviation is known"
-msgstr ""
+msgstr "当总体标准差已知时使用"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test statistic:"
-msgstr ""
+msgstr "检验统计量："
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated z-statistic value"
-msgstr ""
+msgstr "输入计算得到的 z 统计量值"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "t-test"
-msgstr ""
+msgstr "t 检验"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid ""
 "Use when sample standard deviation is used to estimate population standard "
 "deviation"
-msgstr ""
+msgstr "当使用样本标准差估计总体标准差时使用"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated t-statistic value"
-msgstr ""
+msgstr "输入计算得到的 t 统计量值"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "df:"
-msgstr ""
+msgstr "自由度："
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the degrees of freedom for the t-test"
-msgstr ""
+msgstr "输入 t 检验的自由度"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "χ² test"
-msgstr ""
+msgstr "χ² 检验"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use for goodness of fit or independence tests"
-msgstr ""
+msgstr "用于拟合优度或独立性检验"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated chi-squared statistic value"
-msgstr ""
+msgstr "输入计算得到的卡方统计量值"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the degrees of freedom for the chi-squared test"
-msgstr ""
+msgstr "输入卡方检验的自由度"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "F-test"
-msgstr ""
+msgstr "F 检验"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Use for comparing variances or in ANOVA"
-msgstr ""
+msgstr "用于比较方差或方差分析"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the calculated F-statistic value"
-msgstr ""
+msgstr "输入计算得到的 F 统计量值"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Numerator df:"
-msgstr ""
+msgstr "分子自由度："
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the numerator degrees of freedom"
-msgstr ""
+msgstr "输入分子自由度"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Denominator df:"
-msgstr ""
+msgstr "分母自由度："
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Enter the denominator degrees of freedom"
-msgstr ""
+msgstr "输入分母自由度"
 
-#, fuzzy
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Alternative Hypothesis"
 msgstr "备择假设"
@@ -1006,28 +1006,28 @@ msgstr "备择假设"
 msgctxt "SummaryStatsTestStatistics|"
 msgid ""
 "Choose the direction of the alternative hypothesis for directional tests"
-msgstr ""
+msgstr "选择方向检验的备择假设方向"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Two-sided"
-msgstr ""
+msgstr "双侧"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter differs from the null value in either direction"
-msgstr ""
+msgstr "检验参数是否在任一方向上不同于零值"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Greater"
-msgstr ""
+msgstr "大于"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter is greater than the null value"
-msgstr ""
+msgstr "检验参数是否大于零值"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Less"
-msgstr ""
+msgstr "小于"
 
 msgctxt "SummaryStatsTestStatistics|"
 msgid "Test if the parameter is less than the null value"
-msgstr ""
+msgstr "检验参数是否小于零值"
