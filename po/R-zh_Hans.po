@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspSummaryStatistics 0.96.4\n"
+"POT-Creation-Date: 2026-04-25 03:32\n"
+"PO-Revision-Date: 2026-10-25 12:51+0000\n"
+"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/jasp/jaspsummarystatistics-r/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.11.dev0\n"
+
+msgid "BF%s"
+msgstr "BF%s"
+
+msgid "Log(BF%s)"
+msgstr "Log(BF%s)"
+
+msgid "t"
+msgstr "t"
+
+msgid "Bayesian Independent Samples T-Test"
+msgstr "贝叶斯独立样本 t 检验"
+
+msgid "n%s"
+msgstr "n%s"
+
+msgid "n"
+msgstr "n"
+
+msgid "error %%"
+msgstr "误差 %%"
+
+msgid "p"
+msgstr "p"
+
+msgid "Proportional error estimate could not be computed."
+msgstr "无法计算比例误差估计。"
+
+msgid "Prior and Posterior"
+msgstr "先验与后验"
+
+msgid "Plotting not possible: %s"
+msgstr "无法绘图：%s"
+
+msgid "Bayes Factor Robustness Check"
+msgstr "贝叶斯因子稳健性检验"
+
+msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
+msgstr "无法绘图：目前不支持有信息先验的贝叶斯因子稳健性检验图。"
+
+msgid "Bayes factors could not be computed for 100 values of the prior."
+msgstr "无法为 100 个先验值计算贝叶斯因子。"
+
+msgid "max BF%s"
+msgstr "最大 BF%s"
+
+msgid "user prior"
+msgstr "用户先验"
+
+msgid "wide prior"
+msgstr "宽先验"
+
+msgid "ultrawide prior"
+msgstr "超宽先验"
+
+msgid "%1$s at r==%2$s"
+msgstr "%1$s（r==%2$s）"
+
+msgid "Cauchy prior width"
+msgstr "Cauchy 先验宽度"
+
+msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
+msgstr "对于所有检验，备择假设指定第 1 组大于第 2 组。"
+
+msgid "For all tests, the alternative hypothesis specifies that the mean is greater than 0."
+msgstr "对于所有检验，备择假设指定均值大于 0。"
+
+msgid "For all tests, the alternative hypothesis specifies that measure 1 is greater than measure 2."
+msgstr "对于所有检验，备择假设指定测量值 1 大于测量值 2。"
+
+msgid "For all tests, the alternative hypothesis specifies that group 1 is less than group 2."
+msgstr "对于所有检验，备择假设指定第 1 组小于第 2 组。"
+
+msgid "For all tests, the alternative hypothesis specifies that the mean is less than 0."
+msgstr "对于所有检验，备择假设指定均值小于 0。"
+
+msgid "For all tests, the alternative hypothesis specifies that measure 1 is less than measure 2."
+msgstr "对于所有检验，备择假设指定测量值 1 小于测量值 2。"
+
+msgid "Bayesian One Sample T-Test"
+msgstr "贝叶斯单样本 t 检验"
+
+msgid "Bayesian Paired Samples T-Test"
+msgstr "贝叶斯配对样本 t 检验"
+
+msgid "Not enough observations."
+msgstr "观测值不足。"
+
+msgid "Model Summary"
+msgstr "模型摘要"
+
+msgid "Effect size"
+msgstr "效应量"
+
+msgid "Standard error"
+msgstr "标准误"
+
+msgid "Max %1$s"
+msgstr "最大 %1$s"
+
+msgid "Default %1$s"
+msgstr "默认 %1$s"
+
+msgid "exp(Effect size)"
+msgstr "exp(效应量)"
+
+msgid "Bayes Factor Robustness Plot"
+msgstr "贝叶斯因子稳健性图"
+
+msgid "Bayes factor contours breaks could not be parsed into numbers."
+msgstr "贝叶斯因子等高线断点无法解析为数字。"
+
+msgid "Bayes factor contours breaks must be positive."
+msgstr "贝叶斯因子等高线断点必须为正。"
+
+msgid "Bayes factor contours breaks must be increasing."
+msgstr "贝叶斯因子等高线断点必须递增。"
+
+msgid "exp(Prior mean)"
+msgstr "exp(先验均值)"
+
+msgid "Prior mean"
+msgstr "先验均值"
+
+msgid "Prior standard deviation"
+msgstr "先验标准差"
+
+msgid "The default Bayes factor is based on unit information prior corresponding to a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
+msgstr ""
+"默认贝叶斯因子基于单位信息先验，对应于 %1$s 的效应量，即均值为 0、标准差为 "
+"%2$s 的正态分布。"
+
+msgid "Bayesian Binomial Test"
+msgstr "贝叶斯二项式检验"
+
+msgid "- *Bayes factor*: If one-sided test is requested:\n  - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value\n  - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value\n- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value\n- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value\n  - **p**: p-value corresponding to t-statistic."
+msgstr ""
+"- *贝叶斯因子*：如果请求单侧检验：\n"
+"  - BF+0：量化支持总体均值大于检验值的单侧备择假设的证据的贝叶斯因子\n"
+"  - BF-0：量化支持总体均值小于检验值的单侧备择假设的证据的贝叶斯因子\n"
+"- BF0+：量化支持零假设相对于总体均值大于检验值的单侧备择假设的证据的贝叶斯因"
+"子\n"
+"- BF0-：量化支持零假设相对于总体均值小于检验值的单侧备择假设的证据的贝叶斯因"
+"子\n"
+"  - **p**：对应于 t 统计量的 p 值。"
+
+msgid "Successes"
+msgstr "成功数"
+
+msgid "Failures"
+msgstr "失败数"
+
+msgid "Proportion"
+msgstr "比例"
+
+msgid "Test value"
+msgstr "检验值"
+
+msgid "Plotting not possible: Posterior too peaked!"
+msgstr "无法绘图：后验过于尖峰！"
+
+msgid "Population proportion"
+msgstr "总体比例"
+
+msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
+msgstr "无法绘图：无法评估先验或后验密度！"
+
+msgid "Proportions tested against value: %s."
+msgstr "比例与以下值进行比较：%s。"
+
+msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
+msgstr "对于所有检验，备择假设指定比例大于 %s。"
+
+msgid "For all tests, the alternative hypothesis specifies that the proportion is less than %s."
+msgstr "对于所有检验，备择假设指定比例小于 %s。"
+
+msgid "Cannot test the hypothesis that the test value is greater than 1."
+msgstr "无法检验检验值大于 1 的假设。"
+
+msgid "Cannot test the hypothesis that the test value is less than 0."
+msgstr "无法检验检验值小于 0 的假设。"
+
+msgid "Undefined hypothesis"
+msgstr "未定义的假设"
+
+msgid "r"
+msgstr "r"
+
+msgid "tau"
+msgstr "tau"
+
+msgid "rho"
+msgstr "rho"
+
+msgid "%s%% Credible interval"
+msgstr "%s%% 可信区间"
+
+msgid "Inferential Plots"
+msgstr "推断图"
+
+msgid "Normal(%1$s, %2$s)"
+msgstr "Normal(%1$s, %2$s)"
+
+msgid "Student-t(%1$s, %2$s, %3$s)"
+msgstr "Student-t(%1$s, %2$s, %3$s)"
+
+msgid "Cauchy(%1$s, %2$s)"
+msgstr "Cauchy(%1$s, %2$s)"
+
+msgid "Beta(%1$s, %2$s)"
+msgstr "Beta(%1$s, %2$s)"
+
+msgid "Uniform(%1$s, %2$s)"
+msgstr "Uniform(%1$s, %2$s)"
+
+msgid "Spike(%1$s)"
+msgstr "Spike(%1$s)"
+
+msgid "Prior"
+msgstr "先验"
+
+msgid "Compared to %1$s."
+msgstr "与 %1$s 比较。"
+
+msgid "The variance parameter of the normal distribution is assumed to be known."
+msgstr "假定正态分布的方差参数已知。"
+
+msgid "Probability"
+msgstr "概率"
+
+msgid "Density"
+msgstr "密度"
+
+msgid "Model Comparison"
+msgstr "模型比较"
+
+msgid "Number of covariates"
+msgstr "协变量的数量"
+
+msgid "R%s"
+msgstr "R%s"
+
+msgid "Robustness Plot"
+msgstr "稳健性图"
+
+msgid "r scale"
+msgstr "r 尺度"
+
+msgid "r scale used is: %s."
+msgstr "使用的 r 尺度为：%s。"
+
+msgid "n = %i"
+msgstr "n = %i"
+
+msgid "Bayesian Linear Regression"
+msgstr "贝叶斯线性回归"
+
+msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
+msgstr "协变量数量必须小于 N-1（样本量减 1）"
+
+msgid "Input: When number of covariates for Alternative hypothesis is greater than that of Null hypothesis, the R%s has to be higher under Alternative than under Null hypothesis"
+msgstr "输入：当备择假设的协变量数量大于零假设时，R%s 在备择假设下必须高于零假设下。"
+
+msgid "Test Statistics"
+msgstr "检验统计量"
+
+msgid "Test"
+msgstr "检验"
+
+msgid "Statistic"
+msgstr "统计量"
+
+msgid "df"
+msgstr "df"
+
+msgid "df1"
+msgstr "df1"
+
+msgid "df2"
+msgstr "df2"
+
+msgid "z"
+msgstr "z"
+
+msgid "χ²"
+msgstr "χ²"
+
+msgid "F"
+msgstr "F"
