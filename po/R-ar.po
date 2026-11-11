@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspSummaryStatistics 0.96.4\n"
 "POT-Creation-Date: 2026-04-25 03:32\n"
-"PO-Revision-Date: 2026-11-11 19:09+0000\n"
+"PO-Revision-Date: 2026-11-12 10:32+0000\n"
 "Last-Translator: Fahad Mahfouz Al-Subhi "
 "<fahadalsubhi@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/jasp/"
@@ -16,280 +16,302 @@ msgstr ""
 "X-Generator: Weblate 2026.11.2.dev0\n"
 
 msgid "BF%s"
-msgstr ""
+msgstr "BF%s"
 
 msgid "Log(BF%s)"
-msgstr ""
+msgstr "Log(BF%s)"
 
 msgid "t"
-msgstr ""
+msgstr "t"
 
 msgid "Bayesian Independent Samples T-Test"
-msgstr ""
+msgstr "اختبار t البايزي لعينتين مستقلتين"
 
 msgid "n%s"
-msgstr ""
+msgstr "n%s"
 
 msgid "n"
-msgstr ""
+msgstr "n"
 
 msgid "error %%"
-msgstr ""
+msgstr "الخطأ %%"
 
 msgid "p"
-msgstr ""
+msgstr "p"
 
 msgid "Proportional error estimate could not be computed."
-msgstr ""
+msgstr "تعذر حساب تقدير الخطأ التناسبي."
 
 msgid "Prior and Posterior"
-msgstr ""
+msgstr "التوزيعان القبلي والبعدي"
 
 msgid "Plotting not possible: %s"
-msgstr ""
+msgstr "الرسم غير ممكن: %s"
 
 msgid "Bayes Factor Robustness Check"
-msgstr ""
+msgstr "فحص حصانة عامل بايز"
 
 msgid "Plotting not possible: Bayes factor robustness check plot currently not supported for informed prior."
 msgstr ""
+"لا يمكن الرسم: مخطط التحقق من حصانة عامل بايز غير مدعوم حاليًا للتوزيع القبلي "
+"المستنير."
 
 msgid "Bayes factors could not be computed for 100 values of the prior."
-msgstr ""
+msgstr "تعذّر حساب عوامل بايز لـ100 قيمة من قيم التوزيع القبلي."
 
 msgid "max BF%s"
-msgstr ""
+msgstr "الحد الأقصى لعامل بايز BF%s"
 
 msgid "user prior"
 msgstr "التوزيع القبلي للمستخدم"
 
 msgid "wide prior"
-msgstr ""
+msgstr "توزيع قبلي واسع"
 
 msgid "ultrawide prior"
-msgstr ""
+msgstr "توزيع قبلي بالغ الاتساع"
 
 msgid "%1$s at r==%2$s"
-msgstr ""
+msgstr "%1$s عند r==%2$s"
 
 msgid "Cauchy prior width"
-msgstr ""
+msgstr "عرض توزيع كوشي القبلي"
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is greater than group 2."
 msgstr ""
+"وبالنسبة لجميع الاختبارات، فإن الفرضية البديلة يحدد أن المجموعة 1 أكبر من "
+"المجموعة 2."
 
 msgid "For all tests, the alternative hypothesis specifies that the mean is greater than 0."
-msgstr ""
+msgstr "بالنسبة لجميع الاختبارات، تنص الفرضية البديلة على أن المتوسط أكبر من 0."
 
 msgid "For all tests, the alternative hypothesis specifies that measure 1 is greater than measure 2."
 msgstr ""
+"في جميع الاختبارات، تنص الفرضية البديلة على أن القياس 1 أكبر من القياس 2."
 
 msgid "For all tests, the alternative hypothesis specifies that group 1 is less than group 2."
 msgstr ""
+"وبالنسبة لجميع الاختبارات، فإن الفرضية البديلة يحدد أن المجموعة 1 أقل من "
+"المجموعة 2."
 
 msgid "For all tests, the alternative hypothesis specifies that the mean is less than 0."
 msgstr ""
+"بالنسبة لجميع الاختبارات، فإن الفرضية البديلة يحدد أن المتوسط هو أقل من 0."
 
 msgid "For all tests, the alternative hypothesis specifies that measure 1 is less than measure 2."
-msgstr ""
+msgstr "لجميع الاختبارات، تنص الفرضية البديلة على أن القياس 1 أقل من القياس 2."
 
 msgid "Bayesian One Sample T-Test"
-msgstr ""
+msgstr "اختبار t البايزي لعينة واحدة"
 
 msgid "Bayesian Paired Samples T-Test"
-msgstr ""
+msgstr "اختبار t البايزي لعينتين مرتبطتين"
 
 msgid "Not enough observations."
-msgstr ""
+msgstr "مشاهدات غير كافية."
 
 msgid "Model Summary"
-msgstr ""
+msgstr "ملخص النموذج"
 
 msgid "Effect size"
-msgstr ""
+msgstr "حجم الأثر"
 
 msgid "Standard error"
-msgstr ""
+msgstr "الخطأ المعياري"
 
 msgid "Max %1$s"
-msgstr ""
+msgstr "الحد الأقصى لـ%1$s"
 
 msgid "Default %1$s"
-msgstr ""
+msgstr "افتراضي %1$s"
 
 msgid "exp(Effect size)"
-msgstr ""
+msgstr "exp(حجم الأثر)"
 
 msgid "Bayes Factor Robustness Plot"
-msgstr ""
+msgstr "مخطط حصانة عامل بايز"
 
 msgid "Bayes factor contours breaks could not be parsed into numbers."
-msgstr ""
+msgstr "تعذّر تفسير قيم فواصل خطوط كنتور عامل بايز كأعداد."
 
 msgid "Bayes factor contours breaks must be positive."
-msgstr ""
+msgstr "يجب أن تكون قيم فواصل خطوط كنتور عامل بايز موجبة."
 
 msgid "Bayes factor contours breaks must be increasing."
-msgstr ""
+msgstr "يجب أن تكون قيم فواصل خطوط كنتور عامل بايز متزايدة."
 
 msgid "exp(Prior mean)"
-msgstr ""
+msgstr "exp(المتوسط القبلي)"
 
 msgid "Prior mean"
-msgstr ""
+msgstr "المتوسط القبلي"
 
 msgid "Prior standard deviation"
-msgstr ""
+msgstr "الانحراف المعياري القبلي"
 
 msgid "The default Bayes factor is based on unit information prior corresponding to a %1$s effect size, a normal distribution with mean = 0 and sd = %2$s."
 msgstr ""
+"يستند عامل بايز الافتراضي إلى توزيع وحدة المعلومات القبلي المقابل لحجم أثر "
+"%1$s، وهو توزيع طبيعي بمتوسط = 0 وانحراف معياري = %2$s."
 
 msgid "Bayesian Binomial Test"
-msgstr ""
+msgstr "اختبار ذي الحدين البايزي"
 
 msgid "- *Bayes factor*: If one-sided test is requested:\n  - BF+0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is larger than the test value\n  - BF-0: Bayes factor that quantifies evidence for the one-sided alternative hypothesis that the population mean is smaller than the test value\n- BF0+: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that the population mean is larger than the test value\n- BF0-: Bayes factor that quantifies evidence for the null hypothesis relative to the one-sided alternative hypothesis that that the population mean is smaller than the test value\n  - **p**: p-value corresponding to t-statistic."
 msgstr ""
+"- *عامل بايز*: عند طلب اختبار أحادي الطرف:\n"
+"  - BF+0: يقيس الدليل لصالح الفرضية البديلة أحادية الطرف بأن متوسط المجتمع "
+"أكبر من قيمة الاختبار.\n"
+"  - BF-0: يقيس الدليل لصالح الفرضية البديلة أحادية الطرف بأن متوسط المجتمع "
+"أصغر من قيمة الاختبار.\n"
+"- BF0+: يقيس الدليل لصالح الفرضية الصفرية مقابل البديلة أحادية الطرف بأن "
+"متوسط المجتمع أكبر من قيمة الاختبار.\n"
+"- BF0-: يقيس الدليل لصالح الفرضية الصفرية مقابل البديلة أحادية الطرف بأن "
+"متوسط المجتمع أصغر من قيمة الاختبار.\n"
+"  - **p**: قيمة p المقابلة لإحصاء t."
 
 msgid "Successes"
-msgstr ""
+msgstr "حالات النجاح"
 
 msgid "Failures"
-msgstr ""
+msgstr "حالات الإخفاق"
 
 msgid "Proportion"
-msgstr ""
+msgstr "النسبة"
 
 msgid "Test value"
-msgstr ""
+msgstr "قيمة الاختبار"
 
 msgid "Plotting not possible: Posterior too peaked!"
-msgstr ""
+msgstr "الرسم غير ممكن: التوزيع البعدي شديد التركز!"
 
 msgid "Population proportion"
-msgstr ""
+msgstr "نسبة المجتمع"
 
 msgid "Plotting not possible: Cannot evaluate prior or posterior density!"
-msgstr ""
+msgstr "لا يمكن الرسم: يتعذر تقييم الكثافة القبلية أو البعدية!"
 
 msgid "Proportions tested against value: %s."
-msgstr ""
+msgstr "النسب المختبرة مقابل القيمة: %s."
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is greater than %s."
-msgstr ""
+msgstr "في جميع الاختبارات، تنص الفرضية البديلة على أن النسبة أكبر من %s."
 
 msgid "For all tests, the alternative hypothesis specifies that the proportion is less than %s."
-msgstr ""
+msgstr "في جميع الاختبارات، تنص الفرضية البديلة على أن النسبة أقل من %s."
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
-msgstr ""
+msgstr "لا يمكن اختبار فرضية أن قيمة الاختبار هي أكبر من 1."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
-msgstr ""
+msgstr "لا يمكن اختبار فرضية أن قيمة الاختبار هي أقل من 0."
 
 msgid "Undefined hypothesis"
-msgstr ""
+msgstr "فرضية غير معرّفة"
 
 msgid "r"
-msgstr ""
+msgstr "r"
 
 msgid "tau"
-msgstr ""
+msgstr "تاو"
 
 msgid "rho"
-msgstr ""
+msgstr "رو"
 
 msgid "%s%% Credible interval"
-msgstr ""
+msgstr "فترة المصداقية %s%%"
 
 msgid "Inferential Plots"
-msgstr ""
+msgstr "المخططات الاستدلالية"
 
 msgid "Normal(%1$s, %2$s)"
-msgstr ""
+msgstr "Normal(%1$s, %2$s)"
 
 msgid "Student-t(%1$s, %2$s, %3$s)"
-msgstr ""
+msgstr "توزيع t لستيودنت (%1$s, %2$s, %3$s)"
 
 msgid "Cauchy(%1$s, %2$s)"
-msgstr ""
+msgstr "Cauchy(%1$s, %2$s)"
 
 msgid "Beta(%1$s, %2$s)"
-msgstr ""
+msgstr "Beta(%1$s, %2$s)"
 
 msgid "Uniform(%1$s, %2$s)"
-msgstr ""
+msgstr "Uniform(%1$s, %2$s)"
 
 msgid "Spike(%1$s)"
-msgstr ""
+msgstr "Spike(%1$s)"
 
 msgid "Prior"
 msgstr "قبلي"
 
 msgid "Compared to %1$s."
-msgstr ""
+msgstr "مقارنةً بـ%1$s."
 
 msgid "The variance parameter of the normal distribution is assumed to be known."
-msgstr ""
+msgstr "يُفترض أن معلمة التباين للتوزيع الطبيعي معلومة."
 
 msgid "Probability"
-msgstr ""
+msgstr "الاحتمال"
 
 msgid "Density"
-msgstr ""
+msgstr "الكثافة"
 
 msgid "Model Comparison"
-msgstr ""
+msgstr "مقارنة النماذج"
 
 msgid "Number of covariates"
-msgstr ""
+msgstr "عدد المتغيرات المصاحبة"
 
 msgid "R%s"
 msgstr "R%s"
 
 msgid "Robustness Plot"
-msgstr ""
+msgstr "مخطط الحصانة"
 
 msgid "r scale"
-msgstr ""
+msgstr "مقياس r"
 
 msgid "r scale used is: %s."
-msgstr ""
+msgstr "مقياس r المستخدم هو: %s."
 
 msgid "n = %i"
-msgstr ""
+msgstr "n = %i"
 
 msgid "Bayesian Linear Regression"
-msgstr ""
+msgstr "الانحدار الخطي البايزي"
 
 msgid "Number of Covariates must be less than N-1 (sample size minus 1)"
-msgstr ""
+msgstr "يجب أن يكون عدد المتغيرات المصاحبة أقل من N-1 (حجم العينة ناقص 1)"
 
 msgid "Input: When number of covariates for Alternative hypothesis is greater than that of Null hypothesis, the R%s has to be higher under Alternative than under Null hypothesis"
 msgstr ""
+"المدخلات: عندما يزيد عدد المتغيرات المصاحبة في الفرضية البديلة عنه في الصفرية"
+"، يجب أن يكون R%s أعلى تحت البديلة منه تحت الصفرية"
 
 msgid "Test Statistics"
-msgstr ""
+msgstr "إحصاءات الاختبار"
 
 msgid "Test"
-msgstr ""
+msgstr "اختبار"
 
 msgid "Statistic"
-msgstr ""
+msgstr "الإحصاء"
 
 msgid "df"
-msgstr ""
+msgstr "درجات الحرية"
 
 msgid "df1"
-msgstr ""
+msgstr "df1"
 
 msgid "df2"
-msgstr ""
+msgstr "df2"
 
 msgid "z"
-msgstr ""
+msgstr "z"
 
 msgid "χ²"
-msgstr ""
+msgstr "χ²"
 
 msgid "F"
-msgstr ""
+msgstr "F"
