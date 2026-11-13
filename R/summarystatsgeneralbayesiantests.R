@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-SummaryStatsGeneralBayesianTests <- function(jaspResults, dataset = NULL, options, ...) {
+SummaryStatsGeneralBayesianTestsInternal <- function(jaspResults, dataset = NULL, options, ...) {
 
   # set likelihood
   .bayesianTestsSetLikelihood(jaspResults, options)

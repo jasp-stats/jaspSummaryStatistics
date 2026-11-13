@@ -16,7 +16,7 @@
 #
 
 
-SummaryStatsABTestBayesian <- function(jaspResults, dataset = NULL, options) {
+SummaryStatsABTestBayesianInternal <- function(jaspResults, dataset = NULL, options) {
   
   ready <- options$n1 != 0 && options$n2 != 0
   
