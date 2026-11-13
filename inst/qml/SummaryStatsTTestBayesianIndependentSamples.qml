@@ -20,7 +20,6 @@
 import QtQuick 2.8
 import QtQuick.Layouts 1.3
 import JASP.Controls
-import JASP.Widgets
 
 
 Form

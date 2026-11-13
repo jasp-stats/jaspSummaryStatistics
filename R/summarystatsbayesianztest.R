@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-SummaryStatsBayesianZTest <- function(jaspResults, dataset = NULL, options, ...) {
+SummaryStatsBayesianZTestInternal <- function(jaspResults, dataset = NULL, options, ...) {
 
   # parse formulas
   options <- .bayesianZTestParseOptions(options)

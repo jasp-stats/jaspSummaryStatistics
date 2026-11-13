@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-SummaryStatsCorrelationBayesianPairs <- function(jaspResults, dataset=NULL, options, ...) {
+SummaryStatsCorrelationBayesianPairsInternal <- function(jaspResults, dataset=NULL, options, ...) {
   # TODO(Alexander): When we allow for other test points, add a check like this
   #
   # .checkErrors.summarystats.binomial(options)

@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-SummaryStatsTestStatistics <- function(jaspResults, dataset = NULL, options, ...) {
+SummaryStatsTestStatisticsInternal <- function(jaspResults, dataset = NULL, options, ...) {
 
   # Create the main table
   .testStatisticsCreateTable(jaspResults, options)

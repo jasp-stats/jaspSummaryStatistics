@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-SummaryStatsRegressionLinearBayesian <- function(jaspResults, dataset = NULL, options, ...) {
+SummaryStatsRegressionLinearBayesianInternal <- function(jaspResults, dataset = NULL, options, ...) {
 
   # NOTE: the qml settings are set up such that this analysis is always "ready". If a user enters incorrect settings,
   # an error is thrown.

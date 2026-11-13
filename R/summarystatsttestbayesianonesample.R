@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-SummaryStatsTTestBayesianOneSample <- function(jaspResults, dataset = NULL, options, ...) {
+SummaryStatsTTestBayesianOneSampleInternal <- function(jaspResults, dataset = NULL, options, ...) {
   # Internally, common functions take sampleSizeGroupOne instead of sampleSize option
   options[["sampleSizeGroupOne"]] <- options[["sampleSize"]]
   options[["sampleSize"]] <- NULL

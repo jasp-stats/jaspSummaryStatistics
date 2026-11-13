@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-SummaryStatsTTestBayesianIndependentSamples <- function(jaspResults, dataset = NULL, options, ...) {
+SummaryStatsTTestBayesianIndependentSamplesInternal <- function(jaspResults, dataset = NULL, options, ...) {
 
   # Reading in a datafile is not necessary
   # Check user input for possible errors

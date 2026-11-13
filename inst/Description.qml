@@ -7,7 +7,7 @@ Description
 	description		: qsTr("Apply common Bayesian tests from sufficient statistics")
 	icon			: "analysis-bayesian-ttest.svg"
 	requiresData	: false
-	hasWrappers: 	  false
+	hasWrappers: 	  true
 	preloadData:		false
 	
 	GroupTitle

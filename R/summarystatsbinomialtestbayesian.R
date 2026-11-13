@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-SummaryStatsBinomialTestBayesian <- function(jaspResults, dataset = NULL, options, ...) {
+SummaryStatsBinomialTestBayesianInternal <- function(jaspResults, dataset = NULL, options, ...) {
 
   # Reading in a datafile is not necessary
   # Check for possible errors
