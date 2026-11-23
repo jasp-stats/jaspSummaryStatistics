@@ -16,7 +16,8 @@
 
 # jaspSummaryStatistics (development version)
 
-
+## Fixed
+* Bayesian t-tests: with BF01 chosen, the Bayes factor robustness check now shows the maximum BF01 and its prior width, with its point on the curve; before, it showed a BF10 value ([Issue #1404](https://github.com/jasp-stats/jasp-issues/issues/1404)).
 
 ---
 

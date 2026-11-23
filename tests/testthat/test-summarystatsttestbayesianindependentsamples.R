@@ -121,3 +121,40 @@ test_that("Prior posterior plot agrees with full data analysis", {
   testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
   jaspTools::expect_equal_plots(testPlot, "prior-and-posterior-verified-on-data")
 })
+
+test_that("Robustness check shows the maximum BF01 when BF01 is chosen", {
+  # expected values: BayesFactor::ttest.tstat() over the plot's 400 prior widths from 0.0005 to 1.5.
+  # The case of jasp-issues#1404 (t = 0.42, n = 99 and 119): max BF10 is 0.9973 at r = 0.0005 and
+  # max BF01 = 1 / min BF10 is 12.77 at r = 1.5.
+  # t = 1.9, n = 20 and 20: BF10 is above 1 for small prior widths and below 1 near r = 1.5,
+  # max BF01 is 1.2 at r = 1.5.
+  getMaxPoint <- function(results) {
+    plotName <- results[["results"]][["ttestContainer"]][["collection"]][["ttestContainer_BayesFactorRobustnessPlot"]][["data"]]
+    testPlot <- results[["state"]][["figures"]][[plotName]][["obj"]]
+    for (subplot in testPlot$subplots) for (layer in subplot$layers)
+      if (is.data.frame(layer$data) && "label2" %in% names(layer$data))
+        return(layer$data[1, ])
+  }
+  options <- jaspTools::analysisOptions("SummaryStatsTTestBayesianIndependentSamples")
+  options$tStatistic <- 0.42
+  options$sampleSizeGroupOne <- 99
+  options$sampleSizeGroupTwo <- 119
+  options$bfRobustnessPlot <- TRUE
+  options$bfRobustnessPlotAdditionalInfo <- TRUE
+
+  options$bayesFactorType <- "BF10"
+  point <- getMaxPoint(jaspTools::runAnalysis("SummaryStatsTTestBayesianIndependentSamples", NULL, options))
+  expect_identical(as.character(point$label2), "0.9973~at~r==5e-04")
+
+  options$bayesFactorType <- "BF01"
+  point <- getMaxPoint(jaspTools::runAnalysis("SummaryStatsTTestBayesianIndependentSamples", NULL, options))
+  expect_identical(as.character(point$label2), "12.77~at~r==1.5")
+  expect_equal(exp(point$y), 12.77, tolerance = 1e-3)
+
+  options$tStatistic <- 1.9
+  options$sampleSizeGroupOne <- 20
+  options$sampleSizeGroupTwo <- 20
+  point <- getMaxPoint(jaspTools::runAnalysis("SummaryStatsTTestBayesianIndependentSamples", NULL, options))
+  expect_identical(as.character(point$label2), "1.2~at~r==1.5")
+  expect_equal(exp(point$y), 1.2, tolerance = 1e-3)
+})
