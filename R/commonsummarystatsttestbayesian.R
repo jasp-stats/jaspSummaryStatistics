@@ -530,8 +530,8 @@
   if (!BFH1H0) {
     dfLines$y <- - dfLines$y
     BF10user  <- 1 / BF10user
-    idx       <- which.max(1/BF10)
-    maxBF10   <- exp(BF10[idx])
+    idx       <- which.min(BF10)
+    maxBF10   <- exp(-BF10[idx])
     maxBFrVal <- rValues[idx]
     BF10w     <- 1 / BF10w
     BF10ultra <- 1 / BF10ultra
